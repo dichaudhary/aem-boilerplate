@@ -1,0 +1,281 @@
+/* carousel-banner: hero banner carousel with full-width background images */
+
+/* Full-width section and wrapper overrides */
+.section.carousel-banner-container {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-banner-wrapper {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+/* === Block positioning context === */
+.carousel-banner {
+  position: relative;
+}
+
+/* === Slides container === */
+.carousel-banner .carousel-banner-slides-container {
+  position: relative;
+}
+
+/* === Nav container for indicators === */
+.carousel-banner > nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.carousel-banner > nav * {
+  pointer-events: auto;
+}
+
+/* === Slides list === */
+.carousel-banner .carousel-banner-slides,
+.carousel-banner .carousel-banner-slide-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-banner .carousel-banner-slides {
+  display: flex;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  overflow: scroll clip;
+}
+
+.carousel-banner .carousel-banner-slides::-webkit-scrollbar {
+  display: none;
+}
+
+/* === Individual slide === */
+.carousel-banner .carousel-banner-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  overflow: hidden;
+}
+
+/* === Slide background image === */
+.carousel-banner .carousel-banner-slide-image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.carousel-banner .carousel-banner-slide-image p {
+  margin: 0;
+  position: absolute;
+  inset: 0;
+}
+
+.carousel-banner .carousel-banner-slide-image picture {
+  position: absolute;
+  inset: 0;
+}
+
+.carousel-banner .carousel-banner-slide-image picture > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* === Slide text content === */
+.carousel-banner .carousel-banner-slide-content {
+  z-index: 1;
+  position: relative;
+  padding: 24px 20px 80px;
+  color: rgb(255 246 227);
+  background: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-banner .carousel-banner-slide-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  line-height: 1.4;
+  color: rgb(255 246 227);
+  margin: 0 0 8px;
+}
+
+.carousel-banner .carousel-banner-slide-content p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--body-font-family);
+  line-height: 1.625;
+  color: rgb(255 246 227);
+  margin: 0 0 16px;
+}
+
+/* === CTA button === */
+
+/* EDS button auto-decoration may not apply inside carousel slides */
+.carousel-banner .carousel-banner-slide-content p.button-wrapper {
+  margin: 16px 0 0;
+}
+
+.carousel-banner .carousel-banner-slide-content a:any-link {
+  background-color: rgb(218 0 28);
+  color: rgb(255 246 227);
+  padding: 13px 32px 12px;
+  border: 0;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--heading-font-family);
+  line-height: normal;
+  display: inline-flex;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.carousel-banner .carousel-banner-slide-content a:any-link:hover,
+.carousel-banner .carousel-banner-slide-content a:any-link:focus-visible {
+  background-color: rgb(180 0 23);
+  color: rgb(255 246 227);
+  text-decoration: none;
+}
+
+/* === Navigation arrows === */
+.carousel-banner .carousel-banner-navigation-buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.carousel-banner .carousel-banner-navigation-buttons button {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  margin: 0;
+  border-radius: 50%;
+  padding: 0;
+  border: 0;
+  background-color: rgb(218 0 28 / 30%);
+  transition: background-color 0.2s;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.carousel-banner .carousel-banner-navigation-buttons button:hover,
+.carousel-banner .carousel-banner-navigation-buttons button:focus-visible {
+  background-color: rgb(218 0 28);
+}
+
+.carousel-banner .carousel-banner-navigation-buttons button::after {
+  display: block;
+  content: '';
+  border: 3px solid rgb(255 246 227);
+  border-bottom: 0;
+  border-left: 0;
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 2px);
+  transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.carousel-banner .carousel-banner-navigation-buttons button.slide-next::after {
+  transform: translate(-50%, -50%) rotate(45deg);
+  left: calc(50% - 2px);
+}
+
+/* === Slide indicators (dots) === */
+.carousel-banner .carousel-banner-slide-indicators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 45px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  line-height: 0;
+  background: none;
+}
+
+.carousel-banner .carousel-banner-slide-indicator {
+  margin: 0 11px 0 0;
+}
+
+.carousel-banner .carousel-banner-slide-indicator:last-child {
+  margin-right: 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.carousel-banner .carousel-banner-slide-indicator button {
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid rgb(218 0 28);
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.carousel-banner .carousel-banner-slide-indicator button:disabled {
+  width: 16px;
+  height: 16px;
+  background-color: rgb(218 0 28);
+  border: 3px solid rgb(218 0 28);
+}
+
+.carousel-banner .carousel-banner-slide-indicator button:hover,
+.carousel-banner .carousel-banner-slide-indicator button:focus-visible {
+  background-color: rgb(218 0 28);
+}
+
+/* === Desktop styles (>= 900px) === */
+@media (width >= 900px) {
+  .carousel-banner .carousel-banner-slide {
+    min-height: 640px;
+    justify-content: flex-end;
+  }
+
+  .carousel-banner .carousel-banner-slide-content {
+    padding: 0 0 120px 211px;
+    max-width: 650px;
+  }
+
+  .carousel-banner .carousel-banner-slide-content h2 {
+    font-size: 40px;
+    line-height: 56px;
+  }
+
+  .carousel-banner .carousel-banner-slide-content p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .carousel-banner .carousel-banner-navigation-buttons {
+    left: 113px;
+    right: 113px;
+  }
+}

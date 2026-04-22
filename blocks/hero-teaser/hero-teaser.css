@@ -1,0 +1,126 @@
+/* hero-teaser: full-width CTA banner with background image and overlaid text */
+
+/* Full-width wrapper override */
+.hero-teaser-wrapper {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+/* Block container */
+.hero-teaser {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* All text in the overlay is cream/off-white */
+.hero-teaser h1,
+.hero-teaser h2,
+.hero-teaser h3,
+.hero-teaser h4,
+.hero-teaser h5,
+.hero-teaser h6 {
+  color: rgb(255 246 227);
+  margin-top: 0;
+}
+
+.hero-teaser h2 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  line-height: 48px;
+  color: rgb(255 246 227);
+  margin-bottom: 0.25em;
+}
+
+.hero-teaser p {
+  font-size: 16px;
+  font-family: var(--body-font-family);
+  line-height: 28px;
+  color: rgb(255 246 227);
+}
+
+/* No-image fallback: dark text on default background */
+.hero-teaser.no-image h1,
+.hero-teaser.no-image h2,
+.hero-teaser.no-image h3,
+.hero-teaser.no-image h4,
+.hero-teaser.no-image h5,
+.hero-teaser.no-image h6,
+.hero-teaser.no-image p {
+  color: var(--text-color);
+}
+
+.hero-teaser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Row 2: text content overlay */
+.hero-teaser > div:nth-child(2) {
+  position: relative;
+  z-index: 1;
+  padding: 48px 24px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Row 1: background image row - positioned absolutely */
+.hero-teaser > div:first-child {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-teaser > div:first-child > div {
+  height: 100%;
+}
+
+.hero-teaser > div:first-child p {
+  margin: 0;
+  height: 100%;
+}
+
+/* CTA link/button - red with cream text */
+.hero-teaser a:any-link {
+  background-color: rgb(218 0 28);
+  color: rgb(255 246 227);
+  padding: 13px 32px 12px;
+  border: 0 none;
+  border-radius: 16px;
+  font-size: var(--body-font-size-m);
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.hero-teaser a:hover {
+  background-color: rgb(180 0 23);
+  color: rgb(255 246 227);
+  text-decoration: none;
+}
+
+/* Button wrapper reset */
+.hero-teaser p.button-container {
+  margin: 12px 0 0;
+}
+
+/* Desktop */
+@media (width >= 900px) {
+  .hero-teaser {
+    min-height: 312px;
+  }
+
+  .hero-teaser > div:nth-child(2) {
+    padding: 73px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

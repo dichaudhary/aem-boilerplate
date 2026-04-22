@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "projectType": "doc"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://aashirvaad.com/"
+      ],
+      "description": "Aashirvaad homepage featuring brand hero, product showcases, and promotional content",
+      "blocks": [
+        {
+          "name": "carousel-banner",
+          "instances": [
+            ".main-banner",
+            ".cmp-ourcommunity-teasercarousel-container .cmp-carousel"
+          ]
+        },
+        {
+          "name": "cards-category",
+          "instances": [
+            ".productcategory",
+            ".cmp-recipe-group",
+            ".popularproducts",
+            ".footprint .cmp-carousel"
+          ]
+        },
+        {
+          "name": "hero-teaser",
+          "instances": [
+            ".cmp-teaser--first-half-center-aligned",
+            ".cmp-teaser--cta"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero Banner Carousel",
+          "selector": ".color-background-default",
+          "style": null,
+          "blocks": [
+            "carousel-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Product Categories",
+          "selector": ".color-background-default + .color-background-background-2",
+          "style": "cream",
+          "blocks": [
+            "cards-category"
+          ],
+          "defaultContent": [
+            ".cmp-product-category-listing__title",
+            ".cmp-product-category-listing__subTitle"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "Video Teaser",
+          "selector": ".color-background-gradient-3:has(.aashirvaad-video-teaser)",
+          "style": "gradient",
+          "blocks": [],
+          "defaultContent": [
+            ".aashirvaad-video-teaser iframe"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Recipe Cards",
+          "selector": ".color-background-background-3:has(.dynamicCardsVertwo)",
+          "style": "cream",
+          "blocks": [
+            "cards-category"
+          ],
+          "defaultContent": [
+            ".cmp-recipe-group__title",
+            ".cmp-recipe-group__subtitle",
+            ".cmp-recipe-group__action"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "What Makes Us No.1 Teaser",
+          "selector": ".color-background-gradient-2",
+          "style": null,
+          "blocks": [
+            "hero-teaser"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-6",
+          "name": "Most Loved Products",
+          "selector": ".color-background-background-2:has(.popularproducts)",
+          "style": "cream",
+          "blocks": [
+            "cards-category"
+          ],
+          "defaultContent": [
+            ".cmp-popular-products__title",
+            ".cmp-popular-products__subtitle"
+          ]
+        },
+        {
+          "id": "section-7",
+          "name": "Meri Chakki CTA",
+          "selector": ".color-background-gradient-3:has(.cmp-teaser--cta)",
+          "style": null,
+          "blocks": [
+            "hero-teaser"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-8",
+          "name": "Our Vision",
+          "selector": ".color-background-background-2:has(.footprint)",
+          "style": "cream",
+          "blocks": [
+            "cards-category"
+          ],
+          "defaultContent": [
+            ".cmp-our-foot-print__title"
+          ]
+        },
+        {
+          "id": "section-9",
+          "name": "Our Community",
+          "selector": ".cmp-ourcommunity-teasercarousel-container",
+          "style": "cream",
+          "blocks": [
+            "carousel-banner"
+          ],
+          "defaultContent": [
+            ".cta-text .cmp-text"
+          ]
+        },
+        {
+          "id": "section-10",
+          "name": "Follow Us Social",
+          "selector": ".color-background-background-2:has(#container-bf16ed3982)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#text-ccbfbcdd3d",
+            "#button-16b51796b6"
+          ]
+        }
+      ]
+    }
+  ]
+}

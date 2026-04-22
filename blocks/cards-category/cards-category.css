@@ -1,0 +1,112 @@
+/* Block: cards-category -- product category grid */
+
+.cards-category > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 32px;
+}
+
+.cards-category > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(50% - 16px);
+}
+
+.cards-category .cards-category-card-image {
+  line-height: 0;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+}
+
+.cards-category .cards-category-card-image a {
+  display: block;
+  line-height: 0;
+}
+
+.cards-category .cards-category-card-image p {
+  margin: 0;
+  line-height: 0;
+}
+
+.cards-category > ul > li img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  aspect-ratio: 1 / 1;
+}
+
+.cards-category .cards-category-card-body {
+  margin: 0;
+}
+
+.cards-category .cards-category-card-body h3 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  line-height: normal;
+  color: rgb(56 35 18);
+  margin: 18px 0 0;
+}
+
+.cards-category .cards-category-card-body h3 a {
+  color: rgb(56 35 18);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.cards-category .cards-category-card-body h3 a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+/* Reset button styling for links within this block */
+.cards-category .cards-category-card-image a.button:any-link {
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  white-space: normal;
+  line-height: 0;
+}
+
+.cards-category .cards-category-card-image p.button-container {
+  margin: 0;
+}
+
+@media (width >= 600px) {
+  .cards-category > ul > li {
+    width: calc(33.333% - 22px);
+  }
+
+  .cards-category .cards-category-card-image {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (width >= 900px) {
+  .cards-category > ul > li {
+    width: calc(33.333% - 22px);
+  }
+
+  .cards-category .cards-category-card-image {
+    width: 216px;
+    height: 216px;
+  }
+
+  .cards-category .cards-category-card-body h3 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://aashirvaad.com/",
+  "path": "index",
+  "timestamp": "2026-04-22T08:49:10.766Z",
+  "title": "Aashirvaad - Bringing Nutrition & Taste to you since 2002",
+  "template": "homepage",
+  "blocks": [
+    "carousel-banner",
+    "carousel-banner",
+    "cards-category",
+    "cards-category",
+    "cards-category",
+    "cards-category",
+    "hero-teaser",
+    "hero-teaser"
+  ]
+}

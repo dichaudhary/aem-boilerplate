@@ -1,0 +1,39 @@
+{
+  "variantName": "carousel-banner",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-04-22T08:28:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://aashirvaad.com/",
+    "originPage": "Aashirvaad homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "hero-banner",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + logo + heading + subheading + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage hero banners",
+      "brand showcase carousels",
+      "product launch slides"
+    ],
+    "notSuitableFor": [
+      "text-only carousels",
+      "thumbnail galleries",
+      "testimonial sliders"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-22T08:28:00.000Z"
+  }
+}
