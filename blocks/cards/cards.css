@@ -1,21 +1,33 @@
 /*
  * Block: cards -- editorial feature cards
- * Extracted values: color rgb(44,44,44), h3 24px/700/30px, p 18px/27px,
- * image border-radius 16px, image aspect-ratio 4/3, grid gap 32px,
- * text padding 24px 0, text gap 16px
+ * Extracted values from source (adobe.com/in/acrobat):
+ *   color: rgb(44,44,44) = var(--text-color)
+ *   h3: 24px / 700 / 30px line-height
+ *   p: 18px / 27px line-height
+ *   image: border-radius 16px, overflow hidden, object-fit cover, aspect-ratio 4/3
+ *   text area: padding 24px 0, body flex-column gap 16px
+ *   section grid gap: 32px
+ *   font-family: "Adobe Clean" = var(--heading-font-family) / var(--body-font-family)
+ *
+ * DOM after decorate(): .cards > ul > li
+ *   Each authored row becomes one <li> with either .cards-card-image or .cards-card-body.
+ *   Image/text alternate: li:nth-child(odd) = image, li:nth-child(even) = text.
+ *   CSS grid pairs them visually into columns.
  */
 
-/* --- Card block (each .cards = one card) --- */
+/* --- Card block base --- */
 .cards {
   color: var(--text-color);
 }
 
+/* --- List reset and mobile stack --- */
 .cards > ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
 }
 
 .cards > ul > li {
@@ -61,37 +73,40 @@
   margin: 0;
 }
 
-/* --- Section-level grid for multi-card layouts --- */
-main .section.cards-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 32px;
+/* --- Section-level layout --- */
+
+/* The .section wraps each cards block; section-metadata sets two-up / three-up classes. */
+main .section.cards-container > div {
   max-width: 1200px;
-  margin: 40px auto;
-  padding: 0 24px;
 }
 
-/* Override wrapper max-width so they fill grid cells */
-main .section.cards-container > .cards-wrapper {
-  max-width: none;
-  padding: 0;
-  margin: 0;
-}
-
+/*
+ * Desktop grid: use CSS grid on the <ul> to pair alternating image/text <li>s
+ * into visual columns. For 2 cards = 4 li (2 cols x 2 rows).
+ * For 3 cards = 6 li (3 cols x 2 rows).
+ */
 @media (width >= 900px) {
-  main .section.cards-container {
-    padding: 0 32px;
-  }
-
-  main .section.two-up.cards-container {
+  /* two-up: 2 columns, items flow down columns (image then text per column) */
+  main .section.two-up .cards > ul {
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-auto-flow: column;
+    column-gap: 32px;
   }
 
-  main .section.three-up.cards-container {
+  /* three-up: 3 columns */
+  main .section.three-up .cards > ul {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-auto-flow: column;
+    column-gap: 32px;
   }
 
-  main .section.carousel.cards-container {
+  /* default section (AI features): 3 columns */
+  main .section.cards-container:not(.two-up, .three-up) .cards > ul {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-auto-flow: column;
+    column-gap: 32px;
   }
 }
