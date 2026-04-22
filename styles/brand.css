@@ -1,0 +1,29 @@
+:root {
+  --heading-font-family: "Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif;
+  --body-font-family: "Adobe Clean", adobe-clean, "Trebuchet MS", sans-serif;
+  --background-color: #fff;
+  --text-color: #2c2c2c;
+  --link-color: #1473e6;
+  --link-hover-color: #0d66d0;
+  --light-color: #f5f5f5;
+  --dark-color: #2c2c2c;
+  --section-padding: 40px;
+  --nav-height: 64px;
+  --heading-size-xxl: 36px;
+  --heading-size-xl: 28px;
+  --heading-size-l: 24px;
+  --heading-size-m: 20px;
+  --heading-size-s: 18px;
+  --heading-size-xs: 16px;
+}
+
+@media (width >= 900px) {
+  :root {
+    --heading-size-xxl: 44px;
+    --heading-size-xl: 36px;
+    --heading-size-l: 24px;
+    --heading-size-m: 20px;
+    --heading-size-s: 18px;
+    --heading-size-xs: 16px;
+  }
+}

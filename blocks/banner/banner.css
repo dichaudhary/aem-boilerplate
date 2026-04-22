@@ -1,0 +1,99 @@
+/* Block: banner -- dark ribbon/notification pattern.
+   Values from source computed styles, refined for EDS. */
+
+/* Full-width wrapper and section override */
+main .section.banner-container {
+  margin: 0;
+  padding: 0;
+}
+
+.banner-wrapper {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+/* Block root */
+.banner {
+  background-color: rgb(0 0 0);
+  color: rgb(255 255 255);
+  min-height: 50px;
+}
+
+/* Content row: single row after JS removes config row */
+.banner > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  gap: 16px;
+}
+
+/* Content cell */
+.banner > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+}
+
+/* Icon image (converted from URL by JS) */
+.banner img.banner-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Paragraphs */
+.banner p {
+  font-size: 18px;
+  font-family: var(--body-font-family);
+  line-height: 27px;
+  color: rgb(255 255 255);
+  margin: 0;
+}
+
+/* Links */
+.banner a:any-link {
+  color: rgb(255 255 255);
+}
+
+/* Button override: source uses white outline button on dark bg */
+.banner p.button-wrapper {
+  margin: 0;
+}
+
+main .banner a.button:any-link {
+  background-color: transparent;
+  color: rgb(255 255 255);
+  padding: 7px 18px 8px;
+  border: 2px solid rgb(255 255 255);
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+main .banner a.button:hover {
+  background-color: rgb(255 255 255);
+  color: rgb(0 0 0);
+}
+
+/* Desktop layout: horizontal row */
+@media (width >= 900px) {
+  .banner > div {
+    flex-direction: row;
+    padding: 24px 32px;
+  }
+
+  .banner > div > div {
+    flex-direction: row;
+    gap: 24px;
+    text-align: left;
+  }
+}

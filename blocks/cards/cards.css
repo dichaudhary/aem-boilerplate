@@ -1,27 +1,97 @@
+/*
+ * Block: cards -- editorial feature cards
+ * Extracted values: color rgb(44,44,44), h3 24px/700/30px, p 18px/27px,
+ * image border-radius 16px, image aspect-ratio 4/3, grid gap 32px,
+ * text padding 24px 0, text gap 16px
+ */
+
+/* --- Card block (each .cards = one card) --- */
+.cards {
+  color: var(--text-color);
+}
+
 .cards > ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: 24px;
+  display: flex;
+  flex-direction: column;
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+  background-color: transparent;
 }
 
-.cards .cards-card-body {
-  margin: 16px;
-}
-
+/* --- Image cell --- */
 .cards .cards-card-image {
   line-height: 0;
+  border-radius: 16px;
+  overflow: hidden;
 }
 
 .cards > ul > li img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  display: block;
+}
+
+/* --- Text cell --- */
+.cards .cards-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0;
+}
+
+.cards .cards-card-body h3 {
+  font-size: var(--heading-font-size-l);
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  line-height: 30px;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.cards .cards-card-body p {
+  font-size: var(--body-font-size-m);
+  font-family: var(--body-font-family);
+  line-height: 27px;
+  color: var(--text-color);
+  margin: 0;
+}
+
+/* --- Section-level grid for multi-card layouts --- */
+main .section.cards-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+/* Override wrapper max-width so they fill grid cells */
+main .section.cards-container > .cards-wrapper {
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  main .section.cards-container {
+    padding: 0 32px;
+  }
+
+  main .section.two-up.cards-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  main .section.three-up.cards-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  main .section.carousel.cards-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

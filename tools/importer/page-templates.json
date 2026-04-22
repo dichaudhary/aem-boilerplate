@@ -1,0 +1,12 @@
+{
+  "templates": [
+    {
+      "name": "business-page",
+      "urls": [
+        "https://business.adobe.com/"
+      ],
+      "description": "Adobe Business homepage featuring enterprise solutions, product showcases, and promotional content",
+      "blocks": []
+    }
+  ]
+}
