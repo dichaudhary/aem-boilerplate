@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-category",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-04-22T08:28:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://aashirvaad.com/",
+    "originPage": "Aashirvaad homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "category-grid",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + description",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product category grids",
+      "recipe card listings",
+      "feature showcase grids",
+      "product highlight sections"
+    ],
+    "notSuitableFor": [
+      "text-only card lists",
+      "single featured items",
+      "complex interactive cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-22T08:28:00.000Z"
+  }
+}

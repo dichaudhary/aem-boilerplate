@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-teaser",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-04-22T08:28:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://aashirvaad.com/",
+    "originPage": "Aashirvaad homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "teaser-cta",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "full-width teaser banners",
+      "promotional CTA sections",
+      "brand story sections"
+    ],
+    "notSuitableFor": [
+      "text-only hero sections",
+      "multi-column layouts",
+      "card-style content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-22T08:28:00.000Z"
+  }
+}
