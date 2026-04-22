@@ -1,3 +1,17 @@
+/* Block: columns
+ * Brick/masonry layout: background images behind text + feature screenshot.
+ * Extracted values from .brick on https://www.adobe.com/in/acrobat.html
+ */
+
+/* === Base mobile-first styles === */
+.columns {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  min-height: 300px;
+  color: #fff;
+}
+
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -5,29 +19,183 @@
 
 .columns img {
   width: 100%;
-}
-
-.columns > div > div {
-  order: 1;
-}
-
-.columns > div > .columns-img-col {
-  order: 0;
-}
-
-.columns > div > .columns-img-col img {
   display: block;
 }
 
-@media (width >= 900px) {
-  .columns > div {
-    align-items: center;
-    flex-direction: unset;
-    gap: 24px;
+/* Headings */
+.columns h3 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  line-height: 1.25;
+  color: #fff;
+  margin: 0;
+}
+
+/* Paragraphs */
+.columns p {
+  font-size: var(--body-font-size-m);
+  font-family: var(--body-font-family);
+  line-height: 27px;
+  color: #fff;
+  margin: 16px 0 0;
+}
+
+/* Row 2: Foreground content layer */
+.columns > div:nth-child(2) {
+  position: relative;
+  z-index: 1;
+  padding: 32px 24px;
+}
+
+/* Row 1: Background images layer
+ * 3 cells = mobile, tablet, desktop background images
+ * Positioned absolutely to sit behind the content
+ */
+.columns > div:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+/* Background image cells: fill the container */
+.columns > div:first-child > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Mobile background (cell 1) visible by default */
+.columns > div:first-child > div:nth-child(1) {
+  display: block;
+}
+
+/* Tablet background (cell 2) hidden on mobile */
+.columns > div:first-child > div:nth-child(2) {
+  display: none;
+}
+
+/* Desktop background (cell 3) hidden on mobile */
+.columns > div:first-child > div:nth-child(3) {
+  display: none;
+}
+
+/* Background images: cover entire area, positioned at bottom */
+.columns > div:first-child img {
+  object-fit: cover;
+  object-position: 50% 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* EDS wraps bare images in <p> tags - reset those
+ * Also hide the "bottom, cover" positioning text from content */
+.columns > div:first-child p {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  color: transparent;
+}
+
+/* Text cell */
+.columns > div:nth-child(2) > div:first-child {
+  order: 1;
+}
+
+/* Image cell (screenshot) */
+.columns > div:nth-child(2) > .columns-img-col {
+  order: 2;
+  margin-top: 24px;
+}
+
+/* Screenshot image in content area */
+.columns > div:nth-child(2) > .columns-img-col img {
+  object-fit: cover;
+  border-radius: 0 0 16px 16px;
+}
+
+/* === Tablet breakpoint === */
+@media (width >= 600px) {
+  /* Show tablet background, hide mobile */
+  .columns > div:first-child > div:nth-child(1) {
+    display: none;
   }
 
-  .columns > div > div {
-    flex: 1;
+  .columns > div:first-child > div:nth-child(2) {
+    display: block;
+  }
+
+  .columns h3 {
+    font-size: 28px;
+  }
+}
+
+/* === Desktop breakpoint === */
+@media (width >= 900px) {
+  .columns {
+    min-height: 384px;
+  }
+
+  /* Foreground: side-by-side grid layout */
+  .columns > div:nth-child(2) {
+    display: grid;
+    grid-template-columns: 5fr 1fr 6fr;
+    align-items: center;
+    padding: 0;
+    min-height: 384px;
+  }
+
+  /* Show desktop background, hide tablet */
+  .columns > div:first-child > div:nth-child(2) {
+    display: none;
+  }
+
+  .columns > div:first-child > div:nth-child(3) {
+    display: block;
+  }
+
+  /* Text cell: left side with padding */
+  .columns > div:nth-child(2) > div:first-child {
     order: unset;
+    padding: 40px 0 40px 40px;
+    grid-column: 1;
+  }
+
+  /* Image cell: right side, full height */
+  .columns > div:nth-child(2) > .columns-img-col {
+    order: unset;
+    margin-top: 0;
+    grid-column: 3;
+    height: 100%;
+  }
+
+  .columns > div:nth-child(2) > .columns-img-col img {
+    border-radius: 0 16px 16px 0;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .columns > div:nth-child(2) > .columns-img-col picture {
+    display: block;
+    height: 100%;
+  }
+
+  .columns h3 {
+    font-size: 36px;
+    line-height: 45px;
   }
 }
