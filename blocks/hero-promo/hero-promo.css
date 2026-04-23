@@ -1,0 +1,157 @@
+/* hero-promo block — full-width hero banner with image + text overlay */
+
+/* Full-width wrapper override */
+.hero-promo-wrapper {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.hero-promo-container {
+  margin: 0 !important;
+}
+
+/* Block root */
+.hero-promo {
+  position: relative;
+  background-color: var(--nw-blue);
+  color: #fff;
+  overflow: hidden;
+}
+
+/*
+ * DOM structure (after EDS decoration):
+ *   .hero-promo
+ *     > div (row 1: image)
+ *       > div (cell: picture > img)
+ *     > div (row 2: text content)
+ *       > div (cell: h1)
+ *       > div (cell: h2)
+ *       > div (cell: a "Find an agent")
+ *       > div (cell: a "Explore financial products")
+ */
+
+/* --- Row 1: Image row --- */
+.hero-promo > div:first-child {
+  line-height: 0;
+}
+
+.hero-promo > div:first-child picture {
+  display: block;
+}
+
+.hero-promo > div:first-child img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* --- Row 2: Text content row --- */
+.hero-promo > div:nth-child(2) {
+  padding: 24px 16px 32px;
+}
+
+/* Cells in the text row stack vertically (they are block by default) */
+.hero-promo > div:nth-child(2) > div {
+  display: block;
+}
+
+/* Headings */
+.hero-promo h1 {
+  font-size: var(--heading-font-size-xxl);
+  font-weight: 500;
+  font-family: var(--heading-font-family);
+  line-height: 1.1;
+  color: #fff;
+  margin: 0 0 25px;
+}
+
+.hero-promo h2 {
+  font-size: var(--heading-font-size-xl);
+  font-weight: 400;
+  font-family: var(--body-font-family);
+  line-height: 1.4;
+  color: #fff;
+  margin: 0 0 25px;
+}
+
+/* Links — override EDS button reset */
+.hero-promo a:any-link {
+  color: #fff;
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.hero-promo a:any-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Button container reset */
+.hero-promo .button-container {
+  display: block;
+  margin: 0 0 10px;
+}
+
+main .hero-promo a.button:any-link {
+  color: #fff;
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  text-decoration: none;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+main .hero-promo a.button:any-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Paragraphs */
+.hero-promo p {
+  color: #fff;
+  margin: 0 0 10px;
+}
+
+/* Desktop layout — image on the right, text on the left */
+@media (width >= 900px) {
+  .hero-promo {
+    min-height: 380px;
+  }
+
+  /* Row 1: Image — position absolutely to cover right side */
+  .hero-promo > div:first-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    line-height: 0;
+  }
+
+  .hero-promo > div:first-child picture {
+    height: 100%;
+  }
+
+  .hero-promo > div:first-child img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+  }
+
+  /* Row 2: Text content — takes left side */
+  .hero-promo > div:nth-child(2) {
+    position: relative;
+    z-index: 1;
+    padding: 40px 32px;
+    width: 50%;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,143 @@
+/* Block: cards-category
+ * 3 category cards with icon, heading, description, and CTA link.
+ * Extracted values from source: nationwide.com #p43486
+ */
+
+/* Section heading above the block (in default-content-wrapper sibling) */
+.default-content-wrapper:has(+ .cards-category-wrapper) h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: var(--heading-font-family);
+  line-height: 38.4px;
+  color: var(--nw-blue);
+  margin: 0 0 5px;
+}
+
+/* Card rows stack vertically on mobile, side by side on desktop */
+.cards-category > div {
+  text-align: center;
+  padding: 20px 15px;
+}
+
+.cards-category > div + div {
+  padding-top: 0;
+}
+
+/* Icon cell -- EDS renders icons as <picture><img> inside the cell */
+.cards-category > div > div:first-child {
+  margin-bottom: 10px;
+}
+
+.cards-category > div > div:first-child picture {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+}
+
+.cards-category > div > div:first-child img {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+}
+
+/* Text cell */
+.cards-category h3 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: var(--body-font-family);
+  line-height: 30px;
+  color: var(--nw-blue);
+  margin: 0 0 20px;
+}
+
+.cards-category p {
+  font-size: 18px;
+  font-family: var(--body-font-family);
+  line-height: 28.8px;
+  color: var(--text-color);
+  margin: 0 0 20px;
+}
+
+/* CTA link -- styled as hollow button (links not auto-decorated as .button) */
+.cards-category > div > div:last-child > p:last-child {
+  margin-top: 20px;
+}
+
+.cards-category > div > div:last-child > p:last-child a {
+  display: inline-block;
+  width: 100%;
+  max-width: 360px;
+  box-sizing: border-box;
+  padding: 9px 10.8px;
+  border: 1px solid var(--nw-blue);
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--nw-blue);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--body-font-family);
+  text-decoration: none;
+  text-align: center;
+}
+
+.cards-category > div > div:last-child > p:last-child a:hover {
+  background-color: var(--nw-blue);
+  color: #fff;
+}
+
+/* Also handle if EDS does auto-decorate as button */
+.cards-category a.button:any-link {
+  display: inline-block;
+  width: 100%;
+  max-width: 360px;
+  box-sizing: border-box;
+  padding: 9px 10.8px;
+  border: 1px solid var(--nw-blue);
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--nw-blue);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--body-font-family);
+  text-decoration: none;
+  text-align: center;
+}
+
+.cards-category a.button:any-link:hover {
+  background-color: var(--nw-blue);
+  color: #fff;
+}
+
+/* Desktop: 3-column layout */
+@media (width >= 900px) {
+  .cards-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cards-category > div {
+    flex: 1 1 0;
+    max-width: 33.333%;
+    padding: 20px 15px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards-category > div + div {
+    padding-top: 20px;
+  }
+
+  /* Text cell grows to fill space and pushes CTA to bottom */
+  .cards-category > div > div:last-child {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards-category > div > div:last-child > p:last-child {
+    margin-top: auto;
+  }
+}

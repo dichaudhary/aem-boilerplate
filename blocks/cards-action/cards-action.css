@@ -1,0 +1,128 @@
+/*
+ * cards-action block
+ * Three action cards displayed side by side with icon, heading, description, and CTA.
+ * Source: nationwide.com action card row (.custom-tri-promo)
+ *
+ * EDS DOM (per block instance — 3 instances in one section):
+ *   .cards-action.block > div (row) > div (icon cell) + div (content cell)
+ *   Section: .section.cards-action-container contains 3 .cards-action-wrapper
+ */
+
+/* Section layout: multiple cards-action blocks displayed as a row */
+main .section.cards-action-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+@media (width >= 900px) {
+  main .section.cards-action-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 40px;
+  }
+
+  main .section.cards-action-container > .cards-action-wrapper {
+    flex: 1 1 0;
+    max-width: 33.3333%;
+  }
+}
+
+/* Card block */
+.cards-action {
+  text-align: center;
+  padding: 20px 0;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--text-color);
+}
+
+@media (width >= 900px) {
+  .cards-action {
+    padding: 20px 36px;
+  }
+}
+
+/* Row layout — stack on mobile, side-by-side not needed since each block is one card */
+.cards-action > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Icon cell */
+.cards-action > div > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cards-action > div > div:first-child picture {
+  display: flex;
+  justify-content: center;
+}
+
+.cards-action > div > div:first-child img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+/* Content cell */
+.cards-action > div > div:last-child {
+  text-align: center;
+  width: 100%;
+}
+
+/* Heading */
+.cards-action h3 {
+  font-family: var(--body-font-family);
+  font-size: var(--heading-font-size-l);
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--text-color);
+  margin: 0 0 10px;
+}
+
+/* Description paragraph */
+.cards-action p {
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  color: var(--text-color);
+  line-height: 28.8px;
+  margin: 0 0 26px;
+}
+
+/* CTA link styled as outlined button */
+.cards-action p:last-child {
+  margin-bottom: 0;
+}
+
+main .cards-action p:last-child a:any-link {
+  display: inline-block;
+  padding: 9px 11px;
+  background-color: transparent;
+  color: var(--nw-blue);
+  border: 1px solid var(--nw-blue);
+  border-radius: 4px;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  max-width: 328px;
+  box-sizing: border-box;
+  cursor: pointer;
+  line-height: 18px;
+}
+
+main .cards-action p:last-child a:any-link:hover {
+  background-color: var(--nw-blue);
+  color: #fff;
+  border-color: var(--nw-blue);
+}
