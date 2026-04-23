@@ -1,0 +1,90 @@
+/* Block: cards-category */
+
+/* Section heading (h2 above the block) */
+.cards-category-container h2 {
+  text-align: center;
+  margin: 0 0 5px;
+}
+
+.cards-category ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards-category ul > li {
+  box-sizing: border-box;
+  flex: 0 0 100%;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.cards-category .cards-category-card-image {
+  margin-bottom: 10px;
+}
+
+.cards-category .cards-category-card-image .icon {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+}
+
+.cards-category .cards-category-card-image .icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.cards-category h3 {
+  font-size: var(--heading-font-size-l);
+  font-weight: 400;
+  font-family: var(--heading-font-family);
+  line-height: 30px;
+  color: var(--link-color);
+  margin: 0.8em 0 20px;
+}
+
+.cards-category p {
+  font-size: var(--body-font-size-m);
+  font-family: var(--body-font-family);
+  line-height: 1.6;
+  color: var(--text-color);
+  margin: 0 0 20px;
+}
+
+/* EDS wraps the icon span in a <p> tag -- remove extra margin */
+.cards-category .cards-category-card-image p {
+  margin: 0;
+}
+
+/* Links styled as outlined buttons (EDS does not add .button class
+   because decorate() restructures the DOM before auto-decoration) */
+.cards-category .cards-category-card-body p:last-child {
+  margin-bottom: 0;
+}
+
+.cards-category .cards-category-card-body p:last-child a:any-link {
+  display: block;
+  color: var(--link-color);
+  padding: 9px 11px;
+  border: 1px solid var(--link-color);
+  border-radius: 4px;
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+}
+
+.cards-category .cards-category-card-body p:last-child a:hover {
+  color: var(--link-hover-color);
+  border-color: var(--link-hover-color);
+}
+
+@media (width >= 900px) {
+  .cards-category ul > li {
+    flex: 0 0 33.3333%;
+    padding: 0 15px;
+  }
+}

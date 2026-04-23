@@ -1,0 +1,151 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.nationwide.com/"
+      ],
+      "description": "Nationwide insurance homepage with hero, product offerings, and promotional content",
+      "blocks": [
+        {
+          "name": "hero-promo",
+          "instances": [
+            ".nw-home-quote-banner"
+          ]
+        },
+        {
+          "name": "cards-action",
+          "instances": [
+            ".custom-tri-promo"
+          ]
+        },
+        {
+          "name": "cards-category",
+          "instances": [
+            "#p43486 section.nw-multi-option-promo"
+          ]
+        },
+        {
+          "name": "cards-tile",
+          "instances": [
+            "section#p30097.nw-tile-block",
+            "section#p30087.nw-tile-block"
+          ]
+        },
+        {
+          "name": "columns-app",
+          "instances": [
+            "#p43655.rtc-component"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-hero",
+          "name": "Hero Banner",
+          "selector": ".nw-home-quote-banner",
+          "style": "vibrant-blue",
+          "blocks": [
+            "hero-promo"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2-quick-actions",
+          "name": "Quick Actions",
+          "selector": [
+            ".row.text-center.align-center.nw-inner-bottom"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-action"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3-products",
+          "name": "Products and Categories",
+          "selector": "#p43486.nw-multi-option-promo",
+          "style": "light-grey",
+          "blocks": [
+            "cards-category"
+          ],
+          "defaultContent": [
+            "#p43486 h2.nw-heading-tiempos-md"
+          ]
+        },
+        {
+          "id": "section-4-member-cta",
+          "name": "Member CTA Banner",
+          "selector": "#p45265.nw-bg-blue-darkest",
+          "style": "navy-blue",
+          "blocks": [],
+          "defaultContent": [
+            "#p45265 .nw-cta-small"
+          ]
+        },
+        {
+          "id": "section-5-tiles-row1",
+          "name": "Image Tiles Row 1",
+          "selector": "section#p30097.nw-tile-block",
+          "style": null,
+          "blocks": [
+            "cards-tile"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-6-tiles-row2",
+          "name": "Image Tiles Row 2",
+          "selector": "section#p30087.nw-tile-block",
+          "style": null,
+          "blocks": [
+            "cards-tile"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-7-company-info",
+          "name": "Company Info",
+          "selector": "#p45234.rtc-component",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#p45234 h2",
+            "#p45234 p"
+          ]
+        },
+        {
+          "id": "section-8-business-cta",
+          "name": "Business CTA Banner",
+          "selector": "#p45310.nw-bg-blue-darkest",
+          "style": "navy-blue",
+          "blocks": [],
+          "defaultContent": [
+            "#p45310 .nw-cta-small"
+          ]
+        },
+        {
+          "id": "section-9-mobile-app",
+          "name": "Mobile App Promo",
+          "selector": "#p43655.rtc-component",
+          "style": "vibrant-blue",
+          "blocks": [
+            "columns-app"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-10-disclaimer",
+          "name": "Disclaimer",
+          "selector": "#p44604.rtc-component",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#p44604 .nw-text-sm"
+          ]
+        }
+      ]
+    }
+  ]
+}
