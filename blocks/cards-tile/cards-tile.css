@@ -29,6 +29,7 @@
   position: relative;
   overflow: hidden;
   display: block;
+  cursor: pointer;
 }
 
 /* Image cell: fills the card */
@@ -60,6 +61,11 @@
   text-align: center;
 }
 
+/* Hover state for overlay */
+.cards-tile > div:hover > div:last-child {
+  background-color: var(--nw-blue-dark);
+}
+
 /* Heading inside overlay */
 .cards-tile h2 {
   font-size: 18px;
@@ -79,15 +85,6 @@
 .cards-tile h2 a:hover {
   text-decoration: underline;
   color: #fff;
-}
-
-/* Make the entire card clickable area feel interactive */
-.cards-tile > div:hover {
-  cursor: pointer;
-}
-
-.cards-tile > div:hover > div:last-child {
-  background-color: var(--nw-blue-dark);
 }
 
 /* Button reset -- EDS auto-decorates p > a as buttons; we don't want that here */
@@ -148,4 +145,9 @@
   .cards-tile:has(> div:nth-child(3)) > div:nth-child(3) img {
     aspect-ratio: 370 / 185;
   }
+}
+
+/* Spacing between consecutive cards-tile blocks in the same section */
+.cards-tile-wrapper + .cards-tile-wrapper {
+  margin-top: 40px;
 }
