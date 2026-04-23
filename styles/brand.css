@@ -15,9 +15,10 @@
   --nw-gold: #f9edbe;
 
   /* Nationwide brand fonts */
+
   /* nw-primary = Gotham (body), nw-secondary = Tiempos Headline (headings) */
-  --heading-font-family: "Tiempos Headline", Georgia, "Times New Roman", serif;
-  --body-font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  --heading-font-family: "Tiempos Headline", georgia, "Times New Roman", serif;
+  --body-font-family: "Helvetica Neue", helvetica, roboto, arial, sans-serif;
 
   /* Body sizes */
   --body-font-size-m: 18px;
