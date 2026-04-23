@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://www.nationwide.com/",
+  "path": "index",
+  "timestamp": "2026-04-18T11:04:14.701Z",
+  "title": "Insurance and Financial Services Company – Nationwide",
+  "template": "homepage",
+  "blocks": [
+    "hero-promo",
+    "cards-action",
+    "cards-action",
+    "cards-action",
+    "cards-category",
+    "cards-tile",
+    "cards-tile",
+    "columns-app"
+  ]
+}

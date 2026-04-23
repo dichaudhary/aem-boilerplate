@@ -1,0 +1,158 @@
+/* Block: hero-promo
+   Source: Nationwide homepage hero banner (.nw-home-quote-banner)
+   Layout: full-width blue banner, text left + image right on desktop, stacked on mobile */
+
+/* Full-width: override section max-width constraint */
+.hero-promo-wrapper {
+  max-width: 100% !important;
+  padding: 0 !important;
+  background-color: var(--brand-blue);
+}
+
+/* Remove section margin for hero-promo */
+main > .section.hero-promo-container {
+  margin: 0;
+}
+
+/* Block root */
+.hero-promo {
+  background-color: var(--brand-blue);
+  color: #fff;
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* All text/heading colors white inside this block */
+.hero-promo h1,
+.hero-promo h2 {
+  color: #fff;
+}
+
+/* --- Row 2: Text content row --- */
+.hero-promo > div:last-child {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* --- Row 1: Image row --- */
+.hero-promo > div:first-child {
+  position: relative;
+  min-height: 250px;
+  overflow: hidden;
+}
+
+/* Cells in the text row - remove default spacing */
+.hero-promo > div:last-child > div {
+  margin: 0;
+}
+
+.hero-promo > div:first-child > div {
+  height: 100%;
+}
+
+.hero-promo > div:first-child p {
+  margin: 0;
+  height: 100%;
+}
+
+.hero-promo > div:first-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  display: block;
+}
+
+/* h1 styling - extracted: 36px, 500 weight, serif, line-height 39.6px */
+.hero-promo h1 {
+  font-size: var(--heading-font-size-xxl);
+  font-weight: 500;
+  font-family: var(--heading-font-family);
+  line-height: 1.1;
+  margin: 0 0 20px;
+}
+
+/* h2 styling - extracted: 24px, 400 weight, sans-serif, line-height 33.6px */
+.hero-promo h2 {
+  font-size: var(--heading-font-size-l);
+  font-weight: 400;
+  font-family: var(--body-font-family);
+  line-height: 1.4;
+  margin: 0 0 20px;
+}
+
+/* Link styling - white, 18px, no underline */
+.hero-promo a:any-link {
+  color: #fff;
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.hero-promo a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* EDS button reset for links inside hero-promo */
+main .hero-promo a.button:any-link {
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  white-space: normal;
+}
+
+main .hero-promo a.button:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Paragraphs wrapping links */
+.hero-promo > div:last-child p {
+  margin: 4px 0;
+  font-size: var(--body-font-size-m);
+  color: #fff;
+}
+
+/* Button containers inline */
+.hero-promo .button-container {
+  display: inline;
+}
+
+/* --- Desktop layout (side-by-side) --- */
+@media (width >= 900px) {
+  .hero-promo {
+    flex-direction: row;
+  }
+
+  /* Text column: left, ~55% */
+  .hero-promo > div:last-child {
+    flex: 0 0 55%;
+    padding: 30px 40px 30px 20px;
+    order: -1;
+  }
+
+  /* Image column: right, ~45% */
+  .hero-promo > div:first-child {
+    flex: 0 0 45%;
+    min-height: 0;
+  }
+
+  .hero-promo > div:first-child img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
