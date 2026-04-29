@@ -1,0 +1,112 @@
+/* columns-app block — mobile app download section */
+
+/* Extracted from source: https://www.nationwide.com/ #p43655 .nw-mobile-app */
+
+/* The section already gets vibrant-blue background via section metadata,
+   so we only style the block internals here. */
+
+/* Row: stacked on mobile */
+.columns-app > div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cells: full width on mobile */
+.columns-app > div > div {
+  padding: 0;
+}
+
+/* Intro text — "Get easy 24/7 support on our" */
+.columns-app > div > div:first-child p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin: 0;
+  color: #fff;
+}
+
+/* Heading — "mobile app" */
+.columns-app h3 {
+  font-family: var(--heading-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #fff;
+  margin: 0 0 5px;
+}
+
+/* Checklist — ul with check items */
+.columns-app ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.columns-app ul li {
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+}
+
+.columns-app ul li::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  margin-right: 8px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z' stroke='white' stroke-width='1'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Right column — QR code + caption */
+.columns-app > div > div:last-child {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.columns-app > div > div:last-child p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0;
+}
+
+/* QR code image */
+.columns-app > div > div:last-child picture {
+  display: inline-block;
+}
+
+.columns-app > div > div:last-child img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Caption text below QR code */
+.columns-app > div > div:last-child p:last-child {
+  margin-top: 8px;
+}
+
+/* Desktop: two-column side-by-side layout */
+@media (width >= 900px) {
+  .columns-app > div {
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .columns-app > div > div {
+    flex: 1;
+    padding: 0 15px;
+  }
+
+  .columns-app > div > div:last-child {
+    padding-top: 0;
+  }
+}
