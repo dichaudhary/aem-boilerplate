@@ -5,10 +5,13 @@
  * values match exactly.
  */
 
-/* Full bleed — the section wrapper caps width at --content-max-width normally,
- * but this banner needs to stretch across the viewport like on source. */
+/* Full bleed — put the vibrant blue on the section container so it spans the
+ * full viewport edge-to-edge, while the inner content stays capped at the
+ * site content width. */
 .hero-quote-container {
   margin: 0 0 40px;
+  background-color: var(--primary-color);
+  color: #fff;
 }
 
 .hero-quote-container > div,
@@ -18,9 +21,8 @@
   margin: 0;
 }
 
-/* Block — vibrant blue banner, white text, flex column on mobile. */
+/* Block — transparent so the container blue shows through; flex column on mobile. */
 .hero-quote {
-  background-color: var(--primary-color);
   color: #fff;
   display: flex;
   flex-direction: column;
