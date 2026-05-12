@@ -1,27 +1,192 @@
+/* ============================================================
+ * cards-action block
+ * Source: nationwide.com div.custom-tri-promo row
+ * Decorated DOM:
+ *   .cards-action.block > ul > li
+ *     > div.cards-action-card-image > picture > img
+ *     > div.cards-action-card-body > h3 + p (intro) + p>strong (label)
+ *                                    + ul or p>em + p>a (Go link)
+ * ========================================================= */
+
 .cards-action > ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  grid-gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
 
 .cards-action > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 36px;
+  margin: 0;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
 }
 
-.cards-action .cards-action-card-body {
-  margin: 16px;
-}
-
+/* Icon (picture/img) */
 .cards-action .cards-action-card-image {
   line-height: 0;
+  margin: 0 auto 8px;
 }
 
-.cards-action > ul > li img {
+.cards-action .cards-action-card-image picture,
+.cards-action .cards-action-card-image img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  max-width: 50px;
+  object-fit: contain;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+}
+
+/* Card body container */
+.cards-action .cards-action-card-body {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  max-width: 328px;
+  margin: 0;
+}
+
+/* Heading (h3) */
+.cards-action .cards-action-card-body h3 {
+  font-size: 24px;
+  font-family: var(--body-font-family), montserrat-fallback, sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--text-color);
+  margin: 0 0 10px;
+  padding: 0;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+/* Intro paragraph (first <p> directly after h3) */
+.cards-action .cards-action-card-body p {
+  font-size: 18px;
+  font-family: var(--body-font-family), montserrat-fallback, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin: 0 0 16px;
+  text-align: center;
+}
+
+/* Field label (p > strong) — visually hidden-ish but kept for a11y.
+ * In the source, this label is a <label> associated to a select/input.
+ * We style it as a small muted caption. */
+.cards-action .cards-action-card-body p strong {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+/* Helper text (p > em) — shown as placeholder-style hint above the Go button */
+.cards-action .cards-action-card-body p em {
+  display: block;
+  font-style: italic;
+  font-size: 14px;
+  color: var(--muted-text-color);
+}
+
+/* Options list — mimics a select dropdown visually.
+ * Only show the first item as the "selected" value. */
+.cards-action .cards-action-card-body > ul {
+  list-style: none;
+  margin: 0 0 16px;
+  padding: 0;
+  position: relative;
+  border: 1px solid rgb(128 128 128);
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: left;
+  font-size: 16px;
+  font-family: var(--body-font-family), montserrat-fallback, sans-serif;
+  color: var(--text-color);
+  max-height: 39px;
+  overflow: hidden;
+}
+
+.cards-action .cards-action-card-body > ul::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-25%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid var(--text-color);
+  pointer-events: none;
+}
+
+.cards-action .cards-action-card-body > ul > li {
+  padding: 8px 24px 8px 8px;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  line-height: 1.4;
+}
+
+.cards-action .cards-action-card-body > ul > li + li {
+  display: none;
+}
+
+/* "Go" link, styled as a hollow blue button (source: input.button.hollow) */
+.cards-action .cards-action-card-body p:last-child {
+  margin: 0;
+}
+
+.cards-action .cards-action-card-body p:last-child a:any-link {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: var(--body-font-family), montserrat-fallback, sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--primary-color);
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--button-radius);
+  margin: 0;
+  padding: 9px 10.8px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.cards-action .cards-action-card-body p:last-child a:any-link:hover,
+.cards-action .cards-action-card-body p:last-child a:any-link:focus-visible {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ============================================================
+ * Desktop (>=900px): 3-column flex layout to match source row
+ * ========================================================= */
+@media (width >= 900px) {
+  .cards-action > ul {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 0 20px;
+    gap: 0;
+  }
+
+  .cards-action > ul > li {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    padding: 20px 36px;
+  }
 }
