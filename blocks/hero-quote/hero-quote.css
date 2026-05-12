@@ -5,8 +5,9 @@
 
 .hero-quote {
   position: relative;
-  padding: 40px 24px;
+  padding: 40px 20px;
   min-height: 300px;
+  background-color: var(--color-blue-vibrant);
 }
 
 .hero-quote h1,
@@ -19,11 +20,24 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  color: var(--background-color);
+  color: var(--color-white);
+}
+
+.hero-quote a:any-link {
+  color: var(--color-white);
+  text-decoration: underline;
+}
+
+.hero-quote a:hover {
+  color: var(--color-blue-light);
+}
+
+.hero-quote.no-image {
+  background-color: var(--color-blue-vibrant);
 }
 
 .hero-quote.no-image * {
-  color: var(--text-color);
+  color: var(--color-white);
 }
 
 .hero-quote picture {
@@ -42,6 +56,7 @@
 
 @media (width >= 900px) {
   .hero-quote {
-    padding: 40px 32px;
+    padding: 60px 32px;
+    min-height: 400px;
   }
 }
