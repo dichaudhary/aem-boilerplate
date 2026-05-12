@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-action",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-12T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/",
+    "originPage": "Nationwide homepage",
+    "blockPosition": "upper-middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "action-promo",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + heading + short description + interactive control (dropdown/input/link)",
+    "buttonCount": 3,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "promo rows with 3 or more action cards",
+      "homepage tri-promo areas with mixed CTAs",
+      "sections where each card has an icon + short body + call-to-action"
+    ],
+    "notSuitableFor": [
+      "single CTA blocks",
+      "image-heavy article cards",
+      "story/testimonial cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-12T00:00:00.000Z"
+  }
+}

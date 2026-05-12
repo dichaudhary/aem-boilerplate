@@ -1,0 +1,38 @@
+{
+  "variantName": "cards-tile",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-12T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/",
+    "originPage": "Nationwide homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "tile-promo",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + linked heading (no description body)",
+    "buttonCount": 0,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "image-led tile groups where the heading itself is the link",
+      "homepage promo tiles with photography and minimal copy",
+      "sections where each tile is a visual navigation point"
+    ],
+    "notSuitableFor": [
+      "cards requiring body copy or separate CTA buttons",
+      "icon-only promo cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 2,
+    "lastUsed": "2026-05-12T00:00:00.000Z"
+  }
+}
