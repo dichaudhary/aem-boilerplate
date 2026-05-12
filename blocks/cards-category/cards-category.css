@@ -45,8 +45,7 @@
   margin: 0 0 20px;
 }
 
-.cards-category .cards-category-card-image img,
-.cards-category > ul > li img {
+.cards-category .cards-category-card-image img {
   width: 65px;
   height: 65px;
   aspect-ratio: auto;
