@@ -1,0 +1,38 @@
+{
+  "variantName": "hero-quote",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-05-12T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/",
+    "originPage": "Nationwide homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "quote-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "heading + subheading + insurance-type select + ZIP input + submit button + supporting links + image",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage hero banners with quote/lead-capture forms",
+      "product landing pages with interactive CTAs above the fold",
+      "insurance/financial product entry points with ZIP lookup"
+    ],
+    "notSuitableFor": [
+      "plain text heroes with no image",
+      "heroes that only have a single CTA button with no form controls"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-12T00:00:00.000Z"
+  }
+}

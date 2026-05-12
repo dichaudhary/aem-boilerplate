@@ -1,0 +1,38 @@
+{
+  "variantName": "columns-app",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-12T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/",
+    "originPage": "Nationwide homepage",
+    "blockPosition": "lower"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "accent",
+    "density": "spacious",
+    "purpose": "app-promo",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "text + heading + bullet list column, image + caption column",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "mobile app promotion sections with QR code",
+      "two-column text + image lockups on colored section backgrounds",
+      "download-the-app style callouts"
+    ],
+    "notSuitableFor": [
+      "narrative columns with dense paragraphs",
+      "multi-image gallery style sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-12T00:00:00.000Z"
+  }
+}

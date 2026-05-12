@@ -1,0 +1,38 @@
+{
+  "variantName": "columns-cta",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-12T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/",
+    "originPage": "Nationwide homepage",
+    "blockPosition": "middle-and-lower"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "compact",
+    "purpose": "small-cta",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon column + text/CTA column (horizontal compact row)",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "small horizontal CTA rows in colored section containers",
+      "icon-on-left / headline+link-on-right banners",
+      "navy or vibrant background promo strips"
+    ],
+    "notSuitableFor": [
+      "multi-paragraph content layouts",
+      "image-heavy side-by-side sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 2,
+    "lastUsed": "2026-05-12T00:00:00.000Z"
+  }
+}
