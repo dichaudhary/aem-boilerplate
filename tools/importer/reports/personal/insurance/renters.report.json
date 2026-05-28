@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.nationwide.com/personal/insurance/renters/",
+  "path": "personal/insurance/renters",
+  "timestamp": "2026-05-27T11:28:57.741Z",
+  "title": "Renters Insurance Quotes - Nationwide",
+  "template": "insurance-landing",
+  "blocks": [
+    "hero-quote",
+    "columns-video",
+    "cards-action",
+    "cards-action",
+    "columns-banner"
+  ]
+}

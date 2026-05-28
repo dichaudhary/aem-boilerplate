@@ -2,24 +2,14 @@
 /* global WebImporter */
 /**
  * Parser for cards-tile variant.
- * Base: cards (variant: cards-tile)
- * Source URL: https://www.nationwide.com/
- * Source selectors: section.nw-tile-block (section#p30097 with 2 tiles,
- *                   section#p30087 with 3 tiles).
+ * Handles two source patterns:
+ *   1. Homepage: section.nw-tile-block with a.nw-tile-block__tile items (background-image tiles)
+ *   2. Insurance landing: .nw-content-promo with ul > li > a items (image + heading tiles)
+ *      Also: section.nw-bg-gray-pale-25 with linked article cards
  *
- * Each tile is an <a class="nw-tile-block__tile"> containing:
- *   - a .nw-tile-block__image div (image provided either as a nested <img>
- *     in the cleaned/local HTML OR as a CSS `background-image:url(...)` on
- *     the live page)
- *   - a .nw-tile-block__content-subheader <h2> as the tile heading
- *
- * Target table structure (from cards library example):
+ * Target table structure:
  *   Row 1: block name ("cards-tile")
  *   Row 2..N: one row per tile, 2 columns — [image] | [linked heading]
- *
- * The parser produces the same table regardless of how many tiles the
- * section contains (2, 3, or more) and regardless of whether the image is
- * expressed as <img> or as a background-image style.
  */
 
 function extractBackgroundImageUrl(el) {
@@ -29,13 +19,6 @@ function extractBackgroundImageUrl(el) {
   return match ? match[1] : null;
 }
 
-// Map each tile heading to a locally-downloaded asset (post-import asset sync).
-// Downloaded URLs:
-//   vcp-lg-hp-financial-future-newsib-2_tcm108-19797.jpg → tile-financial-future.jpg
-//   vcp-med-hp-longtermcare-chess_tcm108-20410.jpg       → tile-long-term-care.jpg
-//   vcp-lg-hp-smallbiz-landscaping_tcm108-19096.jpg      → tile-small-business.jpg
-//   vcp-sm-hp-bundle-driving_tcm108-18981.jpg            → tile-bundle.jpg
-//   HP-VCP-312x185-10418_7997-Easy%20access ... .png     → tile-manage-online.png
 const TILE_IMAGE_BY_HEADING = {
   'Let us protect your financial future, too': './images/tile-financial-future.jpg',
   'The importance of long-term care': './images/tile-long-term-care.jpg',
@@ -44,18 +27,11 @@ const TILE_IMAGE_BY_HEADING = {
   'Easy access to manage your insurance online': './images/tile-manage-online.png',
 };
 
-function buildTileRow(tileAnchor, document) {
+function buildHomepageTileRow(tileAnchor, document) {
   const href = tileAnchor.getAttribute('href') || '#';
-
-  // ---------- Heading ----------
-  const headingEl = tileAnchor.querySelector(
-    'h2.nw-tile-block__content-subheader, h2, h3, [class*="subheader"]',
-  );
+  const headingEl = tileAnchor.querySelector('h2, h3, [class*="subheader"]');
   const headingText = (headingEl?.textContent || '').trim();
 
-  // ---------- Image cell ----------
-  // Prefer the locally-downloaded asset keyed by heading. Fall back to an existing
-  // <img> or to the CSS background-image URL (for forward compatibility).
   const imageWrapper = tileAnchor.querySelector('.nw-tile-block__image');
   let imageCell = '';
 
@@ -68,9 +44,7 @@ function buildTileRow(tileAnchor, document) {
   } else {
     const existingImg = imageWrapper?.querySelector('img') || tileAnchor.querySelector('img');
     if (existingImg) {
-      if (!existingImg.getAttribute('alt') && headingText) {
-        existingImg.setAttribute('alt', headingText);
-      }
+      if (!existingImg.getAttribute('alt') && headingText) existingImg.setAttribute('alt', headingText);
       imageCell = existingImg;
     } else {
       const bgUrl = extractBackgroundImageUrl(imageWrapper);
@@ -83,9 +57,6 @@ function buildTileRow(tileAnchor, document) {
     }
   }
 
-  // ---------- Text cell: linked heading ----------
-  // Preserve heading semantics AND the tile link by wrapping an <a> around
-  // the heading text inside an <h2>.
   const textCell = [];
   if (headingEl) {
     const heading = document.createElement('h2');
@@ -94,12 +65,38 @@ function buildTileRow(tileAnchor, document) {
     link.textContent = headingText;
     heading.appendChild(link);
     textCell.push(heading);
-  } else if (href && href !== '#') {
-    // Heading missing but link exists — still emit a linked text cell.
+  }
+
+  return [imageCell, textCell];
+}
+
+function buildInsuranceTileRow(tileEl, document) {
+  const anchor = tileEl.tagName === 'A' ? tileEl : tileEl.querySelector('a');
+  const href = anchor ? anchor.getAttribute('href') || '#' : '#';
+
+  const img = tileEl.querySelector('img');
+  const heading = tileEl.querySelector('h2, h3, h4, h5, h6');
+  const headingText = (heading?.textContent || '').trim();
+
+  let imageCell = '';
+  if (img) {
+    if (!img.getAttribute('alt') && headingText) img.setAttribute('alt', headingText);
+    imageCell = img;
+  }
+
+  const textCell = [];
+  if (headingText) {
+    const h = document.createElement('h2');
+    const link = document.createElement('a');
+    link.setAttribute('href', href);
+    link.textContent = headingText;
+    h.appendChild(link);
+    textCell.push(h);
+  } else if (anchor) {
     const p = document.createElement('p');
     const link = document.createElement('a');
     link.setAttribute('href', href);
-    link.textContent = href;
+    link.textContent = anchor.textContent.trim() || href;
     p.appendChild(link);
     textCell.push(p);
   }
@@ -108,22 +105,44 @@ function buildTileRow(tileAnchor, document) {
 }
 
 export default function parse(element, { document }) {
-  // Collect every tile anchor within this section, in source order.
-  const tileAnchors = Array.from(
-    element.querySelectorAll('a.nw-tile-block__tile'),
-  );
-
-  if (tileAnchors.length === 0) {
-    // Nothing to transform — leave the element alone.
+  // Pattern 1: Homepage — section.nw-tile-block with anchor tiles
+  const tileAnchors = Array.from(element.querySelectorAll('a.nw-tile-block__tile'));
+  if (tileAnchors.length > 0) {
+    const cells = tileAnchors.map((tile) => buildHomepageTileRow(tile, document));
+    const block = WebImporter.Blocks.createBlock(document, { name: 'cards-tile', cells });
+    element.replaceWith(block);
     return;
   }
 
-  const cells = tileAnchors.map((tile) => buildTileRow(tile, document));
+  // Pattern 2: Insurance — .nw-content-promo with ul > li > a items
+  const contentPromo = element.querySelector('.nw-content-promo');
+  if (contentPromo) {
+    const items = Array.from(contentPromo.querySelectorAll('ul > li'));
+    if (items.length > 0) {
+      const cells = items.map((li) => buildInsuranceTileRow(li, document));
+      const block = WebImporter.Blocks.createBlock(document, { name: 'cards-tile', cells });
+      element.replaceWith(block);
+      return;
+    }
+  }
 
-  const block = WebImporter.Blocks.createBlock(document, {
-    name: 'cards-tile',
-    cells,
-  });
+  // Pattern 3: Insurance — section.nw-bg-gray-pale-25 related resources grid
+  const resourceLinks = Array.from(element.querySelectorAll('.nw-content-promo a, .nw-tile-block__tile'));
+  if (resourceLinks.length === 0) {
+    // Try to find linked cards in grey background sections (related topics)
+    const linkedCards = Array.from(element.querySelectorAll('a[href]'))
+      .filter((a) => a.querySelector('img') || a.querySelector('h2, h3, h4, h5'));
+    if (linkedCards.length > 0) {
+      const cells = linkedCards.map((a) => buildInsuranceTileRow(a, document));
+      const block = WebImporter.Blocks.createBlock(document, { name: 'cards-tile', cells });
+      element.replaceWith(block);
+      return;
+    }
+  }
 
-  element.replaceWith(block);
+  if (resourceLinks.length > 0) {
+    const cells = resourceLinks.map((a) => buildInsuranceTileRow(a, document));
+    const block = WebImporter.Blocks.createBlock(document, { name: 'cards-tile', cells });
+    element.replaceWith(block);
+  }
 }

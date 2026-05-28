@@ -13,9 +13,9 @@
  */
 // Map section 3 card headings to the local PNG asset (post-import download).
 const CATEGORY_ICON_BY_HEADING = {
-  'For you and your family': { src: './images/person-shield.png', alt: 'person shield icon' },
-  'For your business': { src: './images/open-sign.png', alt: 'open sign icon' },
-  'For your future': { src: './images/shield.png', alt: 'shield icon' },
+  'For you and your family': { src: './images/person-shield.svg', alt: 'person shield icon' },
+  'For your business': { src: './images/open-sign.svg', alt: 'open sign icon' },
+  'For your future': { src: './images/shield.svg', alt: 'shield icon' },
 };
 
 export default function parse(element, { document }) {

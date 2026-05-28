@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-banner",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-27T09:53:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/personal/insurance/auto/",
+    "originPage": "Nationwide auto insurance product page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "grey",
+    "density": "spacious",
+    "purpose": "feature-promo",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + paragraph + button/links",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "image + text side-by-side banners with grey background",
+      "feature promo sections with large photo and CTA",
+      "in-page banner components with image left or right"
+    ],
+    "notSuitableFor": [
+      "compact CTA strips with icons",
+      "multi-row text-only column layouts",
+      "video embed columns"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/personal/insurance/auto/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-27T09:53:00.000Z"
+  }
+}

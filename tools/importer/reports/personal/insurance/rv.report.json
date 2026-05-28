@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://www.nationwide.com/personal/insurance/rv/",
+  "path": "personal/insurance/rv",
+  "timestamp": "2026-05-27T11:36:13.020Z",
+  "title": "RV Insurance Quotes – Nationwide",
+  "template": "insurance-landing",
+  "blocks": [
+    "hero-quote",
+    "cards-action",
+    "cards-action",
+    "cards-tile",
+    "columns-info",
+    "columns-cta"
+  ]
+}

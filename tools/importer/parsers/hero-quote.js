@@ -102,6 +102,26 @@ export default function parse(element, { document }) {
   if (title) contentCell.push(title);
   if (subheading) contentCell.push(subheading);
 
+  // Phone number / call-to-action paragraph above the form
+  const ctaParas = contentContainer.querySelectorAll('p');
+  for (const p of ctaParas) {
+    const text = (p.textContent || '').trim();
+    if (text.match(/call us|quote at|\d{3}[- ]\d{3}[- ]\d{4}/i)) {
+      const phonePara = document.createElement('p');
+      phonePara.textContent = text;
+      const phoneLink = p.querySelector('a[href*="tel:"], a');
+      if (phoneLink && phoneLink.getAttribute('href')) {
+        const a = document.createElement('a');
+        a.setAttribute('href', phoneLink.getAttribute('href'));
+        a.textContent = phoneLink.textContent.trim();
+        phonePara.textContent = text.replace(phoneLink.textContent.trim(), '');
+        phonePara.appendChild(a);
+      }
+      contentCell.push(phonePara);
+      break;
+    }
+  }
+
   // Authorable representation of the <select> — label + bullet list
   if (selectOptions.length > 0) {
     const selectLabel = document.createElement('p');

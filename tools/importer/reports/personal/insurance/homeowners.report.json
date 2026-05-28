@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.nationwide.com/personal/insurance/homeowners/",
+  "path": "personal/insurance/homeowners",
+  "timestamp": "2026-05-27T11:31:37.129Z",
+  "title": "Homeowners Insurance Quotes - Nationwide",
+  "template": "insurance-landing",
+  "blocks": [
+    "hero-quote",
+    "columns-video",
+    "cards-action",
+    "cards-action",
+    "columns-banner"
+  ]
+}

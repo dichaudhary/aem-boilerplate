@@ -1,47 +1,248 @@
+/* hero-quote section: remove section padding for full-bleed hero */
+main > .section.hero-quote-container {
+  padding: 0;
+}
+
+/* hero-quote wrapper: full-width, no max-width constraint */
 .hero-quote-container .hero-quote-wrapper {
   max-width: unset;
   padding: 0;
 }
 
+/* block container */
 .hero-quote {
   position: relative;
-  padding: 40px 24px;
+  background-color: var(--vibrant-blue);
+  color: #fff;
+  padding: 30px 20px;
   min-height: 300px;
+  overflow: hidden;
 }
 
+/* all text white */
 .hero-quote h1,
 .hero-quote h2,
 .hero-quote h3,
 .hero-quote h4,
 .hero-quote h5,
 .hero-quote h6,
+.hero-quote p,
+.hero-quote li,
+.hero-quote em,
+.hero-quote strong {
+  color: #fff;
+}
+
+/* h1: serif, 36px, weight 500 */
+.hero-quote h1 {
+  font-family: var(--heading-font-family);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+/* h2: sans-serif subtitle */
+.hero-quote h2 {
+  font-family: var(--body-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+
+/* paragraph text */
 .hero-quote p {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 26px;
 }
 
-.hero-quote.no-image * {
-  color: var(--text-color);
+/* links inside hero: white, no underline */
+.hero-quote a:any-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
 }
 
-.hero-quote picture {
+.hero-quote a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* "Start your quote" CTA button - p:nth-of-type(4) in content cell */
+.hero-quote > div:nth-child(2) > div > p:nth-of-type(4) a:any-link {
+  display: inline-block;
+  background-color: rgb(140 200 233);
+  color: rgb(20 27 77);
+  text-decoration: none;
+  padding: 9px 11px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hero-quote > div:nth-child(2) > div > p:nth-of-type(4) a:hover {
+  background-color: rgb(120 185 218);
+  color: rgb(20 27 77);
+  text-decoration: none;
+}
+
+/* image row: positioned as background overlay */
+.hero-quote > div:first-child {
   position: absolute;
-  z-index: -1;
   inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
+  z-index: 0;
+  pointer-events: none;
 }
 
-.hero-quote img {
-  object-fit: cover;
-  width: 100%;
+.hero-quote > div:first-child > div {
   height: 100%;
 }
 
+.hero-quote > div:first-child picture {
+  display: block;
+  height: 100%;
+}
+
+.hero-quote > div:first-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* caption below image: hide on mobile, show on desktop */
+.hero-quote > div:first-child > div > p:last-child {
+  display: none;
+}
+
+/* content row: positioned above the image */
+/* stylelint-disable-next-line no-descending-specificity */
+.hero-quote > div:nth-child(2) {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-quote > div:nth-child(2) > div {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* "Insurance type" label */
+.hero-quote > div:nth-child(2) > div > p:nth-of-type(2) {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+/* insurance type list: display as horizontal wrapping pills */
+.hero-quote ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hero-quote ul li {
+  background-color: rgb(255 255 255 / 15%);
+  border: 1px solid rgb(255 255 255 / 40%);
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* ZIP code field row */
+.hero-quote > div:nth-child(2) > div > p:nth-of-type(3) {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+/* alert/banner row at bottom (content after block rows) */
+/* stylelint-disable-next-line no-descending-specificity */
+.hero-quote > p {
+  display: none;
+}
+
+/* no-image variant: dark text on white bg */
+.hero-quote.no-image {
+  background-color: var(--background-color);
+}
+
+/* stylelint-disable no-descending-specificity */
+.hero-quote.no-image h1,
+.hero-quote.no-image h2,
+.hero-quote.no-image h3,
+.hero-quote.no-image p,
+.hero-quote.no-image li,
+.hero-quote.no-image em,
+.hero-quote.no-image strong {
+  color: var(--text-color);
+}
+
+.hero-quote.no-image a:any-link {
+  color: var(--link-color);
+}
+/* stylelint-enable no-descending-specificity */
+
 @media (width >= 900px) {
   .hero-quote {
-    padding: 40px 32px;
+    padding: 0;
+    min-height: 450px;
+    display: flex;
+    align-items: stretch;
+  }
+
+  /* Content row takes up 55% of block width */
+  .hero-quote > div:nth-child(2) {
+    flex: 1 1 55%;
+    max-width: 55%;
+  }
+
+  .hero-quote > div:nth-child(2) > div {
+    max-width: 100%;
+    padding: 30px 40px 30px 20px;
+  }
+
+  /* Image row takes the right 45% */
+  /* stylelint-disable-next-line no-descending-specificity */
+  .hero-quote > div:first-child {
+    position: absolute;
+    inset: 0;
+    left: auto;
+    width: 45%;
+  }
+
+  .hero-quote > div:first-child picture {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+  }
+
+  .hero-quote > div:first-child img {
+    object-position: 50% 50%;
+  }
+
+  /* show caption on desktop */
+  .hero-quote > div:first-child > div > p:last-child {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(255 255 255 / 80%);
+    z-index: 2;
+    margin-bottom: 0;
+  }
+}
+
+@media (width >= 1200px) {
+  .hero-quote > div:nth-child(2) > div {
+    padding: 30px 40px 30px 120px;
   }
 }

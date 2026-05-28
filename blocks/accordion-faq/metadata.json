@@ -1,0 +1,39 @@
+{
+  "variantName": "accordion-faq",
+  "baseBlock": "accordion",
+  "version": "1.0.0",
+  "created": "2026-05-27T09:53:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/personal/insurance/auto/",
+    "originPage": "Nationwide auto insurance product page",
+    "blockPosition": "lower-middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "faq",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "question heading + answer body (paragraphs, lists, links)",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "frequently asked questions sections",
+      "expandable Q&A content",
+      "help/support page accordion items"
+    ],
+    "notSuitableFor": [
+      "multi-media accordions with images",
+      "tabbed content that should be visible simultaneously",
+      "simple text lists without expand/collapse"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/personal/insurance/auto/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-27T09:53:00.000Z"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://www.nationwide.com/personal/insurance/life/",
+  "path": "personal/insurance/life",
+  "timestamp": "2026-05-27T11:28:04.674Z",
+  "title": "Life Insurance – Get an Affordable Quote – Nationwide",
+  "template": "insurance-landing",
+  "blocks": [
+    "hero-quote",
+    "cards-action",
+    "cards-action",
+    "columns-banner",
+    "accordion-faq",
+    "columns-cta"
+  ]
+}

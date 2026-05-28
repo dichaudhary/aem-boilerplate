@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.nationwide.com/personal/insurance/claims/",
+  "path": "personal/insurance/claims",
+  "timestamp": "2026-05-27T11:46:24.424Z",
+  "title": "File a Personal Insurance Claim Online - Nationwide",
+  "template": "insurance-landing",
+  "blocks": [
+    "hero-quote",
+    "columns-info",
+    "columns-cta"
+  ]
+}

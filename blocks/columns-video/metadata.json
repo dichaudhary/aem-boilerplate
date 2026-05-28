@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-video",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-27T09:53:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/personal/insurance/auto/",
+    "originPage": "Nationwide auto insurance product page",
+    "blockPosition": "upper"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "video-promo",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "video embed + heading + paragraph",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "video + text side-by-side sections",
+      "product explanation areas with embedded video",
+      "two-column layouts where one column is a video player"
+    ],
+    "notSuitableFor": [
+      "image-based columns without video",
+      "multi-row column layouts",
+      "compact CTA strips"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/personal/insurance/auto/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-27T09:53:00.000Z"
+  }
+}
