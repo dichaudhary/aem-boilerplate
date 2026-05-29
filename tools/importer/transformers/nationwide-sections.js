@@ -24,6 +24,8 @@ const TransformHook = {
 /**
  * Resolve the DOM element for a section. The section.selector field may be a
  * string or an array of strings — try each until one matches inside `root`.
+ * Falls back to trying class-only selectors (strip ID portion) when the full
+ * selector contains a page-specific ID (e.g., #p38136.nw-banner2).
  */
 function findSectionElement(root, selector) {
   const selectors = Array.isArray(selector) ? selector : [selector];
@@ -35,15 +37,37 @@ function findSectionElement(root, selector) {
     } catch (e) {
       // Invalid selector – skip.
     }
+    // Fallback: strip page-specific IDs (e.g., #p38136.nw-banner2 → .nw-banner2)
+    const fallback = sel.replace(/#p\d+/g, '');
+    if (fallback && fallback !== sel) {
+      try {
+        const el = root.querySelector(fallback);
+        if (el) return el;
+      } catch (e) { /* skip */ }
+    }
+  }
+  return null;
+}
+
+/**
+ * For insurance-landing pages: detect section boundaries by finding the block
+ * instance selectors directly. This works even when page-specific IDs differ.
+ */
+function findSectionByBlockSelector(root, section, template) {
+  if (!section.blocks || section.blocks.length === 0) return null;
+  const blockName = section.blocks[0];
+  const blockDef = (template.blocks || []).find((b) => b.name === blockName);
+  if (!blockDef || !blockDef.instances) return null;
+  for (const inst of blockDef.instances) {
+    try {
+      const el = root.querySelector(inst);
+      if (el) return el;
+    } catch (e) { /* skip */ }
   }
   return null;
 }
 
 export default function transform(hookName, element, payload) {
-  // IMPORTANT: run at beforeTransform so the original DOM selectors
-  // (e.g., .nw-home-quote-banner, .custom-tri-promo, etc.) are still present.
-  // By afterTransform, the block parsers have already replaced these elements
-  // with their table-based block markup, and the selectors no longer match.
   if (hookName === TransformHook.beforeTransform) {
     const template = payload && payload.template;
     const sections = template && Array.isArray(template.sections) ? template.sections : [];
@@ -55,7 +79,11 @@ export default function transform(hookName, element, payload) {
     // sections' DOM positions.
     for (let i = sections.length - 1; i >= 0; i -= 1) {
       const section = sections[i];
-      const sectionEl = findSectionElement(element, section.selector);
+      let sectionEl = findSectionElement(element, section.selector);
+      // Fallback: find by block instance selector
+      if (!sectionEl) {
+        sectionEl = findSectionByBlockSelector(element, section, template);
+      }
       if (!sectionEl) continue;
 
       // 1. Section Metadata block (only when a style is specified).

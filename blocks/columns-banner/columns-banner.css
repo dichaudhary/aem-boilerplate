@@ -1,33 +1,204 @@
+/* columns-banner block
+ * Two-column banner with image on one side and text content on the other.
+ * Source: .nw-banner-inpage on nationwide.com
+ * Variants: image-left (default), image-right (text first, image second)
+ *
+ * Extracted source values (desktop @ 1280px):
+ *   banner: bg rgb(244,244,245), full-width, margin-bottom 40px
+ *   row: flex row wrap, max-width 1200px, centered
+ *   img-col: flex 0 0 auto, width 300px, min-height 250px, cover/center-top
+ *   text-col: flex 1 1 0, padding 20px 20px 20px 40px (or mirrored)
+ *   h2: 32px/1.2, weight 400, color #171717, margin-bottom 5px
+ *   p: 18px/1.6, weight 400, color #171717, margin-bottom 26px
+ *   links (multi): inline, underline, color #0047bb
+ *   CTA (single): inline-block, padding 9px 11px, border 1px solid #0047bb, radius 4px
+ */
+
+.columns-banner-wrapper {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.columns-banner {
+  background-color: var(--light-color);
+  margin-bottom: 40px;
+}
+
+/* Row layout - mobile first (stacked) */
 .columns-banner > div {
   display: flex;
   flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.columns-banner img {
-  width: 100%;
+/* Text content cell */
+.columns-banner > div > div:not(.columns-banner-img-col) {
+  padding: 20px;
 }
 
-.columns-banner > div > div {
-  order: 1;
+/* Heading styling */
+.columns-banner h2 {
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.25;
+  color: var(--text-color);
+  margin-bottom: 5px;
 }
 
+/* Paragraph styling */
+.columns-banner p {
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin-bottom: 26px;
+}
+
+.columns-banner p:last-child {
+  margin-bottom: 0;
+}
+
+/* Image column - mobile stacked on top */
 .columns-banner > div > .columns-banner-img-col {
-  order: 0;
+  order: -1;
+  overflow: hidden;
+  min-height: 250px;
+}
+
+.columns-banner > div > .columns-banner-img-col p {
+  margin: 0;
+  height: 100%;
 }
 
 .columns-banner > div > .columns-banner-img-col img {
   display: block;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center top;
 }
 
+/* Links - plain underline style (for multi-link banners) */
+.columns-banner a:any-link {
+  color: var(--link-color);
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.columns-banner a:hover {
+  color: var(--link-hover-color);
+}
+
+/* CTA link - outline button style for single-CTA banners */
+.columns-banner .columns-banner-cta p:last-child a:any-link {
+  display: inline-block;
+  padding: 9px 11px;
+  border: 1px solid var(--link-color);
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--link-color);
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1;
+}
+
+.columns-banner .columns-banner-cta p:last-child a:hover {
+  background-color: var(--link-color);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Reset EDS button-container styling */
+.columns-banner .button-container {
+  display: block;
+  margin: 0;
+}
+
+/* Override EDS auto-button decoration */
+main .columns-banner a.button:any-link {
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: var(--link-color);
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+  white-space: normal;
+  display: inline;
+}
+
+main .columns-banner a.button:hover {
+  color: var(--link-hover-color);
+  background: none;
+}
+
+/* CTA override for EDS-decorated buttons in single-link cells */
+main .columns-banner .columns-banner-cta p:last-child a.button:any-link {
+  display: inline-block;
+  padding: 9px 11px;
+  border: 1px solid var(--link-color);
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--link-color);
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1;
+}
+
+main .columns-banner .columns-banner-cta p:last-child a.button:hover {
+  background-color: var(--link-color);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Desktop layout */
 @media (width >= 900px) {
   .columns-banner > div {
-    align-items: center;
-    flex-direction: unset;
-    gap: 24px;
+    flex-flow: row wrap;
+    align-items: stretch;
   }
 
   .columns-banner > div > div {
-    flex: 1;
     order: unset;
+  }
+
+  /* Image column fixed width */
+  .columns-banner > div > .columns-banner-img-col {
+    flex: 0 0 300px;
+    min-height: 250px;
+    order: unset;
+  }
+
+  .columns-banner > div > .columns-banner-img-col img {
+    height: 100%;
+  }
+
+  /* Text column expands */
+  .columns-banner > div > div:not(.columns-banner-img-col) {
+    flex: 1 1 0%;
+    padding: 20px 20px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* When text cell is first child (image-right variant), adjust padding */
+  .columns-banner > div > div:first-child:not(.columns-banner-img-col) {
+    padding: 20px 40px 20px 20px;
+  }
+
+  /* Heading larger on desktop */
+  .columns-banner h2 {
+    font-size: 32px;
+    line-height: 1.2;
   }
 }

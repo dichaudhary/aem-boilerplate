@@ -101,6 +101,17 @@ function buildInsuranceTileRow(tileEl, document) {
     textCell.push(p);
   }
 
+  // Include description paragraph if present
+  const desc = tileEl.querySelector('p');
+  if (desc) {
+    const descText = desc.textContent.trim();
+    if (descText && descText !== headingText) {
+      const para = document.createElement('p');
+      para.textContent = descText;
+      textCell.push(para);
+    }
+  }
+
   return [imageCell, textCell];
 }
 

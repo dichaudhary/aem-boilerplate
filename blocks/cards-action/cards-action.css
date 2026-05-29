@@ -12,93 +12,70 @@
 .cards-action > ul > li {
   background-color: var(--background-color);
   text-align: center;
-  padding: 20px 24px;
-  border: none;
+  padding: 0 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Icon image — small centered icon, NOT full-width */
+/* Icon image — small centered icon */
 .cards-action .cards-action-card-image {
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.cards-action .cards-action-card-image picture {
+.cards-action .cards-action-card-image p {
+  margin: 0;
   display: flex;
   justify-content: center;
 }
 
 .cards-action > ul > li img {
-  width: 56px;
-  height: 56px;
+  width: 65px;
+  height: 65px;
   object-fit: contain;
-  filter: invert(18%) sepia(95%) saturate(3000%) hue-rotate(215deg) brightness(90%) contrast(105%);
+  filter: invert(17%) sepia(90%) saturate(3000%) hue-rotate(211deg) brightness(95%) contrast(101%);
 }
 
 /* Card body */
 .cards-action .cards-action-card-body {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  width: 100%;
 }
 
-/* h3 — sans-serif, 24px, weight 400, dark text, centered */
+/* h3 — sans-serif, 24px, weight 400, blue text, centered */
 .cards-action .cards-action-card-body h3 {
   font-family: var(--body-font-family);
   font-size: 24px;
   font-weight: 400;
-  color: var(--text-color);
+  color: var(--link-color);
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   line-height: 1.25;
 }
 
-/* Paragraphs — 18px, centered */
+/* Paragraphs — 18px, dark text, centered */
 .cards-action .cards-action-card-body p {
   font-size: var(--body-font-size-m);
   color: var(--text-color);
   text-align: center;
   line-height: 1.6;
+  margin-bottom: 20px;
 }
 
-/* Bold labels ("Select a service:", "ZIP Code") */
-.cards-action .cards-action-card-body p strong {
-  font-weight: 700;
+/* Push CTA to bottom of card */
+.cards-action .cards-action-card-body p:last-child {
+  margin-top: auto;
+  width: 100%;
 }
 
-/* Inner list — styled as dropdown/select appearance */
-.cards-action .cards-action-card-body ul {
-  list-style: none;
-  margin: 0 0 16px;
-  padding: 8px;
-  border: 1px solid rgb(128 128 128);
-  border-radius: 4px;
-  font-size: 16px;
-  max-height: 39px;
-  overflow: hidden;
-  position: relative;
-  text-align: left;
-}
-
-.cards-action .cards-action-card-body ul li {
-  padding: 4px 0;
-  line-height: 1.4;
-}
-
-.cards-action .cards-action-card-body ul li:first-child {
-  font-weight: 400;
-}
-
-.cards-action .cards-action-card-body ul li:not(:first-child) {
-  display: none;
-}
-
-/* Italic placeholder text */
-.cards-action .cards-action-card-body p em {
-  font-style: italic;
-  color: rgb(128 128 128);
-  font-size: 16px;
-}
-
-/* CTA links — outlined button style */
+/* CTA links — outlined button style, full width */
 main .cards-action .cards-action-card-body p a:any-link {
   display: inline-block;
   border: 1px solid var(--link-color);
@@ -107,11 +84,12 @@ main .cards-action .cards-action-card-body p a:any-link {
   color: var(--link-color);
   font-size: var(--body-font-size-m);
   font-weight: 400;
-  padding: 9px 16px;
+  padding: 9px 11px;
   text-decoration: none;
   text-align: center;
   width: 100%;
   box-sizing: border-box;
+  line-height: 1;
 }
 
 main .cards-action .cards-action-card-body p a:hover {
@@ -122,14 +100,14 @@ main .cards-action .cards-action-card-body p a:hover {
 /* Desktop: 3 cards side by side */
 @media (width >= 900px) {
   .cards-action > ul {
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
     gap: 0;
   }
 
   .cards-action > ul > li {
-    flex: 1;
-    max-width: 33.333%;
-    padding: 20px 36px;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    padding: 0 15px;
   }
 }

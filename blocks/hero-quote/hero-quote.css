@@ -14,7 +14,7 @@ main > .section.hero-quote-container {
   position: relative;
   background-color: var(--vibrant-blue);
   color: #fff;
-  padding: 30px 20px;
+  padding: 0;
   min-height: 300px;
   overflow: hidden;
 }
@@ -26,44 +26,43 @@ main > .section.hero-quote-container {
 .hero-quote h4,
 .hero-quote h5,
 .hero-quote h6,
-.hero-quote p,
 .hero-quote li,
 .hero-quote em,
 .hero-quote strong {
   color: #fff;
 }
 
-/* h1: serif, 36px, weight 500 */
+/* h1: serif, 36px mobile, weight 400 */
 .hero-quote h1 {
   font-family: var(--heading-font-family);
   font-size: 36px;
-  font-weight: 500;
-  line-height: 1.1;
-  margin-bottom: 25px;
-}
-
-/* h2: sans-serif subtitle */
-.hero-quote h2 {
-  font-family: var(--body-font-family);
-  font-size: 24px;
   font-weight: 400;
-  line-height: 1.4;
-  margin-bottom: 25px;
+  line-height: 1.1;
+  margin-bottom: 5px;
 }
 
 /* paragraph text */
+/* stylelint-disable-next-line no-descending-specificity */
 .hero-quote p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+/* "Get a quote for:" / "Insurance type" label */
+.hero-quote > div:nth-child(2) > div > p:first-of-type {
+  font-family: var(--body-font-family);
   font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 26px;
+  font-weight: 400;
+  margin-bottom: 5px;
 }
 
 /* links inside hero: white, no underline */
 .hero-quote a:any-link {
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
-  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  font-size: 14px;
 }
 
 .hero-quote a:hover {
@@ -71,11 +70,36 @@ main > .section.hero-quote-container {
   text-decoration: underline;
 }
 
-/* "Start your quote" CTA button - p:nth-of-type(4) in content cell */
-.hero-quote > div:nth-child(2) > div > p:nth-of-type(4) a:any-link {
+/* EDS button reset for hero links */
+main .hero-quote .button-container {
+  display: inline;
+}
+
+main .hero-quote a.button:any-link {
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  white-space: normal;
+}
+
+main .hero-quote a.button:hover {
+  color: #fff;
+  text-decoration: underline;
+  background: none;
+}
+
+/* "Start your quote" CTA button - first link in content cell */
+.hero-quote > div:nth-child(2) > div > p:nth-of-type(3) a:any-link,
+main .hero-quote > div:nth-child(2) > div > p:nth-of-type(3) a.button:any-link {
   display: inline-block;
-  background-color: rgb(140 200 233);
-  color: rgb(20 27 77);
+  background-color: rgb(110 206 178);
+  color: rgb(23 23 23);
   text-decoration: none;
   padding: 9px 11px;
   border-radius: 4px;
@@ -83,58 +107,11 @@ main > .section.hero-quote-container {
   font-weight: 400;
 }
 
-.hero-quote > div:nth-child(2) > div > p:nth-of-type(4) a:hover {
-  background-color: rgb(120 185 218);
-  color: rgb(20 27 77);
+.hero-quote > div:nth-child(2) > div > p:nth-of-type(3) a:hover,
+main .hero-quote > div:nth-child(2) > div > p:nth-of-type(3) a.button:hover {
+  background-color: rgb(90 186 158);
+  color: rgb(23 23 23);
   text-decoration: none;
-}
-
-/* image row: positioned as background overlay */
-.hero-quote > div:first-child {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-}
-
-.hero-quote > div:first-child > div {
-  height: 100%;
-}
-
-.hero-quote > div:first-child picture {
-  display: block;
-  height: 100%;
-}
-
-.hero-quote > div:first-child img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center top;
-}
-
-/* caption below image: hide on mobile, show on desktop */
-.hero-quote > div:first-child > div > p:last-child {
-  display: none;
-}
-
-/* content row: positioned above the image */
-/* stylelint-disable-next-line no-descending-specificity */
-.hero-quote > div:nth-child(2) {
-  position: relative;
-  z-index: 1;
-}
-
-.hero-quote > div:nth-child(2) > div {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* "Insurance type" label */
-.hero-quote > div:nth-child(2) > div > p:nth-of-type(2) {
-  font-size: 14px;
-  font-weight: 700;
-  margin-bottom: 8px;
 }
 
 /* insurance type list: display as horizontal wrapping pills */
@@ -156,93 +133,127 @@ main > .section.hero-quote-container {
   cursor: pointer;
 }
 
-/* ZIP code field row */
-.hero-quote > div:nth-child(2) > div > p:nth-of-type(3) {
-  font-size: 16px;
-  margin-bottom: 12px;
+.hero-quote ul li:hover {
+  background-color: rgb(255 255 255 / 25%);
 }
 
-/* alert/banner row at bottom (content after block rows) */
+/* ZIP code field row */
+.hero-quote > div:nth-child(2) > div > p:nth-of-type(2) {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+/* image row: hidden on mobile, shown on desktop */
+.hero-quote > div:first-child {
+  display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero-quote > div:first-child > div {
+  height: 100%;
+}
+
+.hero-quote > div:first-child picture {
+  display: block;
+  height: 100%;
+  margin: 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.hero-quote > div:first-child p {
+  display: block;
+  height: 100%;
+  margin: 0;
+}
+
+.hero-quote > div:first-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
+
+/* content row: positioned above the image */
+/* stylelint-disable-next-line no-descending-specificity */
+.hero-quote > div:nth-child(2) {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
+
+.hero-quote > div:nth-child(2) > div {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* hide extra content that shouldn't display */
 /* stylelint-disable-next-line no-descending-specificity */
 .hero-quote > p {
   display: none;
 }
 
-/* no-image variant: dark text on white bg */
+/* no-image variant: just blue bg, content only */
 .hero-quote.no-image {
-  background-color: var(--background-color);
+  background-color: var(--vibrant-blue);
 }
-
-/* stylelint-disable no-descending-specificity */
-.hero-quote.no-image h1,
-.hero-quote.no-image h2,
-.hero-quote.no-image h3,
-.hero-quote.no-image p,
-.hero-quote.no-image li,
-.hero-quote.no-image em,
-.hero-quote.no-image strong {
-  color: var(--text-color);
-}
-
-.hero-quote.no-image a:any-link {
-  color: var(--link-color);
-}
-/* stylelint-enable no-descending-specificity */
 
 @media (width >= 900px) {
   .hero-quote {
-    padding: 0;
-    min-height: 450px;
+    min-height: 385px;
     display: flex;
     align-items: stretch;
   }
 
-  /* Content row takes up 55% of block width */
+  .hero-quote h1 {
+    font-size: 48px;
+    line-height: 1.1;
+  }
+
+  /* Content row takes up ~75% of block width */
+  /* stylelint-disable-next-line no-descending-specificity */
   .hero-quote > div:nth-child(2) {
-    flex: 1 1 55%;
-    max-width: 55%;
+    flex: 1 1 75%;
+    max-width: 75%;
+    padding: 20px 40px 32px 20px;
   }
 
   .hero-quote > div:nth-child(2) > div {
     max-width: 100%;
-    padding: 30px 40px 30px 20px;
   }
 
-  /* Image row takes the right 45% */
+  /* Image row takes the right ~25% */
   /* stylelint-disable-next-line no-descending-specificity */
   .hero-quote > div:first-child {
+    display: block;
     position: absolute;
     inset: 0;
     left: auto;
-    width: 45%;
+    width: 25%;
   }
 
-  .hero-quote > div:first-child picture {
+  .hero-quote > div:first-child > div {
     position: absolute;
     inset: 0;
-    width: 100%;
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  .hero-quote > div:first-child p {
+    position: absolute;
+    inset: 0;
   }
 
   .hero-quote > div:first-child img {
     object-position: 50% 50%;
   }
-
-  /* show caption on desktop */
-  .hero-quote > div:first-child > div > p:last-child {
-    display: block;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    font-size: 12px;
-    font-style: italic;
-    color: rgb(255 255 255 / 80%);
-    z-index: 2;
-    margin-bottom: 0;
-  }
 }
 
 @media (width >= 1200px) {
-  .hero-quote > div:nth-child(2) > div {
-    padding: 30px 40px 30px 120px;
+  /* stylelint-disable-next-line no-descending-specificity */
+  .hero-quote > div:nth-child(2) {
+    padding: 20px 40px 32px;
   }
 }

@@ -1,26 +1,8 @@
-/* eslint-disable */
 var CustomImportScript = (() => {
   var __defProp = Object.defineProperty;
-  var __defProps = Object.defineProperties;
   var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-  var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
   var __getOwnPropNames = Object.getOwnPropertyNames;
-  var __getOwnPropSymbols = Object.getOwnPropertySymbols;
   var __hasOwnProp = Object.prototype.hasOwnProperty;
-  var __propIsEnum = Object.prototype.propertyIsEnumerable;
-  var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
-  var __spreadValues = (a, b) => {
-    for (var prop in b || (b = {}))
-      if (__hasOwnProp.call(b, prop))
-        __defNormalProp(a, prop, b[prop]);
-    if (__getOwnPropSymbols)
-      for (var prop of __getOwnPropSymbols(b)) {
-        if (__propIsEnum.call(b, prop))
-          __defNormalProp(a, prop, b[prop]);
-      }
-    return a;
-  };
-  var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
   var __export = (target, all) => {
     for (var name in all)
       __defProp(target, name, { get: all[name], enumerable: true });
@@ -227,8 +209,7 @@ var CustomImportScript = (() => {
     return [icon || "", textCell];
   }
   function buildHomepageCard(cardEl, document) {
-    var _a;
-    const headingText = (((_a = cardEl.querySelector("h1, h2, h3, h4, h5, h6")) == null ? void 0 : _a.textContent) || "").trim();
+    const headingText = (cardEl.querySelector("h1, h2, h3, h4, h5, h6")?.textContent || "").trim();
     const ICON_BY_HEADING = {
       "No login required": { alt: "house icon", src: "./images/house.svg" },
       "Find a local agent": { alt: "pin icon", src: "./images/pin.svg" },
@@ -344,7 +325,7 @@ var CustomImportScript = (() => {
   function buildHomepageTileRow(tileAnchor, document) {
     const href = tileAnchor.getAttribute("href") || "#";
     const headingEl = tileAnchor.querySelector('h2, h3, [class*="subheader"]');
-    const headingText = ((headingEl == null ? void 0 : headingEl.textContent) || "").trim();
+    const headingText = (headingEl?.textContent || "").trim();
     const imageWrapper = tileAnchor.querySelector(".nw-tile-block__image");
     let imageCell = "";
     const localSrc = TILE_IMAGE_BY_HEADING[headingText];
@@ -354,7 +335,7 @@ var CustomImportScript = (() => {
       img.setAttribute("alt", headingText);
       imageCell = img;
     } else {
-      const existingImg = (imageWrapper == null ? void 0 : imageWrapper.querySelector("img")) || tileAnchor.querySelector("img");
+      const existingImg = imageWrapper?.querySelector("img") || tileAnchor.querySelector("img");
       if (existingImg) {
         if (!existingImg.getAttribute("alt") && headingText) existingImg.setAttribute("alt", headingText);
         imageCell = existingImg;
@@ -384,7 +365,7 @@ var CustomImportScript = (() => {
     const href = anchor ? anchor.getAttribute("href") || "#" : "#";
     const img = tileEl.querySelector("img");
     const heading = tileEl.querySelector("h2, h3, h4, h5, h6");
-    const headingText = ((heading == null ? void 0 : heading.textContent) || "").trim();
+    const headingText = (heading?.textContent || "").trim();
     let imageCell = "";
     if (img) {
       if (!img.getAttribute("alt") && headingText) img.setAttribute("alt", headingText);
@@ -405,6 +386,15 @@ var CustomImportScript = (() => {
       link.textContent = anchor.textContent.trim() || href;
       p.appendChild(link);
       textCell.push(p);
+    }
+    const desc = tileEl.querySelector("p");
+    if (desc) {
+      const descText = desc.textContent.trim();
+      if (descText && descText !== headingText) {
+        const para = document.createElement("p");
+        para.textContent = descText;
+        textCell.push(para);
+      }
     }
     return [imageCell, textCell];
   }
@@ -646,7 +636,7 @@ var CustomImportScript = (() => {
   function parse8(element, { document }) {
     const scope = element.querySelector("section.nw-cta-small, .nw-cta-small") || element;
     const headlineStrongEl = scope.querySelector(".nw-cta-small__text strong");
-    const headlineText = ((headlineStrongEl == null ? void 0 : headlineStrongEl.textContent) || "").replace(/ /g, " ").trim();
+    const headlineText = (headlineStrongEl?.textContent || "").replace(/ /g, " ").trim();
     const iconInfo = CTA_ICON_BY_HEADLINE[headlineText];
     let icon = null;
     if (iconInfo) {
@@ -776,6 +766,28 @@ var CustomImportScript = (() => {
         if (el) return el;
       } catch (e) {
       }
+      const fallback = sel.replace(/#p\d+/g, "");
+      if (fallback && fallback !== sel) {
+        try {
+          const el = root.querySelector(fallback);
+          if (el) return el;
+        } catch (e) {
+        }
+      }
+    }
+    return null;
+  }
+  function findSectionByBlockSelector(root, section, template) {
+    if (!section.blocks || section.blocks.length === 0) return null;
+    const blockName = section.blocks[0];
+    const blockDef = (template.blocks || []).find((b) => b.name === blockName);
+    if (!blockDef || !blockDef.instances) return null;
+    for (const inst of blockDef.instances) {
+      try {
+        const el = root.querySelector(inst);
+        if (el) return el;
+      } catch (e) {
+      }
     }
     return null;
   }
@@ -783,12 +795,20 @@ var CustomImportScript = (() => {
     if (hookName === TransformHook2.beforeTransform) {
       const template = payload && payload.template;
       const sections = template && Array.isArray(template.sections) ? template.sections : [];
+      console.log(`[sections-transformer] sections count: ${sections.length}`);
       if (sections.length < 2) return;
       const doc = element.ownerDocument;
       for (let i = sections.length - 1; i >= 0; i -= 1) {
         const section = sections[i];
-        const sectionEl = findSectionElement(element, section.selector);
-        if (!sectionEl) continue;
+        let sectionEl = findSectionElement(element, section.selector);
+        if (!sectionEl) {
+          sectionEl = findSectionByBlockSelector(element, section, template);
+        }
+        if (!sectionEl) {
+          console.log(`[sections-transformer] MISS section ${section.id} \u2014 selector: ${JSON.stringify(section.selector)}, blocks: ${JSON.stringify(section.blocks)}`);
+          continue;
+        }
+        console.log(`[sections-transformer] HIT section ${section.id}`);
         if (section.style) {
           const metadataBlock = WebImporter.Blocks.createBlock(doc, {
             name: "Section Metadata",
@@ -821,7 +841,22 @@ var CustomImportScript = (() => {
       { name: "accordion-faq", instances: [".nw-accordion"] },
       { name: "columns-cta", instances: [".nw-small-cta"] }
     ],
-    sections: []
+    sections: [
+      { id: "section-1-hero", selector: "#p38136.nw-banner2", style: "dark-blue", blocks: ["hero-quote"] },
+      { id: "section-2-intro", selector: "#p38848.rtc-component", style: null, blocks: ["columns-video"] },
+      { id: "section-3-coverages", selector: "#p44958.nw-multi-option-promo", style: null, blocks: ["cards-action"] },
+      { id: "section-4-usage-programs", selector: "#p37552.nw-container", style: null, blocks: ["cards-tile"] },
+      { id: "section-5-state-requirements", selector: "#p40928.rtc-component", style: null, blocks: [] },
+      { id: "section-6-banner-control", selector: "#p37116.nw-banner-inpage", style: null, blocks: ["columns-banner"] },
+      { id: "section-7-bundling", selector: ["#p44708.rtc-component", "#p42025.rtc-component"], style: null, blocks: [] },
+      { id: "section-8-coverages-list", selector: "#p43606.rtc-component", style: "grey", blocks: ["columns-info"] },
+      { id: "section-9-faq", selector: "#p36671", style: null, blocks: ["accordion-faq"] },
+      { id: "section-10-classic-cta", selector: "#p45385.nw-small-cta", style: null, blocks: ["columns-cta"] },
+      { id: "section-11-banner-claims", selector: "#p37254.nw-banner-inpage", style: null, blocks: ["columns-banner"] },
+      { id: "section-12-terminology", selector: "#p42591.rtc-component", style: null, blocks: ["columns-info"] },
+      { id: "section-13-resources", selector: "#p38585.nw-bg-gray-pale-25", style: "grey", blocks: ["cards-tile"] },
+      { id: "section-14-disclaimers", selector: "#p39172.rtc-component", style: null, blocks: [] }
+    ]
   };
   var parsers = {
     "hero-quote": parse,
@@ -838,9 +873,10 @@ var CustomImportScript = (() => {
     ...PAGE_TEMPLATE.sections && PAGE_TEMPLATE.sections.length > 1 ? [transform2] : []
   ];
   function executeTransformers(hookName, element, payload) {
-    const enhancedPayload = __spreadProps(__spreadValues({}, payload), {
+    const enhancedPayload = {
+      ...payload,
       template: PAGE_TEMPLATE
-    });
+    };
     transformers.forEach((transformerFn) => {
       try {
         transformerFn.call(null, hookName, element, enhancedPayload);

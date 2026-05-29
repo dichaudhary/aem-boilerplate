@@ -31,7 +31,22 @@ const PAGE_TEMPLATE = {
     { name: 'accordion-faq', instances: ['.nw-accordion'] },
     { name: 'columns-cta', instances: ['.nw-small-cta'] },
   ],
-  sections: [],
+  sections: [
+    { id: 'section-1-hero', selector: '#p38136.nw-banner2', style: 'dark-blue', blocks: ['hero-quote'] },
+    { id: 'section-2-intro', selector: '#p38848.rtc-component', style: null, blocks: ['columns-video'] },
+    { id: 'section-3-coverages', selector: '#p44958.nw-multi-option-promo', style: null, blocks: ['cards-action'] },
+    { id: 'section-4-usage-programs', selector: '#p37552.nw-container', style: null, blocks: ['cards-tile'] },
+    { id: 'section-5-state-requirements', selector: '#p40928.rtc-component', style: null, blocks: [] },
+    { id: 'section-6-banner-control', selector: '#p37116.nw-banner-inpage', style: null, blocks: ['columns-banner'] },
+    { id: 'section-7-bundling', selector: ['#p44708.rtc-component', '#p42025.rtc-component'], style: null, blocks: [] },
+    { id: 'section-8-coverages-list', selector: '#p43606.rtc-component', style: 'grey', blocks: ['columns-info'] },
+    { id: 'section-9-faq', selector: '#p36671', style: null, blocks: ['accordion-faq'] },
+    { id: 'section-10-classic-cta', selector: '#p45385.nw-small-cta', style: null, blocks: ['columns-cta'] },
+    { id: 'section-11-banner-claims', selector: '#p37254.nw-banner-inpage', style: null, blocks: ['columns-banner'] },
+    { id: 'section-12-terminology', selector: '#p42591.rtc-component', style: null, blocks: ['columns-info'] },
+    { id: 'section-13-resources', selector: '#p38585.nw-bg-gray-pale-25', style: 'grey', blocks: ['cards-tile'] },
+    { id: 'section-14-disclaimers', selector: '#p39172.rtc-component', style: null, blocks: [] },
+  ],
 };
 
 // PARSER REGISTRY

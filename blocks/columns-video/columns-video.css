@@ -1,33 +1,94 @@
+/* Block: columns-video -- Two-column layout: video embed on left, text on right
+   Source: nationwide.com/personal/insurance/auto/ video section
+   Layout: Foundation grid large-6 (50/50), flex row wrap, max-width 1200px */
+
+/* Mobile-first: stacked layout */
 .columns-video > div {
   display: flex;
-  flex-direction: column;
-}
-
-.columns-video img {
-  width: 100%;
+  flex-flow: column wrap;
+  padding: 10px 0;
 }
 
 .columns-video > div > div {
-  order: 1;
+  padding: 0;
 }
 
-.columns-video > div > .columns-video-img-col {
-  order: 0;
+/* Video embed cell */
+.columns-video > div > .columns-video-embed-col {
+  margin-bottom: 20px;
 }
 
-.columns-video > div > .columns-video-img-col img {
+/* Video embed wrapper - 16:9 aspect ratio container */
+.columns-video .columns-video-embed {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (320.625/570) */
+  overflow: hidden;
+}
+
+.columns-video .columns-video-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Fallback for when JS hasn't converted the link yet */
+.columns-video > div > div:first-child .button-container {
   display: block;
 }
 
+.columns-video > div > div:first-child a.button:any-link {
+  display: block;
+  background: none;
+  color: var(--link-color);
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  text-decoration: underline;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+
+/* Text cell - padding handled by media query */
+
+.columns-video h3 {
+  font-size: var(--heading-font-size-l);
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--link-color);
+  margin: 0 0 5px;
+  font-family: var(--body-font-family);
+}
+
+.columns-video p {
+  font-size: var(--body-font-size-m);
+  line-height: 1.6;
+  color: var(--text-color);
+  margin: 0 0 26px;
+}
+
+.columns-video p:last-child {
+  margin-bottom: 0;
+}
+
+/* Desktop: side-by-side 50/50 layout */
 @media (width >= 900px) {
   .columns-video > div {
-    align-items: center;
-    flex-direction: unset;
-    gap: 24px;
+    flex-flow: row wrap;
+    align-items: flex-start;
   }
 
   .columns-video > div > div {
-    flex: 1;
-    order: unset;
+    flex: 0 0 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+
+  .columns-video > div > .columns-video-embed-col {
+    margin-bottom: 0;
   }
 }

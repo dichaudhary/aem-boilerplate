@@ -1,33 +1,85 @@
+/* columns-info block - two-column text information layout */
+
+/* Row: stacks on mobile, side-by-side on desktop */
 .columns-info > div {
   display: flex;
   flex-direction: column;
+  padding: 10px 0;
 }
 
-.columns-info img {
-  width: 100%;
-}
-
+/* Cells: full width on mobile */
 .columns-info > div > div {
   order: 1;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 
+/* Image column ordering (from JS decoration) */
 .columns-info > div > .columns-info-img-col {
   order: 0;
 }
 
 .columns-info > div > .columns-info-img-col img {
   display: block;
+  width: 100%;
 }
 
+/* H3 headings inside cells */
+.columns-info h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-family: var(--body-font-family);
+}
+
+/* H3 links (coverage type links) */
+.columns-info h3 a:any-link {
+  color: var(--link-color);
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.columns-info h3 a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Paragraphs inside cells */
+.columns-info p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+
+/* Links inside paragraphs */
+.columns-info p a:any-link {
+  color: var(--link-color);
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.columns-info p a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Desktop layout */
 @media (width >= 900px) {
   .columns-info > div {
-    align-items: center;
-    flex-direction: unset;
-    gap: 24px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    gap: 0;
   }
 
   .columns-info > div > div {
-    flex: 1;
+    flex: 0 0 50%;
     order: unset;
+    padding: 0 15px;
+    box-sizing: border-box;
   }
 }
