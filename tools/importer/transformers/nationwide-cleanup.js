@@ -41,20 +41,15 @@ export default function transform(hookName, element, payload) {
       'iframe[src*="doubleclick.net"]',
       'iframe[src*="demdex.net"]',
       'iframe.aamIframeLoaded',
+      '.owl-nav',
+      '.owl-dots',
+      '.owl-prev',
+      '.owl-next',
     ]);
   }
 
   if (hookName === TransformHook.afterTransform) {
     // Remove site chrome (non-authorable shell elements).
-    // Verified in cleaned.html:
-    //   line 4     <a class="nw-header__skip" href="#main-content"> Skip link
-    //   line 9     <input id="isPandP"> hidden app-state input
-    //   line 10    <input id="isNvit"> hidden app-state input
-    //   line 12    <bolt-header id="header"> global site header (includes
-    //              utility nav, search bar #yxt-SearchBar-input--search-bar-1,
-    //              mega-menu panels with bolt-button / bolt-icon)
-    //   line 1281  <footer id="p37659" class="nw-footer ..."> global footer
-    //              (logo, social, TRUSTe seal, legal copy block)
     WebImporter.DOMUtils.remove(element, [
       'bolt-header',
       '#header',
@@ -64,19 +59,31 @@ export default function transform(hookName, element, payload) {
       '.nw-header__skip',
       '#isPandP',
       '#isNvit',
-      // Residual tracking / embeds that may survive past beforeTransform.
       'script',
       'style',
       'noscript',
       'link',
       'meta',
-      // Safety: strip any hidden iframes not tied to authorable content.
       'iframe.ta-display-none',
+      // Sub-navigation overlays (product page dropdowns)
+      '.nw-subnav',
+      '.nw-sub-nav',
+      '.nw-banner2__subnav',
     ]);
 
-    // Strip tracking / analytics attributes from remaining elements so the
-    // imported markup stays clean. Leave id/class/href intact – parsers rely
-    // on those for selector matching.
+    // Remove junk text: loading indicators, close buttons, NFW disclaimer codes
+    // Note: some junk only becomes <p> after markdown conversion, so the import
+    // script also runs a final cleanup pass after WebImporter rules.
+    const junkPs = element.querySelectorAll('p');
+    for (let i = junkPs.length - 1; i >= 0; i -= 1) {
+      const p = junkPs[i];
+      const text = p.textContent.trim();
+      if (text === 'Loading...' || text === '×' || /^NFW-[\w.]+/.test(text)) {
+        if (p.parentNode) p.parentNode.removeChild(p);
+      }
+    }
+
+    // Strip tracking / analytics attributes from remaining elements.
     element.querySelectorAll('*').forEach((el) => {
       el.removeAttribute('onclick');
       el.removeAttribute('onload');

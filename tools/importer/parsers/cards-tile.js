@@ -2,14 +2,26 @@
 /* global WebImporter */
 /**
  * Parser for cards-tile variant.
- * Handles two source patterns:
- *   1. Homepage: section.nw-tile-block with a.nw-tile-block__tile items (background-image tiles)
- *   2. Insurance landing: .nw-content-promo with ul > li > a items (image + heading tiles)
- *      Also: section.nw-bg-gray-pale-25 with linked article cards
+ * Base block: cards
+ * Source: https://www.nationwide.com/personal/investing/annuities/
+ * Generated: 2026-06-01
+ *
+ * Handles three source patterns:
+ *   1. Investing pages: .nw-articles with .nw-articles__tile-container > a.nw-articles__tile
+ *      Each anchor wraps: div > img (thumbnail) + span.nw-articles__tile-title
+ *      Includes "see all" tile with class nw-articles__tile--seeall (no image)
+ *   2. Homepage: section.nw-tile-block with a.nw-tile-block__tile items (background-image tiles)
+ *   3. Insurance landing: .nw-content-promo with ul > li > a items (image + heading tiles)
  *
  * Target table structure:
  *   Row 1: block name ("cards-tile")
  *   Row 2..N: one row per tile, 2 columns — [image] | [linked heading]
+ *
+ * Selectors validated against:
+ *   - migration-work/block-context/cards-tile/source.html (.nw-articles pattern)
+ *   - page-templates.json instances:
+ *       "#main-content > div.nw-container"
+ *       "#main-content > section.nw-bg-white.nw-inner-bun--lg"
  */
 
 function extractBackgroundImageUrl(el) {
@@ -115,8 +127,71 @@ function buildInsuranceTileRow(tileEl, document) {
   return [imageCell, textCell];
 }
 
+function buildArticleTileRow(container, document) {
+  const anchor = container.tagName === 'A' ? container : container.querySelector('a.nw-articles__tile, a');
+  if (!anchor) return null;
+
+  const href = anchor.getAttribute('href') || '#';
+
+  // Extract the tile image (validated: div > img inside the anchor)
+  const img = anchor.querySelector('img');
+
+  // Extract the tile title from span.nw-articles__tile-title or fallback to any span
+  const titleSpan = anchor.querySelector('span.nw-articles__tile-title, span');
+  const titleText = titleSpan ? titleSpan.textContent.trim() : anchor.textContent.trim();
+
+  if (!titleText) return null;
+
+  // Build image cell (empty string if no image, e.g. "see all" tiles)
+  let imageCell = '';
+  if (img) {
+    if (!img.getAttribute('alt')) {
+      img.setAttribute('alt', titleText);
+    }
+    imageCell = img;
+  }
+
+  // Build content cell with linked heading
+  const textCell = [];
+  const p = document.createElement('p');
+  const link = document.createElement('a');
+  link.setAttribute('href', href);
+  link.textContent = titleText;
+  p.appendChild(link);
+  textCell.push(p);
+
+  return [imageCell, textCell];
+}
+
 export default function parse(element, { document }) {
-  // Pattern 1: Homepage — section.nw-tile-block with anchor tiles
+  // Pattern 1: Investing pages — .nw-articles with .nw-articles__tile-container tiles
+  // Validated selectors: .nw-articles__tile-container, a.nw-articles__tile, span.nw-articles__tile-title
+  const articleTileContainers = Array.from(element.querySelectorAll('.nw-articles__tile-container'));
+  if (articleTileContainers.length > 0) {
+    const cells = articleTileContainers
+      .map((container) => buildArticleTileRow(container, document))
+      .filter(Boolean);
+    if (cells.length > 0) {
+      const block = WebImporter.Blocks.createBlock(document, { name: 'cards-tile', cells });
+      element.replaceWith(block);
+      return;
+    }
+  }
+
+  // Pattern 1b: If element contains a.nw-articles__tile directly (fallback)
+  const articleTiles = Array.from(element.querySelectorAll('a.nw-articles__tile'));
+  if (articleTiles.length > 0) {
+    const cells = articleTiles
+      .map((anchor) => buildArticleTileRow(anchor, document))
+      .filter(Boolean);
+    if (cells.length > 0) {
+      const block = WebImporter.Blocks.createBlock(document, { name: 'cards-tile', cells });
+      element.replaceWith(block);
+      return;
+    }
+  }
+
+  // Pattern 2: Homepage — section.nw-tile-block with anchor tiles
   const tileAnchors = Array.from(element.querySelectorAll('a.nw-tile-block__tile'));
   if (tileAnchors.length > 0) {
     const cells = tileAnchors.map((tile) => buildHomepageTileRow(tile, document));
@@ -125,7 +200,7 @@ export default function parse(element, { document }) {
     return;
   }
 
-  // Pattern 2: Insurance — .nw-content-promo with ul > li > a items
+  // Pattern 3: Insurance — .nw-content-promo with ul > li > a items
   const contentPromo = element.querySelector('.nw-content-promo');
   if (contentPromo) {
     const items = Array.from(contentPromo.querySelectorAll('ul > li'));
@@ -137,22 +212,11 @@ export default function parse(element, { document }) {
     }
   }
 
-  // Pattern 3: Insurance — section.nw-bg-gray-pale-25 related resources grid
-  const resourceLinks = Array.from(element.querySelectorAll('.nw-content-promo a, .nw-tile-block__tile'));
-  if (resourceLinks.length === 0) {
-    // Try to find linked cards in grey background sections (related topics)
-    const linkedCards = Array.from(element.querySelectorAll('a[href]'))
-      .filter((a) => a.querySelector('img') || a.querySelector('h2, h3, h4, h5'));
-    if (linkedCards.length > 0) {
-      const cells = linkedCards.map((a) => buildInsuranceTileRow(a, document));
-      const block = WebImporter.Blocks.createBlock(document, { name: 'cards-tile', cells });
-      element.replaceWith(block);
-      return;
-    }
-  }
-
-  if (resourceLinks.length > 0) {
-    const cells = resourceLinks.map((a) => buildInsuranceTileRow(a, document));
+  // Pattern 4: Generic fallback — linked cards with image or heading
+  const linkedCards = Array.from(element.querySelectorAll('a[href]'))
+    .filter((a) => a.querySelector('img') || a.querySelector('h2, h3, h4, h5'));
+  if (linkedCards.length > 0) {
+    const cells = linkedCards.map((a) => buildInsuranceTileRow(a, document));
     const block = WebImporter.Blocks.createBlock(document, { name: 'cards-tile', cells });
     element.replaceWith(block);
   }

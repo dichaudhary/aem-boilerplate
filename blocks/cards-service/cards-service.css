@@ -1,0 +1,161 @@
+/* Cards Service - Icon + text list with side image */
+.cards-service {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 0;
+}
+
+/* Heading row */
+.cards-service .cards-service-heading {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.cards-service .cards-service-heading h2 {
+  font-size: 24px;
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  color: var(--text-color);
+  line-height: 30px;
+  margin: 0;
+}
+
+/* Service items - icon left, text right */
+.cards-service .cards-service-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 0;
+}
+
+/* Icon cell */
+.cards-service .cards-service-icon {
+  flex: 0 0 60px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+.cards-service .cards-service-icon picture {
+  display: block;
+  line-height: 0;
+}
+
+.cards-service .cards-service-icon img {
+  width: 59px;
+  height: 54px;
+  display: block;
+}
+
+/* Text content cell */
+.cards-service .cards-service-content {
+  margin-left: 20px;
+  display: block;
+  border: none;
+  overflow: visible;
+}
+
+.cards-service .cards-service-content p {
+  font-size: 18px;
+  font-family: var(--body-font-family);
+  color: var(--text-color);
+  line-height: 27px;
+  margin: 0 0 4px;
+  padding: 0;
+}
+
+.cards-service .cards-service-content p strong {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25.2px;
+}
+
+.cards-service .cards-service-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Last item with only image (no content cell) */
+.cards-service .cards-service-item:last-child {
+  margin-top: 10px;
+}
+
+.cards-service .cards-service-item:last-child .cards-service-icon {
+  flex: 1 1 auto;
+  padding-top: 0;
+}
+
+.cards-service .cards-service-item:last-child .cards-service-icon img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Reset EDS button styling inside cards */
+main .cards-service .button-container {
+  display: inline;
+}
+
+main .cards-service a.button:any-link {
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: var(--link-color);
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+  white-space: normal;
+  display: inline;
+}
+
+/* Desktop: two-column layout - items left, image right */
+@media (width >= 900px) {
+  .cards-service {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-right: 50%;
+  }
+
+  /* Heading full width of left column */
+  .cards-service .cards-service-heading {
+    width: 100%;
+  }
+
+  /* Service items in left column */
+  .cards-service .cards-service-item {
+    width: 100%;
+  }
+
+  /* Last item (image) positioned in right column */
+  .cards-service .cards-service-item:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    margin-top: 0;
+    padding: 0 0 0 15px;
+    box-sizing: border-box;
+  }
+
+  .cards-service .cards-service-item:last-child .cards-service-icon {
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+  }
+
+  .cards-service .cards-service-item:last-child .cards-service-icon picture {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .cards-service .cards-service-item:last-child .cards-service-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

@@ -4,12 +4,13 @@
  * Variants: image-left (default), image-right (text first, image second)
  *
  * Extracted source values (desktop @ 1280px):
- *   banner: bg rgb(244,244,245), full-width, margin-bottom 40px
- *   row: flex row wrap, max-width 1200px, centered
- *   img-col: flex 0 0 auto, width 300px, min-height 250px, cover/center-top
+ *   section: bg rgb(244,244,245) via .grey section
+ *   row: flex row wrap, max-width 1200px, centered, padding 10px 0
+ *   img-col: flex 0 0 300px, min-height 250px, object-fit cover, object-position center top
  *   text-col: flex 1 1 0, padding 20px 20px 20px 40px (or mirrored)
- *   h2: 32px/1.2, weight 400, color #171717, margin-bottom 5px
- *   p: 18px/1.6, weight 400, color #171717, margin-bottom 26px
+ *   h2: 32px/1.2, weight 400, color #171717, margin 20px 0
+ *   ul: 18px/1.75, color #171717, margin 0 0 10px 20px
+ *   p: 18px/1.75, weight 400, color #171717, margin-bottom 26px
  *   links (multi): inline, underline, color #0047bb
  *   CTA (single): inline-block, padding 9px 11px, border 1px solid #0047bb, radius 4px
  */
@@ -21,7 +22,6 @@
 
 .columns-banner {
   background-color: var(--light-color);
-  margin-bottom: 40px;
 }
 
 /* Row layout - mobile first (stacked) */
@@ -42,21 +42,35 @@
   font-family: var(--body-font-family);
   font-weight: 400;
   font-size: 24px;
-  line-height: 1.25;
+  line-height: 1.2;
   color: var(--text-color);
-  margin-bottom: 5px;
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 
 /* Paragraph styling */
 .columns-banner p {
   font-size: var(--body-font-size-m);
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.75;
   color: var(--text-color);
   margin-bottom: 26px;
 }
 
 .columns-banner p:last-child {
+  margin-bottom: 0;
+}
+
+/* List styling */
+.columns-banner ul {
+  font-size: var(--body-font-size-m);
+  line-height: 1.75;
+  color: var(--text-color);
+  margin: 0 0 10px 20px;
+  padding-left: 0;
+}
+
+.columns-banner li {
   margin-bottom: 0;
 }
 
@@ -200,5 +214,7 @@ main .columns-banner .columns-banner-cta p:last-child a.button:hover {
   .columns-banner h2 {
     font-size: 32px;
     line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }

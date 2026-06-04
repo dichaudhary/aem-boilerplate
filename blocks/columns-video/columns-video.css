@@ -1,11 +1,15 @@
 /* Block: columns-video -- Two-column layout: video embed on left, text on right
-   Source: nationwide.com/personal/insurance/auto/ video section
-   Layout: Foundation grid large-6 (50/50), flex row wrap, max-width 1200px */
+   Source: nationwide.com/personal/insurance/auto/ .nw-video-mediamanager
+   Layout: Foundation grid large-6 (50/50), flex row wrap
+   Extracted: container padding 0 15px, margin 0 0 10px, font-size 18px, line-height 27px
+              h3: 24px/30px, weight 400, color #0047bb, margin 0 0 5px
+              p: 18px/28.8px, weight 400, color #222, margin 0 0 26px
+              text-col: flex 0 0 50%, max-width 50%, padding 0 15px */
 
 /* Mobile-first: stacked layout */
 .columns-video > div {
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
   padding: 10px 0;
 }
 
@@ -52,8 +56,8 @@
   border-radius: 0;
 }
 
-/* Text cell - padding handled by media query */
-
+/* H3 - source: nw-heading-sm nw-fg-rebrand-vibrant-blue
+   24px, weight 400, line-height 30px (1.25), color #0047bb, margin 0 0 5px */
 .columns-video h3 {
   font-size: var(--heading-font-size-l);
   font-weight: 400;
@@ -63,6 +67,7 @@
   font-family: var(--body-font-family);
 }
 
+/* P - source: 18px, weight 400, line-height 28.8px (1.6), color #222, margin 0 0 26px */
 .columns-video p {
   font-size: var(--body-font-size-m);
   line-height: 1.6;
@@ -74,10 +79,11 @@
   margin-bottom: 0;
 }
 
-/* Desktop: side-by-side 50/50 layout */
+/* Desktop: side-by-side 50/50 layout
+   Source row: flex row wrap, columns flex 0 0 50%, max-width 50%, padding 0 15px */
 @media (width >= 900px) {
   .columns-video > div {
-    flex-flow: row wrap;
+    flex-direction: row;
     align-items: flex-start;
   }
 

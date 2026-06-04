@@ -1,0 +1,33 @@
+.columns-cta-light > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-cta-light img {
+  width: 100%;
+}
+
+.columns-cta-light > div > div {
+  order: 1;
+}
+
+.columns-cta-light > div > .columns-cta-light-img-col {
+  order: 0;
+}
+
+.columns-cta-light > div > .columns-cta-light-img-col img {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .columns-cta-light > div {
+    align-items: center;
+    flex-direction: unset;
+    gap: 24px;
+  }
+
+  .columns-cta-light > div > div {
+    flex: 1;
+    order: unset;
+  }
+}

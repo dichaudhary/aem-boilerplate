@@ -1,12 +1,13 @@
-/* cards-action block — Nationwide tri-promo style */
+/* cards-action block — Nationwide multi-option-promo style */
 
+/* First LI is often the section heading row (h2 only, no icon) — hide its bullet/marker */
 .cards-action > ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 0;
 }
 
 .cards-action > ul > li {
@@ -17,6 +18,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* Title-only row (first LI with heading but no icon) */
+.cards-action > ul > li:first-child .cards-action-card-body h2 {
+  font-family: var(--heading-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--link-color);
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.2;
 }
 
 /* Icon image — small centered icon */
@@ -51,6 +63,17 @@
 
 /* h3 — sans-serif, 24px, weight 400, blue text, centered */
 .cards-action .cards-action-card-body h3 {
+  font-family: var(--body-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--link-color);
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.25;
+}
+
+/* h5 — same style as h3 for "Explore our funds" cards */
+.cards-action .cards-action-card-body h5 {
   font-family: var(--body-font-family);
   font-size: 24px;
   font-weight: 400;
@@ -97,7 +120,7 @@ main .cards-action .cards-action-card-body p a:hover {
   text-decoration: none;
 }
 
-/* Desktop: 3 cards side by side */
+/* Desktop: 4 cards side by side */
 @media (width >= 900px) {
   .cards-action > ul {
     flex-flow: row wrap;
@@ -106,8 +129,14 @@ main .cards-action .cards-action-card-body p a:hover {
   }
 
   .cards-action > ul > li {
-    flex: 0 0 33.3333%;
-    max-width: 33.3333%;
+    flex: 0 0 25%;
+    max-width: 25%;
     padding: 0 15px;
+  }
+
+  /* Title row spans full width */
+  .cards-action > ul > li:first-child:has(.cards-action-card-body h2) {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }

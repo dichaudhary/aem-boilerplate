@@ -1,0 +1,148 @@
+/* hero-invest - Full-width banner with image and text content */
+
+/* Section: remove padding for full-bleed hero */
+main > .section.hero-invest-container {
+  padding: 0;
+}
+
+/* Wrapper: full width, no max-width constraint */
+.hero-invest-container .hero-invest-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+/* Block container */
+.hero-invest {
+  position: relative;
+  background-color: var(--vibrant-blue);
+  color: #fff;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: hidden;
+}
+
+/* All text white */
+.hero-invest h1,
+.hero-invest h2,
+.hero-invest h3,
+.hero-invest h4,
+.hero-invest h5,
+.hero-invest h6,
+.hero-invest p,
+.hero-invest a:any-link {
+  color: #fff;
+}
+
+/* Row 1: Image row */
+.hero-invest > div:first-child {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+/* Row 2: Content row */
+.hero-invest > div:nth-child(2) {
+  padding: 20px 24px 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* h1 styling */
+.hero-invest h1 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+/* Content cells spacing */
+.hero-invest > div:nth-child(2) > div {
+  margin-bottom: 0;
+}
+
+.hero-invest > div:nth-child(2) p {
+  margin-bottom: 0;
+}
+
+/* Image cell */
+.hero-invest > div:first-child > div {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-invest > div:first-child picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-invest > div:first-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* CTA link styled as button */
+main .hero-invest > div:nth-child(2) > div:last-child a:any-link,
+main .hero-invest a.button:any-link {
+  display: inline-block;
+  background-color: #6eceb2;
+  color: rgb(23 23 23);
+  padding: 9px 11px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  border: 1px solid transparent;
+  line-height: 1;
+}
+
+main .hero-invest > div:nth-child(2) > div:last-child a:hover,
+main .hero-invest a.button:hover {
+  background-color: #5bb89e;
+  color: rgb(23 23 23);
+}
+
+/* Desktop layout */
+@media (width >= 900px) {
+  .hero-invest {
+    flex-direction: row;
+    min-height: 398px;
+  }
+
+  /* Row 2 (content): appears on the left */
+  .hero-invest > div:nth-child(2) {
+    flex: 1 1 0;
+    padding: 20px 40px 32px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 1;
+    max-width: 75%;
+  }
+
+  /* Row 1 (image): appears on the right */
+  .hero-invest > div:first-child {
+    width: 25%;
+    min-width: 300px;
+    flex-shrink: 0;
+    height: auto;
+    position: relative;
+    order: 2;
+  }
+
+  .hero-invest > div:first-child > div {
+    position: absolute;
+    inset: 0;
+  }
+
+  .hero-invest h1 {
+    font-size: 48px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+}

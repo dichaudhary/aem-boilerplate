@@ -1,0 +1,84 @@
+/* cards-benefit block — benefit icons with text on vibrant-blue section */
+
+.cards-benefit {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 0;
+}
+
+/* Benefit card rows */
+.cards-benefit > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1 1 100%;
+}
+
+/* Title row (first row with h2 only, no icon) */
+.cards-benefit > div:first-child:has(h2) {
+  flex: 0 0 100%;
+}
+
+.cards-benefit > div:first-child h2 {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-xl);
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 8px;
+  line-height: 1.2;
+}
+
+/* Icon cell */
+.cards-benefit .cards-benefit-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.cards-benefit .cards-benefit-icon p {
+  margin: 0;
+}
+
+.cards-benefit .cards-benefit-icon img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+/* Content cell */
+.cards-benefit .cards-benefit-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards-benefit .cards-benefit-content h3 {
+  font-family: var(--body-font-family);
+  font-size: var(--heading-font-size-l);
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 12px;
+  line-height: 1.3;
+}
+
+.cards-benefit .cards-benefit-content p {
+  font-size: var(--body-font-size-m);
+  color: #fff;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Desktop: 3 cards in a row */
+@media (width >= 900px) {
+  .cards-benefit > div {
+    flex: 1 1 calc(33.333% - 22px);
+  }
+
+  /* Title row always full width */
+  .cards-benefit > div:first-child:has(h2) {
+    flex: 0 0 100%;
+  }
+}

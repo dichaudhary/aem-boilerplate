@@ -1,4 +1,4 @@
-/* columns-info block - two-column text information layout */
+/* columns-info block - two-column definition/info layout */
 
 /* Row: stacks on mobile, side-by-side on desktop */
 .columns-info > div {
@@ -24,9 +24,9 @@
   width: 100%;
 }
 
-/* H3 headings inside cells */
+/* H3 headings (term/label headings) */
 .columns-info h3 {
-  font-size: 18px;
+  font-size: var(--body-font-size-m);
   font-weight: 700;
   line-height: 1.4;
   color: var(--text-color);
@@ -46,9 +46,9 @@
   color: var(--link-hover-color);
 }
 
-/* Paragraphs inside cells */
+/* Paragraphs (definitions/descriptions) */
 .columns-info p {
-  font-size: 18px;
+  font-size: var(--body-font-size-m);
   font-weight: 400;
   line-height: 1.6;
   color: var(--text-color);
@@ -65,6 +65,27 @@
 
 .columns-info p a:hover {
   color: var(--link-hover-color);
+}
+
+/* Section intro heading style (default-content-wrapper sibling) */
+.columns-info-container .default-content-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.columns-info-container .default-content-wrapper h2 {
+  font-size: var(--heading-font-size-xl);
+  font-weight: 400;
+  font-family: var(--heading-font-family);
+  line-height: 1.2;
+  color: var(--link-color);
+  margin: 20px 0;
+}
+
+.columns-info-container .default-content-wrapper p {
+  font-size: var(--body-font-size-m);
+  line-height: 1.6;
+  color: var(--text-color);
 }
 
 /* Desktop layout */

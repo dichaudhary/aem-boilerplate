@@ -233,7 +233,8 @@ main .section.navy-blue a:any-link {
   color: #fff;
 }
 
-main .section.vibrant-blue {
+main .section.vibrant-blue,
+main .section.dark-blue {
   background-color: var(--vibrant-blue);
   color: #fff;
   padding: 40px 0;
@@ -242,6 +243,14 @@ main .section.vibrant-blue {
 main .section.vibrant-blue h1,
 main .section.vibrant-blue h2,
 main .section.vibrant-blue h3,
-main .section.vibrant-blue h4 {
+main .section.vibrant-blue h4,
+main .section.dark-blue h1,
+main .section.dark-blue h2,
+main .section.dark-blue h3,
+main .section.dark-blue h4 {
+  color: #fff;
+}
+
+main .section.dark-blue a:any-link {
   color: #fff;
 }

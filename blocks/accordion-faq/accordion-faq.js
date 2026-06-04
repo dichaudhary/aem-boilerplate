@@ -11,8 +11,12 @@ export default function decorate(block) {
     summary.className = 'accordion-faq-item-label';
     summary.append(...label.childNodes);
 
-    const body = row.children[1];
+    const body = document.createElement('div');
     body.className = 'accordion-faq-item-body';
+    // Merge all cells after the first into the body
+    [...row.children].slice(1).forEach((cell) => {
+      body.append(...cell.childNodes);
+    });
 
     const details = document.createElement('details');
     details.className = 'accordion-faq-item';

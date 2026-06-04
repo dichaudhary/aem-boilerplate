@@ -102,6 +102,6 @@ main .section.columns-cta-container {
   }
 
   .columns-cta > div > div:last-child p {
-    margin-right: 0;
+    margin-right: 6px;
   }
 }

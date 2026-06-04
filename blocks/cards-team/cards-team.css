@@ -1,0 +1,95 @@
+/* cards-team block - Team member profile cards
+   Source: nationwide.com/personal/investing/find-financial-professional
+   Extracted values: img 160x160 circular, name 24px blue #0047bb,
+   title 18px bold #222, quote 18px #222 lh 1.6 */
+
+/* Block container */
+.cards-team {
+  padding: 20px 0;
+}
+
+/* Team member items */
+.cards-team > .cards-team-item:not(:first-child) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 0;
+}
+
+/* Circular headshot images */
+.cards-team .cards-team-item:not(:first-child) .cards-team-image {
+  margin-bottom: 10px;
+}
+
+.cards-team .cards-team-image picture {
+  display: block;
+  line-height: 0;
+}
+
+.cards-team .cards-team-item:not(:first-child) .cards-team-image img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Text content area */
+.cards-team .cards-team-content h3 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: var(--body-font-family);
+  color: var(--link-color);
+  margin: 0 0 5px;
+  line-height: 1.25;
+}
+
+.cards-team .cards-team-content p {
+  font-size: var(--body-font-size-m);
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0 0 8px;
+}
+
+.cards-team .cards-team-content p:last-child {
+  margin-bottom: 0;
+}
+
+.cards-team .cards-team-content p strong {
+  font-weight: 700;
+}
+
+/* First item: section intro heading (has only one cell) */
+.cards-team > .cards-team-item:first-child {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cards-team > .cards-team-item:first-child h3 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: var(--body-font-family);
+  color: var(--text-color);
+  line-height: 1.25;
+  margin: 0 0 5px;
+}
+
+/* Desktop: 3-column grid layout */
+@media (width >= 900px) {
+  .cards-team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 32px;
+    padding: 20px 0;
+  }
+
+  /* Heading spans all columns */
+  .cards-team > .cards-team-item:first-child {
+    grid-column: 1 / -1;
+    margin-bottom: 10px;
+  }
+
+  /* Team member cards fill grid cells */
+  .cards-team > .cards-team-item:not(:first-child) {
+    padding: 10px;
+  }
+}

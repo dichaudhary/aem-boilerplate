@@ -1,0 +1,148 @@
+/* columns-promo: promotional two-column block on vibrant blue background */
+
+/* Block container */
+.columns-promo {
+  color: #fff;
+}
+
+/* Paragraphs */
+.columns-promo p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Row layout - stacked on mobile */
+.columns-promo > div {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Intro text above heading */
+.columns-promo > div > div:first-child p:first-child {
+  font-size: var(--body-font-size-m);
+  font-weight: 400;
+  margin-bottom: 4px;
+  line-height: 1.4;
+  color: #fff;
+}
+
+/* Serif heading */
+.columns-promo > div > div:first-child h3 {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: var(--heading-font-family);
+  color: #fff;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.columns-promo > div > div:first-child h2 {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: var(--heading-font-family);
+  color: #fff;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+/* Checkmark list */
+.columns-promo ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.columns-promo ul li {
+  font-size: var(--body-font-size-m);
+  padding: 6px 0;
+  padding-left: 32px;
+  position: relative;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.columns-promo ul li::before {
+  content: "\2714";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  background-color: #003da1;
+  font-size: 13px;
+  color: #fff;
+}
+
+/* Links */
+main .columns-promo a:any-link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+main .columns-promo a:hover {
+  color: #e6e6e6;
+}
+
+/* Button reset for EDS auto-decoration */
+main .columns-promo a.button:any-link {
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+  white-space: normal;
+}
+
+/* Image column - centered content */
+.columns-promo > div > div:last-child {
+  text-align: center;
+}
+
+.columns-promo > div > div:last-child img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.columns-promo > div > div:last-child p:last-child {
+  font-size: var(--body-font-size-s);
+  margin-top: 12px;
+  line-height: 1.4;
+  color: #fff;
+}
+
+/* Desktop: side-by-side columns */
+@media (width >= 900px) {
+  .columns-promo > div {
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .columns-promo > div > div:first-child {
+    flex: 1 1 60%;
+  }
+
+  .columns-promo > div > div:last-child {
+    flex: 0 0 auto;
+  }
+
+  .columns-promo > div > div:first-child p:first-child {
+    font-size: 20px;
+  }
+
+  .columns-promo > div > div:first-child h3,
+  .columns-promo > div > div:first-child h2 {
+    font-size: 36px;
+  }
+}

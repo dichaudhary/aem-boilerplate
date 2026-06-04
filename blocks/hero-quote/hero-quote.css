@@ -3,6 +3,11 @@ main > .section.hero-quote-container {
   padding: 0;
 }
 
+/* hide default-content-wrapper in hero section (imported nav/junk) */
+main > .section.hero-quote-container > .default-content-wrapper {
+  display: none;
+}
+
 /* hero-quote wrapper: full-width, no max-width constraint */
 .hero-quote-container .hero-quote-wrapper {
   max-width: unset;

@@ -1,0 +1,12 @@
+{
+  "variantName": "cards-feature",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-02T12:40:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/personal/investing/",
+    "originPage": "Nationwide investing landing page",
+    "blockPosition": "upper"
+  },
+  "description": "Feature promo cards with image, linked title, and description paragraph. Used for bolt-tile web components on investing pages."
+}

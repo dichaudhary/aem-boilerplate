@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-lifecycle",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-02T09:43:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/personal/investing/ssc-retirement-plans",
+    "originPage": "Nationwide retirement plans product page",
+    "blockPosition": "upper-middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "grey",
+    "density": "spacious",
+    "purpose": "lifecycle-nav",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "circular image + linked text label",
+    "buttonCount": 0,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "lifecycle stage navigation cards (getting started, saving, retiring)",
+      "circular image cards with linked labels on grey background",
+      "navigation cards with minimal text and prominent round images"
+    ],
+    "notSuitableFor": [
+      "icon-based action cards with descriptions and buttons",
+      "image tiles with overlay text",
+      "cards requiring body copy paragraphs"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/personal/investing/ssc-retirement-plans"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-02T09:43:00.000Z"
+  }
+}

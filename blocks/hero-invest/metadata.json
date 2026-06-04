@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-invest",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-06-02T09:43:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/personal/investing/ssc-retirement-plans",
+    "originPage": "Nationwide retirement plans product page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "wide",
+    "purpose": "product-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + paragraph + button + inline links",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "investing and retirement product landing pages",
+      "hero banners with side image and enrollment/action CTAs",
+      "product pages with heading + description + primary button + secondary links"
+    ],
+    "notSuitableFor": [
+      "heroes with quote/form controls (use hero-quote instead)",
+      "plain text heroes with no image",
+      "heroes requiring multiple primary buttons"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/personal/investing/ssc-retirement-plans"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-02T09:43:00.000Z"
+  }
+}

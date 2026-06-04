@@ -753,75 +753,37 @@ var CustomImportScript = (() => {
   }
 
   // tools/importer/transformers/nationwide-sections.js
-  var TransformHook2 = {
-    beforeTransform: "beforeTransform",
-    afterTransform: "afterTransform"
-  };
-  function findSectionElement(root, selector) {
-    const selectors = Array.isArray(selector) ? selector : [selector];
-    for (const sel of selectors) {
-      if (!sel) continue;
-      try {
-        const el = root.querySelector(sel);
-        if (el) return el;
-      } catch (e) {
-      }
-      const fallback = sel.replace(/#p\d+/g, "");
-      if (fallback && fallback !== sel) {
+  function transform2(hookName, element, payload) {
+    if (hookName !== "beforeTransform") return;
+    const template = payload && payload.template;
+    const sections = template && Array.isArray(template.sections) ? template.sections : [];
+    if (sections.length < 2) return;
+    const doc = element.ownerDocument;
+    for (let i = sections.length - 1; i >= 0; i -= 1) {
+      const section = sections[i];
+      const selectors = Array.isArray(section.selector) ? section.selector : [section.selector];
+      let sectionEl = null;
+      for (const sel of selectors) {
+        if (!sel) continue;
         try {
-          const el = root.querySelector(fallback);
-          if (el) return el;
+          sectionEl = element.querySelector(sel);
+          if (sectionEl) break;
         } catch (e) {
         }
       }
-    }
-    return null;
-  }
-  function findSectionByBlockSelector(root, section, template) {
-    if (!section.blocks || section.blocks.length === 0) return null;
-    const blockName = section.blocks[0];
-    const blockDef = (template.blocks || []).find((b) => b.name === blockName);
-    if (!blockDef || !blockDef.instances) return null;
-    for (const inst of blockDef.instances) {
-      try {
-        const el = root.querySelector(inst);
-        if (el) return el;
-      } catch (e) {
+      if (!sectionEl) continue;
+      if (section.style) {
+        const metadataBlock = WebImporter.Blocks.createBlock(doc, {
+          name: "Section Metadata",
+          cells: { style: section.style }
+        });
+        if (sectionEl.parentNode) {
+          sectionEl.parentNode.insertBefore(metadataBlock, sectionEl.nextSibling);
+        }
       }
-    }
-    return null;
-  }
-  function transform2(hookName, element, payload) {
-    if (hookName === TransformHook2.beforeTransform) {
-      const template = payload && payload.template;
-      const sections = template && Array.isArray(template.sections) ? template.sections : [];
-      console.log(`[sections-transformer] sections count: ${sections.length}`);
-      if (sections.length < 2) return;
-      const doc = element.ownerDocument;
-      for (let i = sections.length - 1; i >= 0; i -= 1) {
-        const section = sections[i];
-        let sectionEl = findSectionElement(element, section.selector);
-        if (!sectionEl) {
-          sectionEl = findSectionByBlockSelector(element, section, template);
-        }
-        if (!sectionEl) {
-          console.log(`[sections-transformer] MISS section ${section.id} \u2014 selector: ${JSON.stringify(section.selector)}, blocks: ${JSON.stringify(section.blocks)}`);
-          continue;
-        }
-        console.log(`[sections-transformer] HIT section ${section.id}`);
-        if (section.style) {
-          const metadataBlock = WebImporter.Blocks.createBlock(doc, {
-            name: "Section Metadata",
-            cells: { style: section.style }
-          });
-          if (sectionEl.parentNode) {
-            sectionEl.parentNode.insertBefore(metadataBlock, sectionEl.nextSibling);
-          }
-        }
-        if (i > 0 && sectionEl.parentNode && sectionEl.previousSibling) {
-          const hr = doc.createElement("hr");
-          sectionEl.parentNode.insertBefore(hr, sectionEl);
-        }
+      if (i > 0 && sectionEl.parentNode && sectionEl.previousSibling) {
+        const hr = doc.createElement("hr");
+        sectionEl.parentNode.insertBefore(hr, sectionEl);
       }
     }
   }

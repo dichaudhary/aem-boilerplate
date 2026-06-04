@@ -75,6 +75,10 @@ export default function transform(hookName, element, payload) {
 
     const doc = element.ownerDocument;
 
+    // Track which elements have already been assigned section metadata to
+    // prevent duplicates when multiple section definitions match the same element.
+    const processed = new Set();
+
     // Walk sections in reverse so inserting nodes does not shift upcoming
     // sections' DOM positions.
     for (let i = sections.length - 1; i >= 0; i -= 1) {
@@ -85,6 +89,10 @@ export default function transform(hookName, element, payload) {
         sectionEl = findSectionByBlockSelector(element, section, template);
       }
       if (!sectionEl) continue;
+
+      // Skip if this element was already processed by a prior (higher-index) section
+      if (processed.has(sectionEl)) continue;
+      processed.add(sectionEl);
 
       // 1. Section Metadata block (only when a style is specified).
       if (section.style) {
