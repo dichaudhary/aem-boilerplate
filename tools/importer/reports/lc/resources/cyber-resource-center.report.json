@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://www.nationwide.com/lc/resources/cyber-resource-center/",
+  "path": "lc/resources/cyber-resource-center",
+  "timestamp": "2026-06-15T07:33:10.032Z",
+  "title": "Cyber Resource Center – Nationwide",
+  "template": "resource-hub",
+  "blocks": [
+    "hero-inpage",
+    "cards-article",
+    "cards-article",
+    "cards-article",
+    "cards-bop-tile",
+    "cards-bop-tile"
+  ]
+}

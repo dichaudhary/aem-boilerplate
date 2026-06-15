@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-coverage",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-06-15T06:35:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/business/insurance/business-owners-policy-bop/",
+    "originPage": "BOP insurance product page",
+    "blockPosition": "lower-middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "coverage-list",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "three columns, each stacking multiple (often linked) heading + paragraph pairs",
+    "buttonCount": 8,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "'Additional coverage options' style multi-column lists of heading + paragraph pairs",
+      "informational side-by-side text columns on a white background",
+      "comparison/overview layouts with several linked sub-topics per column"
+    ],
+    "notSuitableFor": [
+      "benefit checklists with check icons on colored backgrounds (use columns-checklist)",
+      "icon + single CTA strips (use columns-cta)",
+      "app-promo text + image lockups (use columns-app)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/business/insurance/business-owners-policy-bop/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-15T06:35:00.000Z"
+  }
+}

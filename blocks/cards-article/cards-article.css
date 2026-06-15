@@ -1,0 +1,86 @@
+/* Block: cards-article -- article thumbnail grid, styled from Nationwide source computed styles */
+
+.cards-article > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  /* 30px source gutter (column padding 0 15px each side), 20px row gap */
+  gap: 20px 30px;
+}
+
+@media (width >= 600px) {
+  .cards-article > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  .cards-article > ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.cards-article > ul > li {
+  display: flex;
+  flex-direction: column;
+
+  /* flat card: transparent background, no border, no shadow */
+  background-color: transparent;
+}
+
+/* image cell */
+.cards-article .cards-article-card-image {
+  line-height: 0;
+  margin: 10px 0;
+}
+
+.cards-article .cards-article-card-image a {
+  display: block;
+}
+
+.cards-article .cards-article-card-image img {
+  width: 100%;
+  aspect-ratio: 370 / 209;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* text cell */
+.cards-article .cards-article-card-body {
+  margin: 0;
+  font-family: nw-primary, "Helvetica Neue", helvetica, roboto, arial, sans-serif;
+}
+
+.cards-article .cards-article-card-body h3,
+.cards-article .cards-article-card-body h4 {
+  margin: 0 0 5px;
+  font-family: nw-primary, "Helvetica Neue", helvetica, roboto, arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: rgb(34 34 34);
+}
+
+.cards-article .cards-article-card-body h3 a,
+.cards-article .cards-article-card-body h4 a {
+  color: rgb(0 71 187);
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.cards-article .cards-article-card-body h3 a:hover,
+.cards-article .cards-article-card-body h4 a:hover {
+  text-decoration: underline;
+}
+
+.cards-article .cards-article-card-body p {
+  margin: 0 0 26px;
+  font-family: nw-primary, "Helvetica Neue", helvetica, roboto, arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgb(34 34 34);
+}

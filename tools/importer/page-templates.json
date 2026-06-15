@@ -29,6 +29,71 @@
         { "id": "section-9-app-promo", "name": "Mobile app promo with QR", "selector": "div#p43655.rtc-component.nw-bg-rebrand-vibrant-blue", "style": "vibrant-blue", "blocks": ["columns-app"], "defaultContent": [] },
         { "id": "section-10-disclaimer", "name": "Disclaimer footnote", "selector": "div#p44604.rtc-component", "style": null, "blocks": [], "defaultContent": ["div#p44604 div.nw-text-sm"] }
       ]
+    },
+    {
+      "name": "insurance-product",
+      "urls": [
+        "https://www.nationwide.com/business/insurance/business-owners-policy-bop/"
+      ],
+      "representativeUrl": "https://www.nationwide.com/business/insurance/business-owners-policy-bop/",
+      "coverageGaps": [],
+      "description": "Insurance product marketing page: vibrant-blue inpage hero with quote CTA, intro narrative, coverage icon-cards, industry-specific BOP tiles, how-to-get-insurance list, why-choose checklist, additional-coverage multi-column list, solutions carousel, and find-an-agent ZIP form.",
+      "blocks": [
+        { "name": "hero-inpage", "instances": ["#main-content > div.nw-banner2.nw-banner-inpage--clip.nw-bg-rebrand-vibrant-blue"] },
+        { "name": "cards-coverage", "instances": ["#main-content > div.nw-multi-option-promo.nw-bg-white.nw-outer-bottom--xl"] },
+        { "name": "cards-bop-tile", "instances": ["#main-content > section.nw-container.text-center:nth-of-type(1)", "#main-content > section.nw-container.text-center.nw-outer-bottom--xl"] },
+        { "name": "columns-checklist", "instances": ["#main-content > div.rtc-component.nw-outer-bottom--lg.nw-bg-rebrand-vibrant-blue"] },
+        { "name": "columns-coverage", "instances": ["#main-content > div.rtc-component.nw-outer-bottom--lg:nth-of-type(8)"] },
+        { "name": "carousel-solutions", "instances": ["#main-content > div.nw-bg-gray-pale-25"] },
+        { "name": "form", "instances": ["#main-content > div.nw__find-agent.nw-outer-bottom--md.nw-bg-rebrand-vibrant-blue"] }
+      ],
+      "sections": [
+        { "id": "rc3", "name": "section-hero", "selector": "#main-content > div.nw-banner2.nw-banner-inpage--clip.nw-bg-rebrand-vibrant-blue", "style": null, "blocks": ["hero-inpage"], "defaultContent": [] },
+        { "id": "rc4", "name": "Intro narrative", "selector": "#main-content > div.rtc-component.nw-outer-bottom--sm", "style": null, "blocks": [], "defaultContent": ["#main-content > div.rtc-component.nw-outer-bottom--sm"] },
+        { "id": "rc5", "name": "Do you need a BOP", "selector": "#main-content > div.rtc-component.nw-outer-bottom--md", "style": null, "blocks": [], "defaultContent": ["#main-content > div.rtc-component.nw-outer-bottom--md"] },
+        { "id": "rc6", "name": "What does a BOP cover", "selector": "#main-content > div.nw-multi-option-promo.nw-bg-white.nw-outer-bottom--xl", "style": null, "blocks": ["cards-coverage"], "defaultContent": [] },
+        { "id": "rc7", "name": "Industry intro", "selector": "#main-content > div.rtc-component:nth-of-type(5)", "style": null, "blocks": [], "defaultContent": ["#main-content > div.rtc-component:nth-of-type(5)"] },
+        { "id": "rc8", "name": "Industry tiles row 1", "selector": "#main-content > section.nw-container.text-center:nth-of-type(1)", "style": null, "blocks": ["cards-bop-tile"], "defaultContent": [] },
+        { "id": "rc9", "name": "Industry tiles row 2", "selector": "#main-content > section.nw-container.text-center.nw-outer-bottom--xl", "style": null, "blocks": ["cards-bop-tile"], "defaultContent": [] },
+        { "id": "rc10", "name": "How to get business insurance", "selector": "#main-content > div.rtc-component:nth-of-type(6)", "style": null, "blocks": [], "defaultContent": ["#main-content > div.rtc-component:nth-of-type(6)"] },
+        { "id": "rc11", "name": "section-why-choose", "selector": "#main-content > div.rtc-component.nw-outer-bottom--lg.nw-bg-rebrand-vibrant-blue", "style": "vibrant-blue", "blocks": ["columns-checklist"], "defaultContent": [] },
+        { "id": "rc12", "name": "Additional coverage options", "selector": "#main-content > div.rtc-component.nw-outer-bottom--lg:nth-of-type(8)", "style": null, "blocks": ["columns-coverage"], "defaultContent": [] },
+        { "id": "rc13", "name": "section-shop-cta", "selector": "#main-content > div.nw-bg-blue-sea-dark.nw-small-cta", "style": "dark-blue", "blocks": [], "defaultContent": ["#main-content > div.nw-bg-blue-sea-dark.nw-small-cta"] },
+        { "id": "rc14", "name": "section-solutions", "selector": "#main-content > div.nw-bg-gray-pale-25", "style": "light-grey", "blocks": ["carousel-solutions"], "defaultContent": [] },
+        { "id": "rc15", "name": "section-find-agent", "selector": "#main-content > div.nw__find-agent.nw-outer-bottom--md.nw-bg-rebrand-vibrant-blue", "style": "vibrant-blue", "blocks": ["form"], "defaultContent": [] },
+        { "id": "rc16", "name": "Legal disclaimer", "selector": "#main-content > div.rtc-component.nw-outer-bottom--lg:nth-of-type(12)", "style": null, "blocks": [], "defaultContent": ["#main-content > div.rtc-component.nw-outer-bottom--lg:nth-of-type(12)"] }
+      ]
+    },
+    {
+      "name": "resource-hub",
+      "urls": [
+        "https://www.nationwide.com/lc/resources/cyber-resource-center/",
+        "https://www.nationwide.com/lc/resources/personal-finance/"
+      ],
+      "representativeUrl": "https://www.nationwide.com/lc/resources/cyber-resource-center/",
+      "coverageGaps": [
+        {
+          "url": "https://www.nationwide.com/lc/resources/personal-finance/",
+          "sections": [
+            { "sectionSignature": "s(s,8x1)", "nodeMapId": "rc3c6" }
+          ]
+        }
+      ],
+      "description": "Resource/article hub page: vibrant-blue inpage hero, intro plus in-page topic-anchor nav links, multiple article card grids grouped by topic (featured + topic sections), icon-card guidance rows, and a browse-by-topic link list.",
+      "blocks": [
+        { "name": "hero-inpage", "instances": ["#main-content > div.nw-banner2.nw-banner-inpage--clip.nw-bg-rebrand-vibrant-blue"] },
+        { "name": "cards-article", "instances": ["#main-content > div.rtc-component.nw-outer-bottom--md:nth-of-type(3) > div.rtc-section > div.expanded.rtc-container", "#main-content > div.rtc-component.nw-outer-bottom--lg:nth-of-type(3) > div.rtc-section:nth-of-type(1) > div.expanded.rtc-container", "#main-content > div.rtc-component.nw-outer-bottom--xl:nth-of-type(4) > div.rtc-section:nth-of-type(1) > div.expanded.rtc-container", "#main-content > div.rtc-component.nw-outer-bottom--xl:nth-of-type(5) > div.rtc-section:nth-of-type(1) > div.expanded.rtc-container"] },
+        { "name": "cards-bop-tile", "instances": ["#main-content > section.nw-container.text-center:nth-of-type(1)", "#main-content > section.nw-container.text-center.nw-outer-bottom--lg"] }
+      ],
+      "sections": [
+        { "id": "section-1-hero", "name": "section-hero", "selector": "#main-content > div.nw-banner2.nw-banner-inpage--clip.nw-bg-rebrand-vibrant-blue", "style": null, "blocks": ["hero-inpage"], "defaultContent": [] },
+        { "id": "section-2-intro-topicnav", "name": "section-intro-topicnav", "selector": "#main-content > div.rtc-component.nw-outer-bottom--md:nth-of-type(2)", "style": "light-grey", "blocks": [], "defaultContent": ["#main-content > div.rtc-component.nw-outer-bottom--md:nth-of-type(2)"] },
+        { "id": "section-3-featured", "name": "Featured article cards", "selector": "#main-content > div.rtc-component.nw-outer-bottom--md:nth-of-type(3) > div.rtc-section:nth-of-type(1)", "style": null, "blocks": ["cards-article"], "defaultContent": [] },
+        { "id": "section-4-best-practices", "name": "Best practices article cards", "selector": "#main-content > div.rtc-component.nw-outer-bottom--md:nth-of-type(3) > div.rtc-section:nth-of-type(2)", "style": null, "blocks": ["cards-article"], "defaultContent": [] },
+        { "id": "section-5-cybersecurity-101", "name": "Cybersecurity 101 article cards", "selector": "#main-content > div.rtc-component.nw-outer-bottom--md:nth-of-type(3) > div.rtc-section:nth-of-type(3)", "style": null, "blocks": ["cards-article"], "defaultContent": [] },
+        { "id": "section-6-fraud-guidance", "name": "Fraud guidance icon cards", "selector": "#main-content > section.nw-container.text-center:nth-of-type(1)", "style": null, "blocks": ["cards-bop-tile"], "defaultContent": [] },
+        { "id": "section-7-tools", "name": "section-tools", "selector": "#main-content > section.nw-container.text-center.nw-outer-bottom--lg", "style": null, "blocks": ["cards-bop-tile"], "defaultContent": [] }
+      ]
     }
   ]
 }

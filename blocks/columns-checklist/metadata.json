@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-checklist",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-06-15T06:35:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/business/insurance/business-owners-policy-bop/",
+    "originPage": "BOP insurance product page",
+    "blockPosition": "lower-middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "accent",
+    "density": "compact",
+    "purpose": "checklist",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "two columns of checkmark-icon + statement paragraphs",
+    "buttonCount": 0,
+    "imageCount": 4
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "'Why choose X' benefit checklists laid out in two columns",
+      "checkmark-prefixed statement lists on a colored (brand) section background",
+      "trust/reasons-to-buy content where each line has a check icon"
+    ],
+    "notSuitableFor": [
+      "small icon + single CTA promo strips (use columns-cta)",
+      "app-promo text + image lockups (use columns-app)",
+      "plain multi-column heading+paragraph informational lists (use columns-coverage)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/business/insurance/business-owners-policy-bop/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-15T06:35:00.000Z"
+  }
+}

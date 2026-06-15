@@ -1,0 +1,38 @@
+{
+  "variantName": "carousel-solutions",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-06-15T06:35:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/business/insurance/business-owners-policy-bop/",
+    "originPage": "BOP insurance product page",
+    "blockPosition": "lower"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "solutions-carousel",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "rotating slides of image + caption that link to articles, with prev/next and dot indicators",
+    "buttonCount": 0,
+    "imageCount": 8
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "'Solutions for your business' style image+caption link carousels",
+      "rotating galleries of article/solution promos on a light-grey section background",
+      "horizontally scrollable slide sets with dot indicators and prev/next arrows"
+    ],
+    "notSuitableFor": [
+      "static card grids that should not rotate (use a cards variant)",
+      "single hero banners (use a hero variant)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/business/insurance/business-owners-policy-bop/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-15T06:35:00.000Z"
+  }
+}

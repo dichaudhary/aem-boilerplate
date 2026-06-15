@@ -1,0 +1,78 @@
+/* Block: columns-checklist
+ * "Why choose a BOP" style checklist on a full-width vibrant-blue background.
+ * Values extracted from source computed styles (nationwide.com BOP page).
+ */
+
+/* Full-width vibrant-blue section background + white text.
+   The global `.section > div` keeps inner content capped at 1200px. */
+main .section.vibrant-blue {
+  background-color: rgb(0 71 187);
+  color: rgb(255 255 255);
+  padding: 20px 0;
+}
+
+/* Heading row */
+.columns-checklist .columns-checklist-heading {
+  text-align: center;
+}
+
+.columns-checklist h2 {
+  margin: 20px 0;
+  color: rgb(255 255 255);
+  font-family: nw-secondary, georgia, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: center;
+}
+
+/* Columns row: stacked on mobile */
+.columns-checklist .columns-checklist-columns {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.columns-checklist .columns-checklist-columns > div {
+  padding: 0 15px;
+}
+
+/* Checklist lists */
+.columns-checklist .columns-checklist-columns ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.columns-checklist .columns-checklist-columns li {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  margin: 0 0 26px;
+  color: rgb(255 255 255);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+/* White checkmark icon (30x30), bold stroke, nudged down to align with text */
+.columns-checklist .checkmark {
+  flex: 0 0 30px;
+  width: 30px;
+  height: 30px;
+  margin-top: 2px;
+  background-color: rgb(255 255 255);
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6"/></svg>') no-repeat center / contain;
+}
+
+/* Desktop: two columns side by side */
+@media (width >= 900px) {
+  .columns-checklist .columns-checklist-columns {
+    flex-direction: row;
+  }
+
+  .columns-checklist .columns-checklist-columns > div {
+    flex: 1 1 50%;
+    max-width: 50%;
+  }
+}

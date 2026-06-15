@@ -1,0 +1,86 @@
+/* cards-coverage -- 4-up coverage cards, flat, centered, white background */
+
+/* Values extracted from source computed styles (nationwide.com BOP page) */
+
+.cards-coverage > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Card: flat (no border/background), centered text */
+.cards-coverage > ul > li {
+  box-sizing: border-box;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 20px 15px;
+  background: transparent;
+  border: none;
+  text-align: center;
+}
+
+.cards-coverage .cards-coverage-card-body {
+  margin: 0;
+}
+
+/* Icon image (when present): centered, ~65px square */
+.cards-coverage .cards-coverage-card-body img {
+  display: block;
+  width: 65px;
+  height: 65px;
+  margin: 0 auto 20px;
+  object-fit: contain;
+}
+
+/* Title */
+.cards-coverage .cards-coverage-card-body h3 {
+  margin: 0 0 20px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(0 71 187);
+}
+
+/* Description */
+.cards-coverage .cards-coverage-card-body p {
+  margin: 0 0 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgb(34 34 34);
+}
+
+/* Outline / hollow "X coverage" button link (bare link in last paragraph) */
+.cards-coverage .cards-coverage-card-body p:last-child {
+  margin: 0;
+}
+
+.cards-coverage .cards-coverage-card-body p:last-child a:any-link {
+  display: inline-block;
+  padding: 9px 11px;
+  border: 1px solid rgb(0 71 187);
+  border-radius: 4px;
+  background: transparent;
+  color: rgb(0 71 187);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.cards-coverage .cards-coverage-card-body p:last-child a:hover,
+.cards-coverage .cards-coverage-card-body p:last-child a:focus-visible {
+  background: rgb(0 71 187);
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (width >= 900px) {
+  /* 4-up grid */
+  .cards-coverage > ul > li {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}

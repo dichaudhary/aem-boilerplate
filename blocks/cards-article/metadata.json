@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-article",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-15T06:50:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/lc/resources/cyber-resource-center/",
+    "originPage": "Cyber Resource Center (resource-hub representative page)",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "article-grid",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "thumbnail image + linked heading + description paragraph",
+    "buttonCount": 0,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "article/resource listing grids where each card links to an article",
+      "3-up (and many-row) photo-thumbnail cards with a linked heading and a short description",
+      "topic-grouped content hubs and learning-center landing pages"
+    ],
+    "notSuitableFor": [
+      "icon-led navigation tiles with no description body (use cards-bop-tile)",
+      "icon coverage/feature cards with a learn-more link (use cards-coverage)",
+      "category overview sections on grey backgrounds (use cards-category)",
+      "image promo tiles without a heading+description article pattern (use cards-tile)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/lc/resources/cyber-resource-center/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-15T06:50:00.000Z"
+  }
+}
