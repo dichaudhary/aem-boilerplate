@@ -1,0 +1,138 @@
+/* Block: hero-inpage
+ * Vibrant-blue full-bleed in-page hero banner.
+ * Values extracted from source computed styles (nationwide.com BOP page).
+ * NOTE: project styles.css is not brand-migrated, so fonts/colors/button are set explicitly here.
+ */
+
+/* full-bleed: override section max-width/padding */
+.hero-inpage-container {
+  margin: 0;
+}
+
+.hero-inpage-container .hero-inpage-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+/* block background + base text */
+.hero-inpage {
+  position: relative;
+  background-color: rgb(0 71 187);
+  color: rgb(255 255 255);
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+/* content row constrained to 1200px, generous padding */
+.hero-inpage > div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 20px 32px;
+}
+
+.hero-inpage > div > div {
+  max-width: 640px;
+}
+
+/* heading */
+.hero-inpage h1 {
+  margin: 0 0 6px;
+  color: rgb(255 255 255);
+  font-family: georgia, "Times New Roman", serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* supporting line + paragraphs */
+.hero-inpage p {
+  margin: 0 0 16px;
+  color: rgb(255 255 255);
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+/* the supporting subhead is the first paragraph */
+.hero-inpage > div > div > p:first-of-type {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+/* links: white, underlined */
+.hero-inpage a {
+  color: rgb(255 255 255);
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.hero-inpage a:hover {
+  color: rgb(255 255 255);
+  text-decoration: none;
+}
+
+/* secondary text links (Continue a saved quote / Find a business agent) */
+.hero-inpage > div > div > p:nth-of-type(n + 3) {
+  margin: 0 0 6px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.hero-inpage > div > div > p:nth-of-type(n + 3) a {
+  font-size: 14px;
+}
+
+/* CTA row: primary mint button + phone link */
+.hero-inpage .cta-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0 0 20px;
+  font-size: 18px;
+}
+
+/* primary "Start your quote" mint button */
+.hero-inpage a.button,
+.hero-inpage a.button:any-link {
+  display: inline-block;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 9px 16px;
+  background-color: rgb(110 206 178);
+  color: rgb(23 23 23);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.hero-inpage a.button:hover,
+.hero-inpage a.button:focus-visible {
+  background-color: rgb(95 191 163);
+  color: rgb(23 23 23);
+  text-decoration: none;
+}
+
+/* phone link sits inline after the button */
+.hero-inpage .cta-row a:not(.button) {
+  font-size: 18px;
+}
+
+@media (width >= 900px) {
+  .hero-inpage > div {
+    padding: 28px 32px 36px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-inpage h1 {
+    font-size: 32px;
+  }
+
+  .hero-inpage > div > div > p:first-of-type {
+    font-size: 24px;
+  }
+}

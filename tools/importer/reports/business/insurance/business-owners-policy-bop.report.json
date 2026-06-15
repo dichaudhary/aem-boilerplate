@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://www.nationwide.com/business/insurance/business-owners-policy-bop/",
+  "path": "business/insurance/business-owners-policy-bop",
+  "timestamp": "2026-06-15T07:23:27.325Z",
+  "title": "Business Owners Policy (BOP Insurance) - Nationwide",
+  "template": "insurance-product",
+  "blocks": [
+    "hero-inpage",
+    "cards-coverage",
+    "cards-bop-tile",
+    "cards-bop-tile",
+    "columns-checklist",
+    "columns-coverage",
+    "carousel-solutions",
+    "form"
+  ]
+}

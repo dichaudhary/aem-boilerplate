@@ -1,0 +1,80 @@
+/* columns-coverage block
+ * Source: nationwide.com BOP "Additional coverage options to consider"
+ * Values extracted from source computed styles. Fonts/colors set explicitly
+ * because global styles.css is not yet brand-migrated.
+ */
+
+.columns-coverage {
+  margin: 0 0 40px;
+}
+
+/* Optional centered section H2 (matches source if authored into the block) */
+.columns-coverage h2 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  color: rgb(34 34 34);
+  text-align: center;
+  margin: 20px 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Row layout: stack on mobile */
+.columns-coverage > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-coverage > div > div {
+  box-sizing: border-box;
+}
+
+/* Coverage item heading */
+.columns-coverage h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25.2px;
+  color: rgb(34 34 34);
+  margin: 0 0 5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Linked heading: vibrant blue, underlined */
+.columns-coverage h3 a {
+  color: rgb(0 71 187);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.columns-coverage h3 a:hover {
+  color: rgb(0 71 187);
+  text-decoration: underline;
+}
+
+/* Body paragraph */
+.columns-coverage p {
+  font-size: 18px;
+  line-height: 28.8px;
+  color: rgb(34 34 34);
+  margin: 0 0 26px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Tighten spacing between a paragraph and the heading that follows it */
+.columns-coverage p + h3 {
+  margin-top: 0;
+}
+
+@media (width >= 900px) {
+  /* 3 columns each 33.3333% with 15px side padding gutters (no flex gap) */
+  .columns-coverage > div {
+    flex-flow: row wrap;
+  }
+
+  .columns-coverage > div > div {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    padding: 0 15px;
+  }
+}

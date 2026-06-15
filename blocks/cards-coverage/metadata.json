@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-coverage",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-15T06:35:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/business/insurance/business-owners-policy-bop/",
+    "originPage": "BOP insurance product page",
+    "blockPosition": "upper-middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "coverage-promo",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + heading + description + link",
+    "buttonCount": 4,
+    "imageCount": 4
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "coverage/feature overview grids on white backgrounds",
+      "'What does X cover?' style 3-to-4-up icon cards with a learn-more link",
+      "icon-led promo cards where each card links to a detail page"
+    ],
+    "notSuitableFor": [
+      "category overview sections on grey backgrounds (use cards-category)",
+      "image-led navigation tiles with no body copy (use cards-bop-tile / cards-tile)",
+      "cards with interactive controls like dropdowns/inputs (use cards-action)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/business/insurance/business-owners-policy-bop/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-15T06:35:00.000Z"
+  }
+}

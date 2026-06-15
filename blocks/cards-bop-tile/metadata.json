@@ -1,0 +1,41 @@
+{
+  "variantName": "cards-bop-tile",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-15T06:35:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/business/insurance/business-owners-policy-bop/",
+    "originPage": "BOP insurance product page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "accent",
+    "density": "compact",
+    "purpose": "industry-tile",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + linked heading (no description body)",
+    "buttonCount": 0,
+    "imageCount": 5
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "industry/category navigation tiles where the whole tile links",
+      "icon-led tiles on a colored (blue/dark) background with a heading and no body copy",
+      "2-up / 3-up rows of compact navigation tiles"
+    ],
+    "notSuitableFor": [
+      "photographic image-led promo tiles on light backgrounds (use cards-tile)",
+      "cards that need a description paragraph or a separate CTA link (use cards-coverage)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/business/insurance/business-owners-policy-bop/index",
+      "/lc/resources/cyber-resource-center/index"
+    ],
+    "reuseCount": 4,
+    "lastUsed": "2026-06-15T06:50:00.000Z"
+  }
+}

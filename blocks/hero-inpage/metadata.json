@@ -1,0 +1,41 @@
+{
+  "variantName": "hero-inpage",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-06-15T06:35:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/business/insurance/business-owners-policy-bop/",
+    "originPage": "BOP insurance product page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "accent",
+    "density": "wide",
+    "purpose": "quote-hero",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "heading + supporting line + primary quote CTA + secondary links",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "inpage product hero banners on a full-bleed accent/brand-color background",
+      "product landing entry points with a quote CTA and a cluster of supporting links",
+      "image-less heroes where white text sits directly on a colored banner"
+    ],
+    "notSuitableFor": [
+      "heroes with a large photographic background image (use hero-quote)",
+      "heroes containing interactive form controls like ZIP/select inline (use hero-quote)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/business/insurance/business-owners-policy-bop/index",
+      "/lc/resources/cyber-resource-center/index"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-06-15T06:50:00.000Z"
+  }
+}

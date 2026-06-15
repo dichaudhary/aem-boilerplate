@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.nationwide.com/lc/resources/personal-finance/",
+  "path": "lc/resources/personal-finance",
+  "timestamp": "2026-06-15T07:34:03.268Z",
+  "title": "Personal Finance Resources – Nationwide",
+  "template": "resource-hub",
+  "blocks": [
+    "hero-inpage",
+    "cards-article",
+    "cards-article",
+    "cards-article"
+  ]
+}
