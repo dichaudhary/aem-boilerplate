@@ -1,14 +1,38 @@
 .columns-cta > div {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 .columns-cta img {
-  width: 100%;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
 }
 
 .columns-cta > div > div {
   order: 1;
+}
+
+.columns-cta h3 {
+  font-family: var(--body-font-family);
+  color: var(--color-white);
+  margin: 0 0 8px;
+}
+
+.columns-cta p {
+  color: var(--color-white);
+  margin: 0;
+}
+
+.columns-cta a:any-link {
+  color: var(--color-white);
+  text-decoration: underline;
+}
+
+.columns-cta a:hover {
+  color: var(--color-blue-light);
 }
 
 .columns-cta > div > .columns-cta-img-col {
@@ -21,9 +45,9 @@
 
 @media (width >= 900px) {
   .columns-cta > div {
+    flex-direction: row;
     align-items: center;
-    flex-direction: unset;
-    gap: 24px;
+    gap: 20px;
   }
 
   .columns-cta > div > div {
