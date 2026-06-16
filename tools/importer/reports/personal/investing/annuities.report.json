@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "url": "https://www.nationwide.com/personal/investing/annuities/",
+  "path": "personal/investing/annuities",
+  "timestamp": "2026-06-02T17:15:57.158Z",
+  "title": "How do Annuities Work? – Nationwide",
+  "template": "investing-product",
+  "blocks": [
+    "hero-invest",
+    "cards-action",
+    "cards-service",
+    "cards-benefit",
+    "table-compare",
+    "columns-banner",
+    "cards-lifecycle",
+    "cards-lifecycle",
+    "columns-cta"
+  ]
+}
