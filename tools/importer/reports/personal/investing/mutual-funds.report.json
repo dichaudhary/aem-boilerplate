@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "url": "https://www.nationwide.com/personal/investing/mutual-funds/",
+  "path": "personal/investing/mutual-funds",
+  "timestamp": "2026-06-02T18:19:58.148Z",
+  "title": "Mutual Fund Investments – Nationwide",
+  "template": "investing-product",
+  "blocks": [
+    "hero-invest",
+    "cards-action",
+    "cards-action",
+    "cards-service",
+    "cards-service",
+    "columns-banner",
+    "cards-lifecycle"
+  ]
+}

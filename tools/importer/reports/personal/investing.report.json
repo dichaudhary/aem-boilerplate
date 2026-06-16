@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.nationwide.com/personal/investing/",
+  "path": "personal/investing",
+  "timestamp": "2026-06-02T13:00:54.857Z",
+  "title": "Investing & Retirement Solutions from Nationwide",
+  "template": "investing-landing",
+  "blocks": [
+    "hero-invest",
+    "cards-invest",
+    "cards-lifecycle",
+    "cards-feature",
+    "cards-tile"
+  ]
+}
