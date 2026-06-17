@@ -29,8 +29,8 @@
 // Map each CTA headline text to a locally-downloaded PNG icon
 // (post-import asset sync — icons stored under content/images/).
 const CTA_ICON_BY_HEADLINE = {
-  'Are you a Nationwide member?': { src: './images/handshake.png', alt: 'handshake icon' },
-  'Have a business to protect?': { src: './images/storefront.png', alt: 'storefront icon' },
+  'Are you a Nationwide member?': { src: './images/handshake.svg', alt: 'handshake icon' },
+  'Have a business to protect?': { src: './images/storefront.svg', alt: 'storefront icon' },
 };
 
 export default function parse(element, { document }) {

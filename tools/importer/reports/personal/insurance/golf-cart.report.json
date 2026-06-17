@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.nationwide.com/personal/insurance/golf-cart/",
+  "path": "personal/insurance/golf-cart",
+  "timestamp": "2026-05-27T11:38:10.438Z",
+  "title": "Golf Cart Insurance – Nationwide",
+  "template": "insurance-landing",
+  "blocks": [
+    "hero-quote",
+    "cards-tile",
+    "columns-info",
+    "columns-info"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.nationwide.com/personal/insurance/vehicle/",
+  "path": "personal/insurance/vehicle",
+  "timestamp": "2026-05-27T11:40:48.725Z",
+  "title": "Vehicle Insurance Products – Nationwide",
+  "template": "insurance-landing",
+  "blocks": [
+    "hero-quote",
+    "cards-action",
+    "cards-action",
+    "cards-tile",
+    "columns-cta"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-info",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-27T09:53:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nationwide.com/personal/insurance/auto/",
+    "originPage": "Nationwide auto insurance product page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "grey",
+    "density": "compact",
+    "purpose": "definitions-list",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "heading + paragraph pairs in two columns (text-only definitions)",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "two-column definition/glossary lists",
+      "coverage type descriptions side-by-side",
+      "terminology or feature lists with heading + description pairs"
+    ],
+    "notSuitableFor": [
+      "image-based columns",
+      "CTA strips with icons",
+      "video or media columns"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/personal/insurance/auto/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-27T09:53:00.000Z"
+  }
+}

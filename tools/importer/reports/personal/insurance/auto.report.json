@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "url": "https://www.nationwide.com/personal/insurance/auto/",
+  "path": "personal/insurance/auto",
+  "timestamp": "2026-05-27T11:32:35.901Z",
+  "title": "Car Insurance - Get a Free Auto Insurance Quote – Nationwide",
+  "template": "insurance-landing",
+  "blocks": [
+    "hero-quote",
+    "columns-video",
+    "cards-action",
+    "cards-action",
+    "cards-tile",
+    "cards-tile",
+    "columns-banner",
+    "columns-banner",
+    "columns-info",
+    "columns-info",
+    "accordion-faq",
+    "columns-cta"
+  ]
+}

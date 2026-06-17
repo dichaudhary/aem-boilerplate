@@ -1,8 +1,26 @@
+/* eslint-disable */
 var CustomImportScript = (() => {
   var __defProp = Object.defineProperty;
+  var __defProps = Object.defineProperties;
   var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+  var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
   var __getOwnPropNames = Object.getOwnPropertyNames;
+  var __getOwnPropSymbols = Object.getOwnPropertySymbols;
   var __hasOwnProp = Object.prototype.hasOwnProperty;
+  var __propIsEnum = Object.prototype.propertyIsEnumerable;
+  var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+  var __spreadValues = (a, b) => {
+    for (var prop in b || (b = {}))
+      if (__hasOwnProp.call(b, prop))
+        __defNormalProp(a, prop, b[prop]);
+    if (__getOwnPropSymbols)
+      for (var prop of __getOwnPropSymbols(b)) {
+        if (__propIsEnum.call(b, prop))
+          __defNormalProp(a, prop, b[prop]);
+      }
+    return a;
+  };
+  var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
   var __export = (target, all) => {
     for (var name in all)
       __defProp(target, name, { get: all[name], enumerable: true });
@@ -17,10 +35,10 @@ var CustomImportScript = (() => {
   };
   var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-  // tools/importer/import-homepage.js
-  var import_homepage_exports = {};
-  __export(import_homepage_exports, {
-    default: () => import_homepage_default
+  // tools/importer/import-insurance-landing.js
+  var import_insurance_landing_exports = {};
+  __export(import_insurance_landing_exports, {
+    default: () => import_insurance_landing_default
   });
 
   // tools/importer/parsers/hero-quote.js
@@ -145,17 +163,77 @@ var CustomImportScript = (() => {
     element.replaceWith(block);
   }
 
+  // tools/importer/parsers/columns-video.js
+  function parse2(element, { document }) {
+    const videoCol = element.querySelector(".video-holder, .large-6.columns:has(iframe), .large-6.columns:has(figure)");
+    const textCol = element.querySelector(".large-6.columns:not(.video-holder):not(:has(iframe))");
+    const leftCell = [];
+    if (videoCol) {
+      const iframe = videoCol.querySelector('iframe.wistia_embed, iframe[src*="wistia"], iframe');
+      if (iframe) {
+        const videoSrc = iframe.getAttribute("src") || "";
+        const videoTitle = iframe.getAttribute("title") || "Video";
+        const a = document.createElement("a");
+        a.setAttribute("href", videoSrc);
+        a.textContent = videoTitle.trim() || "Video";
+        leftCell.push(a);
+      }
+    }
+    const rightCell = [];
+    if (textCol) {
+      const heading = textCol.querySelector('h1, h2, h3, h4, [class*="heading"]');
+      if (heading) rightCell.push(heading);
+      const paragraphs = Array.from(textCol.querySelectorAll("p"));
+      paragraphs.forEach((p) => {
+        const text = (p.textContent || "").replace(/ /g, " ").trim();
+        if (text) rightCell.push(p);
+      });
+    }
+    const cells = [
+      [leftCell, rightCell]
+    ];
+    const block = WebImporter.Blocks.createBlock(document, {
+      name: "columns-video",
+      cells
+    });
+    element.replaceWith(block);
+  }
+
   // tools/importer/parsers/cards-action.js
-  var ICON_BY_HEADING = {
-    "No login required": { alt: "house icon", src: "./images/house.svg" },
-    "Find a local agent": { alt: "pin icon", src: "./images/pin.svg" },
-    "Term life insurance": { alt: "heart icon", src: "./images/heart.svg" }
-  };
-  var SELECT_LABEL = "Select a service:";
-  var FORM_LABEL = "ZIP Code";
-  var FORM_PLACEHOLDER = "Enter your 5 or 9 digit ZIP Code";
-  function buildCardRow(cardEl, document) {
-    const headingText = (cardEl.querySelector("h1, h2, h3, h4, h5, h6")?.textContent || "").trim();
+  function buildInsuranceCard(cardEl, document) {
+    const icon = cardEl.querySelector("img");
+    const heading = cardEl.querySelector("h3, h2, h4");
+    const desc = cardEl.querySelector("p.mopDesc, p");
+    const cta = cardEl.querySelector('a.button, a[class*="button"], a');
+    const textCell = [];
+    if (heading) {
+      const h = document.createElement("h3");
+      h.textContent = heading.textContent.trim();
+      textCell.push(h);
+    }
+    if (desc) {
+      const p = document.createElement("p");
+      p.textContent = desc.textContent.trim();
+      textCell.push(p);
+    }
+    if (cta) {
+      const p = document.createElement("p");
+      const link = document.createElement("a");
+      link.setAttribute("href", cta.getAttribute("href") || "#");
+      link.textContent = cta.textContent.trim();
+      p.appendChild(link);
+      textCell.push(p);
+    }
+    return [icon || "", textCell];
+  }
+  function buildHomepageCard(cardEl, document) {
+    var _a;
+    const headingText = (((_a = cardEl.querySelector("h1, h2, h3, h4, h5, h6")) == null ? void 0 : _a.textContent) || "").trim();
+    const ICON_BY_HEADING = {
+      "No login required": { alt: "house icon", src: "./images/house.svg" },
+      "Find a local agent": { alt: "pin icon", src: "./images/pin.svg" },
+      "Term life insurance": { alt: "heart icon", src: "./images/heart.svg" }
+    };
     const iconInfo = ICON_BY_HEADING[headingText] || { alt: "card icon", src: "" };
     let icon = null;
     if (iconInfo.src) {
@@ -163,24 +241,19 @@ var CustomImportScript = (() => {
       icon.setAttribute("src", iconInfo.src);
       icon.setAttribute("alt", iconInfo.alt);
     }
-    if (!icon) {
-      icon = cardEl.querySelector("img");
-    }
-    if (icon && !icon.getAttribute("alt")) {
-      icon.setAttribute("alt", iconInfo.alt);
-    }
+    if (!icon) icon = cardEl.querySelector("img");
     const textCell = [];
-    const heading = cardEl.querySelector("h1, h2, h3, h4, h5, h6, .custom-heading");
+    const heading = cardEl.querySelector("h1, h2, h3, h4, h5, h6");
     if (heading) textCell.push(heading);
-    const description = cardEl.querySelector(":scope > p, :scope > div > p, p");
+    const description = cardEl.querySelector("p");
     if (description) textCell.push(description);
     const selectEl = cardEl.querySelector("select");
     if (selectEl) {
-      const options = Array.from(selectEl.querySelectorAll("option")).map((o) => (o.textContent || "").trim()).filter((t) => t.length > 0);
+      const options = Array.from(selectEl.querySelectorAll("option")).map((o) => o.textContent.trim()).filter((t) => t.length > 0);
       if (options.length > 0) {
         const labelP = document.createElement("p");
         const labelStrong = document.createElement("strong");
-        labelStrong.textContent = SELECT_LABEL;
+        labelStrong.textContent = "Select a service:";
         labelP.appendChild(labelStrong);
         textCell.push(labelP);
         const ul = document.createElement("ul");
@@ -202,18 +275,17 @@ var CustomImportScript = (() => {
     if (formEl) {
       const zipLabelP = document.createElement("p");
       const zipLabelStrong = document.createElement("strong");
-      zipLabelStrong.textContent = FORM_LABEL;
+      zipLabelStrong.textContent = "ZIP Code";
       zipLabelP.appendChild(zipLabelStrong);
       textCell.push(zipLabelP);
       const placeholderP = document.createElement("p");
       const placeholderEm = document.createElement("em");
-      placeholderEm.textContent = FORM_PLACEHOLDER;
+      placeholderEm.textContent = "Enter your 5 or 9 digit ZIP Code";
       placeholderP.appendChild(placeholderEm);
       textCell.push(placeholderP);
-      const formAction = formEl.getAttribute("action") || "https://agency.nationwide.com/search";
       const goLine = document.createElement("p");
       const goLink = document.createElement("a");
-      goLink.setAttribute("href", formAction);
+      goLink.setAttribute("href", formEl.getAttribute("action") || "https://agency.nationwide.com/search");
       goLink.textContent = "Go";
       goLine.appendChild(goLink);
       textCell.push(goLine);
@@ -228,7 +300,17 @@ var CustomImportScript = (() => {
     });
     return [icon || "", textCell];
   }
-  function parse2(element, { document }) {
+  function parse3(element, { document }) {
+    const columns = element.querySelectorAll(".column.small-12.large-4, .column.large-4");
+    if (columns.length > 0) {
+      const cells2 = Array.from(columns).map((col) => buildInsuranceCard(col, document));
+      const block2 = WebImporter.Blocks.createBlock(document, {
+        name: "cards-action",
+        cells: cells2
+      });
+      element.replaceWith(block2);
+      return;
+    }
     const parent = element.parentElement;
     if (!parent) return;
     const cards = Array.from(parent.querySelectorAll(":scope > .custom-tri-promo"));
@@ -237,53 +319,12 @@ var CustomImportScript = (() => {
       element.remove();
       return;
     }
-    const cells = cards.map((card) => buildCardRow(card, document));
+    const cells = cards.map((card) => buildHomepageCard(card, document));
     const block = WebImporter.Blocks.createBlock(document, {
       name: "cards-action",
       cells
     });
     parent.replaceWith(block);
-  }
-
-  // tools/importer/parsers/cards-category.js
-  var CATEGORY_ICON_BY_HEADING = {
-    "For you and your family": { src: "./images/person-shield.svg", alt: "person shield icon" },
-    "For your business": { src: "./images/open-sign.svg", alt: "open sign icon" },
-    "For your future": { src: "./images/shield.svg", alt: "shield icon" }
-  };
-  function parse3(element, { document }) {
-    const cardsSection = element.querySelector("section.nw-multi-option-promo, section.nw-container") || element;
-    const cardEls = Array.from(cardsSection.querySelectorAll(".row > .column"));
-    const cells = [];
-    cardEls.forEach((card) => {
-      const heading = card.querySelector('h3.mopHeading, h2, h3, h4, [class*="Heading"]');
-      const description = card.querySelector("p.mopDesc, p");
-      const cta = card.querySelector('a.button, a.hollow, a[class*="button"], a');
-      const headingText = (heading?.textContent || "").trim();
-      const iconInfo = CATEGORY_ICON_BY_HEADING[headingText];
-      let icon = null;
-      if (iconInfo) {
-        icon = document.createElement("img");
-        icon.setAttribute("src", iconInfo.src);
-        icon.setAttribute("alt", iconInfo.alt);
-      }
-      if (!icon) {
-        icon = card.querySelector("img");
-      }
-      if (icon && !icon.getAttribute("alt")) {
-        const altText = headingText ? `${headingText} icon` : "category icon";
-        icon.setAttribute("alt", altText);
-      }
-      const textCell = [];
-      if (heading) textCell.push(heading);
-      if (description) textCell.push(description);
-      if (cta) textCell.push(cta);
-      if (textCell.length > 0) {
-        cells.push([icon || "", textCell]);
-      }
-    });
-    const block = WebImporter.Blocks.createBlock(document, { name: "cards-category", cells });
-    element.replaceWith(block);
   }
 
   // tools/importer/parsers/cards-tile.js
@@ -300,12 +341,10 @@ var CustomImportScript = (() => {
     "Save an average of $1,032 when you bundle home and car insurance*": "./images/tile-bundle.jpg",
     "Easy access to manage your insurance online": "./images/tile-manage-online.png"
   };
-  function buildTileRow(tileAnchor, document) {
+  function buildHomepageTileRow(tileAnchor, document) {
     const href = tileAnchor.getAttribute("href") || "#";
-    const headingEl = tileAnchor.querySelector(
-      'h2.nw-tile-block__content-subheader, h2, h3, [class*="subheader"]'
-    );
-    const headingText = (headingEl?.textContent || "").trim();
+    const headingEl = tileAnchor.querySelector('h2, h3, [class*="subheader"]');
+    const headingText = ((headingEl == null ? void 0 : headingEl.textContent) || "").trim();
     const imageWrapper = tileAnchor.querySelector(".nw-tile-block__image");
     let imageCell = "";
     const localSrc = TILE_IMAGE_BY_HEADING[headingText];
@@ -315,11 +354,9 @@ var CustomImportScript = (() => {
       img.setAttribute("alt", headingText);
       imageCell = img;
     } else {
-      const existingImg = imageWrapper?.querySelector("img") || tileAnchor.querySelector("img");
+      const existingImg = (imageWrapper == null ? void 0 : imageWrapper.querySelector("img")) || tileAnchor.querySelector("img");
       if (existingImg) {
-        if (!existingImg.getAttribute("alt") && headingText) {
-          existingImg.setAttribute("alt", headingText);
-        }
+        if (!existingImg.getAttribute("alt") && headingText) existingImg.setAttribute("alt", headingText);
         imageCell = existingImg;
       } else {
         const bgUrl = extractBackgroundImageUrl(imageWrapper);
@@ -339,26 +376,263 @@ var CustomImportScript = (() => {
       link.textContent = headingText;
       heading.appendChild(link);
       textCell.push(heading);
-    } else if (href && href !== "#") {
+    }
+    return [imageCell, textCell];
+  }
+  function buildInsuranceTileRow(tileEl, document) {
+    const anchor = tileEl.tagName === "A" ? tileEl : tileEl.querySelector("a");
+    const href = anchor ? anchor.getAttribute("href") || "#" : "#";
+    const img = tileEl.querySelector("img");
+    const heading = tileEl.querySelector("h2, h3, h4, h5, h6");
+    const headingText = ((heading == null ? void 0 : heading.textContent) || "").trim();
+    let imageCell = "";
+    if (img) {
+      if (!img.getAttribute("alt") && headingText) img.setAttribute("alt", headingText);
+      imageCell = img;
+    }
+    const textCell = [];
+    if (headingText) {
+      const h = document.createElement("h2");
+      const link = document.createElement("a");
+      link.setAttribute("href", href);
+      link.textContent = headingText;
+      h.appendChild(link);
+      textCell.push(h);
+    } else if (anchor) {
       const p = document.createElement("p");
       const link = document.createElement("a");
       link.setAttribute("href", href);
-      link.textContent = href;
+      link.textContent = anchor.textContent.trim() || href;
       p.appendChild(link);
       textCell.push(p);
     }
     return [imageCell, textCell];
   }
   function parse4(element, { document }) {
-    const tileAnchors = Array.from(
-      element.querySelectorAll("a.nw-tile-block__tile")
-    );
-    if (tileAnchors.length === 0) {
+    const tileAnchors = Array.from(element.querySelectorAll("a.nw-tile-block__tile"));
+    if (tileAnchors.length > 0) {
+      const cells = tileAnchors.map((tile) => buildHomepageTileRow(tile, document));
+      const block = WebImporter.Blocks.createBlock(document, { name: "cards-tile", cells });
+      element.replaceWith(block);
       return;
     }
-    const cells = tileAnchors.map((tile) => buildTileRow(tile, document));
+    const contentPromo = element.querySelector(".nw-content-promo");
+    if (contentPromo) {
+      const items = Array.from(contentPromo.querySelectorAll("ul > li"));
+      if (items.length > 0) {
+        const cells = items.map((li) => buildInsuranceTileRow(li, document));
+        const block = WebImporter.Blocks.createBlock(document, { name: "cards-tile", cells });
+        element.replaceWith(block);
+        return;
+      }
+    }
+    const resourceLinks = Array.from(element.querySelectorAll(".nw-content-promo a, .nw-tile-block__tile"));
+    if (resourceLinks.length === 0) {
+      const linkedCards = Array.from(element.querySelectorAll("a[href]")).filter((a) => a.querySelector("img") || a.querySelector("h2, h3, h4, h5"));
+      if (linkedCards.length > 0) {
+        const cells = linkedCards.map((a) => buildInsuranceTileRow(a, document));
+        const block = WebImporter.Blocks.createBlock(document, { name: "cards-tile", cells });
+        element.replaceWith(block);
+        return;
+      }
+    }
+    if (resourceLinks.length > 0) {
+      const cells = resourceLinks.map((a) => buildInsuranceTileRow(a, document));
+      const block = WebImporter.Blocks.createBlock(document, { name: "cards-tile", cells });
+      element.replaceWith(block);
+    }
+  }
+
+  // tools/importer/parsers/columns-banner.js
+  function parse5(element, { document }) {
+    const mediaContainer = element.querySelector(".nw-banner-inpage__image, .nw-banner-inpage__media img");
+    const img = mediaContainer ? mediaContainer.tagName === "IMG" ? mediaContainer : mediaContainer.querySelector("img") : element.querySelector("img");
+    const imageCell = [];
+    if (img) {
+      imageCell.push(img);
+    }
+    const contentContainer = element.querySelector(".nw-banner-inpage__content");
+    const contentCell = [];
+    if (contentContainer) {
+      const heading = contentContainer.querySelector("h2, h3, h1, h4");
+      if (heading) {
+        contentCell.push(heading);
+      }
+      const paragraphs = Array.from(contentContainer.querySelectorAll(":scope > p"));
+      paragraphs.forEach((p) => {
+        const links = p.querySelectorAll("a[href]");
+        const hasOnlyLink = links.length > 0 && p.textContent.trim() === links[0].textContent.trim();
+        if (!hasOnlyLink) {
+          contentCell.push(p);
+        }
+      });
+      const allLinks = Array.from(contentContainer.querySelectorAll("a[href]"));
+      allLinks.forEach((link) => {
+        const p = document.createElement("p");
+        const a = document.createElement("a");
+        a.setAttribute("href", link.getAttribute("href") || "#");
+        a.textContent = (link.textContent || "").trim();
+        if (link.classList.contains("button") || link.className.includes("nw-button")) {
+          a.setAttribute("class", "button");
+        }
+        p.appendChild(a);
+        contentCell.push(p);
+      });
+    }
+    const isImageRight = element.classList.contains("nw-banner-inpage--right");
+    const cells = isImageRight ? [[contentCell, imageCell]] : [[imageCell, contentCell]];
     const block = WebImporter.Blocks.createBlock(document, {
-      name: "cards-tile",
+      name: "columns-banner",
+      cells
+    });
+    element.replaceWith(block);
+  }
+
+  // tools/importer/parsers/columns-info.js
+  function parse6(element, { document }) {
+    const elementsBeforeBlock = [];
+    const heading = element.querySelector("h2");
+    if (heading) {
+      const h2 = document.createElement("h2");
+      h2.textContent = (heading.textContent || "").trim();
+      elementsBeforeBlock.push(h2);
+    }
+    const introContainer = element.querySelector(".nw-container-article p, div.nw-heading-sm.nw-container-article");
+    let introText = null;
+    if (introContainer) {
+      introText = introContainer;
+    } else {
+      const headingSm = element.querySelector("div.nw-heading-sm");
+      if (headingSm) introText = headingSm;
+    }
+    if (introText && (introText.textContent || "").trim()) {
+      const p = document.createElement("p");
+      p.textContent = (introText.textContent || "").trim();
+      elementsBeforeBlock.push(p);
+    }
+    const columnDivs = Array.from(
+      element.querySelectorAll('.large-6.rtc-paragraph, div[class*="large-6"][class*="rtc-paragraph"]')
+    );
+    const colContainers = columnDivs.length >= 2 ? [columnDivs[0], columnDivs[1]] : Array.from(element.querySelectorAll(".row > div.rtc-paragraph")).slice(0, 2);
+    const leftContainer = colContainers[0];
+    const rightContainer = colContainers[1];
+    const leftCell = [];
+    const rightCell = [];
+    function extractDefinitions(container, targetCell) {
+      if (!container) return;
+      const contentRoot = container.querySelector("span") || container;
+      const children = Array.from(contentRoot.children);
+      children.forEach((child) => {
+        if (child.tagName === "H3" || child.tagName === "DIV" && child.classList.contains("nw-heading")) {
+          const h3 = document.createElement("h3");
+          const link = child.querySelector("a[href]");
+          if (link) {
+            const a = document.createElement("a");
+            a.setAttribute("href", link.getAttribute("href") || "#");
+            a.textContent = (link.textContent || "").trim();
+            h3.appendChild(a);
+          } else {
+            h3.textContent = (child.textContent || "").trim();
+          }
+          targetCell.push(h3);
+        } else if (child.tagName === "P" || child.tagName === "DIV" && !child.classList.contains("nw-heading")) {
+          const text = (child.textContent || "").trim();
+          if (text) {
+            const p = document.createElement("p");
+            p.textContent = text;
+            targetCell.push(p);
+          }
+        }
+      });
+    }
+    extractDefinitions(leftContainer, leftCell);
+    extractDefinitions(rightContainer, rightCell);
+    const elementsAfterBlock = [];
+    const trailingFullWidthSections = Array.from(
+      element.querySelectorAll('.large-12.rtc-paragraph, div[class*="large-12"][class*="rtc-paragraph"]')
+    );
+    trailingFullWidthSections.forEach((section) => {
+      if (section.querySelector("h2") || section.querySelector(".nw-heading-sm")) return;
+      if (section.querySelector(".large-6")) return;
+      const trailingParagraph = section.querySelector("p") || section.querySelector("span > p");
+      if (trailingParagraph && (trailingParagraph.textContent || "").trim()) {
+        const p = document.createElement("p");
+        const link = trailingParagraph.querySelector("a[href]");
+        if (link) {
+          const a = document.createElement("a");
+          a.setAttribute("href", link.getAttribute("href") || "#");
+          a.textContent = (link.textContent || "").trim();
+          const fullText = (trailingParagraph.textContent || "").trim();
+          const linkText = (link.textContent || "").trim();
+          const parts = fullText.split(linkText);
+          const beforeLink = parts[0] || "";
+          const afterLink = parts[1] || "";
+          if (beforeLink) p.appendChild(document.createTextNode(beforeLink));
+          p.appendChild(a);
+          if (afterLink) p.appendChild(document.createTextNode(afterLink));
+        } else {
+          p.textContent = (trailingParagraph.textContent || "").trim();
+        }
+        if ((p.textContent || "").trim()) {
+          elementsAfterBlock.push(p);
+        }
+      }
+    });
+    const cells = [
+      [leftCell, rightCell]
+    ];
+    const block = WebImporter.Blocks.createBlock(document, {
+      name: "columns-info",
+      cells
+    });
+    element.replaceWith(...elementsBeforeBlock, block, ...elementsAfterBlock);
+  }
+
+  // tools/importer/parsers/accordion-faq.js
+  function parse7(element, { document }) {
+    const accordion = element.querySelector(".nw-accordion") || element;
+    const panels = Array.from(accordion.querySelectorAll(".panel.panel-default, .panel-default"));
+    if (panels.length === 0) {
+      element.remove();
+      return;
+    }
+    const cells = [];
+    panels.forEach((panel) => {
+      const questionEl = panel.querySelector(
+        ".panel-title a span, .panel-title a, .panel-title span, .panel-title"
+      );
+      const questionText = questionEl ? questionEl.textContent.trim() : "";
+      if (!questionText) return;
+      const questionHeading = document.createElement("h3");
+      questionHeading.textContent = questionText;
+      const panelBody = panel.querySelector(".panel-body");
+      const answerElements = [];
+      if (panelBody) {
+        const spanWrapper = panelBody.querySelector(":scope > span");
+        const contentParent = spanWrapper || panelBody;
+        Array.from(contentParent.children).forEach((child) => {
+          if (child.classList && child.classList.contains("rtc-component") && !child.textContent.trim()) {
+            return;
+          }
+          if (["P", "UL", "OL", "H1", "H2", "H3", "H4", "H5", "H6"].includes(child.tagName)) {
+            answerElements.push(child);
+          } else if (child.tagName === "DIV" && child.textContent.trim()) {
+            const innerPs = Array.from(child.querySelectorAll("p, ul, ol"));
+            if (innerPs.length > 0) {
+              answerElements.push(...innerPs);
+            } else {
+              const p = document.createElement("p");
+              p.textContent = child.textContent.trim();
+              answerElements.push(p);
+            }
+          }
+        });
+      }
+      cells.push([questionHeading, ...answerElements]);
+    });
+    if (cells.length === 0) return;
+    const block = WebImporter.Blocks.createBlock(document, {
+      name: "accordion-faq",
       cells
     });
     element.replaceWith(block);
@@ -369,10 +643,10 @@ var CustomImportScript = (() => {
     "Are you a Nationwide member?": { src: "./images/handshake.svg", alt: "handshake icon" },
     "Have a business to protect?": { src: "./images/storefront.svg", alt: "storefront icon" }
   };
-  function parse5(element, { document }) {
+  function parse8(element, { document }) {
     const scope = element.querySelector("section.nw-cta-small, .nw-cta-small") || element;
     const headlineStrongEl = scope.querySelector(".nw-cta-small__text strong");
-    const headlineText = (headlineStrongEl?.textContent || "").replace(/ /g, " ").trim();
+    const headlineText = ((headlineStrongEl == null ? void 0 : headlineStrongEl.textContent) || "").replace(/ /g, " ").trim();
     const iconInfo = CTA_ICON_BY_HEADLINE[headlineText];
     let icon = null;
     if (iconInfo) {
@@ -433,62 +707,6 @@ var CustomImportScript = (() => {
     ];
     const block = WebImporter.Blocks.createBlock(document, {
       name: "columns-cta",
-      cells
-    });
-    element.replaceWith(block);
-  }
-
-  // tools/importer/parsers/columns-app.js
-  function parse6(element, { document }) {
-    const columnDivs = Array.from(
-      element.querySelectorAll(".large-6.small-12.columns.rtc-paragraph")
-    );
-    const [leftCol, rightCol] = columnDivs;
-    const leftCell = [];
-    if (leftCol) {
-      const leftScope = leftCol.querySelector(":scope > span") || leftCol;
-      const intro = leftScope.querySelector('.nw-text-lg, [class*="text-lg"]');
-      if (intro) {
-        const p = document.createElement("p");
-        p.textContent = (intro.textContent || "").replace(/ /g, " ").trim();
-        if (p.textContent) leftCell.push(p);
-      }
-      const heading = leftScope.querySelector('h1, h2, h3, h4, [class*="heading"]');
-      if (heading) leftCell.push(heading);
-      const candidateDivs = Array.from(leftScope.querySelectorAll(":scope > div"));
-      const listItems = candidateDivs.filter((d) => {
-        if (d.classList.contains("nw-text-lg")) return false;
-        const text = (d.textContent || "").replace(/ /g, " ").trim();
-        return text.length > 0;
-      });
-      if (listItems.length > 0) {
-        const ul = document.createElement("ul");
-        listItems.forEach((itemDiv) => {
-          const li = document.createElement("li");
-          const text = (itemDiv.textContent || "").replace(/ /g, " ").trim();
-          if (text) {
-            li.textContent = text;
-            ul.appendChild(li);
-          }
-        });
-        if (ul.children.length > 0) leftCell.push(ul);
-      }
-    }
-    const rightCell = [];
-    if (rightCol) {
-      const rightScope = rightCol.querySelector(":scope > span") || rightCol;
-      const qrImage = document.createElement("img");
-      qrImage.setAttribute("src", "./images/qr-code.png");
-      qrImage.setAttribute("alt", "Scan this QR code to download the app!");
-      rightCell.push(qrImage);
-      const caption = rightScope.querySelector("p");
-      if (caption) rightCell.push(caption);
-    }
-    const cells = [
-      [leftCell, rightCell]
-    ];
-    const block = WebImporter.Blocks.createBlock(document, {
-      name: "columns-app",
       cells
     });
     element.replaceWith(block);
@@ -588,143 +806,41 @@ var CustomImportScript = (() => {
     }
   }
 
-  // tools/importer/import-homepage.js
+  // tools/importer/import-insurance-landing.js
   var PAGE_TEMPLATE = {
-    name: "homepage",
-    description: "Nationwide.com homepage featuring hero with insurance-type selector and ZIP quote CTA, self-service tri-promo cards with dropdowns and ZIP form, 3-column category cards, tile blocks for feature promos, mobile app columns, and marketing banners.",
-    urls: ["https://www.nationwide.com/"],
+    name: "insurance-landing",
+    description: "Nationwide insurance category landing pages featuring product descriptions, quote CTAs, coverages/discounts cards, FAQs, and related resources.",
+    urls: ["https://www.nationwide.com/personal/insurance/auto/"],
     blocks: [
-      {
-        name: "hero-quote",
-        instances: ["div.nw-home-quote-banner"]
-      },
-      {
-        name: "cards-action",
-        instances: ["div.custom-tri-promo"]
-      },
-      {
-        name: "cards-category",
-        instances: ["section.nw-multi-option-promo"]
-      },
-      {
-        name: "columns-cta",
-        instances: [
-          "div#p45265.nw-bg-blue-darkest.nw-small-cta",
-          "div#p45310.nw-bg-blue-darkest.nw-small-cta"
-        ]
-      },
-      {
-        name: "cards-tile",
-        instances: [
-          "section#p30097.nw-tile-block",
-          "section#p30087.nw-tile-block"
-        ]
-      },
-      {
-        name: "columns-app",
-        instances: ["div#p43655.rtc-component.nw-bg-rebrand-vibrant-blue"]
-      }
+      { name: "hero-quote", instances: [".nw-banner2"] },
+      { name: "columns-video", instances: [".nw-video-mediamanager"] },
+      { name: "cards-action", instances: [".nw-multi-option-promo"] },
+      { name: "cards-tile", instances: [".nw-content-promo", "section.nw-bg-gray-pale-25"] },
+      { name: "columns-banner", instances: [".nw-banner-inpage"] },
+      { name: "columns-info", instances: [".rtc-component:has(.large-6.rtc-paragraph)"] },
+      { name: "accordion-faq", instances: [".nw-accordion"] },
+      { name: "columns-cta", instances: [".nw-small-cta"] }
     ],
-    sections: [
-      {
-        id: "section-1-hero",
-        name: "Hero banner",
-        selector: "div.nw-home-quote-banner",
-        style: null,
-        blocks: ["hero-quote"],
-        defaultContent: []
-      },
-      {
-        id: "section-2-tri-promo",
-        name: "Tri-promo action cards",
-        selector: ["div.row.text-center.align-center.nw-inner-bottom"],
-        style: null,
-        blocks: ["cards-action"],
-        defaultContent: []
-      },
-      {
-        id: "section-3-category",
-        name: "Protecting people, businesses and futures",
-        selector: "div#p43486.nw-multi-option-promo",
-        style: "light-grey",
-        blocks: ["cards-category"],
-        defaultContent: ["div#p43486 h2.nw-heading-tiempos-md"]
-      },
-      {
-        id: "section-4-member-cta",
-        name: "Are you a Nationwide member CTA",
-        selector: "div#p45265.nw-bg-blue-darkest.nw-small-cta",
-        style: "navy-blue",
-        blocks: ["columns-cta"],
-        defaultContent: []
-      },
-      {
-        id: "section-5-tile-block-2",
-        name: "Two-tile financial future + long-term care",
-        selector: "section#p30097.nw-tile-block",
-        style: null,
-        blocks: ["cards-tile"],
-        defaultContent: []
-      },
-      {
-        id: "section-6-tile-block-3",
-        name: "Three-tile small business + bundle + manage online",
-        selector: "section#p30087.nw-tile-block",
-        style: null,
-        blocks: ["cards-tile"],
-        defaultContent: []
-      },
-      {
-        id: "section-7-most-important",
-        name: "Protecting what's most important narrative",
-        selector: "div#p45234.rtc-component",
-        style: null,
-        blocks: [],
-        defaultContent: ["div#p45234 h2", "div#p45234 p"]
-      },
-      {
-        id: "section-8-business-cta",
-        name: "Have a business to protect CTA",
-        selector: "div#p45310.nw-bg-blue-darkest.nw-small-cta",
-        style: "navy-blue",
-        blocks: ["columns-cta"],
-        defaultContent: []
-      },
-      {
-        id: "section-9-app-promo",
-        name: "Mobile app promo with QR",
-        selector: "div#p43655.rtc-component.nw-bg-rebrand-vibrant-blue",
-        style: "vibrant-blue",
-        blocks: ["columns-app"],
-        defaultContent: []
-      },
-      {
-        id: "section-10-disclaimer",
-        name: "Disclaimer footnote",
-        selector: "div#p44604.rtc-component",
-        style: null,
-        blocks: [],
-        defaultContent: ["div#p44604 div.nw-text-sm"]
-      }
-    ]
+    sections: []
   };
   var parsers = {
     "hero-quote": parse,
-    "cards-action": parse2,
-    "cards-category": parse3,
+    "columns-video": parse2,
+    "cards-action": parse3,
     "cards-tile": parse4,
-    "columns-cta": parse5,
-    "columns-app": parse6
+    "columns-banner": parse5,
+    "columns-info": parse6,
+    "accordion-faq": parse7,
+    "columns-cta": parse8
   };
   var transformers = [
     transform,
     ...PAGE_TEMPLATE.sections && PAGE_TEMPLATE.sections.length > 1 ? [transform2] : []
   ];
   function executeTransformers(hookName, element, payload) {
-    const enhancedPayload = {
-      ...payload,
+    const enhancedPayload = __spreadProps(__spreadValues({}, payload), {
       template: PAGE_TEMPLATE
-    };
+    });
     transformers.forEach((transformerFn) => {
       try {
         transformerFn.call(null, hookName, element, enhancedPayload);
@@ -754,10 +870,7 @@ var CustomImportScript = (() => {
     console.log(`Found ${pageBlocks.length} block instances on page`);
     return pageBlocks;
   }
-  var import_homepage_default = {
-    /**
-     * Main transformation function
-     */
+  var import_insurance_landing_default = {
     transform: (payload) => {
       const { document, url, params } = payload;
       const main = document.body;
@@ -784,13 +897,6 @@ var CustomImportScript = (() => {
       WebImporter.rules.createMetadata(main, document);
       WebImporter.rules.transformBackgroundImages(main, document);
       WebImporter.rules.adjustImageUrls(main, url, params.originalURL);
-      main.querySelectorAll("img[src]").forEach((img) => {
-        const src = img.getAttribute("src") || "";
-        const m = src.match(/^https?:\/\/[^/]+(\/images\/[^?#]+)(?:[?#].*)?$/);
-        if (m) {
-          img.setAttribute("src", "." + m[1]);
-        }
-      });
       let pathname = new URL(params.originalURL).pathname.replace(/\/$/, "").replace(/\.html$/, "");
       if (pathname === "") pathname = "/index";
       const path = WebImporter.FileUtils.sanitizePath(pathname);
@@ -807,5 +913,5 @@ var CustomImportScript = (() => {
       ];
     }
   };
-  return __toCommonJS(import_homepage_exports);
+  return __toCommonJS(import_insurance_landing_exports);
 })();
