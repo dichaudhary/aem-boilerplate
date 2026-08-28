@@ -1,27 +1,131 @@
+/*
+ * cards-category block
+ *
+ * Icon + heading + body + CTA card trio, displayed on a light-grey section
+ * background. Modeled on the Nationwide "Protecting people, businesses and
+ * futures for 100 years" (.nw-multi-option-promo) block.
+ *
+ * Expected DOM (post-decoration):
+ *   .cards-category.block
+ *     ul
+ *       li
+ *         .cards-category-card-image  (picture/img - treated as an icon)
+ *         .cards-category-card-body
+ *           h3
+ *           p
+ *           p > a           (EDS may wrap it with .button/.button-container)
+ *
+ * Section-level light-grey background is supplied by section-metadata
+ * (`main .section.light-grey` in styles.css).
+ */
+
 .cards-category > ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  grid-gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .cards-category > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+  /* Source has no card chrome — flat cards on the section background */
+  background-color: transparent;
+  border: none;
+  padding: 0 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Icon: 65x65 circle, no cropping, not stretched */
+.cards-category .cards-category-card-image {
+  line-height: 0;
+  margin: 0 0 20px;
+}
+
+.cards-category .cards-category-card-image img {
+  width: 65px;
+  height: 65px;
+  aspect-ratio: auto;
+  object-fit: contain;
 }
 
 .cards-category .cards-category-card-body {
-  margin: 16px;
+  margin: 0;
+  max-width: 100%;
 }
 
-.cards-category .cards-category-card-image {
-  line-height: 0;
+.cards-category .cards-category-card-body h3 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: var(--body-font-family), montserrat-fallback, sans-serif;
+  line-height: 30px;
+  color: var(--primary-color); /* Nationwide vibrant blue */
+  margin: 0 0 20px;
+  text-align: center;
 }
 
-.cards-category > ul > li img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+.cards-category .cards-category-card-body p {
+  font-size: 18px;
+  line-height: 28.8px;
+  color: var(--text-color);
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+/* CTA link styled as Nationwide "hollow" button (matches source exactly). */
+.cards-category .cards-category-card-body p:last-child {
+  margin: 0;
+}
+
+.cards-category .cards-category-card-body a,
+main .cards-category .cards-category-card-body a.button:any-link {
+  display: inline-block;
+  box-sizing: border-box;
+  color: var(--primary-color);
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--button-radius);
+  padding: 9px 18px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.cards-category .cards-category-card-body a:hover,
+.cards-category .cards-category-card-body a:focus-visible,
+main .cards-category .cards-category-card-body a.button:any-link:hover,
+main .cards-category .cards-category-card-body a.button:any-link:focus-visible {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Keep the .button-container paragraph from collapsing width; make buttons
+   inline so they size to their content and sit centered in the card. */
+.cards-category .cards-category-card-body .button-container {
+  display: block;
+  margin: 0;
+}
+
+/* Desktop: 3 columns side-by-side */
+@media (width >= 900px) {
+  .cards-category > ul {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .cards-category > ul > li {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    padding: 0 15px;
+  }
 }

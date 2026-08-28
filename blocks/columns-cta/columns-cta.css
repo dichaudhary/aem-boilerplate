@@ -1,33 +1,153 @@
+/*
+ * columns-cta — small horizontal CTA block
+ * Design extracted from nationwide.com (div.nw-small-cta) — navy background
+ * variant composed of an icon column + heading/paragraph + hollow white
+ * button link. Intended to be used inside a .section.navy-blue (or
+ * .section.vibrant-blue) wrapper so the container colors come from styles.css.
+ */
+
+/* --- Base row (mobile-first: stacked) -------------------------------- */
 .columns-cta > div {
   display: flex;
   flex-direction: column;
-}
-
-.columns-cta img {
-  width: 100%;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .columns-cta > div > div {
   order: 1;
 }
 
+/* Icon column — on top when stacked, on left on desktop */
 .columns-cta > div > .columns-cta-img-col {
   order: 0;
+  width: 75px;
+  flex: 0 0 auto;
+  padding: 0;
 }
 
+.columns-cta > div > .columns-cta-img-col picture,
 .columns-cta > div > .columns-cta-img-col img {
   display: block;
+  width: 65px;
+  height: 65px;
+  margin: 0 auto;
+  object-fit: contain;
 }
 
+/* Text / content column */
+.columns-cta > div > div:not(.columns-cta-img-col) {
+  flex: 0 1 auto;
+  text-align: center;
+}
+
+/* Heading (source uses <strong>-weight, inline-friendly) */
+.columns-cta h1,
+.columns-cta h2,
+.columns-cta h3,
+.columns-cta h4,
+.columns-cta h5,
+.columns-cta h6 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  font-family: var(--body-font-family), montserrat-fallback, sans-serif;
+  color: #fff;
+  margin: 0 0 4px;
+}
+
+/* Paragraph description */
+.columns-cta p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #fff;
+  margin: 0;
+}
+
+/* Button container wrapper (EDS decorates <p><a> as .button-container) */
+.columns-cta p.button-container {
+  display: block;
+  margin-top: 12px;
+}
+
+/* Hollow white button-link — must beat main a.button:any-link in styles.css */
+main .columns-cta a.button:any-link,
+main .columns-cta a:any-link {
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: var(--button-radius);
+  background-color: transparent;
+  color: #fff;
+  padding: 9px 14px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  font-family: var(--body-font-family), montserrat-fallback, sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+main .columns-cta a.button:any-link:hover,
+main .columns-cta a:any-link:hover,
+main .columns-cta a.button:any-link:focus-visible,
+main .columns-cta a:any-link:focus-visible {
+  background-color: #fff;
+  color: var(--navy-color);
+  text-decoration: none;
+}
+
+/* --- Desktop layout (icon | text | cta link all in one row, centered) - */
 @media (width >= 900px) {
   .columns-cta > div {
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    flex-direction: unset;
-    gap: 24px;
+    gap: 10px;
+    padding: 20px;
+    text-align: left;
   }
 
   .columns-cta > div > div {
-    flex: 1;
     order: unset;
+    flex: 0 1 auto;
+  }
+
+  .columns-cta > div > .columns-cta-img-col {
+    order: unset;
+    padding-right: 10px;
+  }
+
+  /* Text / CTA content cell — lay out children (h3, p, p.button-container)
+   * inline with spacing so the heading, description, and button sit on
+   * one horizontal line just as they do on nationwide.com. */
+  .columns-cta > div > div:not(.columns-cta-img-col) {
+    text-align: left;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 6px 10px;
+    min-width: 0;
+  }
+
+  /* Heading & paragraph sit inline (no block margins) */
+  .columns-cta h1,
+  .columns-cta h2,
+  .columns-cta h3,
+  .columns-cta h4,
+  .columns-cta h5,
+  .columns-cta h6,
+  .columns-cta p {
+    margin: 0;
+  }
+
+  /* Button container: treat as an inline-block sibling right after text */
+  .columns-cta p.button-container {
+    display: inline-block;
+    margin: 0;
+    padding-left: 4px;
   }
 }
