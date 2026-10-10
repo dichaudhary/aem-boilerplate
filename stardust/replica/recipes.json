@@ -1,0 +1,156 @@
+[
+ {
+  "cls": "cmp-recipe-group__carousel-item cmp-carousel__item slick-slide slick-current slick-active",
+  "href": "https://aashirvaad.com/header-pages/recipe-listing/shakarpara-aashirvaad-superior-mp-atta.html",
+  "img": "https://s7ap1.scene7.com/is/image/itcportalprod/Shakarpara-1?fmt=webp-alpha&wid=300&fit=fit,1",
+  "alt": "Shakarpara | Aashirvaad Superior MP Atta",
+  "tag": "Breakfast and Savoury",
+  "title": "Shakarpara | Aashirvaad Superior MP Atta",
+  "time": "35 Mins",
+  "level": "Expert Cook",
+  "hasImg": 1
+ },
+ {
+  "cls": "cmp-recipe-group__carousel-item cmp-carousel__item slick-slide slick-active",
+  "href": "https://aashirvaad.com/header-pages/recipe-listing/onion-samosa.html",
+  "img": "https://s7ap1.scene7.com/is/image/itcportalprod/Onion Samosa?fmt=webp-alpha&wid=300&fit=fit,1",
+  "alt": "Onion Samosa made from Aashirvaad Atta |",
+  "tag": "Breakfast and Savoury",
+  "title": "Onion Samosa made from Aashirvaad Atta |",
+  "time": "65 Mins",
+  "level": "Lazy Cook",
+  "hasImg": 1
+ },
+ {
+  "cls": "cmp-recipe-group__carousel-item cmp-carousel__item slick-slide slick-active",
+  "href": "https://aashirvaad.com/header-pages/recipe-listing/dal-puri.html",
+  "img": "https://s7ap1.scene7.com/is/image/itcportalprod/Dal Puri-1?fmt=webp-alpha&wid=300&fit=fit,1",
+  "alt": "Dal Puri | Aashirvaad Select Atta",
+  "tag": "Breakfast and Savoury",
+  "title": "Dal Puri | Aashirvaad Select Atta",
+  "time": "35 Mins",
+  "level": "Beginner",
+  "hasImg": 1
+ },
+ {
+  "cls": "cmp-recipe-group__carousel-item cmp-carousel__item slick-slide",
+  "href": "https://aashirvaad.com/header-pages/recipe-listing/bhakarwadi.html",
+  "img": "",
+  "alt": "",
+  "tag": "Breakfast and Savoury",
+  "title": "Bhakarwadi made from Aashirvaad Atta with Multigrains",
+  "time": "60 Mins",
+  "level": "Basic Cook",
+  "hasImg": 0
+ },
+ {
+  "cls": "cmp-recipe-group__carousel-item cmp-carousel__item slick-slide",
+  "href": "https://aashirvaad.com/header-pages/recipe-listing/malpua.html",
+  "img": "",
+  "alt": "",
+  "tag": "Breakfast and Savoury",
+  "title": "Malpua made from Aashirvaad Atta",
+  "time": "15 minutes",
+  "level": "Easy",
+  "hasImg": 0
+ },
+ {
+  "cls": "cmp-recipe-group__carousel-item cmp-carousel__item slick-slide",
+  "href": "https://aashirvaad.com/header-pages/recipe-listing/aloo-parantha.html",
+  "img": "",
+  "alt": "",
+  "tag": "Breakfast and Savoury",
+  "title": "Aloo Parantha Recipe Using Aashirvaad Superior MP Atta",
+  "time": "32 minutes",
+  "level": "Easy",
+  "hasImg": 0
+ },
+ {
+  "cls": "cmp-recipe-group__carousel-item cmp-carousel__item slick-slide",
+  "href": "https://aashirvaad.com/header-pages/recipe-listing/papadi-chaat.html",
+  "img": "",
+  "alt": "",
+  "tag": "Breakfast and Savoury",
+  "title": "Papdi Chaat Recipe Using Aashirvaad Sudh Chakki",
+  "time": "30 minutes",
+  "level": "Easy",
+  "hasImg": 0
+ },
+ {
+  "cls": "cmp-recipe-group__carousel-item cmp-carousel__item slick-slide",
+  "href": "https://aashirvaad.com/header-pages/recipe-listing/spicy-nachos-and-dip.html",
+  "img": "",
+  "alt": "",
+  "tag": "Breakfast and Savoury",
+  "title": "Spicy Wheat Flour Nachos with Cheese Sauce Dip Recipe",
+  "time": "15 minutes",
+  "level": "Easy",
+  "hasImg": 0
+ },
+ {
+  "cls": "cmp-recipe-group__carousel-item cmp-carousel__item slick-slide",
+  "href": "https://aashirvaad.com/header-pages/recipe-listing/whole-wheat-bread.html",
+  "img": "",
+  "alt": "",
+  "tag": "Breakfast and Savoury",
+  "title": "Whole Wheat Bread made from Aashirvaad Atta",
+  "time": "60 minutes",
+  "level": "Moderate",
+  "hasImg": 0
+ },
+ {
+  "cls": "cmp-recipe-group__carousel-item cmp-carousel__item slick-slide",
+  "href": "https://aashirvaad.com/header-pages/recipe-listing/wheat-dosa.html",
+  "img": "",
+  "alt": "",
+  "tag": "Breakfast and Savoury",
+  "title": "Wheat Dosa Recipe made from Aashirvaad Atta",
+  "time": "20 minutes",
+  "level": "Easy",
+  "hasImg": 0
+ },
+ {
+  "cls": "cmp-recipe-group__carousel-item cmp-carousel__item slick-slide",
+  "href": "https://aashirvaad.com/header-pages/recipe-listing/chilli-cheese-paratha.html",
+  "img": "",
+  "alt": "",
+  "tag": "Breakfast and Savoury",
+  "title": "Chilli Cheese Paratha made from Aashirvaad Atta",
+  "time": "15 minutes",
+  "level": "Moderate",
+  "hasImg": 0
+ },
+ {
+  "cls": "cmp-recipe-group__carousel-item cmp-carousel__item slick-slide",
+  "href": "https://aashirvaad.com/header-pages/recipe-listing/atta-kachori-recipe.html",
+  "img": "",
+  "alt": "",
+  "tag": "Breakfast and Savoury",
+  "title": "Atta Kachori Recipe made from Aashirvaad Atta",
+  "time": "30 minutes",
+  "level": "Easy",
+  "hasImg": 0
+ },
+ {
+  "cls": "cmp-recipe-group__carousel-item cmp-carousel__item slick-slide",
+  "href": "https://aashirvaad.com/header-pages/recipe-listing/atta-murukku-recipe.html",
+  "img": "",
+  "alt": "",
+  "tag": "Breakfast and Savoury",
+  "title": "Wheat Flour Murukku Recipe made from Aashirvaad Atta",
+  "time": "35 minutes",
+  "level": "Easy",
+  "hasImg": 0
+ },
+ {
+  "cls": "cmp-recipe-group__carousel-item cmp-carousel__item slick-slide",
+  "href": "https://aashirvaad.com/header-pages/recipe-listing/whole-wheat-pasta-recipe.html",
+  "img": "",
+  "alt": "",
+  "tag": "Breakfast and Savoury",
+  "title": "Whole Wheat Pasta Made from Aashirvaad Atta",
+  "time": "40 minutes",
+  "level": "Easy",
+  "hasImg": 0
+ }
+]

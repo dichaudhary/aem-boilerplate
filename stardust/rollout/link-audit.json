@@ -1,0 +1,1730 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:rollout E2 probe",
+  "writtenAt": "2026-10-09T19:10:23.215Z"
+ },
+ "rows": [
+  {
+   "href": "https://aashirvaadchakki.com/",
+   "kind": "external",
+   "url": "https://aashirvaadchakki.com/",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://happytummy.aashirvaad.com/",
+   "kind": "external",
+   "url": "https://happytummy.aashirvaad.com/",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://happytummy.aashirvaad.com/ask-the-expert",
+   "kind": "external",
+   "url": "https://happytummy.aashirvaad.com/ask-the-expert",
+   "status": 200,
+   "final": "https://happytummy.aashirvaad.com/happy-tummy-gpt",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://organic.aashirvaad.com/",
+   "kind": "external",
+   "url": "https://organic.aashirvaad.com/",
+   "status": 0,
+   "error": "fetch failed",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://twitter.com/AashirvaadAtta",
+   "kind": "external",
+   "url": "https://twitter.com/AashirvaadAtta",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "footer.html"
+   ]
+  },
+  {
+   "href": "https://www.facebook.com/Aashirvaad/",
+   "kind": "external",
+   "url": "https://www.facebook.com/Aashirvaad/",
+   "status": 400,
+   "final": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FAashirvaad%2F",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "footer.html"
+   ]
+  },
+  {
+   "href": "https://www.facebook.com/groups/502294225172201",
+   "kind": "external",
+   "url": "https://www.facebook.com/groups/502294225172201",
+   "status": 400,
+   "final": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F502294225172201",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://www.instagram.com/aashirvaad/",
+   "kind": "external",
+   "url": "https://www.instagram.com/aashirvaad/",
+   "status": 200,
+   "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Faashirvaad%2F&is_from_rle",
+   "method": "HEAD",
+   "n": 2,
+   "files": [
+    "index.html",
+    "footer.html"
+   ]
+  },
+  {
+   "href": "https://www.itcportal.com/",
+   "kind": "external",
+   "url": "https://www.itcportal.com/",
+   "status": 200,
+   "final": "https://itcportal.com/",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "footer.html"
+   ]
+  },
+  {
+   "href": "https://www.youtube.com/embed/iFqqEJH4Mnw?autoplay=0&controls=1&showinfo=0&modestbranding=1&fs=1&cc_load_policy=0&iv_load_policy=3&autohide=0&rel=0&enablejsapi=1",
+   "kind": "external",
+   "url": "https://www.youtube.com/embed/iFqqEJH4Mnw?autoplay=0&controls=1&showinfo=0&modestbranding=1&fs=1&cc_load_policy=0&iv_load_policy=3&autohide=0&rel=0&enablejsapi=1",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://www.youtube.com/embed/LrHM0ri-NwQ?autoplay=0&controls=1&showinfo=0&modestbranding=1&fs=1&cc_load_policy=0&iv_load_policy=3&autohide=0&rel=0&enablejsapi=1",
+   "kind": "external",
+   "url": "https://www.youtube.com/embed/LrHM0ri-NwQ?autoplay=0&controls=1&showinfo=0&modestbranding=1&fs=1&cc_load_policy=0&iv_load_policy=3&autohide=0&rel=0&enablejsapi=1",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://www.youtube.com/embed/sbUQyvhgsGg?si=xeqVJZRVM8KDSc5d?rel=0&enablejsapi=1",
+   "kind": "external",
+   "url": "https://www.youtube.com/embed/sbUQyvhgsGg?si=xeqVJZRVM8KDSc5d?rel=0&enablejsapi=1",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://www.youtube.com/user/AashirvaadAtta",
+   "kind": "external",
+   "url": "https://www.youtube.com/user/AashirvaadAtta",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "footer.html"
+   ]
+  },
+  {
+   "href": "#",
+   "kind": "fragment",
+   "status": "n/a",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "/",
+   "kind": "internal",
+   "url": "https://main--5ca9e426--aemcoder.aem.live/",
+   "status": 200,
+   "method": "HEAD",
+   "n": 2,
+   "files": [
+    "nav.html",
+    "footer.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/about-us.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/about-us.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "footer.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/blogs.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/blogs.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/conditions-policy/privacy-policy.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/conditions-policy/privacy-policy.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/privacy-policy.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "footer.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/contact-us.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/contact-us.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "footer.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/csr-initiatives.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/csr-initiatives.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/csr-initiatives/about-initiative.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/csr-initiatives/about-initiative.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/csr-initiatives/community-contact-program.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/csr-initiatives/community-contact-program.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/csr-initiatives/iodine-deficiency.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/csr-initiatives/iodine-deficiency.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/csr-initiatives/school-contact-program.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/csr-initiatives/school-contact-program.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/faqs.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/faqs.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/our-products/atta/multigrain-atta.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/our-products/atta/multigrain-atta.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products/atta/multigrain-atta.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/our-products/atta/shudh-chakki-atta.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/our-products/atta/shudh-chakki-atta.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products/atta/shudh-chakki-atta.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/our-products/atta/sugar-release-control-atta.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/our-products/atta/sugar-release-control-atta.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products/atta/sugar-release-control-atta.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/our-products/chutneys.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/our-products/chutneys.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/our-products/organic/organic-atta.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/our-products/organic/organic-atta.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products/organic/organic-atta.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/our-products/rava/bansi-rava.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/our-products/rava/bansi-rava.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products/rava/bansi-rava.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/our-products/salt/iodized-salt.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/our-products/salt/iodized-salt.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products/salt/iodized-salt.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/our-products/vermicelli/vermicelli.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/our-products/vermicelli/vermicelli.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products/vermicelli/vermicelli.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/recipe-listing/aloo-parantha.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/recipe-listing/aloo-parantha.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/recipe-listing/aloo-parantha.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/recipe-listing/atta-kachori-recipe.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/recipe-listing/atta-kachori-recipe.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/recipe-listing/atta-kachori-recipe.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/recipe-listing/atta-murukku-recipe.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/recipe-listing/atta-murukku-recipe.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/recipe-listing/atta-murukku-recipe.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/recipe-listing/bhakarwadi.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/recipe-listing/bhakarwadi.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/recipe-listing/bhakarwadi.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/recipe-listing/chilli-cheese-paratha.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/recipe-listing/chilli-cheese-paratha.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/recipe-listing/chilli-cheese-paratha.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/recipe-listing/dal-puri.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/recipe-listing/dal-puri.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/recipe-listing/dal-puri.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/recipe-listing/malpua.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/recipe-listing/malpua.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/recipe-listing/malpua.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/recipe-listing/onion-samosa.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/recipe-listing/onion-samosa.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/recipe-listing/onion-samosa.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/recipe-listing/papadi-chaat.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/recipe-listing/papadi-chaat.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/recipe-listing/papadi-chaat.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/recipe-listing/shakarpara-aashirvaad-superior-mp-atta.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/recipe-listing/shakarpara-aashirvaad-superior-mp-atta.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/recipe-listing/shakarpara-aashirvaad-superior-mp-atta.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/recipe-listing/spicy-nachos-and-dip.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/recipe-listing/spicy-nachos-and-dip.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/recipe-listing/spicy-nachos-and-dip.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/recipe-listing/wheat-dosa.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/recipe-listing/wheat-dosa.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/recipe-listing/wheat-dosa.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/recipe-listing/whole-wheat-bread.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/recipe-listing/whole-wheat-bread.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/recipe-listing/whole-wheat-bread.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/header-pages/recipe-listing/whole-wheat-pasta-recipe.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/header-pages/recipe-listing/whole-wheat-pasta-recipe.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/recipe-listing/whole-wheat-pasta-recipe.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "index.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 2,
+   "files": [
+    "nav.html",
+    "footer.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/atta.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/atta.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/atta/fortified-chakki-atta.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/atta/fortified-chakki-atta.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/atta/gluten-free-flour.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/atta/gluten-free-flour.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/atta/high-protein-atta.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/atta/high-protein-atta.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/atta/mp-chakki-atta.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/atta/mp-chakki-atta.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/atta/multigrain-atta.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/atta/multigrain-atta.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/atta/organic-atta.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/atta/organic-atta.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products/organic/organic-atta.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/atta/select-atta.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/atta/select-atta.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/atta/shudh-chakki-atta.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/atta/shudh-chakki-atta.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 2,
+   "files": [
+    "index.html",
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/atta/sugar-release-control-atta.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/atta/sugar-release-control-atta.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/atta/superior-mp-atta.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/atta/superior-mp-atta.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/basic-spices.htm.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/basic-spices.htm.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/basic-spices/byadagi-chilli-powder.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/basic-spices/byadagi-chilli-powder.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/basic-spices/coriander-powder.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/basic-spices/coriander-powder.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/basic-spices/guntur-byadagi-chilli-powder.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/basic-spices/guntur-byadagi-chilli-powder.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/basic-spices/kashmiri-chilli-powder.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/basic-spices/kashmiri-chilli-powder.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/basic-spices/pepper-powder.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/basic-spices/pepper-powder.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/basic-spices/premium-chilli-powder.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/basic-spices/premium-chilli-powder.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/basic-spices/red-chilli-powder.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/basic-spices/red-chilli-powder.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/basic-spices/turmeric-powder.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/basic-spices/turmeric-powder.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/besan.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/besan.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/besan/besan.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/besan/besan.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/blended-spices.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/blended-spices.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/blended-spices/aloo-dum-masala.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/blended-spices/aloo-dum-masala.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/blended-spices/chaat-masala.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/blended-spices/chaat-masala.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/blended-spices/dal-masala.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/blended-spices/dal-masala.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/blended-spices/kitchen-king-masala.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/blended-spices/kitchen-king-masala.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/blended-spices/masala-karam.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/blended-spices/masala-karam.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/blended-spices/paneer-masala.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/blended-spices/paneer-masala.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/blended-spices/pav-bhaji-masala.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/blended-spices/pav-bhaji-masala.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/blended-spices/punjabi-chole-masala.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/blended-spices/punjabi-chole-masala.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/blended-spices/rasam-powder.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/blended-spices/rasam-powder.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/blended-spices/sabji-masala.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/blended-spices/sabji-masala.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/blended-spices/sambar-powder.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/blended-spices/sambar-powder.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/blended-spices/shahi-garam-masala.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/blended-spices/shahi-garam-masala.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/chutneys/chutneys.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/chutneys/chutneys.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/frozen-naans-parathas.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/frozen-naans-parathas.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/frozen-naans-parathas/aloo-paratha.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/frozen-naans-parathas/aloo-paratha.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/frozen-naans-parathas/garlic-and-coriander-naan.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/frozen-naans-parathas/garlic-and-coriander-naan.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/frozen-naans-parathas/malabar-paratha.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/frozen-naans-parathas/malabar-paratha.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/frozen-naans-parathas/paneer-paratha.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/frozen-naans-parathas/paneer-paratha.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/frozen-naans-parathas/tandoori-naan.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/frozen-naans-parathas/tandoori-naan.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/ghee.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/ghee.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/ghee/svasti-ghee.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/ghee/svasti-ghee.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/instant-meals.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/instant-meals.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 2,
+   "files": [
+    "index.html",
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/instant-meals/dal-makhani.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/instant-meals/dal-makhani.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/instant-meals/instant-halwa.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/instant-meals/instant-halwa.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/instant-meals/instant-mini-idli-sambar.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/instant-meals/instant-mini-idli-sambar.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/instant-meals/instant-poha.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/instant-meals/instant-poha.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/instant-meals/instant-upma.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/instant-meals/instant-upma.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/instant-meals/paneer-butter-masala.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/instant-meals/paneer-butter-masala.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/instant-mixes.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/instant-mixes.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/instant-mixes/instant-gulab-jamun-mix.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/instant-mixes/instant-gulab-jamun-mix.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/instant-mixes/instant-rava-idli.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/instant-mixes/instant-rava-idli.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/instant-mixes/instant-rice-dosa.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/instant-mixes/instant-rice-dosa.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/instant-mixes/instant-rice-idli.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/instant-mixes/instant-rice-idli.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/millets.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/millets.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/millets/atta-with-millets.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/millets/atta-with-millets.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 2,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/millets/batter-mix.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/millets/batter-mix.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/millets/multi-millet-flour.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/millets/multi-millet-flour.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/millets/ragi-flour.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/millets/ragi-flour.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/organic.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/organic.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/organic/organic-atta.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/organic/organic-atta.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/organic/organic-chana-dal.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/organic/organic-chana-dal.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/organic/organic-kabuli-chana.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/organic/organic-kabuli-chana.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/organic/organic-masoor-dal.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/organic/organic-masoor-dal.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/organic/organic-moong-dal.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/organic/organic-moong-dal.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/organic/organic-rajma.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/organic/organic-rajma.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/organic/organic-tur-dal.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/organic/organic-tur-dal.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/organic/organic-urad-dal-whole.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/organic/organic-urad-dal-whole.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/organic/organic-urad-dal.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/organic/organic-urad-dal.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/plant-protein.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/plant-protein.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/plant-protein/soya-chunks.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/plant-protein/soya-chunks.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/rava.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/rava.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/rava/bansi-rava.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/rava/bansi-rava.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/rava/double-roasted-suji-rava.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/rava/double-roasted-suji-rava.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/rava/samba-broken-wheat.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/rava/samba-broken-wheat.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/ready-to-cook-chapati.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/ready-to-cook-chapati.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/ready-to-cook-chapati/rtc-chapati.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/ready-to-cook-chapati/rtc-chapati.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/salt.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/salt.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/salt/himalayan-pink-salt.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/salt/himalayan-pink-salt.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 2,
+   "files": [
+    "index.html",
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/salt/iodized-crystal-salt.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/salt/iodized-crystal-salt.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/salt/iodized-salt.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/salt/iodized-salt.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/salt/iodized-saltoffer.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/salt/iodized-saltoffer.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/salt/salt-active.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/salt/salt-active.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/vermicelli.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/vermicelli.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/vermicelli/roasted-vermicelli.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/vermicelli/roasted-vermicelli.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/vermicelli/vermicelli.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/vermicelli/vermicelli.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/whole-spices.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/whole-spices.html",
+   "status": 200,
+   "final": "https://aashirvaad.com/our-products.html",
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/whole-spices/ajwain.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/whole-spices/ajwain.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/whole-spices/black-pepper.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/whole-spices/black-pepper.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/whole-spices/cardamom.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/whole-spices/cardamom.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/whole-spices/clove.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/whole-spices/clove.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/whole-spices/jeera.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/whole-spices/jeera.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/whole-spices/kasuri-methi.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/whole-spices/kasuri-methi.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/whole-spices/methi.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/whole-spices/methi.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/whole-spices/mustard.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/whole-spices/mustard.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/whole-spices/poppy-seeds.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/whole-spices/poppy-seeds.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-products/whole-spices/saunf.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-products/whole-spices/saunf.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/our-story.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/our-story.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 2,
+   "files": [
+    "index.html",
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/privacy-policy.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/privacy-policy.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "footer.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/recipe-listing.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/recipe-listing.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "nav.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/sitemap.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/sitemap.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "footer.html"
+   ]
+  },
+  {
+   "href": "https://aashirvaad.com/terms-of-use.html",
+   "kind": "source-repoint",
+   "url": "https://aashirvaad.com/terms-of-use.html",
+   "status": 200,
+   "method": "HEAD",
+   "n": 1,
+   "files": [
+    "footer.html"
+   ]
+  }
+ ]
+}

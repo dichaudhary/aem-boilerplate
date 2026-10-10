@@ -1,0 +1,48 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-09T16:51:46Z",
+      "endedAt": "2026-10-09T16:52:40Z",
+      "verdict": "plan: 1 page in scope — index (landing) Path A archetype tier, 0 siblings, 0 thin; render unit `landing` runs after the archetype unit in C-deliver; dynamic-features.md 12 rows all dispositioned"
+    },
+    "landing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-09T16:52:28Z",
+      "endedAt": "2026-10-09T16:54:33Z",
+      "verdict": "landing: rendered 1, unchanged 0, refused 0, passthrough 0 — index (archetype, Path A) → stardust/migrated/index.html, 9 assets, 143 internal links not in inventory (repoint decision), content-count 0 🔴"
+    },
+    "assets": {
+      "status": "done",
+      "kind": "assets",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-09T16:54:55Z",
+      "endedAt": "2026-10-09T16:56:16Z",
+      "verdict": "assets: 9 bundled (2 css, 7 fonts) + favicon, robots.txt, sitemap.xml; 27 scene7 + 3 YouTube references kept external (no captured media); 143 out-of-scope links repointed to https://aashirvaad.com; portability audits OK (pagemap, file://)"
+    },
+    "report": {
+      "status": "done",
+      "kind": "report",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-09T16:56:42Z",
+      "endedAt": "2026-10-09T16:56:42Z",
+      "verdict": "report: 1/1 pages migrated (index, archetype tier, status migrated); gates content-count + content-fidelity on the sidecar; pixel gates + delivery-lint + media-reconcile are earned in C-deliver"
+    }
+  }
+}

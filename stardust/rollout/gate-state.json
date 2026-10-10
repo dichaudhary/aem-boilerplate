@@ -1,0 +1,46 @@
+{
+  "_provenance": {
+    "writtenBy": "replica C-final (derived view for gate-all.mjs --state)",
+    "writtenAt": "2026-10-09T18:53:31.476Z",
+    "source": [
+      "stardust/state.json",
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "note": "state.json has no deployed status/liveUrl keys (state.mjs vocabulary ends at migrated); this view adds them from the coverage ledger for the roster gate only"
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://aashirvaad.com/",
+      "title": "Aashirvaad - Bringing Nutrition & Taste to you since 2002",
+      "type": "landing",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-09T15:03:19Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-09T15:32:53Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-09T16:48:40Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-09T16:54:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "stardust/migrated/index.html",
+      "liveUrl": "https://main--5ca9e426--aemcoder.aem.live/",
+      "deployedPath": "/"
+    }
+  ]
+}

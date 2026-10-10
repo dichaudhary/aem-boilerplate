@@ -1,0 +1,63 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-10-09T16:57:24.800Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-09T16:57:24.800Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "index"
+  ],
+  "steps": [
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero-carousel",
+          "edsBlockName": "hero-carousel"
+        },
+        {
+          "id": "offerings",
+          "edsBlockName": "offerings"
+        },
+        {
+          "id": "video-teaser",
+          "edsBlockName": "video-teaser"
+        },
+        {
+          "id": "recipe-cards",
+          "edsBlockName": "recipe-cards"
+        },
+        {
+          "id": "teaser",
+          "edsBlockName": "teaser"
+        },
+        {
+          "id": "most-loved",
+          "edsBlockName": "most-loved"
+        },
+        {
+          "id": "footprint",
+          "edsBlockName": "footprint"
+        },
+        {
+          "id": "community",
+          "edsBlockName": "community"
+        },
+        {
+          "id": "follow",
+          "edsBlockName": "follow"
+        }
+      ],
+      "reuse": []
+    }
+  ]
+}

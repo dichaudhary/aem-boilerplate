@@ -28,6 +28,7 @@ function sampleRUM(checkpoint, data) {
         on: 1,
         off: 0,
         high: 10,
+        medium: 100,
         low: 1000,
       }[rate];
       const weight = rateValue !== undefined ? rateValue : 100;
@@ -64,6 +65,29 @@ function sampleRUM(checkpoint, data) {
           return errData;
         };
 
+        // rejections coming from `el.onerror = reject` (e.g. loadScript/loadCSS) carry a
+        // DOM Event as reason, which serializes to nothing useful. Report a locator for
+        // the failing element instead - tag name plus resource URL, rather than the
+        // outerHTML, which would put attribute values and inline script or style content
+        // into the beacon. Only string parts are kept, since `href` on an SVG element is
+        // an SVGAnimatedString rather than a URL. Falls back to the event type, and is
+        // capped so that a long (e.g. data:) URL cannot bloat the payload.
+        const dataFromEventObj = (event) => {
+          const errData = { source: 'Unhandled Rejection', target: 'Unknown' };
+          try {
+            const el = event.target;
+            const locator = el && el.tagName
+              ? [el.tagName.toLowerCase(), el.src, el.href]
+                .filter((part) => part && typeof part === 'string')
+                .join('@')
+              : el && el.toString();
+            errData.target = (locator || event.type).slice(0, 200);
+          } catch (err) {
+            /* event structure was not as expected */
+          }
+          return errData;
+        };
+
         window.addEventListener('error', ({ error }) => {
           const errData = dataFromErrorObj(error);
           sampleRUM('error', errData);
@@ -76,6 +100,8 @@ function sampleRUM(checkpoint, data) {
           };
           if (reason instanceof Error) {
             errData = dataFromErrorObj(reason);
+          } else if (reason instanceof Event) {
+            errData = dataFromEventObj(reason);
           }
           sampleRUM('error', errData);
         });
@@ -93,14 +119,18 @@ function sampleRUM(checkpoint, data) {
         sampleRUM.baseURL = sampleRUM.baseURL || new URL(window.RUM_BASE || '/', new URL('https://ot.aem.live'));
         sampleRUM.collectBaseURL = sampleRUM.collectBaseURL || sampleRUM.baseURL;
         sampleRUM.sendPing = (ck, time, pingData = {}) => {
+          const uaExtra = navigator.webdriver && !navigator.userAgent.includes('+http')
+            ? { ua: `${navigator.userAgent} +http://navigator.webdriver` }
+            : {};
           // eslint-disable-next-line max-len, object-curly-newline
           const rumData = JSON.stringify({
             weight,
             id,
-            referer: window.location.href,
+            referer: window.location.origin + window.location.pathname,
             checkpoint: ck,
             t: time,
             ...pingData,
+            ...uaExtra,
           });
           const urlParams = window.RUM_PARAMS
             ? new URLSearchParams(window.RUM_PARAMS).toString() || ''
@@ -120,7 +150,9 @@ function sampleRUM(checkpoint, data) {
 
         sampleRUM.enhance = () => {
           // only enhance once
-          if (document.querySelector('script[src*="rum-enhancer"]')) return;
+          if (document.querySelector('script[src*="rum-enhancer"]')) {
+            return;
+          }
           const { enhancerVersion, enhancerHash } = sampleRUM.enhancerContext || {};
           const script = document.createElement('script');
           if (enhancerHash) {
@@ -150,31 +182,21 @@ function sampleRUM(checkpoint, data) {
 /**
  * Setup block utils.
  */
-function setup() {
+function setup(importUrl = import.meta.url) {
   window.hlx = window.hlx || {};
   window.hlx.RUM_MASK_URL = 'full';
   window.hlx.RUM_MANUAL_ENHANCE = true;
-  window.hlx.codeBasePath = '';
   window.hlx.lighthouse = new URLSearchParams(window.location.search).get('lighthouse') === 'on';
 
-  const scriptEl = document.querySelector('script[src$="/scripts/scripts.js"]');
-  if (scriptEl) {
-    try {
-      [window.hlx.codeBasePath] = new URL(scriptEl.src).pathname.split('/scripts/scripts.js');
-    } catch (error) {
-      // eslint-disable-next-line no-console
-      console.log(error);
-    }
-  }
+  [window.hlx.codeBasePath] = new URL(importUrl).pathname.split('/scripts/');
 }
 
 /**
  * Auto initialization.
  */
-
 function init() {
   setup();
-  sampleRUM.collectBaseURL = window.origin;
+  sampleRUM.collectBaseURL = new URL(`${window.hlx.codeBasePath}/`, window.origin);
   sampleRUM();
 }
 
@@ -387,6 +409,7 @@ function wrapTextNodes(block) {
     'OL',
     'PICTURE',
     'TABLE',
+    'BLOCKQUOTE',
     'H1',
     'H2',
     'H3',
@@ -471,24 +494,6 @@ function decorateSections(main) {
     section.classList.add('section');
     section.dataset.sectionStatus = 'initialized';
     section.style.display = 'none';
-
-    // Process section metadata
-    const sectionMeta = section.querySelector('div.section-metadata');
-    if (sectionMeta) {
-      const meta = readBlockConfig(sectionMeta);
-      Object.keys(meta).forEach((key) => {
-        if (key === 'style') {
-          const styles = meta.style
-            .split(',')
-            .filter((style) => style)
-            .map((style) => toClassName(style.trim()));
-          styles.forEach((style) => section.classList.add(style));
-        } else {
-          section.dataset[toCamelCase(key)] = meta[key];
-        }
-      });
-      sectionMeta.parentNode.remove();
-    }
   });
 }
 
@@ -593,7 +598,12 @@ function decorateBlocks(main) {
  */
 async function loadHeader(header) {
   const headerBlock = buildBlock('header', '');
-  header.append(headerBlock);
+  const existingHeaderBlock = header.querySelector(':scope > .header');
+  if (existingHeaderBlock) {
+    existingHeaderBlock.replaceWith(headerBlock);
+  } else {
+    header.append(headerBlock);
+  }
   decorateBlock(headerBlock);
   return loadBlock(headerBlock);
 }
@@ -605,7 +615,12 @@ async function loadHeader(header) {
  */
 async function loadFooter(footer) {
   const footerBlock = buildBlock('footer', '');
-  footer.append(footerBlock);
+  const existingFooterBlock = footer.querySelector(':scope > .footer');
+  if (existingFooterBlock) {
+    existingFooterBlock.replaceWith(footerBlock);
+  } else {
+    footer.append(footerBlock);
+  }
   decorateBlock(footerBlock);
   return loadBlock(footerBlock);
 }

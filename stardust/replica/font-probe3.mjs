@@ -1,0 +1,12 @@
+import path from 'node:path'; import { pathToFileURL } from 'node:url';
+const session = await import(pathToFileURL(path.resolve('stardust/scripts/diff/live-session.mjs')).href);
+const { chromium } = await import('playwright');
+const browser = await chromium.launch({ headless: true });
+const ctx = await session.newLiveContext(browser, { viewport: { width: 1440, height: 900 } });
+const page = await ctx.newPage(); const fontReqs = [];
+page.on('response', r => { const u = r.url(); const ct = r.headers()['content-type'] || ''; if (/\.(woff2?|ttf|otf)(\?|$)/i.test(u) || /font/i.test(ct)) fontReqs.push(`${r.status()} ${ct.slice(0,30)} ${u}`); });
+await session.gotoLive(page, 'https://aashirvaad.com/', { waitUntil: 'domcontentloaded', timeoutMs: 60000, settleMs: 4000 });
+await page.waitForTimeout(2000);
+const r = await page.evaluate(async () => { await document.fonts.ready; const faces = []; document.fonts.forEach(f => { if (/Baskerville/i.test(f.family)) faces.push(`${f.family} | ${f.weight} | ${f.style} | ${f.status} | ${f.unicodeRange.slice(0,30)}`); });
+  const sheets = [...document.styleSheets].map(s => s.href || 'inline').filter(h => /font|inline/.test(h)); return { faces, sheets }; });
+console.log('faces:\n' + r.faces.join('\n')); console.log('font sheets:', r.sheets.join('\n')); console.log('font responses:\n' + fontReqs.join('\n')); await browser.close();

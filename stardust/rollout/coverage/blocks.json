@@ -1,0 +1,193 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-09T16:57:24.741Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-09T19:29:28.916Z",
+  "blocks": [
+    {
+      "id": "community",
+      "label": "community",
+      "kind": "module",
+      "signature": "module:community",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "community",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "follow",
+      "label": "follow",
+      "kind": "module",
+      "signature": "module:follow",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "default-content",
+        "blockPath": null,
+        "convertedAt": "2026-10-09T19:29:28.916Z"
+      }
+    },
+    {
+      "id": "footprint",
+      "label": "footprint",
+      "kind": "module",
+      "signature": "module:footprint",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "footprint",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-carousel",
+      "label": "hero-carousel",
+      "kind": "module",
+      "signature": "module:hero-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "hero-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "most-loved",
+      "label": "most-loved",
+      "kind": "module",
+      "signature": "module:most-loved",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "most-loved",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "offerings",
+      "label": "offerings",
+      "kind": "module",
+      "signature": "module:offerings",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "offerings",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "recipe-cards",
+      "label": "recipe-cards",
+      "kind": "module",
+      "signature": "module:recipe-cards",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "recipe-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "teaser",
+      "label": "teaser",
+      "kind": "module",
+      "signature": "module:teaser",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "teaser",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "video-teaser",
+      "label": "video-teaser",
+      "kind": "module",
+      "signature": "module:video-teaser",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "video-teaser",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

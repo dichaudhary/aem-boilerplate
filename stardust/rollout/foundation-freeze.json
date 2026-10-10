@@ -1,0 +1,34 @@
+{
+  "frozenAt": "2026-10-09T18:52:20.956Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "9723964b84fe5f1a15fb77114ff5ad1de6d5356868c0b82c1e68c07fc1c2e294",
+    "blocks/footer/footer.js": "bf0a48491daca39100c5b36e28b8ea5bd318175a3efa78854d0f0acce6243aea",
+    "blocks/header/header.css": "78044a86dbfb87e5ae8cbed0052e87b485d6335d035d371bca14877fe935e7e0",
+    "blocks/header/header.js": "f19fc1d5d45cc6ddcafa4a898b8e4220c0e130f527d4ad281f832251749c3610",
+    "fonts/LibreBaskerville-400i.woff2": "efb7e5f4376a557314f5bb9f5197ef837d86c0ab38e1a50a0ff5c60c3400c629",
+    "fonts/LibreBaskerville-var.woff2": "b62b98ef69e6e55b28b9bcac84513eb1bdd1d312a344b1c76e979219923224a5",
+    "fonts/Poppins-400.woff2": "7d93459d86585bfcdbb7e0376056226adb25821ee54b96236fe2123e9560929f",
+    "fonts/Poppins-500.woff2": "cd36de204aca2d5fa263a731f7c20009b5e3d754ba1f1e03c33e93a48f3e7446",
+    "fonts/Poppins-600.woff2": "f4e80d9dfd374d02989b87a27b5ed4cb78fbb177c27f1478e9a8b0afb7513149",
+    "fonts/Poppins-700.woff2": "9338e65fc077355c7a87ae0d64cc101e23b9bf8ad78ae65f0f319c857311b526",
+    "fonts/icomoon.woff": "bfd757436fdd4676105ee6f796df4780689f00c4d5d579f7b200242d00fb4ce1",
+    "head.html": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/martech.js": "43e8d91055962e234ada554c4025474c184f07d9da17aa71a032134d69130076",
+    "scripts/scripts.js": "4503c02bd53c5e5fb04b14e325e467a26f1ec9446519bb368ba779fbfc5a5096",
+    "styles/fonts.css": "fab124b71f5aba80b109f5089eabe4a3a82d26f6a0e9ee86f2f97f8290a2eee6",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "7c47d819b8fed252468442bc6b689f674c2f40895ef06afc20ae7cb2abeb343c"
+  }
+}

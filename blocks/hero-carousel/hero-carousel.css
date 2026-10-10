@@ -1,0 +1,202 @@
+/* hero-carousel — values lifted from stardust/prototypes/index.css (.hero / .banner) */
+.hero-carousel .hero {
+  position: relative;
+  margin: 0 auto;
+  max-width: 85.375rem;
+}
+
+.hero-carousel .hero .carousel {
+  padding: 0;
+}
+
+/* stylelint-disable selector-class-pattern -- canon carousel chrome names */
+.hero-carousel .hero .arrow--prev {
+  left: 113px;
+}
+
+.hero-carousel .hero .arrow--next {
+  right: 113px;
+}
+/* stylelint-enable selector-class-pattern */
+
+.hero-carousel .hero-list {
+  overflow: hidden;
+  width: 100%;
+}
+
+.hero-carousel .hero-track {
+  display: flex;
+}
+
+.hero-carousel .hero-slide {
+  flex: 0 0 100%;
+  width: 100%;
+}
+
+.hero-carousel .banner {
+  position: relative;
+  height: 40rem;
+  overflow: hidden;
+}
+
+/* authored background pair as the media layer (replaces the prototype's inline background) */
+.hero-carousel .banner-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-carousel .banner-bg p {
+  margin: 0;
+  line-height: 0;
+  height: 100%;
+}
+
+.hero-carousel .banner-bg picture {
+  display: block;
+  height: 100%;
+}
+
+.hero-carousel .banner-bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: 50%;
+}
+
+.hero-carousel .banner-bg-desktop {
+  height: 100%;
+}
+
+.hero-carousel .banner-bg-mobile {
+  display: none;
+  height: 100%;
+}
+
+.hero-carousel .banner-logo,
+.hero-carousel .banner-title,
+.hero-carousel .banner-sub-title,
+.hero-carousel .banner-button {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-carousel .banner-logo {
+  padding-left: 13.1875rem;
+  padding-top: 9.875rem;
+}
+
+.hero-carousel .banner-logo p {
+  margin: 0;
+  line-height: 0;
+}
+
+.hero-carousel .banner-logo img {
+  display: block;
+  position: relative;
+  width: 21.25rem;
+  height: 6.8125rem;
+}
+
+.hero-carousel .banner-title :is(h1, h2, h3) {
+  color: var(--cream);
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  max-width: 46.5625rem;
+  padding-left: 13.1875rem;
+  padding-top: 1.75rem;
+  text-align: left;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.hero-carousel .banner-sub-title :is(h3, h4, h5, h6) {
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  max-width: 44.375rem;
+  padding-left: 13.1875rem;
+  padding-top: 2.1875rem;
+  text-align: left;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.hero-carousel .banner-button {
+  padding-left: 13.1875rem;
+  padding-top: 1.875rem;
+}
+
+.hero-carousel .banner-button p {
+  margin: 0;
+}
+
+@media (width <= 1023px) {
+  .hero-carousel .hero .arrow {
+    display: none;
+  }
+
+  .hero-carousel .banner {
+    height: 43.5rem;
+  }
+
+  .hero-carousel .banner-logo {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    padding-top: 2.25rem;
+  }
+
+  .hero-carousel .banner-logo img {
+    width: 12.5rem;
+    height: 4rem;
+  }
+
+  .hero-carousel .banner-title :is(h1, h2, h3) {
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    padding: 22.1875rem 1rem 0;
+    text-align: center;
+    max-width: none;
+    margin: 0 auto;
+  }
+
+  .hero-carousel .banner-sub-title :is(h3, h4, h5, h6) {
+    font-size: .875rem;
+    line-height: 1.5rem;
+    padding: .75rem 1rem 0;
+    text-align: center;
+    max-width: none;
+    margin: 0 auto;
+  }
+
+  .hero-carousel .banner-button {
+    display: flex;
+    justify-content: center;
+    margin-top: .75rem;
+    padding: 0 1rem;
+  }
+}
+
+/* ≤600px: the live page paints the portrait rendition from its (max-width: 600px) source */
+@media (width <= 600px) {
+  .hero-carousel .banner-bg img {
+    object-position: 50% 0;
+  }
+
+  .hero-carousel .banner-bg:has(.banner-bg-mobile) .banner-bg-desktop {
+    display: none;
+  }
+
+  .hero-carousel .banner-bg-mobile {
+    display: block;
+  }
+}

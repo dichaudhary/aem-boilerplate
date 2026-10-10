@@ -1,0 +1,25 @@
+/* video-teaser — values lifted from stardust/prototypes/index.css (.video-container / .youtube-video) */
+.video-teaser .video-container {
+  border-radius: 1.25rem;
+  margin: 0 auto;
+  max-width: 85.375rem;
+  overflow: hidden;
+  width: 83%;
+}
+
+.video-teaser .youtube-video {
+  position: relative;
+  height: 21.25rem;
+}
+
+.video-teaser .youtube-video iframe {
+  border: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* the authored source link: kept for the workspace, never displayed */
+.video-teaser .video-source {
+  display: none;
+}

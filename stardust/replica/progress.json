@@ -1,0 +1,161 @@
+{
+ "index": {
+  "type": "landing",
+  "archetype": "stardust/prototypes/index-proposed.html",
+  "status": "gated",
+  "iterations": {
+   "360": "3 + rp1–rp3 (session 1) + rp4–rp12 (session 2)",
+   "1440": "3 + rp1–rp3 (session 1) + rp4–rp12 (session 2: rp4 live recapture, rp5–rp11 fix rounds, rp12 confirmation --full)"
+  },
+  "gates": {
+   "360": {
+    "round": "rp12",
+    "pixelPct": 2.24,
+    "heightDelta": 0,
+    "hotBands": 0,
+    "contentRed": 1,
+    "contentRedJustified": "MISSING CTA Dal Puri: content-inventory treats an <a> containing <img> as an image link; on live the Dal Puri card (slide 3) had no <img> at capture time (lazy image never loaded off-screen) so it inventoried as a text CTA; the build carries the same link + href with its image (display:none at ≤1023 per capture-state). Same href on both sides.",
+    "clipped": 0,
+    "overflow": "scrollWidth 360 = viewport ok",
+    "visual": "1 flag: STRETCHED IMAGE Logo_2 → 101x35 (justified, live renders the same)",
+    "chromeParity": "id-region run (--region header=#header|#header footer=#footer|#footer): header ✓ parity (1440: 7/7 texts + 1/1 icons; 360: 1/1 icons); footer 12/12 texts + icons paired, Δy only — the live footer y follows the most-loved carousel state at probe time (adaptive height), not a footer defect. gate.sh default header/footer regions report REGION missing on live (no <header>/<footer> elements) — justified.",
+    "verdict": "PASS"
+   },
+   "1440": {
+    "round": "rp12",
+    "pixelPct": 1.19,
+    "heightDelta": 0,
+    "hotBands": 0,
+    "contentRed": 0,
+    "clipped": 0,
+    "overflow": "scrollWidth 1440 = viewport ok",
+    "visual": "0 flags",
+    "chromeParity": "id-region run (--region header=#header|#header footer=#footer|#footer): header ✓ parity (1440: 7/7 texts + 1/1 icons; 360: 1/1 icons); footer 12/12 texts + icons paired, Δy only — the live footer y follows the most-loved carousel state at probe time (adaptive height), not a footer defect. gate.sh default header/footer regions report REGION missing on live (no <header>/<footer> elements) — justified.",
+    "capProbe": "PASS at 2560 — 0 of 5 rows failed (content cap 1366 = 1366)",
+    "verdict": "PASS"
+   }
+  },
+  "justified": [
+   {
+    "probe": "visual",
+    "width": 360,
+    "flag": "STRETCHED IMAGE Logo_2 → 101x35",
+    "why": "live renders the same 240x78 asset at 101x35 (lift: header logo 101x35 @360)"
+   },
+   {
+    "probe": "content-diff",
+    "width": 360,
+    "flag": "🔴 MISSING CTA Dal Puri",
+    "why": "lazy-state artefact of the live capture (image link vs text link); href identical on both sides"
+   },
+   {
+    "probe": "content-diff",
+    "width": 360,
+    "flag": "🟠 EXTRA header ctas (Our Products submenu: Atta …)",
+    "why": "the build header carries the product submenu links in the DOM (display:none at ≤1023); live renders them only when the hamburger opens"
+   },
+   {
+    "probe": "chrome-parity",
+    "width": "1440+360",
+    "flag": "✗ 2 delta(s) in the gate.sh default run",
+    "why": "REGION: live has no <header>/<footer> elements; the id-region run passes header parity at both widths and pairs every footer text/icon (Δy from the live carousel state only)"
+   },
+   {
+    "probe": "motion-compare",
+    "width": 1440,
+    "flag": "MISSING slick-* / loaded / draggable classes, opacity 300ms",
+    "why": "slick hydration classes and lazy-image fade-in are presentational hydration on live; build uses is-active/is-disabled and hot-linked images"
+   }
+  ],
+  "residuals": [
+   {
+    "width": "1440+360",
+    "band": "most-loved (#container-d1022cb273)",
+    "pct": null,
+    "cause": "live slick adaptiveHeight: the section is 718 or 820 px @1440 (704 or 770 @360) depending on which slide is active when sampled (autoplay 3000 ms to the last slide; slide 1 image 496×496 vs slide 2 308×394). The gate live captures (rp4–rp12, 8/8 stitches) all show slide 2 → build holds slide 2 (captureState). Chrome-parity live probes land in either state → footer Δy ±102 @1440 / ±66–130 @360 with every text paired.",
+    "flaggedFor": "delivery (restoreAtDelivery: start on slide 1, autoplay to last slide, stop)"
+   },
+   {
+    "width": "1440+360",
+    "band": "footer logos",
+    "pct": null,
+    "cause": "footer lazy logos (footerlogo, itc-logo, fssai) are not loaded in the live stitched capture; the build hot-links them (visible in the last 500px band at both widths, inside the pixel bar)",
+    "flaggedFor": "user"
+   },
+   {
+    "width": 360,
+    "band": "content-diff",
+    "pct": null,
+    "cause": "1 structural red = Dal Puri image-link vs text-link artefact (see gates.360.contentRedJustified)",
+    "flaggedFor": "user"
+   }
+  ],
+  "motion": {
+   "observed": 15,
+   "implemented": 3,
+   "implementedList": [
+    "most-loved: autoplay 3000 ms → stops at the last slide, transform 500 ms ease, adaptive list height (fit on go/resize/img load)",
+    "footprint ≤1023: one-card carousel, dots switch slides (translate3d 500 ms)",
+    "hamburger ≤1023: icomoon glyph e930/e914 toggles on :checked (as live)"
+   ],
+   "dead": [
+    "header scroll-morph (none on live)",
+    "hero/community slick-next poke: no sampled change on live",
+    "tab click: no sampled change on live",
+    "nav hover: no measured hover diff",
+    "slick-* hydration classes, lazy-image .loaded fade (opacity 300 ms): presentational"
+   ],
+   "notes": "motion-compare rp12: 0 parity / 11 missing / 0 extra — all 11 are hydration classes, the lazy fade, or the auto-advance that the build holds at its resting slide for capture (captureState[0]); build observation window shorter than the 3000 ms interval."
+  },
+  "captureState": [
+   {
+    "what": "most-loved carousel held on slide 2 (the resting state every gate capture showed: autoplay 3000 ms, infinite:false, stops at the last slide)",
+    "where": "most-loved",
+    "restoreAtDelivery": "start on slide 1, auto-advance every 3000 ms until the last slide, then stop (JS mirrors slick: no wrap); list height follows the active slide (adaptiveHeight)"
+   },
+   {
+    "what": "footer lazy logos (footerlogo, itc-logo, fssai) not loaded in the live stitched capture; prototype hot-links the data-src renditions",
+    "where": "footer",
+    "restoreAtDelivery": null
+   },
+   {
+    "what": "footprint (“Our vision”) is RESPONSIVE on live, not nondeterministic (session-1 reading corrected): ≥1024 a 3-card grid (video card + 2 text cards, 860 px @1440); ≤1023 a one-card slick carousel of 3 highlighted cards 328×456 with dots “1 of 3…3 of 3” (639 px @360) — card 2 carries a second YouTube embed (LrHM0ri-NwQ) and card 3 shows the live placeholder text “Video will load soon...” on the grey card",
+    "where": "footprint",
+    "restoreAtDelivery": "card 3 media: live itself shows the placeholder (no video configured) — owner to supply or drop; keep the carousel/grid switch at 1023"
+   },
+   {
+    "what": "recipes carousel: live lazy images of off-screen slides are not loaded at ≤1023 (slides 3+ render 214 px, no image box) so the slick track is sized by slides 1–2 (453 px); prototype hides .card__media on slides 3+ at ≤1023 to match",
+    "where": "recipes",
+    "restoreAtDelivery": "all recipe images load (lazy with a reserved box); the track then sizes to the tallest card (472 px when a time wraps to two lines) — expected +19 px on the live site too once swiped"
+   },
+   {
+    "what": "teasers (What makes us No.1, Customize your Atta, community slides) paint mobile renditions at ≤1023 (Roti-for-mobile, Aashirvaad_mari_chikki_mobile, HappyTummyJourney, Community-Slider-2-Mobile1, Happy_Tommy_Mobile-1) via --teaser-mobile custom properties on the inline style",
+    "where": "teasers",
+    "restoreAtDelivery": null
+   }
+  ],
+  "portations": [],
+  "jsAdded": [
+   "most-loved autoplay (lifted interval), ~20 lines, no framework"
+  ],
+  "instrumentNotes": [
+   "prototype server pid 1814 from stardust/.work/proto-server.pid was dead and port 8791 refused; started one python3 http.server (pid 2664, bound 127.0.0.1) per the gate doc's 'nothing answered' rule and rewrote the pid file",
+   "icomoon icon font hot-linked from aashirvaad.com failed under CORS in the capture (stitch-shot FONT LOAD FAILED) → self-hosted at stardust/prototypes/fonts/icomoon.woff for iter3",
+   "anchor.mjs finds no sections on the live root (AEM container divs); live section geometry taken with measure.mjs --against on the live container ids (prototype sections carry the same ids)",
+   "360 stitched live: footer band ends at y 5999 of 7054 — the remaining rows are a third-party iframe, not page content; a pixel-compare --mask over that band (and a footer crop anchored per side with --y/--y-b) is the honest comparison for the next round",
+   "rp pass: masks.json records no mask; live row-profile 'photo' rows below the red band were the footer itself. Data endpoints fetched once with curl (browser UA) into stardust/current/assets/data/ (productcategory.json, popularproducts.json; footprint.json 404 → HTML saved, not JSON).",
+   "session 2: cached live.png (carousel state) moved aside → rp4 recaptured both widths; live-vs-live pixel-compare of two stitches: 360 identical (0.00%), 1440 17.55% below y 3500 at identical height — the most-loved carousel (adaptive height), not the footprint",
+   "session 2: font fork found by chrome-parity glyph widths (Our Products 121 vs 112 px): extract’s used.json listed the static Libre Baskerville 400 file (…qNZaxM.woff2) for BOTH weights, so 700 was synthesized; Google serves Chrome the variable file …qNZaxMaC82U.woff2 (wght 400–700) → fonts/LibreBaskerville-var.woff2 with one @font-face font-weight: 400 700; canvas probe now 117/121 = live",
+   "session 2: inspection helpers under stardust/replica/: harvest-boxes.mjs (box tree + computed styles + outerHTML per container via live-session), tree.mjs (indented reader), crop.mjs / px.mjs (one crop / pixel sample per fact), font-probe*.mjs; none of them wraps a gate instrument",
+   "session 2: recipe cards on live are display:inline <a> — the cream card background never paints behind the block card (rendered = section colour); build card background set transparent to match the render, not the stylesheet",
+   "session 2: footer bottom bar is a full-bleed #8d0e20 band on live (.cmp-footer__bottom-content, max-width unset) — build .footer__bottom made full-bleed with calc(50% - 50vw)"
+  ],
+  "rpPass": {
+   "done": true,
+   "spent": "rp1–rp3 (session 1), rp4–rp12 (session 2)"
+  },
+  "nextCommand": "Phase 5 handoff (reference/handoff-contract.md): migrate index at archetype tier → deploy → rollout C-deliver units (foundation, archetype, gate-all, final) on the published origin; publish decision = publish; martech scaffold before deploy.",
+  "approvedBy": "hands-off",
+  "gatedAt": "2026-10-09T16:47:48.148Z"
+ }
+}

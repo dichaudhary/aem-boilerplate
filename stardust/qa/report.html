@@ -1,0 +1,217 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>stardust:qa — https://main--5ca9e426--aemcoder.aem.live</title>
+<style>
+ :root{--ink:#0a1024;--ink-deep:#060a14;--ink-soft:#141b3a;--dust:#f5f0e6;--dust-50:rgba(245,240,230,0.5);
+   --dust-30:rgba(245,240,230,0.3);--dust-08:rgba(245,240,230,0.08);--amber:#e8b95e;--amber-light:#ffd98a;--red:#ff6b6b}
+ *{box-sizing:border-box}
+ body{margin:0;background:var(--ink-deep);color:var(--dust);font:14px/1.55 -apple-system,"SF Pro Text",system-ui,sans-serif}
+ .container{max-width:1200px;margin:0 auto;padding:56px 48px 80px}
+ .eyebrow{font:500 11px/1 "SF Mono",ui-monospace,monospace;letter-spacing:0.18em;text-transform:uppercase;color:var(--amber);display:block;margin-bottom:12px}
+ header{display:flex;gap:22px;align-items:center;margin-bottom:8px}
+ h1{font-family:"SF Pro Display",system-ui,sans-serif;font-weight:600;letter-spacing:-0.02em;font-size:34px;line-height:1.05;margin:0}
+ .prov{font:500 12px/1.7 "SF Mono",ui-monospace,monospace;letter-spacing:0.04em;color:var(--dust-50);margin:16px 0 0}
+ .prov b{color:var(--dust);font-weight:500}
+ .fgroup{margin-top:26px}
+ .fgroup .eyebrow{margin-bottom:0}
+ .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+ .chip{cursor:pointer;user-select:none;background:var(--ink-soft);border:1px solid var(--dust-08);border-radius:999px;
+   padding:4px 12px;font:500 11px/1.6 "SF Mono",ui-monospace,monospace;letter-spacing:0.06em;color:var(--dust-50)}
+ .chip.sev{text-transform:uppercase;letter-spacing:0.1em}
+ .chip .n{opacity:.55}
+ .chip:hover{border-color:var(--dust-30);color:var(--dust)}
+ .chip.on{border-color:var(--amber);color:var(--amber)}
+ .chip.on[data-bucket="error"]{border-color:var(--red);color:var(--red)}
+ .chip.on[data-bucket="warn"]{border-color:var(--amber);color:var(--amber)}
+ .chip.on[data-bucket="info"]{border-color:var(--dust-30);color:var(--dust)}
+ .chip.on[data-bucket="allow"]{border-color:var(--dust-30);color:var(--dust-50)}
+ .showing{font:500 11px/1 "SF Mono",ui-monospace,monospace;letter-spacing:0.06em;color:var(--dust-30);margin:22px 0 0}
+ .showing .clear{cursor:pointer;color:var(--amber);display:none}
+ .showing.filtered .clear{display:inline}
+ table{border-collapse:collapse;width:100%;margin-top:28px}
+ th{font:500 10px/1 "SF Mono",ui-monospace,monospace;letter-spacing:0.14em;text-transform:uppercase;color:var(--dust-50);text-align:left;padding:0 10px 10px;border-bottom:1px solid var(--dust-30)}
+ td{border-bottom:1px solid var(--dust-08);padding:10px;text-align:left;vertical-align:top;font-size:13px;color:rgba(245,240,230,0.85)}
+ .pill{border-radius:4px;padding:2px 8px;font:500 10px/1.6 "SF Mono",ui-monospace,monospace;letter-spacing:0.08em;text-transform:uppercase;white-space:nowrap}
+ .mono{font-family:"SF Mono",ui-monospace,monospace;font-size:12px;color:var(--dust)}
+ tr.allow{opacity:.4}
+ .reason{font:500 11px/1.5 "SF Mono",ui-monospace,monospace;color:var(--dust-50);margin-top:4px}
+ details{margin-top:6px}
+ summary{cursor:pointer;font:500 11px/1 "SF Mono",ui-monospace,monospace;letter-spacing:0.08em;color:var(--amber);text-transform:uppercase}
+ pre{background:var(--ink);border:1px solid var(--dust-08);border-radius:8px;padding:12px;overflow:auto;max-height:240px;font:12px/1.5 "SF Mono",ui-monospace,monospace;color:#c6d0e4}
+ footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--dust-08);font:500 11px/1.7 "SF Mono",ui-monospace,monospace;letter-spacing:0.06em;color:var(--dust-50)}
+ footer .tag{color:var(--amber)}
+ ::selection{background:var(--amber);color:var(--ink)}
+</style></head><body>
+<div class="container">
+<span class="eyebrow">stardust · qa sweep · read-only</span>
+<header><svg viewBox="0 0 64 64" width="44" height="44" style="border-radius:8px;flex:none"><rect width="64" height="64" fill="#0a1024"/>
+<g fill="#e8b95e"><rect x="28" y="8" width="8" height="8"/><rect x="28" y="18" width="8" height="8" opacity="0.7"/><rect x="28" y="38" width="8" height="8" opacity="0.7"/><rect x="28" y="48" width="8" height="8"/><rect x="8" y="28" width="8" height="8"/><rect x="18" y="28" width="8" height="8" opacity="0.7"/><rect x="38" y="28" width="8" height="8" opacity="0.7"/><rect x="48" y="28" width="8" height="8"/></g>
+<rect x="26" y="26" width="12" height="12" fill="#ffd98a"/>
+<g fill="#e8b95e" opacity="0.6"><rect x="18" y="18" width="6" height="6"/><rect x="40" y="18" width="6" height="6"/><rect x="18" y="40" width="6" height="6"/><rect x="40" y="40" width="6" height="6"/></g></svg><h1>main--5ca9e426--aemcoder.aem.live</h1></header>
+<p class="prov">2026-10-09T19:12:33.082Z · <b>1</b> pages · 19s · checks: routing · content · metadata · links · browse · perf</p>
+<div class="fgroup"><span class="eyebrow">filter · severity</span><div class="chips" id="sev-chips"><span class="chip sev" data-bucket="error">errors <span class="n">(3)</span></span><span class="chip sev" data-bucket="warn">warnings <span class="n">(4)</span></span><span class="chip sev" data-bucket="info">info <span class="n">(5)</span></span><span class="chip sev" data-bucket="allow">allowlisted <span class="n">(0)</span></span></div></div>
+<div class="fgroup"><span class="eyebrow">filter · finding</span><div class="chips" id="fid-chips"><span class="chip fid" data-fid="visual/baseline-created">visual/baseline-created <span class="n">(2)</span></span><span class="chip fid" data-fid="a11y/axe-color-contrast">a11y/axe-color-contrast <span class="n">(1)</span></span><span class="chip fid" data-fid="ai-readability/check-crashed">ai-readability/check-crashed <span class="n">(1)</span></span><span class="chip fid" data-fid="content/duplicate-text">content/duplicate-text <span class="n">(1)</span></span><span class="chip fid" data-fid="links/externals-skipped">links/externals-skipped <span class="n">(1)</span></span><span class="chip fid" data-fid="metadata/missing-og-type">metadata/missing-og-type <span class="n">(1)</span></span><span class="chip fid" data-fid="metadata/noindex-on-live">metadata/noindex-on-live <span class="n">(1)</span></span><span class="chip fid" data-fid="perf/js-over-budget">perf/js-over-budget <span class="n">(1)</span></span><span class="chip fid" data-fid="perf/measurement">perf/measurement <span class="n">(1)</span></span><span class="chip fid" data-fid="perf/transfer-over-budget">perf/transfer-over-budget <span class="n">(1)</span></span><span class="chip fid" data-fid="routing/no-redirects-sheet">routing/no-redirects-sheet <span class="n">(1)</span></span></div></div>
+<p class="showing"><span id="shown">12</span> of 12 findings <span class="clear" id="clear">· clear filters</span></p>
+<table><thead><tr><th>sev</th><th>check</th><th>id</th><th>path</th><th>finding</th></tr></thead><tbody>
+    <tr class="error" data-bucket="error" data-fid="a11y/axe-color-contrast">
+      <td><span class="pill" style="background:#ff6b6b;color:#060a14">error</span></td>
+      <td>a11y</td><td class="mono">axe-color-contrast</td>
+      <td class="mono">/</td>
+      <td>Elements must meet minimum color contrast ratio thresholds (serious) — 1 page(s) affected
+      <details><summary>evidence</summary><pre>{
+  "rule": "color-contrast",
+  "pages": [
+    "/"
+  ],
+  "sampleTargets": [
+    ".recipes-slide:nth-child(1) &gt; .card-recipe.card &gt; .card-content &gt; .card-info &gt; .card-tag &gt; .card-tag-wrapper &gt; p",
+    ".recipes-slide:nth-child(2) &gt; .card-recipe.card &gt; .card-content &gt; .card-info &gt; .card-tag &gt; .card-tag-wrapper &gt; p",
+    ".recipes-slide:nth-child(3) &gt; .card-recipe.card &gt; .card-content &gt; .card-info &gt; .card-tag &gt; .card-tag-wrapper &gt; p"
+  ],
+  "nodesOnFirstPage": 3
+}</pre></details></td>
+    </tr>
+    <tr class="error" data-bucket="error" data-fid="ai-readability/check-crashed">
+      <td><span class="pill" style="background:#ff6b6b;color:#060a14">error</span></td>
+      <td>ai-readability</td><td class="mono">check-crashed</td>
+      <td class="mono">(fleet)</td>
+      <td>check "ai-readability" crashed: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/workspace/5ca9e426/stardust/deploy/scripts/ai-readability.mjs' imported from /workspace/5ca9e426/stardust/scripts/qa/checks/ai-readability.mjs
+      </td>
+    </tr>
+    <tr class="error" data-bucket="error" data-fid="metadata/noindex-on-live">
+      <td><span class="pill" style="background:#ff6b6b;color:#060a14">error</span></td>
+      <td>metadata</td><td class="mono">noindex-on-live</td>
+      <td class="mono">/</td>
+      <td>page is noindex on the live host (x-robots-tag header)
+      </td>
+    </tr>
+    <tr class="warn" data-bucket="warn" data-fid="content/duplicate-text">
+      <td><span class="pill" style="background:#e8b95e;color:#0a1024">warn</span></td>
+      <td>content</td><td class="mono">duplicate-text</td>
+      <td class="mono">/</td>
+      <td>a 12-word sequence repeats within 400 words — content pasted twice?
+      <details><summary>evidence</summary><pre>{
+  "excerpt": "autoplay 0 controls 1 showinfo 0 modestbranding 1 fs 1 cc load"
+}</pre></details></td>
+    </tr>
+    <tr class="warn" data-bucket="warn" data-fid="metadata/missing-og-type">
+      <td><span class="pill" style="background:#e8b95e;color:#0a1024">warn</span></td>
+      <td>metadata</td><td class="mono">missing-og-type</td>
+      <td class="mono">/</td>
+      <td>page has no og:type
+      </td>
+    </tr>
+    <tr class="warn" data-bucket="warn" data-fid="perf/transfer-over-budget">
+      <td><span class="pill" style="background:#e8b95e;color:#0a1024">warn</span></td>
+      <td>perf</td><td class="mono">transfer-over-budget</td>
+      <td class="mono">/</td>
+      <td>transfer weight 3245KB exceeds 800KB budget (template: n/a)
+      <details><summary>evidence</summary><pre>{
+  "kb": 3245,
+  "jsKb": 1962
+}</pre></details></td>
+    </tr>
+    <tr class="warn" data-bucket="warn" data-fid="perf/js-over-budget">
+      <td><span class="pill" style="background:#e8b95e;color:#0a1024">warn</span></td>
+      <td>perf</td><td class="mono">js-over-budget</td>
+      <td class="mono">/</td>
+      <td>JS transfer 1962KB exceeds 250KB budget
+      <details><summary>evidence</summary><pre>{
+  "kb": 3245,
+  "jsKb": 1962
+}</pre></details></td>
+    </tr>
+    <tr class="info" data-bucket="info" data-fid="links/externals-skipped">
+      <td><span class="pill" style="background:rgba(245,240,230,0.15);color:#f5f0e6">info</span></td>
+      <td>links</td><td class="mono">externals-skipped</td>
+      <td class="mono">(fleet)</td>
+      <td>34 unique external link(s) not probed — pass --probe-externals to check them
+      </td>
+    </tr>
+    <tr class="info" data-bucket="info" data-fid="perf/measurement">
+      <td><span class="pill" style="background:rgba(245,240,230,0.15);color:#f5f0e6">info</span></td>
+      <td>perf</td><td class="mono">measurement</td>
+      <td class="mono">/</td>
+      <td>transfer 3245KB (js 1962KB), LCP 244ms, CLS 0.006
+      <details><summary>evidence</summary><pre>{
+  "kb": 3245,
+  "jsKb": 1962,
+  "lcp": 244,
+  "cls": 0.006,
+  "template": null
+}</pre></details></td>
+    </tr>
+    <tr class="info" data-bucket="info" data-fid="routing/no-redirects-sheet">
+      <td><span class="pill" style="background:rgba(245,240,230,0.15);color:#f5f0e6">info</span></td>
+      <td>routing</td><td class="mono">no-redirects-sheet</td>
+      <td class="mono">(fleet)</td>
+      <td>no /redirects.json sheet (404) — skipping redirect verification
+      </td>
+    </tr>
+    <tr class="info" data-bucket="info" data-fid="visual/baseline-created">
+      <td><span class="pill" style="background:rgba(245,240,230,0.15);color:#f5f0e6">info</span></td>
+      <td>visual</td><td class="mono">baseline-created</td>
+      <td class="mono">/</td>
+      <td>[desktop] no baseline existed — current screenshot saved as baseline
+      <details><summary>evidence</summary><pre>{
+  "file": "stardust/qa/baselines/index.desktop.png"
+}</pre></details></td>
+    </tr>
+    <tr class="info" data-bucket="info" data-fid="visual/baseline-created">
+      <td><span class="pill" style="background:rgba(245,240,230,0.15);color:#f5f0e6">info</span></td>
+      <td>visual</td><td class="mono">baseline-created</td>
+      <td class="mono">/</td>
+      <td>[mobile] no baseline existed — current screenshot saved as baseline
+      <details><summary>evidence</summary><pre>{
+  "file": "stardust/qa/baselines/index.mobile.png"
+}</pre></details></td>
+    </tr></tbody></table>
+<footer><span class="tag">STARDUST</span> · qa report · 0.0.0 — findings only; this sweep never edits the site.</footer>
+</div>
+<script>
+(function () {
+  var on = { bucket: {}, fid: {} };
+  var rows = Array.prototype.slice.call(document.querySelectorAll('tbody tr'));
+  function any(set) { for (var k in set) if (set[k]) return true; return false; }
+  function apply() {
+    var sevActive = any(on.bucket);
+    // level 2 depends on level 1: recount each finding chip against the
+    // severity selection; chips with no matching rows hide and deselect
+    document.querySelectorAll('.chip.fid').forEach(function (chip) {
+      var n = rows.filter(function (tr) {
+        return tr.dataset.fid === chip.dataset.fid
+          && (!sevActive || on.bucket[tr.dataset.bucket]);
+      }).length;
+      chip.querySelector('.n').textContent = '(' + n + ')';
+      chip.style.display = n ? '' : 'none';
+      if (!n && on.fid[chip.dataset.fid]) { on.fid[chip.dataset.fid] = false; chip.classList.remove('on'); }
+    });
+    var fidActive = any(on.fid);
+    var shown = 0;
+    rows.forEach(function (tr) {
+      var ok = (!sevActive || on.bucket[tr.dataset.bucket])
+            && (!fidActive || on.fid[tr.dataset.fid]);
+      tr.style.display = ok ? '' : 'none';
+      if (ok) shown += 1;
+    });
+    document.getElementById('shown').textContent = shown;
+    document.querySelector('.showing').classList.toggle('filtered', sevActive || fidActive);
+  }
+  function wire(sel, key, attr) {
+    document.querySelectorAll(sel).forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        var v = chip.dataset[attr];
+        on[key][v] = !on[key][v];
+        chip.classList.toggle('on', on[key][v]);
+        apply();
+      });
+    });
+  }
+  wire('.chip.sev', 'bucket', 'bucket');
+  wire('.chip.fid', 'fid', 'fid');
+  document.getElementById('clear').addEventListener('click', function () {
+    on = { bucket: {}, fid: {} };
+    document.querySelectorAll('.chip.on').forEach(function (c) { c.classList.remove('on'); });
+    apply();
+  });
+})();
+</script>
+</body></html>

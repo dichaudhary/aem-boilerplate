@@ -1,0 +1,158 @@
+{
+  "provenance": {
+    "writtenBy": "stardust:qa/qa",
+    "stardustVersion": "0.0.0",
+    "writtenAt": "2026-10-09T19:12:33.082Z",
+    "againstInput": "https://main--5ca9e426--aemcoder.aem.live"
+  },
+  "base": "https://main--5ca9e426--aemcoder.aem.live",
+  "checksRun": [
+    "routing",
+    "content",
+    "metadata",
+    "links",
+    "browse",
+    "perf"
+  ],
+  "inventory": {
+    "pages": 1,
+    "sitemapEntries": 1
+  },
+  "durationSeconds": 19,
+  "summary": {
+    "error": 3,
+    "warn": 4,
+    "info": 5,
+    "allowlisted": 0,
+    "byCheck": {
+      "routing": 1,
+      "content": 1,
+      "metadata": 2,
+      "links": 1,
+      "browse": 3,
+      "perf": 3
+    }
+  },
+  "findings": [
+    {
+      "check": "a11y",
+      "id": "axe-color-contrast",
+      "severity": "error",
+      "path": "/",
+      "message": "Elements must meet minimum color contrast ratio thresholds (serious) — 1 page(s) affected",
+      "evidence": {
+        "rule": "color-contrast",
+        "pages": [
+          "/"
+        ],
+        "sampleTargets": [
+          ".recipes-slide:nth-child(1) > .card-recipe.card > .card-content > .card-info > .card-tag > .card-tag-wrapper > p",
+          ".recipes-slide:nth-child(2) > .card-recipe.card > .card-content > .card-info > .card-tag > .card-tag-wrapper > p",
+          ".recipes-slide:nth-child(3) > .card-recipe.card > .card-content > .card-info > .card-tag > .card-tag-wrapper > p"
+        ],
+        "nodesOnFirstPage": 3
+      }
+    },
+    {
+      "check": "ai-readability",
+      "id": "check-crashed",
+      "severity": "error",
+      "path": "",
+      "message": "check \"ai-readability\" crashed: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/workspace/5ca9e426/stardust/deploy/scripts/ai-readability.mjs' imported from /workspace/5ca9e426/stardust/scripts/qa/checks/ai-readability.mjs"
+    },
+    {
+      "check": "metadata",
+      "id": "noindex-on-live",
+      "severity": "error",
+      "path": "/",
+      "message": "page is noindex on the live host (x-robots-tag header)"
+    },
+    {
+      "check": "content",
+      "id": "duplicate-text",
+      "severity": "warn",
+      "path": "/",
+      "message": "a 12-word sequence repeats within 400 words — content pasted twice?",
+      "evidence": {
+        "excerpt": "autoplay 0 controls 1 showinfo 0 modestbranding 1 fs 1 cc load"
+      }
+    },
+    {
+      "check": "metadata",
+      "id": "missing-og-type",
+      "severity": "warn",
+      "path": "/",
+      "message": "page has no og:type"
+    },
+    {
+      "check": "perf",
+      "id": "transfer-over-budget",
+      "severity": "warn",
+      "path": "/",
+      "message": "transfer weight 3245KB exceeds 800KB budget (template: n/a)",
+      "evidence": {
+        "kb": 3245,
+        "jsKb": 1962
+      }
+    },
+    {
+      "check": "perf",
+      "id": "js-over-budget",
+      "severity": "warn",
+      "path": "/",
+      "message": "JS transfer 1962KB exceeds 250KB budget",
+      "evidence": {
+        "kb": 3245,
+        "jsKb": 1962
+      }
+    },
+    {
+      "check": "links",
+      "id": "externals-skipped",
+      "severity": "info",
+      "path": "",
+      "message": "34 unique external link(s) not probed — pass --probe-externals to check them"
+    },
+    {
+      "check": "perf",
+      "id": "measurement",
+      "severity": "info",
+      "path": "/",
+      "message": "transfer 3245KB (js 1962KB), LCP 244ms, CLS 0.006",
+      "evidence": {
+        "kb": 3245,
+        "jsKb": 1962,
+        "lcp": 244,
+        "cls": 0.006,
+        "template": null
+      }
+    },
+    {
+      "check": "routing",
+      "id": "no-redirects-sheet",
+      "severity": "info",
+      "path": "",
+      "message": "no /redirects.json sheet (404) — skipping redirect verification"
+    },
+    {
+      "check": "visual",
+      "id": "baseline-created",
+      "severity": "info",
+      "path": "/",
+      "message": "[desktop] no baseline existed — current screenshot saved as baseline",
+      "evidence": {
+        "file": "stardust/qa/baselines/index.desktop.png"
+      }
+    },
+    {
+      "check": "visual",
+      "id": "baseline-created",
+      "severity": "info",
+      "path": "/",
+      "message": "[mobile] no baseline existed — current screenshot saved as baseline",
+      "evidence": {
+        "file": "stardust/qa/baselines/index.mobile.png"
+      }
+    }
+  ]
+}

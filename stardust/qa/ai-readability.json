@@ -1,0 +1,180 @@
+{
+  "origin": "https://main--5ca9e426--aemcoder.aem.live",
+  "min": 98,
+  "excludeBlocks": [
+    "client-app",
+    "widget"
+  ],
+  "allowlist": [],
+  "generatedAt": "2026-10-09T19:14:02.542Z",
+  "pages": [
+    {
+      "path": "/",
+      "fragments": [],
+      "chromeFragments": [],
+      "strict": {
+        "score": 100,
+        "served": 619,
+        "rendered": 536,
+        "missing": 83
+      },
+      "landmarksCounted": {
+        "score": 76,
+        "served": 619,
+        "rendered": 817,
+        "missing": 198
+      },
+      "code": {
+        "score": 100,
+        "served": 619,
+        "rendered": 536,
+        "fragmentWords": 0,
+        "excludedWords": 0,
+        "allowedWords": 0
+      },
+      "blocks": [
+        {
+          "block": "header",
+          "variants": "",
+          "words": 254,
+          "servedGap": 157,
+          "excluded": false,
+          "sample": "Products Shudh Multigrain Millets M. P. Fortified Gluten Free High Protein Iodized"
+        },
+        {
+          "block": "footer",
+          "variants": "",
+          "words": 49,
+          "servedGap": 31,
+          "excluded": false,
+          "sample": "Inbox Email clicking “Register Now”, agree Privacy Policy receive marketing emails Register"
+        },
+        {
+          "block": "hero-carousel",
+          "variants": "",
+          "words": 86,
+          "servedGap": 6,
+          "excluded": false,
+          "sample": "Previous Next 1 2 3 4"
+        },
+        {
+          "block": "community",
+          "variants": "",
+          "words": 72,
+          "servedGap": 5,
+          "excluded": false,
+          "sample": "Previous Next 1 2 3"
+        },
+        {
+          "block": "most-loved",
+          "variants": "",
+          "words": 59,
+          "servedGap": 4,
+          "excluded": false,
+          "sample": "Previous Next 1 2"
+        },
+        {
+          "block": "footprint",
+          "variants": "",
+          "words": 112,
+          "servedGap": 3,
+          "excluded": false,
+          "sample": "1 2 3"
+        },
+        {
+          "block": "recipe-cards",
+          "variants": "",
+          "words": 198,
+          "servedGap": 2,
+          "excluded": false,
+          "sample": "Previous Next"
+        },
+        {
+          "block": "default-content",
+          "variants": "",
+          "words": 13,
+          "servedGap": 0,
+          "excluded": false,
+          "sample": ""
+        },
+        {
+          "block": "offerings",
+          "variants": "",
+          "words": 5,
+          "servedGap": 0,
+          "excluded": false,
+          "sample": ""
+        },
+        {
+          "block": "video-teaser",
+          "variants": "",
+          "words": 6,
+          "servedGap": 0,
+          "excluded": false,
+          "sample": ""
+        },
+        {
+          "block": "default-content",
+          "variants": "",
+          "words": 15,
+          "servedGap": 0,
+          "excluded": false,
+          "sample": ""
+        },
+        {
+          "block": "teaser",
+          "variants": "no1",
+          "words": 18,
+          "servedGap": 0,
+          "excluded": false,
+          "sample": ""
+        },
+        {
+          "block": "default-content",
+          "variants": "",
+          "words": 7,
+          "servedGap": 0,
+          "excluded": false,
+          "sample": ""
+        },
+        {
+          "block": "teaser",
+          "variants": "cta",
+          "words": 3,
+          "servedGap": 0,
+          "excluded": false,
+          "sample": ""
+        },
+        {
+          "block": "default-content",
+          "variants": "",
+          "words": 2,
+          "servedGap": 0,
+          "excluded": false,
+          "sample": ""
+        },
+        {
+          "block": "default-content",
+          "variants": "",
+          "words": 12,
+          "servedGap": 0,
+          "excluded": false,
+          "sample": ""
+        },
+        {
+          "block": "default-content",
+          "variants": "",
+          "words": 12,
+          "servedGap": 0,
+          "excluded": false,
+          "sample": ""
+        }
+      ],
+      "servedGap": {
+        "main": 20,
+        "chrome": 188,
+        "renderedMain": 620
+      }
+    }
+  ]
+}

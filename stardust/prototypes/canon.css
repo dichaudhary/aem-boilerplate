@@ -1,0 +1,94 @@
+/* canon.css — shared tokens lifted from aashirvaad.com (stardust/replica/lift/tokens.json).
+   Box model: the source sets `html { box-sizing: border-box }` only; elements inherit nothing
+   (no universal reset) — buttons/tabs/categorylist declare border-box individually (lifted). */
+@font-face { font-family: 'Poppins'; font-weight: 400; font-style: normal; font-display: swap; src: url('fonts/Poppins-400.woff2') format('woff2'); }
+@font-face { font-family: 'Poppins'; font-weight: 500; font-style: normal; font-display: swap; src: url('fonts/Poppins-500.woff2') format('woff2'); }
+@font-face { font-family: 'Poppins'; font-weight: 600; font-style: normal; font-display: swap; src: url('fonts/Poppins-600.woff2') format('woff2'); }
+@font-face { font-family: 'Poppins'; font-weight: 700; font-style: normal; font-display: swap; src: url('fonts/Poppins-700.woff2') format('woff2'); }
+@font-face { font-family: 'Libre Baskerville'; font-weight: 400 700; font-style: normal; font-display: swap; src: url('fonts/LibreBaskerville-var.woff2') format('woff2'); } /* the variable file Google serves to Chrome (…ZaxMaC82U, wght 400–700) — the static …ZaxM file renders 112px for 'Our Products' at 700 vs live 121 */
+@font-face { font-family: 'Libre Baskerville'; font-weight: 400; font-style: italic; font-display: swap; src: url('fonts/LibreBaskerville-400i.woff2') format('woff2'); }
+
+:root {
+  --font-body: Poppins, sans-serif;
+  --font-heading: 'Libre Baskerville', sans-serif;
+  --brand-red: #da001c;
+  --dark-red: #8d0e20;
+  --cream: #fff6e3;
+  --cream-nav: #fff6e1;
+  --ink: #343434;
+  --cocoa: #382312;
+  --sand: #e2d7cc;
+  --butter: #ffe8b4;
+  --tag-red: #e11936;
+  --content-max: 85.375rem; /* 1366px module cap */
+  --gutter: 7.0625rem;      /* 113px */
+}
+
+html { box-sizing: border-box; }
+body { margin: 0; padding-top: 76px; font-family: var(--font-body); font-size: 16px; font-weight: 400; color: #000; background: var(--cream); }
+h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; margin: 0; }
+h1 { font-size: 2.25rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1.5rem; }
+p { margin: 0; }
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; }
+ul { list-style: none; margin: 0; padding: 0; }
+
+.bg-background-2 { background: var(--cream); }
+.bg-background-3 { background: var(--sand); }
+.bg-primary-6 { background: var(--butter); }
+.bg-gradient-2 { background: transparent linear-gradient(0deg, var(--cream) 50%, var(--sand) 0) no-repeat; }
+.bg-gradient-3 { background: transparent linear-gradient(0deg, var(--sand) 50%, var(--cream) 0) no-repeat; }
+
+.desc-1 { font-family: var(--font-body); font-size: 1rem; font-weight: 600; }
+.desc-2 { font-family: var(--font-body); font-size: 1rem; font-weight: 500; }
+.cta-text { font-family: var(--font-body); font-size: 1rem; font-weight: 600; }
+
+/* Icon font: the site's own icomoon face (hot-linked like the Scene7 renditions; rehost at delivery). Glyph codes lifted. */
+@font-face { font-family: 'icomoon'; font-weight: 400; font-style: normal; font-display: swap; src: url('fonts/icomoon.woff') format('woff'); }
+[class^="icon-"]::before, [class*=" icon-"]::before, .icon-chef-cap .path1::before { font-family: 'icomoon' !important; font-style: normal; font-weight: 400; font-variant: normal; line-height: 1; text-transform: none; -webkit-font-smoothing: antialiased; }
+.icon-open-card-popup::before { color: #f4eac0; content: "\e938"; }
+.icon-favorite_FILL1_wght400_GRAD0_opsz20::before { content: "\e94a"; }
+.icon-Group-21690::before { content: "\e954"; }
+.icon-chef-cap .path1::before { color: #666; content: "\e945"; }
+.icon-search::before { color: #fed983; content: "\e91a"; }
+.icon-accessibility::before { color: #ffda7d; content: "\e926"; }
+.icon-profile::before { color: #ffda7d; content: "\e93e"; }
+.icon-instagram::before { color: #f7f5ea; content: "\e933"; }
+.icon-facebok::before { color: #f7f5ea; content: "\e918"; }
+.icon-twitter::before { content: "\e920"; color: #f7f5ea; }
+.icon-youtube::before { color: #f7f5ea; content: "\e921"; }
+
+/* Buttons (lifted .cmp-button + variants) */
+.cmp-button { align-items: center; border-color: transparent; border-radius: 1rem; box-sizing: border-box; cursor: pointer; display: flex; font-family: var(--font-heading); font-size: 1rem; font-weight: 600; height: 3rem; padding: .8125rem 2rem .75rem; text-decoration: none; }
+.cmp-button__text { font-family: var(--font-body); font-weight: 600; font-size: 1rem; white-space: nowrap; }
+.button--primary .cmp-button, .button--primary-anchor .cmp-button { background: var(--brand-red); border: none; color: var(--cream); }
+.button--primary-anchor .cmp-button { width: fit-content; }
+.button--primary-anchor-dark .cmp-button { background: var(--cream); border: none; color: var(--ink); width: fit-content; }
+.button--secondary .cmp-button { background: transparent; border: .125rem solid var(--brand-red); color: var(--brand-red); }
+
+/* Tabs */
+.cmp-tab { align-items: center; background: transparent; border: .0625rem solid var(--ink); border-radius: 1.5rem; box-sizing: border-box; color: var(--ink); cursor: pointer; display: flex; font-family: var(--font-body); font-size: 1rem; font-weight: 600; padding: .75rem 2.5rem; width: max-content; }
+.cmp-tab span { width: 100%; white-space: nowrap; }
+.cmp-tab.is-selected { background: var(--brand-red); border-color: var(--brand-red); color: var(--cream); }
+
+/* Carousel chrome (slick lift): arrows 48px red discs at 30% alpha, dots 16px */
+.carousel { position: relative; padding: 0 3rem; }
+.arrow { position: absolute; top: 50%; transform: translateY(-50%); z-index: 1; width: 3rem; height: 3rem; border: none; border-radius: 50%; background-color: rgba(218, 0, 28, .3); color: transparent; font-size: 0; line-height: 0; padding: 0; cursor: pointer; }
+.arrow--prev { left: 0; }
+.arrow--next { right: 0; }
+.arrow.is-disabled { opacity: 1; }
+.dots { position: absolute; bottom: 7%; left: 50%; transform: translateX(-50%); display: flex; text-align: center; margin: 0; padding: 0; }
+.dots li { margin: 0 .6875rem 0 0; }
+.dots li:last-child { margin: 0; }
+.dots li button { display: block; width: 1rem; height: 1rem; padding: 5px; border: .125rem solid var(--brand-red); border-radius: 50%; background: transparent; color: transparent; font-size: 0; line-height: 0; box-sizing: border-box; cursor: pointer; }
+.dots li.is-active button { background-color: var(--brand-red); border: .1875rem solid var(--brand-red); }
+
+@media only screen and (max-width: 1023px) {
+  body { padding-top: 68px; }
+  .carousel { padding: 0; }
+  .arrow { display: none !important; }
+  .dots li button { width: .5rem; height: .5rem; padding: 0; }
+}

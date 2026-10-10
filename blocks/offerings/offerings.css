@@ -1,0 +1,167 @@
+/* offerings — values lifted from stardust/prototypes/index.css (.offerings / .categorylist) */
+
+/* section head authored as default content, styled in place (deploy § Section heads) */
+.offerings-container .default-content-wrapper {
+  box-sizing: border-box;
+  padding: 4rem 7.0625rem 0;
+  text-align: center;
+}
+
+.offerings-container .default-content-wrapper :is(h1, h2) {
+  color: var(--ink);
+  text-align: center;
+  font-size: 2.25rem;
+}
+
+.offerings-container .default-content-wrapper p {
+  color: var(--cocoa);
+  margin-top: 1.25rem;
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.offerings {
+  margin: 0 auto;
+  max-width: 85.375rem;
+  padding: 0 7.0625rem 4rem;
+  box-sizing: border-box;
+}
+
+/* in-table head fallback renders exactly like the default-content head */
+.offerings .offerings-header {
+  text-align: center;
+}
+
+.offerings .offerings-header :is(h1, h2) {
+  color: var(--ink);
+  font-size: 2.25rem;
+}
+
+.offerings .offerings-header p {
+  color: var(--cocoa);
+  margin-top: 1.25rem;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.offerings .offerings-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.5rem 2rem;
+  margin-top: 3rem;
+}
+
+.offerings .categorylist {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-basis: calc(33.3333% - 1.3333rem);
+  font-family: var(--font-heading);
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.offerings .categorylist-item {
+  align-items: center;
+  color: var(--cocoa);
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.offerings .categorylist-imagewrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.offerings .categorylist-imagewrapper::before {
+  content: "";
+  display: block;
+  width: 13.5rem;
+  height: 13.5rem;
+  border-radius: 50%;
+  background: var(--sand);
+}
+
+.offerings .categorylist-imagewrapper p,
+.offerings .categorylist-imagewrapper picture {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offerings .categorylist-imagewrapper img {
+  display: block;
+  margin: auto;
+  width: auto; /* the pipeline's width/height attrs would defeat the max-width/max-height ratio rule */
+  height: auto;
+  max-height: 11.625rem;
+  max-width: 13.5rem;
+}
+
+.offerings .categorylist-name {
+  font-family: var(--font-heading);
+  margin-top: 1.125rem;
+  text-align: center;
+}
+
+.offerings .categorylist-name p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+@media (width <= 1023px) {
+  .offerings-container .default-content-wrapper {
+    padding: 2rem 1rem 0;
+  }
+
+  .offerings-container .default-content-wrapper :is(h1, h2),
+  .offerings .offerings-header :is(h1, h2) {
+    font-size: 1.5rem;
+  }
+
+  .offerings-container .default-content-wrapper p,
+  .offerings .offerings-header p {
+    margin-top: .75rem;
+    font-size: .875rem;
+  }
+
+  .offerings {
+    padding: 0 1rem 2rem;
+  }
+
+  .offerings .offerings-content {
+    gap: 2rem .625rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+
+  .offerings .categorylist {
+    flex-basis: calc(50% - 0.3125rem);
+  }
+
+  .offerings .categorylist-imagewrapper::before {
+    width: 10.875rem;
+    height: 10.875rem;
+  }
+
+  .offerings .categorylist-name {
+    margin-top: 1rem;
+  }
+
+  .offerings .categorylist-imagewrapper img {
+    max-height: 9.75rem;
+    max-width: 9.75rem;
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "landing"
+      ],
+      "pages": 0,
+      "blocks": 2,
+      "startedAt": "2026-10-09T16:59:30Z",
+      "endedAt": "2026-10-09T17:27:25Z",
+      "gates": {
+        "360": {},
+        "1440": {},
+        "chrome": "header 76px@1440 / 68px@360 = prototype; logo, search, hamburger glyphs, mega-menu, footer boxes Δ0 at both widths (measure.mjs vs /nav); 0 pageerror"
+      },
+      "verdict": "foundation: nav+footer live yes, styles+fonts 10 files, lint pass, header Δ1440/Δ360 0/0 px, requests 22"
+    },
+    "landing-archetype": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "blocks": 8,
+      "startedAt": "2026-10-09T17:32:31Z",
+      "endedAt": "2026-10-09T18:42:10Z",
+      "gates": {
+        "360": {
+          "round": "pub3",
+          "pixelPct": 2.23,
+          "heightDelta": 0,
+          "clipped": 0,
+          "contentRed": 1,
+          "contentRedJustified": "Dal Puri lazy image-link (known, Phase 4 row)",
+          "overflow": "ok",
+          "gateAll": "PASS by documented override (overrides.json: most-loved live-state race, 10.32%/Δh-67 vs pre-advance stitch; resting-state 2.23%/Δh0)"
+        },
+        "1440": {
+          "round": "pub2",
+          "pixelPct": 1.19,
+          "heightDelta": 0,
+          "clipped": 0,
+          "contentRed": 0,
+          "overflow": "ok",
+          "gateAll": "PASS 2.09%/Δh0/clip0/missing0"
+        },
+        "crop": "header/footer 0.10%/0.27% @1440, 0.44%/0.98% @360",
+        "chrome": "27 deltas (4 header / 23 footer), all foundation-owned, carried from the C0 justified set"
+      },
+      "verdict": "landing-archetype: pages 1/1 live yes, blocks 8, gate 1440 1.19% / 360 2.23%, Δh 0/0 px, clipped 0/0, content 🔴 0/1 (known Dal Puri lazy-link row), crop header/footer 0.10%·0.27% @1440 / 0.44%·0.98% @360, chrome Δ 27 (4 header / 23 footer, all foundation-owned), requests 101 @1440 / 100 @360",
+      "rounds": {
+        "360": 3,
+        "1440": 2
+      },
+      "foundationRequests": 2
+    },
+    "landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "pages": 0,
+      "blocks": 0,
+      "startedAt": "2026-10-09T18:42:36Z",
+      "endedAt": "2026-10-09T18:42:36Z",
+      "gates": {
+        "note": "no sibling pages: the template has one page (index), delivered and gated in unit landing-archetype; nothing to render or deploy here"
+      },
+      "verdict": "landing: pages 1/1 live (archetype only, 0 siblings), blocks 8, gate 1440 1.19% / 360 2.23%, requests 0"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-09T18:52:21Z",
+      "endedAt": "2026-10-09T18:57:18Z",
+      "gates": {
+        "360": {
+          "pass": 1,
+          "fail": 0,
+          "pixelPct": 3.36,
+          "heightDelta": 0,
+          "clipped": 0,
+          "contentMissing": 0,
+          "override": false,
+          "note": "origin re-shot once (--recapture-origin): the first stitch caught the live most-loved carousel pre-advance (10.32%/Δh-67, passed only by documented override); the fresh capture passes clean"
+        },
+        "1440": {
+          "pass": 1,
+          "fail": 0,
+          "pixelPct": 2.09,
+          "heightDelta": 0,
+          "clipped": 0,
+          "contentMissing": 0,
+          "override": false
+        },
+        "archetypeRegate": {
+          "360": "pub4 2.23%/Δh0/clip0",
+          "1440": "pub3 1.19%/Δh0/clip0 after C-final foundation edits"
+        },
+        "stateView": "stardust/rollout/gate-state.json (derived: state.json + coverage deployedUrl; state.mjs has no deployed status)"
+      },
+      "verdict": "gate-all: roster 1 page, 1440 1 PASS/0 FAIL 2.09%/Δh0, 360 1 PASS/0 FAIL 3.36%/Δh0, clipped 0, content missing 0, overrides 0; coverage gate rows written"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-09T18:43:05Z",
+      "endedAt": "2026-10-09T18:58:06Z",
+      "gates": {
+        "freeze": "foundation unchanged (20 files, re-frozen after the 2 applied requests)",
+        "requestsApplied": 2,
+        "archetypeRegate": {
+          "360": "2.23%/Δh0",
+          "1440": "1.19%/Δh0"
+        }
+      },
+      "verdict": "final: foundation requests 2/2 applied, freeze check ok, archetype re-gate 1440 1.19% / 360 2.23%, roster gate-all PASS both widths, coverage gate rows written"
+    }
+  }
+}

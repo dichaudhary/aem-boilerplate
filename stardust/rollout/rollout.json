@@ -1,0 +1,36 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-09T16:57:00.647Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://aashirvaad.com/",
+    "da": {
+      "org": "aemcoder",
+      "site": "5ca9e426",
+      "ref": "main"
+    },
+    "liveHost": "main--5ca9e426--aemcoder.aem.live",
+    "previewHost": "main--5ca9e426--aemcoder.aem.page"
+  },
+  "lastRun": {
+    "at": "2026-10-09T19:29:28.916Z",
+    "pages": {
+      "total": 1,
+      "verified": 1,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 9,
+      "converted": 9,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

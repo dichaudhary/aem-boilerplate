@@ -1,0 +1,171 @@
+/* teaser — values lifted from stardust/prototypes/index.css (.teaser / .teaser--center / .teaser--cta) */
+.teaser .teaser-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 71.25rem;
+  height: 19.5rem;
+  border-radius: 1.25rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* authored background pair as the media layer (the prototype paints an inline background,
+   position 0 0, cover) */
+.teaser .teaser-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.teaser .teaser-bg p {
+  margin: 0;
+  line-height: 0;
+  height: 100%;
+}
+
+.teaser .teaser-bg picture {
+  display: block;
+  height: 100%;
+}
+
+.teaser .teaser-bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.teaser .teaser-bg-desktop {
+  height: 100%;
+}
+
+.teaser .teaser-bg-mobile {
+  display: none;
+  height: 100%;
+}
+
+.teaser .teaser-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* variant no1 (.teaser--center) */
+.teaser.no1 .teaser-box {
+  padding: 4.5625rem 2.5rem;
+}
+
+.teaser.no1 .teaser-content {
+  flex: 0 0 26.5rem;
+  text-align: center;
+}
+
+.teaser.no1 .teaser-title :is(h1, h2, h3) {
+  color: var(--cream);
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 0 auto;
+  max-width: 26.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.teaser.no1 .teaser-description p {
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin: 1.5rem auto 0;
+  max-width: 26.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.teaser.no1 .teaser-action {
+  margin-top: 1.875rem;
+}
+
+.teaser.no1 .teaser-action p {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* variant cta (.teaser--cta): the button sits 60px from the bottom, 251px from the right;
+   the whole band is the link (prototype `a.teaser__link`) — stretched from the authored anchor */
+.teaser.cta .teaser-box {
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0 15.6875rem 3.75rem 0;
+}
+
+.teaser.cta .teaser-action p {
+  margin: 0;
+}
+
+.teaser.cta .teaser-action a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+@media (width <= 1023px) {
+  .teaser .teaser-box {
+    flex-direction: column;
+    border-radius: 0;
+  }
+
+  .teaser .teaser-bg:has(.teaser-bg-mobile) .teaser-bg-desktop {
+    display: none;
+  }
+
+  .teaser .teaser-bg-mobile {
+    display: block;
+  }
+
+  .teaser.no1 .teaser-box {
+    align-items: flex-start;
+    height: 18.125rem;
+    justify-content: center;
+    padding: 4.75rem 2rem;
+  }
+
+  .teaser.no1 .teaser-content {
+    flex-basis: auto;
+    width: 100%;
+  }
+
+  .teaser.no1 .teaser-title :is(h1, h2, h3) {
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    margin-top: 0;
+  }
+
+  .teaser.no1 .teaser-description p {
+    font-size: .875rem;
+    line-height: 1.625rem;
+    margin-top: .5625rem;
+  }
+
+  .teaser.no1 .teaser-action {
+    margin-top: .75rem;
+  }
+
+  .teaser.cta .teaser-box {
+    height: 35rem;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 0 1.75rem;
+  }
+
+  .teaser.cta .teaser-action a:any-link {
+    width: max-content;
+  }
+}

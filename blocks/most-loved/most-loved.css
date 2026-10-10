@@ -1,0 +1,192 @@
+/* most-loved — values lifted from stardust/prototypes/index.css (.popular) */
+
+/* section head authored as default content, styled in place (prototype `.popular__header`) */
+.most-loved-container .default-content-wrapper {
+  box-sizing: border-box;
+  padding: 4rem 7.0625rem 0;
+  text-align: center;
+}
+
+.most-loved-container .default-content-wrapper :is(h1, h2) {
+  color: var(--cocoa);
+  line-height: 2.5rem;
+}
+
+.most-loved-container .default-content-wrapper p {
+  color: var(--cocoa);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  margin-top: 1.25rem;
+}
+
+.most-loved {
+  margin: 0 auto;
+  max-width: 85.375rem;
+  padding: 0 7.0625rem 4rem;
+  box-sizing: border-box;
+}
+
+.most-loved .popular-carousel {
+  padding-bottom: 0;
+}
+
+.most-loved .popular-list {
+  overflow: hidden;
+  transition: height 200ms ease;
+}
+
+.most-loved .popular-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+.most-loved .popular-slide {
+  flex: 0 0 100%;
+  width: 100%;
+}
+
+.most-loved .popular-wrapper {
+  display: flex;
+  margin: 3rem 1rem 0;
+}
+
+.most-loved .popular-image,
+.most-loved .popular-description {
+  flex-basis: calc(50% - 0.625rem);
+}
+
+/* the decorative product backdrop the live page paints behind every product (fixed brand
+   asset → root-relative code-bus file, anti-pattern 9b) */
+.most-loved .popular-image {
+  display: flex;
+  justify-content: center;
+  background: url("/img/aashirvaad/product-background.svg") 50% / contain no-repeat;
+}
+
+.most-loved .popular-image p {
+  margin: 0;
+  line-height: 0;
+  width: 100%;
+}
+
+.most-loved .popular-image a {
+  display: block;
+  width: 100%;
+}
+
+.most-loved .popular-image picture {
+  display: block;
+}
+
+.most-loved .popular-image img {
+  display: block;
+  margin: 0 auto;
+}
+
+.most-loved .popular-description {
+  margin-left: 1.25rem;
+  padding-top: 2.375rem;
+}
+
+.most-loved .popular-name p {
+  color: var(--cocoa);
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  margin-bottom: 1.25rem;
+  max-width: 23.5rem;
+  text-align: left;
+}
+
+.most-loved .popular-name strong {
+  font-weight: inherit;
+}
+
+.most-loved .popular-details p {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  margin-bottom: 1.3125rem;
+}
+
+/* the live site hides the "Buy Now" action */
+.most-loved .popular-action {
+  display: none;
+}
+
+.most-loved .dots {
+  position: static;
+  transform: none;
+  margin-top: 2.375rem;
+  height: 1.5rem;
+  box-sizing: border-box;
+  padding-top: .625rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.most-loved .dots li button {
+  width: .875rem;
+  height: .875rem;
+  padding: 0;
+}
+
+.most-loved .dots li.is-active button {
+  width: 1rem;
+  height: 1rem;
+}
+
+@media (width <= 1023px) {
+  .most-loved-container .default-content-wrapper {
+    padding: 2rem 1rem 0;
+  }
+
+  .most-loved-container .default-content-wrapper :is(h1, h2) {
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+  }
+
+  .most-loved {
+    padding: 0 1rem 2rem;
+  }
+
+  .most-loved .dots {
+    margin-top: .875rem;
+  }
+
+  .most-loved .popular-wrapper {
+    flex-direction: column;
+    margin: 1.5rem 0 0;
+  }
+
+  .most-loved .popular-image,
+  .most-loved .popular-description {
+    flex-basis: auto;
+  }
+
+  .most-loved .popular-image {
+    justify-content: center;
+  }
+
+  .most-loved .popular-description {
+    margin-left: 0;
+    padding-top: 1.5rem;
+  }
+
+  .most-loved .popular-name p {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    margin: 0 auto;
+    max-width: 18.75rem;
+    text-align: center;
+  }
+
+  .most-loved .popular-details p {
+    font-size: .875rem;
+    text-align: center;
+  }
+}

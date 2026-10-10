@@ -1,0 +1,124 @@
+run-bg: lift-roots launched 2026-10-09T15:07:25.828Z (timeout 900s): node stardust/scripts/replica/measure.mjs https://aashirvaad.com/ --width 1440,360 --selectors body,.cmp-header,.cmp-header__logo img,.cmp-header__nav-links .cmp-navigation__item--level-0 > a,#container-c7d5ec23b7,#slickcarousel-45c1cf16aa,#container-c51b7397f6,#container-30be6f0082,#container-0b9c06bfd8,#container-a553eb88e5,#container-d1022cb273,#container-11e98b1011,#container-562a22deb1,#container-8529b59c4b,#container-e5a3fd3b2d,#footer .footer,.footer a,.slick-dots li button,.slick-arrow
+measure  https://aashirvaad.com/
+  widths 1440, 360 · 19 selector(s) · 24 props · first match
+
+@ 1440px
+  root  scrollWidth  1440  viewport 1440  scrollHeight   6630
+  body
+       x     0  y      0  w  1440  h  6630  vis  "Our Products Our Story Recipe Blogs CSR…"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 6629.62px; maxWidth: none; margin: 0px; padding: 76px 0px 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-header
+       x     0  y      0  w  1440  h    76  vis  "Our Products Our Story Recipe Blogs CSR…"
+      display: flex; position: fixed; boxSizing: border-box; width: 1440px; height: 76px; maxWidth: none; margin: 0px; padding: 16px 113px; gap: 40px; backgroundColor: rgb(218, 0, 28); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-header__logo img
+       x   113  y     18  w   125  h    40  vis  ""  img 240×78 …/Logo_2
+      display: block; position: static; boxSizing: border-box; width: 125px; height: 40px; maxWidth: 100%; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(52, 52, 52); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(52, 52, 52); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-header__nav-links .cmp-navigation__item--level-0 > a [1 of 6]
+       x   278  y     28  w   121  h    20  vis  "Our Products"
+      display: inline; position: static; boxSizing: border-box; width: auto; height: auto; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 246, 225); fontFamily: "Libre Baskerville", sans-serif; fontSize: 16px; fontWeight: 700; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(255, 246, 225); boxShadow: none; opacity: 1; objectFit: fill
+  #container-c7d5ec23b7
+       x     0  y     76  w  1440  h  6056  vis  "Previous The Aashirvaad Promise Hand-pi…"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 6056px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #slickcarousel-45c1cf16aa
+       x    37  y     76  w  1366  h   640  vis  "Previous The Aashirvaad Promise Hand-pi…"
+      display: block; position: static; boxSizing: border-box; width: 1366px; height: 640px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-c51b7397f6
+       x     0  y    716  w  1440  h   818  vis  "Aashirvaad offerings Select your prefer…"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 818px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-30be6f0082
+       x     0  y   1534  w  1440  h   340  vis  ""
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 340px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-0b9c06bfd8
+       x     0  y   1874  w  1440  h   950  vis  "Cook delicious recipes with us Explore …"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 950px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-a553eb88e5
+       x     0  y   2824  w  1440  h   312  vis  "What makes us No.1? Our superior-qualit…"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 312px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-d1022cb273
+       x     0  y   3136  w  1440  h   820  vis  "Most loved Discover the best of AASHIRV…"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 820px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-11e98b1011
+       x     0  y   3956  w  1440  h   312  vis  "Customize your Atta"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 312px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-562a22deb1
+       x     0  y   4268  w  1440  h   860  vis  "Our vision Trust of over 20 years Since…"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 860px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-8529b59c4b
+       x    37  y   5128  w  1366  h   826  vis  "Our Community Join us on the journey to…"
+      display: block; position: static; boxSizing: border-box; width: 1366px; height: 826px; maxWidth: 1366px; margin: 0px 37px; padding: 64px 113px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-e5a3fd3b2d
+       x     0  y   5994  w  1440  h   138  vis  "Follow us @aashirvaad Come, be a part o…"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 138px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #footer .footer [1 of 2]
+       x     0  y   6172  w  1440  h   458  vis  "in Your Inbox By clicking “Register Now…"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 457.625px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgb(218, 0, 28); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .footer a [1 of 13]
+       x   150  y   6283  w   271  h    78  vis  ""
+      display: inline; position: static; boxSizing: border-box; width: auto; height: auto; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(52, 52, 52); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(52, 52, 52); boxShadow: none; opacity: 1; objectFit: fill
+  .slick-dots li button [1 of 9]
+       x   675  y    657  w    16  h    16  vis  "1"
+      display: block; position: static; boxSizing: border-box; width: 16px; height: 16px; maxWidth: none; margin: 0px; padding: 5px; gap: normal; backgroundColor: rgb(218, 0, 28); backgroundImage: none; color: rgba(0, 0, 0, 0); fontFamily: Arial; fontSize: 0px; fontWeight: 400; lineHeight: 0px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 50%; border: 3px solid rgb(218, 0, 28); boxShadow: none; opacity: 1; objectFit: fill
+  .slick-arrow [1 of 8]
+       x   150  y    372  w    48  h    48  vis  "Previous"
+      display: block; position: absolute; boxSizing: border-box; width: 48px; height: 48px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(218, 0, 28, 0.3); backgroundImage: none; color: rgba(0, 0, 0, 0); fontFamily: Arial; fontSize: 0px; fontWeight: 400; lineHeight: 0px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 50%; border: 0px none rgba(0, 0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+
+@ 360px
+  root  scrollWidth   360  viewport 360  scrollHeight   7730
+  body
+       x     0  y      0  w   360  h  7730  vis  "The Aashirvaad Promise Hand-picked ingr…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 7729.67px; maxWidth: none; margin: 0px; padding: 68px 0px 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-header
+       x     0  y      0  w   360  h    68  vis  ""
+      display: flex; position: fixed; boxSizing: border-box; width: 360px; height: 68px; maxWidth: none; margin: 0px; padding: 6px 0px; gap: 19px; backgroundColor: rgb(218, 0, 28); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-header__logo img
+       x    80  y     17  w   101  h    35  vis  ""  img 240×78 …/Logo_2
+      display: block; position: static; boxSizing: border-box; width: 101px; height: 35px; maxWidth: 100%; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(52, 52, 52); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(52, 52, 52); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-header__nav-links .cmp-navigation__item--level-0 > a [1 of 6]
+       x     0  y      0  w     0  h     0  hid  "Our Products"
+      display: inline; position: static; boxSizing: border-box; width: auto; height: auto; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(52, 52, 52); fontFamily: "Libre Baskerville", sans-serif; fontSize: 16px; fontWeight: 700; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(52, 52, 52); boxShadow: none; opacity: 1; objectFit: fill
+  #container-c7d5ec23b7
+       x     0  y     68  w   360  h  6774  vis  "The Aashirvaad Promise Hand-picked ingr…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 6774px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #slickcarousel-45c1cf16aa
+       x     0  y     68  w   360  h   696  vis  "The Aashirvaad Promise Hand-picked ingr…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 696px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-c51b7397f6
+       x     0  y    764  w   360  h  1359  vis  "Aashirvaad offerings Select your prefer…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 1359px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-30be6f0082
+       x     0  y   2123  w   360  h   340  vis  ""
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 340px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-0b9c06bfd8
+       x     0  y   2463  w   360  h   848  vis  "Cook delicious recipes with us Explore …"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 848px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-a553eb88e5
+       x     0  y   3311  w   360  h   290  vis  "What makes us No.1? Our superior-qualit…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 290px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-d1022cb273
+       x     0  y   3601  w   360  h   770  vis  "Most loved Discover the best of AASHIRV…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 770px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-11e98b1011
+       x     0  y   4371  w   360  h   560  vis  "Customize your Atta"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 560px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-562a22deb1
+       x     0  y   4931  w   360  h  1295  vis  "Our vision Trust of over 20 years Since…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 1295px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-8529b59c4b
+       x     0  y   6226  w   360  h   449  vis  "Our Community Join us on the journey to…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 449px; maxWidth: 100%; margin: 0px; padding: 32px 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #container-e5a3fd3b2d
+       x     0  y   6715  w   360  h   127  vis  "Follow us @aashirvaad Come, be a part o…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 127px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  #footer .footer [1 of 2]
+       x     0  y   6882  w   360  h   848  vis  "in Your Inbox By clicking “Register Now…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 847.672px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgb(218, 0, 28); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .footer a [1 of 13]
+       x     0  y      0  w     0  h     0  hid  ""
+      display: inline; position: static; boxSizing: border-box; width: auto; height: auto; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(52, 52, 52); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(52, 52, 52); boxShadow: none; opacity: 1; objectFit: fill
+  .slick-dots li button [1 of 9]
+       x   135  y    719  w    16  h    16  vis  "1"
+      display: block; position: static; boxSizing: border-box; width: 16px; height: 16px; maxWidth: none; margin: 0px; padding: 5px; gap: normal; backgroundColor: rgb(218, 0, 28); backgroundImage: none; color: rgba(0, 0, 0, 0); fontFamily: Arial; fontSize: 0px; fontWeight: 400; lineHeight: 0px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 50%; border: 3px solid rgb(218, 0, 28); boxShadow: none; opacity: 1; objectFit: fill
+  .slick-arrow [1 of 8]
+       x     0  y      0  w     0  h     0  hid  "Previous"
+      display: none; position: absolute; boxSizing: border-box; width: 48px; height: 48px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(218, 0, 28, 0.3); backgroundImage: none; color: rgba(0, 0, 0, 0); fontFamily: Arial; fontSize: 0px; fontWeight: 400; lineHeight: 0px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 50%; border: 0px none rgba(0, 0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+run-bg: lift-roots ended exit=0

@@ -1,0 +1,132 @@
+run-bg: lift-type launched 2026-10-09T15:07:40.693Z (timeout 900s): node stardust/scripts/replica/measure.mjs https://aashirvaad.com/ --width 1440,360 --selectors h1.cmp-product-category-listing__title,h2.cmp-banner__title,h3.cmp-banner__sub-title,.cmp-banner__description,h2.cmp-teaser__title,.cmp-teaser__description,h2.cmp-recipe-group__title,.cmp-recipe-group__subtitle,h2.cmp-popular-products__title,.cmp-popular-products__subtitle,h2.cmp-our-foot-print__title,h4,.cmp-card__title,.cmp-text p,.cmp-button--primary-anchor,.cmp-button--secondary,.cmp-button--primary,.cmp-button__text,.cmp-footer__nav-text,.cmp-header__image-text,.cmp-navigation__item--level-0 > a
+measure  https://aashirvaad.com/
+  widths 1440, 360 · 21 selector(s) · 24 props · first match
+
+@ 1440px
+  root  scrollWidth  1440  viewport 1440  scrollHeight   6630
+  h1.cmp-product-category-listing__title
+       x   150  y    780  w  1140  h    45  vis  "Aashirvaad offerings"
+      display: block; position: static; boxSizing: border-box; width: 1140px; height: 45px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(52, 52, 52); fontFamily: "Libre Baskerville", sans-serif; fontSize: 36px; fontWeight: 700; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(52, 52, 52); boxShadow: none; opacity: 1; objectFit: fill
+  h2.cmp-banner__title [1 of 4]
+       x    37  y    343  w   745  h    84  vis  "The Aashirvaad Promise"
+      display: flow-root; position: static; boxSizing: border-box; width: 745px; height: 84px; maxWidth: 745px; margin: 0px; padding: 28px 0px 0px 211px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 246, 227); fontFamily: "Libre Baskerville", sans-serif; fontSize: 40px; fontWeight: 700; lineHeight: 56px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 246, 227); boxShadow: none; opacity: 1; objectFit: fill
+  h3.cmp-banner__sub-title [1 of 4]
+       x    37  y    427  w   710  h    87  vis  "Hand-picked ingredients, careful proces…"
+      display: flow-root; position: static; boxSizing: border-box; width: 710px; height: 87px; maxWidth: 710px; margin: 0px; padding: 35px 0px 0px 211px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 246, 227); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 246, 227); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-banner__description   no match
+  h2.cmp-teaser__title [1 of 4]
+       x   190  y   2877  w   424  h    48  vis  "What makes us No.1?"
+      display: flow-root; position: static; boxSizing: border-box; width: 424px; height: 48px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 246, 227); fontFamily: "Libre Baskerville", sans-serif; fontSize: 32px; fontWeight: 700; lineHeight: 48px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(255, 246, 227); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-teaser__description [1 of 4]
+       x   190  y   2949  w   424  h    56  vis  "Our superior-quality, contact-less pack…"
+      display: flow-root; position: static; boxSizing: border-box; width: 424px; height: 56px; maxWidth: none; margin: 24px 0px 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 246, 227); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 28px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(255, 246, 227); boxShadow: none; opacity: 1; objectFit: fill
+  h2.cmp-recipe-group__title
+       x   150  y   1938  w  1140  h    40  vis  "Cook delicious recipes with us"
+      display: block; position: static; boxSizing: border-box; width: 1140px; height: 40px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(56, 35, 18); fontFamily: "Libre Baskerville", sans-serif; fontSize: 32px; fontWeight: 700; lineHeight: 40px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(56, 35, 18); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-recipe-group__subtitle
+       x   150  y   1998  w  1140  h    26  vis  "Explore your favourite recipe curated b…"
+      display: block; position: static; boxSizing: border-box; width: 1140px; height: 26px; maxWidth: none; margin: 20px 0px 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(56, 35, 18); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 500; lineHeight: 26px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(56, 35, 18); boxShadow: none; opacity: 1; objectFit: fill
+  h2.cmp-popular-products__title
+       x   150  y   3200  w  1140  h    40  vis  "Most loved"
+      display: block; position: static; boxSizing: border-box; width: 1140px; height: 40px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(56, 35, 18); fontFamily: "Libre Baskerville", sans-serif; fontSize: 32px; fontWeight: 700; lineHeight: 40px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(56, 35, 18); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-popular-products__subtitle
+       x   150  y   3260  w  1140  h    26  vis  "Discover the best of AASHIRVAAD"
+      display: block; position: static; boxSizing: border-box; width: 1140px; height: 26px; maxWidth: none; margin: 20px 0px 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(56, 35, 18); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 500; lineHeight: 26px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(56, 35, 18); boxShadow: none; opacity: 1; objectFit: fill
+  h2.cmp-our-foot-print__title
+       x   150  y   4332  w  1140  h    40  vis  "Our vision"
+      display: block; position: static; boxSizing: border-box; width: 1140px; height: 40px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(52, 52, 52); fontFamily: "Libre Baskerville", sans-serif; fontSize: 32px; fontWeight: 700; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(52, 52, 52); boxShadow: none; opacity: 1; objectFit: fill
+  h4 [1 of 14]
+       x   226  y   2521  w   292  h    58  vis  "Shakarpara | Aashirvaad Superior MP Atta"
+      display: flow-root; position: static; boxSizing: border-box; width: 292px; height: 58px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(52, 52, 52); fontFamily: "Libre Baskerville", sans-serif; fontSize: 24px; fontWeight: 700; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(52, 52, 52); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-card__title [1 of 17]
+       x   226  y   2521  w   292  h    64  vis  "Shakarpara | Aashirvaad Superior MP Atta"
+      display: block; position: static; boxSizing: border-box; width: 292px; height: 64px; maxWidth: none; margin: 16px 0px 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(52, 52, 52); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(52, 52, 52); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-text p [1 of 3]
+       x   150  y   5252  w  1140  h    25  vis  "Join us on the journey towards better t…"
+      display: block; position: static; boxSizing: border-box; width: 1140px; height: 25px; maxWidth: none; margin: 20px 0px 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(52, 52, 52); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 600; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(52, 52, 52); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-button--primary-anchor [1 of 10]
+       x    37  y    514  w  1366  h    78  vis  "Click to Explore"
+      display: block; position: relative; boxSizing: border-box; width: 1366px; height: 78px; maxWidth: none; margin: 0px; padding: 30px 0px 0px 211px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-button--secondary [1 of 2]
+       x     0  y      0  w     0  h     0  hid  "Buy Now"
+      display: block; position: static; boxSizing: border-box; width: auto; height: auto; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-button--primary [1 of 2]
+       x   657  y   2712  w   126  h    48  vis  "View All"
+      display: block; position: static; boxSizing: border-box; width: 126px; height: 48px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-button__text [1 of 14]
+       x   280  y    556  w   126  h    25  vis  "Click to Explore"
+      display: block; position: static; boxSizing: border-box; width: 126px; height: 25px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 246, 227); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 600; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(255, 246, 227); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-footer__nav-text
+       x   498  y   6236  w   370  h    55  vis  "in Your Inbox"
+      display: flex; position: static; boxSizing: border-box; width: 370px; height: 54.625px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-header__image-text [1 of 2]
+       x     0  y      0  w     0  h     0  hid  ""
+      display: block; position: static; boxSizing: border-box; width: auto; height: auto; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-navigation__item--level-0 > a [1 of 12]
+       x   278  y     28  w   121  h    20  vis  "Our Products"
+      display: inline; position: static; boxSizing: border-box; width: auto; height: auto; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 246, 225); fontFamily: "Libre Baskerville", sans-serif; fontSize: 16px; fontWeight: 700; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(255, 246, 225); boxShadow: none; opacity: 1; objectFit: fill
+
+@ 360px
+  root  scrollWidth   360  viewport 360  scrollHeight   7730
+  h1.cmp-product-category-listing__title
+       x    16  y    796  w   328  h    29  vis  "Aashirvaad offerings"
+      display: block; position: static; boxSizing: border-box; width: 328px; height: 29px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(52, 52, 52); fontFamily: "Libre Baskerville", sans-serif; fontSize: 24px; fontWeight: 700; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(52, 52, 52); boxShadow: none; opacity: 1; objectFit: fill
+  h2.cmp-banner__title [1 of 4]
+       x     0  y    168  w   360  h   384  vis  "The Aashirvaad Promise"
+      display: flow-root; position: static; boxSizing: border-box; width: 360px; height: 384px; maxWidth: 745px; margin: 0px; padding: 355px 16px 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 246, 227); fontFamily: "Libre Baskerville", sans-serif; fontSize: 24px; fontWeight: 700; lineHeight: 29px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(255, 246, 227); boxShadow: none; opacity: 1; objectFit: fill
+  h3.cmp-banner__sub-title [1 of 4]
+       x     0  y    552  w   360  h    84  vis  "Hand-picked ingredients, careful proces…"
+      display: flow-root; position: static; boxSizing: border-box; width: 360px; height: 84px; maxWidth: 710px; margin: 0px; padding: 12px 16px 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 246, 227); fontFamily: Poppins, sans-serif; fontSize: 14px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(255, 246, 227); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-banner__description   no match
+  h2.cmp-teaser__title [1 of 4]
+       x    32  y   3387  w   296  h    34  vis  "What makes us No.1?"
+      display: flow-root; position: static; boxSizing: border-box; width: 296px; height: 34px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 246, 227); fontFamily: "Libre Baskerville", sans-serif; fontSize: 24px; fontWeight: 700; lineHeight: 34px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(255, 246, 227); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-teaser__description [1 of 4]
+       x    32  y   3430  w   296  h    52  vis  "Our superior-quality, contact-less pack…"
+      display: flow-root; position: static; boxSizing: border-box; width: 296px; height: 52px; maxWidth: none; margin: 9px 0px 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 246, 227); fontFamily: Poppins, sans-serif; fontSize: 14px; fontWeight: 400; lineHeight: 26px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(255, 246, 227); boxShadow: none; opacity: 1; objectFit: fill
+  h2.cmp-recipe-group__title
+       x    16  y   2503  w   328  h    58  vis  "Cook delicious recipes with us"
+      display: block; position: static; boxSizing: border-box; width: 328px; height: 58px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(56, 35, 18); fontFamily: "Libre Baskerville", sans-serif; fontSize: 24px; fontWeight: 700; lineHeight: 29px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(56, 35, 18); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-recipe-group__subtitle
+       x    16  y   2581  w   328  h    52  vis  "Explore your favourite recipe curated b…"
+      display: block; position: static; boxSizing: border-box; width: 328px; height: 52px; maxWidth: none; margin: 20px 0px 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(56, 35, 18); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 500; lineHeight: 26px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(56, 35, 18); boxShadow: none; opacity: 1; objectFit: fill
+  h2.cmp-popular-products__title
+       x    16  y   3633  w   328  h    29  vis  "Most loved"
+      display: block; position: static; boxSizing: border-box; width: 328px; height: 29px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(56, 35, 18); fontFamily: "Libre Baskerville", sans-serif; fontSize: 24px; fontWeight: 700; lineHeight: 29px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(56, 35, 18); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-popular-products__subtitle
+       x    16  y   3682  w   328  h    26  vis  "Discover the best of AASHIRVAAD"
+      display: block; position: static; boxSizing: border-box; width: 328px; height: 26px; maxWidth: none; margin: 20px 0px 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(56, 35, 18); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 500; lineHeight: 26px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(56, 35, 18); boxShadow: none; opacity: 1; objectFit: fill
+  h2.cmp-our-foot-print__title
+       x    16  y   4963  w   328  h    29  vis  "Our vision"
+      display: block; position: static; boxSizing: border-box; width: 328px; height: 29px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(52, 52, 52); fontFamily: "Libre Baskerville", sans-serif; fontSize: 24px; fontWeight: 700; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(52, 52, 52); boxShadow: none; opacity: 1; objectFit: fill
+  h4 [1 of 14]
+       x    76  y   3047  w    34  h    44  vis  "Shakarpara | Aashirvaad Superior MP Atta"
+      display: flow-root; position: static; boxSizing: border-box; width: 34px; height: 44px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(52, 52, 52); fontFamily: "Libre Baskerville", sans-serif; fontSize: 18px; fontWeight: 700; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(52, 52, 52); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-card__title [1 of 17]
+       x    76  y   3047  w    34  h    64  vis  "Shakarpara | Aashirvaad Superior MP Atta"
+      display: block; position: static; boxSizing: border-box; width: 34px; height: 64px; maxWidth: none; margin: 12px 0px 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(52, 52, 52); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(52, 52, 52); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-text p [1 of 3]
+       x     0  y   6299  w   360  h    42  vis  "Join us on the journey towards better t…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 42px; maxWidth: none; margin: 12px 0px 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(52, 52, 52); fontFamily: Poppins, sans-serif; fontSize: 14px; fontWeight: 600; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(52, 52, 52); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-button--primary-anchor [1 of 10]
+       x     0  y    648  w   360  h    48  vis  "Click to Explore"
+      display: flex; position: relative; boxSizing: border-box; width: 360px; height: 48px; maxWidth: none; margin: 12px 0px 0px; padding: 0px 16px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-button--secondary [1 of 2]
+       x     0  y      0  w     0  h     0  hid  "Buy Now"
+      display: block; position: static; boxSizing: border-box; width: auto; height: auto; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-button--primary [1 of 2]
+       x   117  y   3245  w   126  h    48  vis  "View All"
+      display: block; position: static; boxSizing: border-box; width: 126px; height: 48px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-button__text [1 of 14]
+       x   117  y    660  w   126  h    25  vis  "Click to Explore"
+      display: block; position: static; boxSizing: border-box; width: 126px; height: 25px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 246, 227); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 600; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(255, 246, 227); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-footer__nav-text
+       x    10  y   7073  w   340  h    43  vis  "in Your Inbox"
+      display: flex; position: static; boxSizing: border-box; width: 340px; height: 42.6719px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-header__image-text [1 of 2]
+       x     0  y      0  w     0  h     0  hid  ""
+      display: block; position: static; boxSizing: border-box; width: auto; height: auto; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Poppins, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .cmp-navigation__item--level-0 > a [1 of 12]
+       x     0  y      0  w     0  h     0  hid  "Our Products"
+      display: inline; position: static; boxSizing: border-box; width: auto; height: auto; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(52, 52, 52); fontFamily: "Libre Baskerville", sans-serif; fontSize: 16px; fontWeight: 700; lineHeight: normal; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(52, 52, 52); boxShadow: none; opacity: 1; objectFit: fill
+run-bg: lift-type ended exit=0

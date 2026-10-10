@@ -1,0 +1,25 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:qa/inventory",
+    "stardustVersion": "0.0.0",
+    "writtenAt": "2026-10-09T19:12:13.934Z",
+    "againstInput": "https://main--5ca9e426--aemcoder.aem.live"
+  },
+  "pages": [
+    {
+      "path": "/",
+      "sources": [
+        "paths-file",
+        "sitemap"
+      ],
+      "template": null
+    }
+  ],
+  "sitemapPaths": [
+    "/"
+  ],
+  "fragments": [
+    "/nav",
+    "/footer"
+  ]
+}

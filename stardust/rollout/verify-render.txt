@@ -1,0 +1,22 @@
+
+== 1440 ==
+PASS 1440 body.appear set
+PASS 1440 main .section count 11, loaded blocks 9
+PASS 1440 pageerror events 0 
+PASS 1440 broken images 0 (lazy still pending 17)
+PASS 1440 most-loved auto-advance: slide 1 → 2 of 2 after 3.6 s unpoked (list height 504)
+PASS 1440 footprint 3-card grid: 2 column tracks, first card spans 2 rows, 3 cards visible, dots visible false
+PASS 1440 recipe images loaded 3/3
+PASS 1440 no horizontal overflow (scrollWidth 1440)
+
+== 360 ==
+PASS 360 body.appear set
+PASS 360 main .section count 11, loaded blocks 9
+PASS 360 pageerror events 0 
+PASS 360 broken images 0 (lazy still pending 15)
+PASS 360 most-loved auto-advance: slide 1 → 2 of 2 after 3.6 s unpoked (list height 631)
+PASS 360 footprint one-card carousel with 3 dots (display flex, dots visible true)
+PASS 360 recipe images loaded 3/3
+PASS 360 no horizontal overflow (scrollWidth 360)
+
+render-check: PASS
