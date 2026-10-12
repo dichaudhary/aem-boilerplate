@@ -1,0 +1,23 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-10-12T05:18:51.152Z",
+  "origin": "https://main--f4bf5395--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (3 gated · 1 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6108,
+   "environmentLimit": null
+  }
+ ]
+}

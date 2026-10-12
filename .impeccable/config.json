@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "arial",
+        "createdAt": "2026-10-12T05:14:32.092Z",
+        "reason": "replica run: the source aashirvaad.com computes font-family Arial on its carousel arrow/dot buttons (stardust/replica/notes/lift-1440.json); same-design migration must keep it"
+      }
+    ]
+  }
+}

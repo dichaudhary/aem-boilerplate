@@ -1,0 +1,135 @@
+/* offerings — category listing; values lifted from stardust/prototypes/css/index.css */
+.offerings .offerings-inner {
+  margin: 0 auto;
+  max-width: var(--shell);
+  padding: 4rem var(--gutter);
+}
+
+.offerings .offerings-title :is(h1, h2) {
+  color: var(--ink);
+  text-align: center;
+}
+
+.offerings .offerings-sub {
+  margin-top: 1.25rem;
+  color: var(--brown);
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.offerings .offerings-sub p {
+  font: inherit;
+}
+
+.offerings .offerings-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2.5rem 2rem;
+  margin-top: 3rem;
+}
+
+.offerings .offerings-cat {
+  display: flex;
+  justify-content: center;
+  flex-basis: calc(33.3333% - 1.3333rem);
+  font-family: var(--serif);
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.offerings .offerings-link {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--brown);
+  text-decoration: none;
+}
+
+.offerings .offerings-circle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--sans);
+}
+
+.offerings .offerings-circle::before {
+  content: ' ';
+  width: 13.5rem;
+  height: 13.5rem;
+  border-radius: 50%;
+  background: var(--sand);
+  transition: transform 0.3s ease-in-out;
+}
+
+.offerings .offerings-circle:hover::before {
+  transform: scale(0.9);
+}
+
+.offerings .offerings-circle img {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  max-height: 11.625rem;
+  max-width: 13.5rem;
+  width: auto;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.offerings .offerings-circle:hover img {
+  transform: translateY(-10%);
+}
+
+.offerings .offerings-name {
+  margin-top: 1.125rem;
+  text-align: center;
+  font-family: var(--serif);
+}
+
+.offerings .offerings-name p {
+  font: inherit;
+  color: inherit;
+}
+
+@media (width <= 1023px) {
+  .offerings .offerings-inner {
+    padding: 2rem 1rem;
+  }
+
+  .offerings .offerings-sub {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+  }
+
+  .offerings .offerings-grid {
+    gap: 2rem 0.625rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+
+  .offerings .offerings-cat {
+    flex-basis: calc(50% - 0.3125rem);
+  }
+
+  .offerings .offerings-circle::before {
+    width: 10.875rem;
+    height: 10.875rem;
+  }
+
+  .offerings .offerings-circle img {
+    max-height: 9.75rem;
+    max-width: 9.75rem;
+  }
+
+  .offerings .offerings-name {
+    margin-top: 1rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+}

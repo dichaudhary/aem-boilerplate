@@ -1,0 +1,483 @@
+{
+  "url": "http://localhost:8791/index-proposed.html",
+  "width": 360,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 6000,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 5054,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 3554,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "68px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "68px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "#nav-toggle",
+      "frames": [
+        {
+          "t": 11603.30000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 11807,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 12009.700000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 12211.899999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".vision__carousel .carousel__dots li:nth-child(2) button",
+      "frames": [
+        {
+          "t": 13221.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13424.80000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13628.399999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13831.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".community__carousel .carousel__dots li:nth-child(2) button",
+      "frames": [
+        {
+          "t": 14842.700000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 15045.899999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 15249.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 15452.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track",
+        "y": 500,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track",
+        "y": 0,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.vision__inner > div.vision__content > div.carousel.vision__carousel > div.carousel__viewport > div.carousel__track",
+        "y": 5034,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.band.band--sand.community > div.community__inner > div.carousel.community__carousel > div.carousel__viewport > div.carousel__track",
+        "y": 5511,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track",
+        "y": 5511,
+        "dur": "0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.loved__slide.is-active",
+        "y": 2400
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > ul.carousel__dots > li.is-active",
+        "y": 2400
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.loved__slide.is-active",
+        "y": 500
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > ul.carousel__dots > li.is-active",
+        "y": 500
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.loved__slide.is-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > ul.carousel__dots > li.is-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.vision__content > div.carousel.vision__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.vision__slide.vision__slide--1",
+        "y": 5034
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.vision__inner > div.vision__content > div.carousel.vision__carousel > ul.carousel__dots > li.is-active",
+        "y": 5034
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.community__inner > div.carousel.community__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.community__slide.is-active",
+        "y": 5511
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.band.band--sand.community > div.community__inner > div.carousel.community__carousel > ul.carousel__dots > li.is-active",
+        "y": 5511
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.loved__slide.is-active",
+        "y": 5511
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > ul.carousel__dots > li.is-active",
+        "y": 5511
+      }
+    ]
+  }
+}

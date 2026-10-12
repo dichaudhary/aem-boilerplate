@@ -1,0 +1,140 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout",
+    "writtenAt": "2026-10-12T05:19:17Z",
+    "stardustVersion": "0.33.0"
+  },
+  "site": {
+    "originUrl": "https://aashirvaad.com",
+    "deployUrl": "https://main--f4bf5395--aemcoder.aem.page/",
+    "extractedAt": "2026-10-12T03:26:37.993Z",
+    "pageCap": 1,
+    "totalDiscovered": 1,
+    "crawled": 1
+  },
+  "direction": {
+    "resolvedAt": "2026-10-12T03:31:50.390Z",
+    "phrase": "replica — keep the current design (bounded-single)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim"
+  },
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-10-12T03:27:00.032Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://aashirvaad.com/",
+      "title": "Aashirvaad - Bringing Nutrition & Taste to you since 2002",
+      "type": "home",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-12T03:26:37.993Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-12T03:31:53Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-12T04:17:00Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-12T04:17:00Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-12T05:19:17Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "content/index.html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-10-12T04:29:52Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 44,
+    "bundledAssets": [
+      "css/canon.css",
+      "css/index.css",
+      "fonts/21d447-icomoon.ttf",
+      "fonts/m-kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxMaC82U.woff2",
+      "fonts/m-pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2",
+      "fonts/m-pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+      "fonts/m-pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+      "fonts/m-pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2",
+      "img/010db7-HOME-pinksalt.webp",
+      "img/080062-aashirvaad-fssai-logo.webp",
+      "img/13327a-hero-ban-2.webp",
+      "img/2159bf-monile_pink_salt.webp",
+      "img/24164b-ORGANIC.webp",
+      "img/2bc2b3-itc-logo-white.webp",
+      "img/2d384a-our_categories_6.webp",
+      "img/2e26e4-nutritions.webp",
+      "img/41d514-Community-Slider2-Desktop.webp",
+      "img/4417de-nudge-1.webp",
+      "img/4c466a-Hero-Banner-1_D_revised.webp",
+      "img/4c5a2d-saltXIdoised.webp",
+      "img/56dfc9-product-background.svg",
+      "img/5a1f53-hero-ban-3.webp",
+      "img/5a31aa-Slider3-Desktop-modified.webp",
+      "img/61b63a-our_categories_5.webp",
+      "img/6ecc02-aataxmultigrain.webp",
+      "img/74b2fd-quality.webp",
+      "img/81dba4-Happy_Tommy_Mobile-1.webp",
+      "img/84cae5-Slider-1-Desktop.webp",
+      "img/87e9ba-Aashirvaad_mari_chikki_mobile.webp",
+      "img/a33526-Trust.webp",
+      "img/addfdd-Roti-for-mobile.webp",
+      "img/b73b3d-Community-Slider-2-Mobile1.webp",
+      "img/c67679-Logo-2.svg",
+      "img/cbe5cc-itc-logo-white.webp",
+      "img/d149f8-sugar-release-control-atta.webp",
+      "img/df6e22-Meri_chikki_bg_desktop.webp",
+      "img/e176f6-Logo_2.svg",
+      "img/ed76c4-HappyTummyJourney.webp",
+      "img/f55cc9-Logo_2.svg",
+      "img/fa9579-Logo.svg",
+      "img/x01-dq-496.webp",
+      "img/x02-dq-328.webp",
+      "js/carousel.js",
+      "js/page.js"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 44
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-10-12T04:29:52Z",
+      "rendered": [],
+      "unchanged": [
+        "index"
+      ],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

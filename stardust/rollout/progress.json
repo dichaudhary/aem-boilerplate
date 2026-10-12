@@ -1,0 +1,89 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [],
+      "pages": 0,
+      "startedAt": "2026-10-12T04:19:56Z",
+      "endedAt": "2026-10-12T04:36:25Z",
+      "blocks": 2,
+      "verdict": "foundation: styles+fonts+header+footer+martech scaffold live, nav/footer published"
+    },
+    "archetype-home": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "home"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-12T04:37:00.868Z",
+      "endedAt": "2026-10-12T05:13:42Z",
+      "blocks": 10,
+      "gates": {
+        "360": {
+          "pixel": 3.35,
+          "dh": 1,
+          "red": 0,
+          "clipped": 0
+        },
+        "1440": {
+          "pixel": 0.23,
+          "dh": 1,
+          "red": 0,
+          "clipped": 0
+        },
+        "crop": "header 0.00%/0.00%, footer 0.00%/0.28% (1440/360)",
+        "chrome": "23/21 deltas (1440/360): footer dy -25px probe-timing offset + C0 tag swaps; crop bands clean",
+        "gateAll": "1440 1.16% dh1 / 360 4.66% dh1, clip 0; content MISSING 18/10 all chrome links to out-of-scope pages -> foundation-requests"
+      },
+      "verdict": "archetype-home: page 1/1 live, blocks 10, gate 1440 0.23% / 360 3.35%"
+    },
+    "cluster-home": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "home"
+      ],
+      "pages": 0,
+      "startedAt": "2026-10-12T05:15:09.635Z",
+      "endedAt": "2026-10-12T05:15:09.635Z",
+      "blocks": 0,
+      "verdict": "cluster-home: 0 siblings (bounded single-page run, archetype index already live), requests 0"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [],
+      "pages": 1,
+      "startedAt": "2026-10-12T05:17:07.034Z",
+      "endedAt": "2026-10-12T05:18:25.405Z",
+      "gates": {
+        "360": {
+          "pixel": 4.66,
+          "dh": 1,
+          "clipped": 0,
+          "missing": 0,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": 1.16,
+          "dh": 1,
+          "clipped": 0,
+          "missing": 0,
+          "verdict": "PASS"
+        }
+      },
+      "verdict": "gate-all: 1/1 PASS at 1440 (1.16%) and 360 (4.66%), clip 0, content 0 (presence.json symmetric root)"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [],
+      "pages": 1,
+      "startedAt": "2026-10-12T05:19:10.690Z",
+      "endedAt": "2026-10-12T05:19:10.690Z",
+      "verdict": "final: foundation-freeze check clean (20 files), 1 queued request applied (gate-all presence.json symmetric root, no foundation edit), archetype re-gated in gate-all 1/1 PASS, martech dynamics-check PASS (all parts off)"
+    }
+  }
+}

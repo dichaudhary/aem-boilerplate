@@ -1,0 +1,34 @@
+{
+  "frozenAt": "2026-10-12T04:36:19.480Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "ddbfe6337ccd8272b1671e740c5e409c1f26d8105f249001093b0801fe6756e2",
+    "blocks/footer/footer.js": "7378025027caf435456eec9a155bbf3b637e1a108f2a3e3a65233a314cec8729",
+    "blocks/header/header.css": "a3a7a55939054923189d6d475be2b70632252bc50ef1c92674e44eed1cf9dd9f",
+    "blocks/header/header.js": "fd0607f78eb3d5eb6ee4c344be1fdb635b23dd2c3b01351f1b604c124d56a9ea",
+    "fonts/icomoon.ttf": "c80f013f4669bcd49357d696387131042430b8c75c2e414112cda716c5eaf125",
+    "fonts/libre-baskerville.woff2": "b62b98ef69e6e55b28b9bcac84513eb1bdd1d312a344b1c76e979219923224a5",
+    "fonts/poppins-400.woff2": "3dc5d0c52428fe1696264907a1054ebbaac07f8cbe45832c105f819c2ae397c0",
+    "fonts/poppins-500.woff2": "289e0afc8be731a86822349e54557296f145926496bd2138db1bac0db77f77a2",
+    "fonts/poppins-600.woff2": "872e862918591a9e824dc03ed92f05729435ffbb8ebbb10eff7eda26592b1798",
+    "fonts/poppins-700.woff2": "197a3cbd7290c242c5c765268cdd69a9a39867fdc80cd13071f243a81c56fb76",
+    "head.html": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/carousel.js": "57e2a91202922925d778bf293573403c101851868a70f6df8a8489291f0ce1a3",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/martech.js": "43e8d91055962e234ada554c4025474c184f07d9da17aa71a032134d69130076",
+    "scripts/scripts.js": "4503c02bd53c5e5fb04b14e325e467a26f1ec9446519bb368ba779fbfc5a5096",
+    "styles/fonts.css": "3edd26d43af44c4c213183f48f0768b7582157632ff69fccadc6712bd396f965",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "3b3f380502d7b1f28b00bd46628283a2d244e11d6782eadd50f68e28428fb934"
+  }
+}

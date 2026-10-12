@@ -1,0 +1,46 @@
+/* chakki — CTA teaser; values lifted from stardust/prototypes/css/index.css (.chakki*) */
+.chakki .chakki-inner {
+  margin: 0 auto;
+  max-width: var(--shell);
+  padding: 0 var(--gutter);
+}
+
+.chakki .chakki-card {
+  position: relative;
+  display: flex;
+  max-width: 100%;
+  height: 19.5rem;
+  border-radius: 1.25rem;
+  background: url('chakki-desktop.webp') 0 0 / cover;
+
+  /* the CTA sits where the prototype's .chakki__btn sits; its link is stretched over the card */
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0 15.6875rem 3.75rem 0;
+}
+
+.chakki .chakki-content a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 1.25rem;
+}
+
+@media (width <= 1023px) {
+  .chakki .chakki-inner {
+    max-width: 24.375rem;
+    padding: 0;
+  }
+
+  .chakki .chakki-card {
+    height: 35rem;
+    border-radius: 0;
+    background-image: url('chakki-mobile.webp');
+    justify-content: center;
+    padding: 0 0 1.75rem;
+  }
+
+  .chakki .chakki-content {
+    width: max-content;
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-12T04:19:21.024Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-12T05:13:11.039Z",
+  "blocks": [
+    {
+      "id": "chakki",
+      "label": "chakki",
+      "kind": "module",
+      "signature": "module:chakki",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "chakki",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "community",
+      "label": "community",
+      "kind": "module",
+      "signature": "module:community",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "community",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "follow",
+      "label": "follow",
+      "kind": "module",
+      "signature": "module:follow",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "follow",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero",
+      "label": "hero",
+      "kind": "module",
+      "signature": "module:hero",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "loved",
+      "label": "loved",
+      "kind": "module",
+      "signature": "module:loved",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "loved",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "nudge",
+      "label": "nudge",
+      "kind": "module",
+      "signature": "module:nudge",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "nudge",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "offerings",
+      "label": "offerings",
+      "kind": "module",
+      "signature": "module:offerings",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "offerings",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "recipes",
+      "label": "recipes",
+      "kind": "module",
+      "signature": "module:recipes",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "recipes",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "video-band",
+      "label": "video-band",
+      "kind": "module",
+      "signature": "module:video-band",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "video-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "vision",
+      "label": "vision",
+      "kind": "module",
+      "signature": "module:vision",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "vision",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

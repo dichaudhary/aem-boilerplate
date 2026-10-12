@@ -1,0 +1,22 @@
+/* follow — values lifted from stardust/prototypes/css/index.css (.follow*) */
+.follow .follow-inner {
+  margin: 2.5rem 0;
+  text-align: center;
+}
+
+.follow .follow-text p {
+  font-family: var(--sans);
+}
+
+/* the source's trailing empty paragraph (<p>&nbsp;</p>): one line of body copy */
+.follow .follow-text::after {
+  content: '';
+  display: block;
+  height: 1.5em;
+}
+
+.follow .follow-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

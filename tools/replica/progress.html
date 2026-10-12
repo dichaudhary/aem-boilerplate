@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration status</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration status</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://aashirvaad.com/" target="_blank" rel="noopener">https://aashirvaad.com/</a><br>Preview site: <a href="https://main--f4bf5395--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--f4bf5395--aemcoder.aem.page/</a><br>Last updated: 2026-10-12 05:25 UTC</p>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Journey</h2>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Pages</h2>
+    <div class="panel-body">
+      <p>This migration covers 1 page. 1 of 1 are published on the preview site; 1 has passed the side-by-side check against the original.</p>
+      <details open>
+        <summary>1 page in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://aashirvaad.com/" target="_blank" rel="noopener">https://aashirvaad.com/</a></td><td><a href="https://main--f4bf5395--aemcoder.aem.page/" target="_blank" rel="noopener">Aashirvaad - Bringing Nutrition &amp;amp; Taste to you since 2002</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Page templates</h2>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Home page</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Progress</h2>
+    <div class="panel-body">
+      <p>100% complete</p>
+      <div class="bar"><span style="width: 100%"></span></div>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's happening now</h2>
+    <div class="panel-body">
+      <p>The Aashirvaad home page is live on the new platform at the site&#39;s main address, and our final checks against the original site have passed at desktop and mobile sizes. Its search-engine details, structured data and analytics setup came across too; the analytics stay switched off until you choose to turn them on.</p>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's next</h2>
+    <div class="panel-body">
+      <p>The migration is complete; what remains is your review, and switching on analytics when you&#39;re ready.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

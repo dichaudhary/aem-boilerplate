@@ -1,0 +1,153 @@
+/* loved — "Most loved" carousel; values lifted from stardust/prototypes/css/index.css */
+.loved .loved-inner {
+  margin: 0 auto;
+  max-width: var(--shell);
+  padding: 4rem var(--gutter);
+}
+
+.loved .loved-header {
+  text-align: center;
+}
+
+.loved .loved-title :is(h1, h2, h3) {
+  color: var(--brown);
+  line-height: 2.5rem;
+}
+
+.loved .loved-sub {
+  margin-top: 1.25rem;
+  color: var(--brown);
+  font-family: var(--sans);
+  font-weight: 500;
+  line-height: 1.625rem;
+}
+
+.loved .loved-sub p,
+.loved .loved-name p,
+.loved .loved-details p {
+  font: inherit;
+  color: inherit;
+}
+
+.loved .loved-carousel {
+  padding: 0 3rem;
+}
+
+.loved .loved-carousel .carousel-track {
+  align-items: flex-start;
+}
+
+.loved .loved-carousel .carousel-viewport {
+  transition: height 0.5s ease;
+}
+
+.loved .loved-slide {
+  flex: 0 0 calc(100% - 2rem);
+  margin: 0 1rem;
+}
+
+.loved .loved-wrap {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.loved .loved-image {
+  display: flex;
+  justify-content: center;
+  flex: 0 0 31rem;
+  width: 31rem;
+  background: url('product-background.svg') 50% / contain no-repeat;
+}
+
+.loved .loved-link {
+  display: block;
+}
+
+.loved .loved-link picture {
+  display: block;
+}
+
+.loved .loved-link img {
+  max-width: 100%;
+  height: auto;
+}
+
+.loved .loved-desc {
+  flex: 1;
+  margin-left: 1.25rem;
+  padding-top: 2.375rem;
+}
+
+.loved .loved-name {
+  margin-bottom: 1.25rem;
+  max-width: 23.5rem;
+  color: var(--brown);
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  text-align: left;
+}
+
+.loved .loved-details {
+  margin-bottom: 1.3125rem;
+  font-family: var(--sans);
+  font-weight: 500;
+  line-height: 1.625rem;
+}
+
+.loved .loved-carousel .carousel-dots {
+  margin-top: 2.375rem;
+}
+
+@media (width <= 1023px) {
+  .loved .loved-inner {
+    padding: 2rem 1rem;
+  }
+
+  .loved .loved-title :is(h1, h2, h3) {
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+  }
+
+  .loved .loved-carousel {
+    padding: 0;
+  }
+
+  .loved .loved-slide {
+    flex: 0 0 100%;
+    margin: 0;
+  }
+
+  .loved .loved-wrap {
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+
+  .loved .loved-image {
+    flex: none;
+    width: 100%;
+    height: 24.625rem;
+  }
+
+  .loved .loved-desc {
+    margin-left: 0;
+    padding-top: 1.5rem;
+  }
+
+  .loved .loved-name {
+    margin: 0 0.875rem;
+    max-width: 18.75rem;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    text-align: center;
+  }
+
+  .loved .loved-details {
+    font-size: 0.875rem;
+  }
+
+  .loved .loved-carousel .carousel-dots {
+    margin-top: 0.875rem;
+  }
+}

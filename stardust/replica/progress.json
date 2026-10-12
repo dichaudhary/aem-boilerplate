@@ -1,0 +1,155 @@
+{
+  "home": {
+    "archetype": "index",
+    "pageType": "home",
+    "prototype": "stardust/prototypes/index-proposed.html",
+    "css": [
+      "stardust/prototypes/css/canon.css",
+      "stardust/prototypes/css/index.css"
+    ],
+    "js": [
+      "stardust/prototypes/js/carousel.js",
+      "stardust/prototypes/js/page.js"
+    ],
+    "generator": "stardust/scripts/local/build-proto.mjs (reads stardust/current/pages/index.html as data only; authored markup)",
+    "contentRoot": ".color-background-default",
+    "breakpointsUsed": [
+      "max-width:1023px (source mobile switch)",
+      "max-width:1024px (source video-band rule)",
+      "min-width:1024px (Our vision grid lock)"
+    ],
+    "boxModel": "border-box everywhere, inherited from html (source: html{box-sizing:border-box} *,:before,:after{box-sizing:inherit}) — declared the same way in canon.css",
+    "iterations": {
+      "360": 3,
+      "1440": 3
+    },
+    "gates": {
+      "360": {
+        "pixelPct": 0.07,
+        "heightDelta": 0,
+        "structuralRed": 0,
+        "visualFlags": "none",
+        "clipped": 0,
+        "overflow": "none (scrollWidth 360)",
+        "chromeParity": "region-mapped run: icon file-name signatures + a live-side footer Δy +66 (unsettled live probe page state; settled stitched captures match at Δ0) — justified",
+        "verdict": "PASS",
+        "evidence": "stardust/replica/gates/index-360/*-iter4.*"
+      },
+      "1440": {
+        "pixelPct": 0.06,
+        "heightDelta": 0,
+        "structuralRed": 0,
+        "visualFlags": "none",
+        "clipped": 0,
+        "overflow": "none (scrollWidth 1440)",
+        "chromeParity": "header/footer not landmarks on live; region-mapped run (.cmp-header|.site-header, #footer|.site-footer): only rehosted-file-name icon signatures differ (Logo_2 → f55cc9-Logo_2.svg etc.) — justified",
+        "verdict": "PASS",
+        "evidence": "stardust/replica/gates/index-1440/*-iter4.*"
+      }
+    },
+    "gateAllPrototypeRows": {
+      "360": "0.07% Δh 0 PASS (gates/prototypes-360)",
+      "1440": "0.06% Δh 0 PASS (gates/prototypes-1440)"
+    },
+    "capProbe": "PASS at 2560 — 0 of 11 rows failed (gates/index-2560/cap-iter.json)",
+    "justified": [
+      {
+        "probe": "content",
+        "flag": "header/footer roots EXTRA (🟠/🟡)",
+        "why": "live chrome is not a <header>/<footer> landmark; build uses landmarks — no source root to pair against"
+      },
+      {
+        "probe": "content",
+        "flag": "1440: EXTRA body \"Video will load soon...\", dots 1/2/3, iframe title (Our vision)",
+        "why": "mobile-only Our vision carousel DOM (live builds it only below 1024px); kept in markup, hidden at desktop"
+      },
+      {
+        "probe": "content",
+        "flag": "ICON MOVED / EXTRA ICON 🟡",
+        "why": "glyph identities equal; anchors differ only by build landmark roots"
+      },
+      {
+        "probe": "chrome-parity",
+        "flag": "ICON signature file names",
+        "why": "rehosted assets carry a content-hash prefix + extension; same files"
+      }
+    ],
+    "residuals": [
+      {
+        "band": "1440 y 2500–3500",
+        "pct": 0.6,
+        "cause": "sub-pixel anti-aliasing in the nudge/Most-loved photo backgrounds; no geometry delta",
+        "flaggedFor": "user"
+      },
+      {
+        "band": "360 y 3000–3500 / 4000–4500",
+        "pct": 0.5,
+        "cause": "sub-pixel anti-aliasing on the nudge and Meri Chakki background photos; no geometry delta",
+        "flaggedFor": "user"
+      },
+      {
+        "band": "1440 full page (iter1–2 only)",
+        "pct": 0,
+        "cause": "the iter1 live capture was internally inconsistent (Most loved autoplay ping-pong + lazy re-init: height read at slide 2 = 6528 px, chunks painted slide 1 → truncated footer); re-taken at iter3 (consistent slide-2 state, 6528 px complete). Kept as live-iter1-truncated.png",
+        "flaggedFor": "user"
+      }
+    ],
+    "captureState": [
+      {
+        "what": "Most loved carousel held on slide 2 (Sugar Release Control Atta), adaptive list height 442 px @1440",
+        "where": "loved",
+        "restoreAtDelivery": "start on slide 1, slick autoplay every 3000 ms, infinite:false ping-pong (1→2→1…), adaptiveHeight; arrows stop it. Prototype implements the 3 s ping-pong but starts on slide 2 because live autoplay reaches slide 2 before every capture freeze"
+      },
+      {
+        "what": "Recipe card images lazy-loaded only for on-screen cards (3 @1440, 2 @360); off-screen cards carry no <img> until revealed",
+        "where": "recipes carousel",
+        "restoreAtDelivery": "lazy-load card images on reveal (prototype does this from rehosted renditions wid=300 / wid=236)"
+      },
+      {
+        "what": "Our vision card 3 video shows the live placeholder \"Video will load soon...\" at mobile",
+        "where": "vision (360)",
+        "restoreAtDelivery": "card-3 video id unknown on live (never loaded for the instrument) — confirm with the author at delivery"
+      },
+      {
+        "what": "YouTube embeds (player1, widget2, widget4) kept same-src live iframes",
+        "where": "video band, Our vision",
+        "restoreAtDelivery": null
+      }
+    ],
+    "fonts": "self-hosted Google Fonts (Poppins 400/500/600/700, Libre Baskerville 400+700 — the builds Google serves current Chrome, declared as Google declares them) + rehosted icomoon.ttf from the site clientlib",
+    "assetsFetchedOutsideHarvest": [
+      "dq (Atta with Multigrains) wid=496 + wid=328, sugar-release-control-atta wid=328 (img/x01..x03-*)",
+      "69 recipe-card renditions for all three tabs (img/rc-*-300.webp, img/rc-*-236.webp)",
+      "Google Fonts builds served to Chrome 143 (fonts/m-*.woff2) — the harvest held the builds served to the extract UA, which render Libre Baskerville narrower"
+    ],
+    "motion": {
+      "observed": [
+        "hero arrows/dots (manual, autoplay off)",
+        "recipes arrows (slidesToScroll 3 @desktop) + lazy card images",
+        "recipe tabs (re-fetch + carousel re-init)",
+        "Most loved autoplay 3 s ping-pong + arrows/dots + adaptive height",
+        "Our vision dots (mobile carousel)",
+        "community arrows/dots",
+        "lazy image fade-in (opacity .3s, class loaded)",
+        "mobile hamburger (checkbox :checked)"
+      ],
+      "implemented": [
+        "carousel.js: arrows, dots, swipe, non-infinite ends, slidesToScroll, adaptive height, autoplay ping-pong, lazy card images with .loaded fade, desktop-only arrows (recipes, Most loved)",
+        "page.js: recipe tabs render the tab card set from JSON and refresh the carousel; mobile nav accordion",
+        "CSS: hamburger checkbox toggle, desktop mega-menu on hover (source CSS rule)"
+      ],
+      "dead": [
+        "header scroll morph (none on live)",
+        "desktop nav hover (no sampled change on live; source CSS hover rule kept)"
+      ],
+      "compare": "motion-compare (advisory): class-name lines differ by naming only (slick-current/slick-active/slick-disabled ↔ is-active/disabled); transform + opacity transitions at parity",
+      "files": [
+        "stardust/replica/motion/index.json",
+        "stardust/replica/motion/index-build.json",
+        "stardust/replica/motion/index-360.json",
+        "stardust/replica/motion/index-360-build.json"
+      ]
+    },
+    "gatedAt": "2026-10-12T04:16:17.537Z"
+  }
+}

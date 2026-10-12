@@ -1,0 +1,164 @@
+/* community — teaser carousel; values lifted from stardust/prototypes/css/index.css */
+.community .community-inner {
+  margin: 0 auto;
+  max-width: var(--shell);
+  padding: 4rem var(--gutter);
+}
+
+.community .community-intro {
+  color: var(--ink);
+  text-align: center;
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.community .community-intro p {
+  margin-top: 1.25rem;
+}
+
+.community .community-carousel {
+  margin-top: 3rem;
+  padding: 0 3rem;
+}
+
+.community .community-slide {
+  flex: 0 0 calc(100% - 2rem);
+  margin: 0 1rem;
+}
+
+.community .community-teaser {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 100%;
+  height: 31.4375rem;
+  padding: 3.25rem 2.5rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+/* authored art-directed grounds (the prototype's --comm-d / --comm-m background-image) */
+.community .community-media {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.community .community-media-desktop,
+.community .community-media-mobile,
+.community .community-media picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.community .community-media img {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.community .community-media-mobile {
+  display: none;
+}
+
+.community .community-content {
+  flex-basis: 45%;
+}
+
+.community .community-title :is(h2, h3) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  color: var(--cream);
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.community .community-desc {
+  margin-top: 1.5rem;
+  color: var(--cream);
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+
+.community .community-action {
+  margin-top: 1.875rem;
+}
+
+.community .community-carousel .carousel-dots {
+  margin-top: 2.375rem;
+}
+
+@media (width <= 1023px) {
+  .community .community-inner {
+    max-width: 100%;
+    padding: 2rem 0;
+  }
+
+  .community .community-intro p {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+  }
+
+  .community .community-carousel {
+    margin-top: 1.5rem;
+    padding: 0;
+  }
+
+  .community .community-slide {
+    flex: 0 0 100%;
+    margin: 0;
+  }
+
+  .community .community-teaser {
+    height: 15rem;
+    margin: 0 1rem;
+    padding: 2rem;
+  }
+
+  .community .community-media-desktop {
+    display: none;
+  }
+
+  .community .community-media-mobile,
+  .community .community-media-single .community-media-desktop {
+    display: block;
+  }
+
+  .community .community-content {
+    flex-basis: auto;
+    text-align: center;
+  }
+
+  .community .community-title :is(h2, h3) {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .community .community-desc {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.4375rem;
+  }
+
+  .community .community-action {
+    margin-top: 1rem;
+  }
+
+  .community .community-action a {
+    margin: 0 auto;
+  }
+
+  .community .community-carousel .carousel-dots {
+    margin-top: 0.875rem;
+  }
+}

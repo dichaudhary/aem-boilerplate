@@ -1,0 +1,24 @@
+/* video-band — values lifted from stardust/prototypes/css/index.css (.video-band__frame) */
+.video-band .video-band-frame {
+  position: relative;
+  margin: 0 auto;
+  width: 83%;
+  max-width: var(--shell);
+  height: 21.25rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+.video-band .video-band-frame iframe {
+  display: block;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+@media (width <= 1023px) {
+  .video-band .video-band-frame {
+    border-radius: 0;
+    width: 100%;
+  }
+}

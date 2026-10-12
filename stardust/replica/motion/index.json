@@ -1,0 +1,928 @@
+{
+  "url": "https://aashirvaad.com/",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".main-banner .slick-next",
+      "frames": [
+        {
+          "t": 17534.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 17738.700000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 17941.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 18144.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".cmp-recipe-group .slick-next",
+      "frames": [
+        {
+          "t": 19177.30000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 19379.80000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 19583.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 19786.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".cmp-tab-group__tab-item:nth-child(2) button",
+      "frames": [
+        {
+          "t": 20827.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 21032.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 21235.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 21438,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".cmp-popular-products .slick-prev",
+      "frames": [
+        {
+          "t": 22464.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 22666.700000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 22869.80000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 23073.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".cmp-ourcommunity-teasercarousel-container .slick-next",
+      "frames": [
+        {
+          "t": 24095.100000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 24298.100000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 24501.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 24708.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".cmp-header__nav-products-click",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.cmp-navigation__item-link",
+            "transform": "none",
+            "color": "rgb(255, 246, 225)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.cmp-navigation__item-link",
+            "transform": "none",
+            "color": "rgb(52, 52, 52)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.cmp-navigation__item-link",
+            "transform": "none",
+            "color": "rgb(52, 52, 52)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.cmp-navigation__item-link",
+            "transform": "none",
+            "color": "rgb(52, 52, 52)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.cmp-navigation__item-link",
+            "transform": "none",
+            "color": "rgb(52, 52, 52)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.cmp-navigation__item-link",
+            "transform": "none",
+            "color": "rgb(255, 246, 225)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.cmp-navigation__item-link",
+            "transform": "none",
+            "color": "rgb(52, 52, 52)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.cmp-navigation__item-link",
+            "transform": "none",
+            "color": "rgb(52, 52, 52)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.cmp-navigation__item-link",
+            "transform": "none",
+            "color": "rgb(52, 52, 52)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.cmp-navigation__item-link",
+            "transform": "none",
+            "color": "rgb(52, 52, 52)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-popular-products__carousel-item.cmp-carousel__item.slick-slide"
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-popular-products__carousel-item.cmp-carousel__item.slick-slide"
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > ul.slick-dots > li.slick-active"
+      },
+      {
+        "added": [
+          "slick-disabled"
+        ],
+        "el": "div.cmp-popular-products__carousel > div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > button.slick-next.slick-arrow.slick-disabled"
+      }
+    ],
+    "idleClassMutationCount": 4
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track",
+        "y": 0,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-categorylist.cmp-categorylist--anchor > a.cmp-categorylist__item > span.cmp-categorylist__imagewrapper > div.lazy-image-container > img.cmp-categorylist__image.lazy-image.loaded",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-categorylist.cmp-categorylist--anchor > a.cmp-categorylist__item > span.cmp-categorylist__imagewrapper > div.lazy-image-container > img.cmp-categorylist__image.lazy-image.loaded",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-categorylist.cmp-categorylist--anchor > a.cmp-categorylist__item > span.cmp-categorylist__imagewrapper > div.lazy-image-container > img.cmp-categorylist__image.lazy-image.loaded",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-categorylist.cmp-categorylist--anchor > a.cmp-categorylist__item > span.cmp-categorylist__imagewrapper > div.lazy-image-container > img.cmp-categorylist__image.lazy-image.loaded",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-categorylist.cmp-categorylist--anchor > a.cmp-categorylist__item > span.cmp-categorylist__imagewrapper > div.lazy-image-container > img.cmp-categorylist__image.lazy-image.loaded",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1200,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1200,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1200,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-popular-products__content-wrapper > div.cmp-popular-products__image > a > div.lazy-image-container > img.cmp-popular-products__prod-image.lazy-image.loaded",
+        "y": 2400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track",
+        "y": 2559,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-popular-products__content-wrapper > div.cmp-popular-products__image > a > div.lazy-image-container > img.cmp-popular-products__prod-image.lazy-image.loaded",
+        "y": 2400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track",
+        "y": 0,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track",
+        "y": 0,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track",
+        "y": 1964,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1964,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1964,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1964,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1648,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1648,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track",
+        "y": 1648,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1648,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track",
+        "y": 5156,
+        "dur": "0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-popular-products__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 0
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-popular-products__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 0
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > ul.slick-dots > li.slick-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "slick-disabled"
+        ],
+        "el": "div.cmp-popular-products__carousel > div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > button.slick-next.slick-arrow.slick-disabled",
+        "y": 0
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.cmp-categorylist.cmp-categorylist--anchor > a.cmp-categorylist__item > span.cmp-categorylist__imagewrapper > div.lazy-image-container > img.cmp-categorylist__image.lazy-image.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.cmp-categorylist.cmp-categorylist--anchor > a.cmp-categorylist__item > span.cmp-categorylist__imagewrapper > div.lazy-image-container > img.cmp-categorylist__image.lazy-image.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.cmp-categorylist.cmp-categorylist--anchor > a.cmp-categorylist__item > span.cmp-categorylist__imagewrapper > div.lazy-image-container > img.cmp-categorylist__image.lazy-image.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.cmp-categorylist.cmp-categorylist--anchor > a.cmp-categorylist__item > span.cmp-categorylist__imagewrapper > div.lazy-image-container > img.cmp-categorylist__image.lazy-image.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.cmp-categorylist.cmp-categorylist--anchor > a.cmp-categorylist__item > span.cmp-categorylist__imagewrapper > div.lazy-image-container > img.cmp-categorylist__image.lazy-image.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.cmp-popular-products__content-wrapper > div.cmp-popular-products__image > a > div.lazy-image-container > img.cmp-popular-products__prod-image.lazy-image.loaded",
+        "y": 2400
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-popular-products__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 2559
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-popular-products__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 2559
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > ul.slick-dots > li.slick-active",
+        "y": 2559
+      },
+      {
+        "added": [
+          "slick-disabled"
+        ],
+        "el": "div.cmp-popular-products__carousel > div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > button.slick-prev.slick-arrow.slick-disabled",
+        "y": 2559
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.cmp-popular-products__content-wrapper > div.cmp-popular-products__image > a > div.lazy-image-container > img.cmp-popular-products__prod-image.lazy-image.loaded",
+        "y": 2400
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-carousel__item.slick-slide.slick-current",
+        "y": 0
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-carousel__item.slick-slide.slick-current",
+        "y": 0
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > ul.slick-dots > li.slick-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-popular-products__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 0
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-popular-products__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 0
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > ul.slick-dots > li.slick-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "slick-disabled"
+        ],
+        "el": "div.cmp-popular-products__carousel > div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > button.slick-next.slick-arrow.slick-disabled",
+        "y": 0
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 1964
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 1964
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 1964
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 1964
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1964
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1964
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1964
+      },
+      {
+        "added": [
+          "selected"
+        ],
+        "el": "div.tab-group.cmp-tab-group > div.cmp-tab-group__carousel-item.cmp-carousel__item.scrollbar-style-h > div.cmp-tab-group__tab-item > div.tab.cmp-tab--primary > button.cmp-tab.selected",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-initialized",
+          "slick-slider"
+        ],
+        "el": "div.cmp-recipe-group__content > div.cmp-recipe-group__carousel.undefined > div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-slide",
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-slide",
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-slide",
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-slide"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-slide"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-slide"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-slider"
+        ],
+        "el": "div.cmp-recipe-group__content > div.cmp-recipe-group__carousel.undefined > div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-disabled"
+        ],
+        "el": "div.cmp-recipe-group__carousel.undefined > div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > button.slick-prev.slick-arrow.slick-disabled",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 1648
+      },
+      {
+        "added": [
+          "draggable"
+        ],
+        "el": "div.cmp-recipe-group__carousel.undefined > div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-disabled"
+        ],
+        "el": "div.cmp-recipe-group__carousel.undefined > div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > button.slick-prev.slick-arrow.slick-disabled",
+        "y": 1648
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1648
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-popular-products__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-popular-products__carousel-item.cmp-carousel__item.slick-slide",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > ul.slick-dots > li.slick-active",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-disabled"
+        ],
+        "el": "div.cmp-popular-products__carousel > div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > button.slick-prev.slick-arrow.slick-disabled",
+        "y": 1648
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.cmp-card__content > div.cmp-card__media > div.cmp-card__image > div.lazy-image-container > img.lazy-image.loaded",
+        "y": 1648
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-carousel__item.slick-slide.slick-current",
+        "y": 5156
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable > div.slick-track > div.cmp-carousel__item.slick-slide.slick-current",
+        "y": 5156
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slickcarousel.carousel.panelcontainer > div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider > ul.slick-dots > li.slick-active",
+        "y": 5156
+      }
+    ]
+  }
+}

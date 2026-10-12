@@ -1,0 +1,848 @@
+{
+  "url": "http://localhost:8791/index-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 4630,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 3130,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".hero__carousel .carousel__arrow--next",
+      "frames": [
+        {
+          "t": 11469.899999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 11673,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 11876.19999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 12081.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".recipes__carousel .carousel__arrow--next",
+      "frames": [
+        {
+          "t": 13091.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 13293.69999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 13496.899999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 13699.899999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".tabs__item:nth-child(2) button",
+      "frames": [
+        {
+          "t": 14715.100000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 14917.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 15120,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 15322.69999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".loved__carousel .carousel__arrow--prev",
+      "frames": [
+        {
+          "t": 16328.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 16532,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 16735.19999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 16938.100000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".community__carousel .carousel__arrow--next",
+      "frames": [
+        {
+          "t": 17947.19999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 18149.399999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 18352.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 18555.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".nav__item--has-menu",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.nav__link",
+            "transform": "none",
+            "color": "rgb(255, 246, 225)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.nav__link",
+            "transform": "none",
+            "color": "rgb(52, 52, 52)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.nav__link",
+            "transform": "none",
+            "color": "rgb(52, 52, 52)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.nav__link",
+            "transform": "none",
+            "color": "rgb(52, 52, 52)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.nav__link",
+            "transform": "none",
+            "color": "rgb(52, 52, 52)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.nav__link",
+            "transform": "none",
+            "color": "rgb(255, 246, 225)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.nav__link",
+            "transform": "none",
+            "color": "rgb(52, 52, 52)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.nav__link",
+            "transform": "none",
+            "color": "rgb(52, 52, 52)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.nav__link",
+            "transform": "none",
+            "color": "rgb(52, 52, 52)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.nav__link",
+            "transform": "none",
+            "color": "rgb(52, 52, 52)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "height",
+        "el": "main.color-background-default > section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track",
+        "y": 500,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "height",
+        "el": "main.color-background-default > section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport",
+        "y": 500,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "main.color-background-default > section.hero > div.carousel.hero__carousel > div.carousel__viewport > div.carousel__track",
+        "y": 0,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track",
+        "y": 0,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "height",
+        "el": "main.color-background-default > section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport",
+        "y": 0,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.recipes__inner > div.recipes__content > div.carousel.recipes__carousel > div.carousel__viewport > div.carousel__track",
+        "y": 1964,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "a.recipe-card > div.recipe-card__media > div.recipe-card__image > picture > img.recipe-card__img.loaded",
+        "y": 1964,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "a.recipe-card > div.recipe-card__media > div.recipe-card__image > picture > img.recipe-card__img.loaded",
+        "y": 1964,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "a.recipe-card > div.recipe-card__media > div.recipe-card__image > picture > img.recipe-card__img.loaded",
+        "y": 1964,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "a.recipe-card > div.recipe-card__media > div.recipe-card__image > picture > img.recipe-card__img.loaded",
+        "y": 1648,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "a.recipe-card > div.recipe-card__media > div.recipe-card__image > picture > img.recipe-card__img.loaded",
+        "y": 1648,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "a.recipe-card > div.recipe-card__media > div.recipe-card__image > picture > img.recipe-card__img.loaded",
+        "y": 1648,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track",
+        "y": 1648,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "height",
+        "el": "main.color-background-default > section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport",
+        "y": 1648,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.band.band--sand.community > div.community__inner > div.carousel.community__carousel > div.carousel__viewport > div.carousel__track",
+        "y": 5156,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track",
+        "y": 5156,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "height",
+        "el": "main.color-background-default > section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport",
+        "y": 5156,
+        "dur": "0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.loved__slide.is-active",
+        "y": 2400
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > ul.carousel__dots > li.is-active",
+        "y": 2400
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.loved__slide.is-active",
+        "y": 500
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > ul.carousel__dots > li.is-active",
+        "y": 500
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.hero > div.carousel.hero__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.hero__slide.is-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "main.color-background-default > section.hero > div.carousel.hero__carousel > ul.carousel__dots > li.is-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.loved__slide.is-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > ul.carousel__dots > li.is-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.recipes__content > div.carousel.recipes__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.recipes__slide.is-active",
+        "y": 1964
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.recipes__content > div.carousel.recipes__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.recipes__slide.is-active",
+        "y": 1964
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.recipes__content > div.carousel.recipes__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.recipes__slide.is-active",
+        "y": 1964
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "a.recipe-card > div.recipe-card__media > div.recipe-card__image > picture > img.recipe-card__img.loaded",
+        "y": 1964
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "a.recipe-card > div.recipe-card__media > div.recipe-card__image > picture > img.recipe-card__img.loaded",
+        "y": 1964
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "a.recipe-card > div.recipe-card__media > div.recipe-card__image > picture > img.recipe-card__img.loaded",
+        "y": 1964
+      },
+      {
+        "added": [
+          "is-selected"
+        ],
+        "el": "section.band.band--sand.recipes > div.recipes__inner > div.recipes__tabs.tabs > div.tabs__item > button.tabs__tab.is-selected",
+        "y": 1648
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.recipes__content > div.carousel.recipes__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.recipes__slide.is-active",
+        "y": 1648
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.recipes__content > div.carousel.recipes__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.recipes__slide.is-active",
+        "y": 1648
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.recipes__content > div.carousel.recipes__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.recipes__slide.is-active",
+        "y": 1648
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "a.recipe-card > div.recipe-card__media > div.recipe-card__image > picture > img.recipe-card__img.loaded",
+        "y": 1648
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "a.recipe-card > div.recipe-card__media > div.recipe-card__image > picture > img.recipe-card__img.loaded",
+        "y": 1648
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "a.recipe-card > div.recipe-card__media > div.recipe-card__image > picture > img.recipe-card__img.loaded",
+        "y": 1648
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.loved__slide.is-active",
+        "y": 1648
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > ul.carousel__dots > li.is-active",
+        "y": 1648
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.community__inner > div.carousel.community__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.community__slide.is-active",
+        "y": 5156
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.band.band--sand.community > div.community__inner > div.carousel.community__carousel > ul.carousel__dots > li.is-active",
+        "y": 5156
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.loved__inner > div.carousel.loved__carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.loved__slide.is-active",
+        "y": 5156
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.band.band--cream.loved > div.loved__inner > div.carousel.loved__carousel > ul.carousel__dots > li.is-active",
+        "y": 5156
+      }
+    ]
+  }
+}

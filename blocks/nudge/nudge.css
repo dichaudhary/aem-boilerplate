@@ -1,0 +1,89 @@
+/* nudge — teaser card; values lifted from stardust/prototypes/css/index.css (.nudge*) */
+.nudge .nudge-inner {
+  margin: 0 auto;
+  max-width: var(--shell);
+  padding: 0 var(--gutter);
+}
+
+.nudge .nudge-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  height: 19.5rem;
+  padding: 4.5625rem 2.5rem;
+  border-radius: 1.25rem;
+  background: url('nudge-desktop.webp') 0 0 / cover;
+}
+
+.nudge .nudge-content {
+  flex-basis: 40%;
+  text-align: center;
+}
+
+.nudge .nudge-title :is(h1, h2, h3) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  margin: 0 auto;
+  color: var(--cream);
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.nudge .nudge-desc {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-top: 1.5rem;
+  color: var(--cream);
+  font-family: var(--sans);
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+.nudge .nudge-action {
+  margin-top: 1.875rem;
+}
+
+.nudge .nudge-action a {
+  margin: 0 auto;
+}
+
+@media (width <= 1023px) {
+  .nudge .nudge-inner {
+    max-width: 24.375rem;
+    padding: 0;
+  }
+
+  .nudge .nudge-card {
+    align-items: flex-start;
+    justify-content: center;
+    height: 18.125rem;
+    padding: 4.75rem 2rem;
+    border-radius: 0;
+    background-image: url('nudge-mobile.webp');
+  }
+
+  .nudge .nudge-content {
+    flex-basis: auto;
+  }
+
+  .nudge .nudge-title :is(h1, h2, h3) {
+    margin-top: 0;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+  }
+
+  .nudge .nudge-desc {
+    margin-top: 0.5625rem;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+  }
+
+  .nudge .nudge-action {
+    margin-top: 0.75rem;
+  }
+}

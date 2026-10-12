@@ -1,0 +1,213 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "mode": "bounded-single",
+    "writtenAt": "2026-10-12T03:31:50Z",
+    "synthesizedFrom": [
+      "stardust/current/pages/index.json",
+      "stardust/replica/tokens.json"
+    ]
+  },
+  "name": "Aashirvaad (aashirvaad.com) — captured current state",
+  "colors": {
+    "brandRed": "#da001c",
+    "brandRedDark": "#8d0e20",
+    "brandRedMuted": "rgba(218,0,28,0.3)",
+    "accentRed": "#e11936",
+    "cream": "#fff6e3",
+    "creamAlt": "#fff6e1",
+    "sand": "#e2d7cc",
+    "butter": "#ffe8b4",
+    "pinkDisabled": "#ec808d",
+    "text": "#343434",
+    "textBrown": "#382312",
+    "black": "#000000"
+  },
+  "typography": {
+    "families": {
+      "display": "\"Libre Baskerville\", sans-serif",
+      "body": "Poppins, sans-serif",
+      "icons": "icomoon"
+    },
+    "ramp1440": {
+      "heroTitle": "Libre Baskerville 700 40px/56px",
+      "sectionTitle": "Libre Baskerville 700 32px",
+      "cardTitle": "Libre Baskerville 700 24px/32px",
+      "navLink": "Libre Baskerville 700 16px",
+      "body": "Poppins 400 16px/26px",
+      "bodySmall": "Poppins 600 12px",
+      "button": "Poppins 600 16px",
+      "iconLabel": "Poppins 400 10px"
+    },
+    "ramp360": {
+      "sectionTitle": "Libre Baskerville 700 24px/29px",
+      "cardTitle": "Libre Baskerville 700 18px",
+      "body": "Poppins 400 14px/24px",
+      "button": "Poppins 600 14px"
+    },
+    "rendering": {
+      "textRendering": "auto",
+      "fontSmoothing": "auto"
+    }
+  },
+  "layout": {
+    "containerMaxWidth": "1366px",
+    "gutter1440": "37px",
+    "contentWidth1440": "1140px",
+    "header": {
+      "height1440": "76px",
+      "height360": "68px",
+      "position": "fixed",
+      "bg": "#da001c"
+    },
+    "pageBg": "#fff6e3"
+  },
+  "components": {
+    "buttonPrimary": {
+      "bg": "#da001c",
+      "color": "#fff6e3",
+      "radius": "16px",
+      "padding": "13px 32px 12px",
+      "height": "48px",
+      "font": "Poppins 600 16px"
+    },
+    "radii": [
+      "16px",
+      "18px",
+      "20px",
+      "24px",
+      "50%"
+    ]
+  },
+  "extensions": {
+    "breakpoints": {
+      "containerMaxWidth": "1366px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1366,
+          "via": "max-width",
+          "selector": "#container-c7d5ec23b7 > div.slickcarousel.carousel",
+          "pages": [
+            "https://aashirvaad.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1012,
+          "via": "fixed",
+          "selector": "#slick-slide20",
+          "pages": [
+            "https://aashirvaad.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 745,
+          "via": "max-width",
+          "selector": "div.banner.cmp-banner--logo > div.cmp-banner > div.cmp-banner__content > h2.cmp-banner__title",
+          "pages": [
+            "https://aashirvaad.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 710,
+          "via": "max-width",
+          "selector": "div.banner.cmp-banner--logo > div.cmp-banner > div.cmp-banner__content > h3.cmp-banner__sub-title",
+          "pages": [
+            "https://aashirvaad.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 496,
+          "via": "fixed",
+          "selector": "#slick-slide20 > div > div.cmp-popular-products__image",
+          "pages": [
+            "https://aashirvaad.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 445,
+          "via": "fixed",
+          "selector": "div.footer > div.cmp-footer__bottom-content > div.cmp-footer__container > div.cmp-footer__ITC-Titles",
+          "pages": [
+            "https://aashirvaad.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 424,
+          "via": "fixed",
+          "selector": "#teaser-f9d12a04df > div.cmp-teaser__content",
+          "pages": [
+            "https://aashirvaad.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 359,
+          "via": "fixed",
+          "selector": "div > div.cmp-product-category-listing > div > div.cmp-categorylist.cmp-categorylist--anchor",
+          "pages": [
+            "https://aashirvaad.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 316,
+          "via": "fixed",
+          "selector": "div.cmp-carousel__container.slick-initialized > div.slick-list.draggable > div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item",
+          "pages": [
+            "https://aashirvaad.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 294,
+          "via": "fixed",
+          "selector": "div.cmp-recipe-group__tabs > div.tab-group.cmp-tab-group > div.cmp-tab-group__carousel-item.cmp-carousel__item > div.cmp-tab-group__tab-item",
+          "pages": [
+            "https://aashirvaad.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 272,
+          "via": "fixed",
+          "selector": "div.cmp-recipe-group__tabs > div.tab-group.cmp-tab-group > div.cmp-tab-group__carousel-item.cmp-carousel__item > div.cmp-tab-group__tab-item",
+          "pages": [
+            "https://aashirvaad.com/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://aashirvaad.com/",
+          "section": 0,
+          "selector": "div.root.container > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://aashirvaad.com/",
+          "section": 1,
+          "selector": "div.root.container > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1366
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-12T03:27:35.606Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://aashirvaad.com/"
+        ]
+      }
+    }
+  }
+}

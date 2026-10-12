@@ -1,0 +1,14 @@
+{
+  "runtime": "vanilla-eds",
+  "source": "read from scripts/scripts.js + scripts/aem.js of this repo (boilerplate 1.3.0 vintage), 2026-10-12",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "autoBlocks": ["fragment links (/fragments/)", "widget links (/widgets/)"],
+  "delayedHook": "loadDelayed() in scripts/scripts.js (no scripts/delayed.js); martech.js hooked in loadEager + loadDelayed",
+  "csp": "script-src nonce-aem strict-dynamic (head.html, move-to-http-header) — no inline handlers, no wasm",
+  "chrome": "header/footer blocks load /nav and /footer via loadFragment; reservation on body > header (--nav-height 76px / 68px below 1024px)",
+  "breakpoint": "single mobile switch at max-width: 1023px (source); CSS uses (width <= 1023px) / (width >= 1024px)"
+}
