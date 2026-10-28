@@ -1,0 +1,21 @@
+{
+  "site": "https://aashirvaad.com/",
+  "mode": "replica",
+  "source": "stardust/prototypes/index-proposed.html + index.css (gated 0.70% @1440 / 3.79% @360)",
+  "fonts": {
+    "css": "styles/fonts.css",
+    "faces": [
+      { "family": "Poppins", "weights": [400, 500, 600, 700], "files": ["fonts/poppins-400.woff2", "fonts/poppins-500.woff2", "fonts/poppins-600.woff2", "fonts/poppins-700.woff2"], "token": "--sans" },
+      { "family": "Libre Baskerville", "weights": "400 700", "files": ["fonts/libre-baskerville-latin.woff2"], "token": "--serif" },
+      { "family": "icomoon", "role": "icon font (source site's own)", "files": ["fonts/icomoon.ttf"], "display": "block" }
+    ]
+  },
+  "breakpoints": { "source": "max-width: 1023px", "css": "@media (width <= 1023px)", "desktopFrom": 1024 },
+  "container": { "maxWidth": "1366px", "token": "--container", "insetDesktop": "113px", "insetToken": "--inset", "gutterMobile": "16px", "gutterToken": "--gutter", "sectionModel": "main > .section > div { max-width: var(--container); margin: 0 auto; padding: 0 var(--gutter) }" },
+  "header": { "block": "blocks/header", "fragment": "/nav", "fixed": true, "height": { "desktop": 76, "mobile": 68 }, "heightToken": "--nav-height", "mobileToggle": "burger toggles .site-header.is-open (nav drawer)", "root": "header .site-header" },
+  "footer": { "block": "blocks/footer", "fragment": "/footer", "root": "footer .site-footer" },
+  "buttons": { "primary": "strong link -> a.button (red)", "secondary": "em link -> a.button.secondary (pink)" },
+  "icons": ".icon .icon-<name> (icomoon glyphs: search, dots, heart, clock, chef, instagram, facebook, twitter, youtube)",
+  "chromeMedia": "https://content.da.live/aemcoder/683f0604/media/chrome/",
+  "favicon": "favicon.ico"
+}

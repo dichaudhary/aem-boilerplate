@@ -1,0 +1,119 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-10-22T09:25:37.839Z",
+  "origin": "https://main--683f0604--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "hero banner carousel",
+   "id": "hero-carousel",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × main .hero .hero-slide (min 4)",
+   "thirdParty": "www.youtube.com:200×6 fonts.gstatic.com:200×1 static.doubleclick.net:200×1 googleads.g.doubleclick.net:302×1 googleads.g.doubleclick.net:200×1 www.google.com:200×1 i.ytimg.com:200×1 www.youtube.com:204×1 jnn-pa.googleapis.com:200×1",
+   "ms": 2692,
+   "environmentLimit": null
+  },
+  {
+   "feature": "offerings category grid",
+   "id": "offerings",
+   "class": "D",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "5 × main .offerings .offerings-item (min 5)",
+   "thirdParty": "www.youtube.com:200×6 fonts.gstatic.com:200×1 static.doubleclick.net:200×1 googleads.g.doubleclick.net:302×1 i.ytimg.com:200×1 www.google.com:200×1 googleads.g.doubleclick.net:200×1 www.youtube.com:204×1 jnn-pa.googleapis.com:200×1",
+   "ms": 2533,
+   "environmentLimit": null
+  },
+  {
+   "feature": "recipe tabs + card carousel",
+   "id": "recipe-tabs",
+   "class": "A",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × main .recipes .recipes-tab (min 3)",
+   "thirdParty": "www.youtube.com:200×6 fonts.gstatic.com:200×1 static.doubleclick.net:200×1 www.google.com:200×1 googleads.g.doubleclick.net:302×1 i.ytimg.com:200×1 googleads.g.doubleclick.net:200×1 www.youtube.com:204×1 jnn-pa.googleapis.com:200×1",
+   "ms": 2345,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Most loved product carousel",
+   "id": "most-loved",
+   "class": "D",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × main .popular .popular-slide (min 2)",
+   "thirdParty": "www.youtube.com:200×6 fonts.gstatic.com:200×1 static.doubleclick.net:200×1 www.google.com:200×1 googleads.g.doubleclick.net:302×1 i.ytimg.com:200×1 googleads.g.doubleclick.net:200×1 www.youtube.com:204×1 jnn-pa.googleapis.com:200×1",
+   "ms": 2247,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Our vision cards",
+   "id": "our-vision",
+   "class": "D",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × main .vision .vision-card-title (min 3)",
+   "thirdParty": "www.youtube.com:200×6 fonts.gstatic.com:200×1 static.doubleclick.net:200×1 www.google.com:200×1 googleads.g.doubleclick.net:302×1 i.ytimg.com:200×1 googleads.g.doubleclick.net:200×1 www.youtube.com:204×1 jnn-pa.googleapis.com:200×1",
+   "ms": 2268,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Our Community teaser carousel",
+   "id": "community-carousel",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × main .community .community-card (min 3)",
+   "thirdParty": "www.youtube.com:200×6 fonts.gstatic.com:200×1 static.doubleclick.net:200×1 www.google.com:200×1 googleads.g.doubleclick.net:302×1 i.ytimg.com:200×1 googleads.g.doubleclick.net:200×1 www.youtube.com:204×1 jnn-pa.googleapis.com:200×1",
+   "ms": 2347,
+   "environmentLimit": null
+  },
+  {
+   "feature": "YouTube players",
+   "id": "youtube",
+   "class": "V",
+   "status": "done",
+   "type": "video-plays",
+   "pass": true,
+   "detail": "iframe/video: true · no <video> · playback requests 9 (ok)",
+   "thirdParty": "www.youtube.com:200×7 fonts.gstatic.com:200×1 static.doubleclick.net:200×1 www.google.com:200×1 googleads.g.doubleclick.net:302×1 i.ytimg.com:200×1 googleads.g.doubleclick.net:200×1 www.youtube.com:204×1 jnn-pa.googleapis.com:200×1",
+   "ms": 5346,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header mega menu + pinned header",
+   "id": "header-megamenu",
+   "class": "R",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 1 page(s)",
+   "thirdParty": "",
+   "ms": 2298,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (3 gated · 1 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6190,
+   "environmentLimit": null
+  }
+ ]
+}

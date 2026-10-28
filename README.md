@@ -1,10 +1,5 @@
 # Your Project's Title...
-Your project's description... (sample test line)
-
-Additional test line.
-Another test line.
-Next test line.
-One more test line.
+Your project's description...
 
 ## Environments
 - Preview: https://main--{repo}--{owner}.aem.page/
@@ -12,7 +7,7 @@ One more test line.
 
 ## Documentation
 
-Before using the aem-boilerplate, we recommand you to go through the documentation on https://www.aem.live/docs/ and more specifically:
+Before using the aem-boilerplate, we recommend you to go through the documentation on https://www.aem.live/docs/ and more specifically:
 1. [Developer Tutorial](https://www.aem.live/developer/tutorial)
 2. [The Anatomy of a Project](https://www.aem.live/developer/anatomy-of-a-project)
 3. [Web Performance](https://www.aem.live/developer/keeping-it-100)

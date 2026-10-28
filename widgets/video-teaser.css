@@ -1,0 +1,35 @@
+/* video-teaser — values copied from stardust/prototypes/index.css (section.video-teaser) */
+main .section.video-teaser-container {
+  background: linear-gradient(0deg, var(--sand) 50%, var(--cream) 0);
+}
+
+main > .section > .video-teaser-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.video-teaser {
+  height: 340px;
+}
+
+.video-teaser .video-teaser-frame {
+  width: 83%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.video-teaser .video-teaser-frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (width <= 1023px) {
+  .video-teaser .video-teaser-frame {
+    width: 100%;
+    border-radius: 0;
+  }
+}

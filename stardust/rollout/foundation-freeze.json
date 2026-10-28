@@ -1,0 +1,33 @@
+{
+  "frozenAt": "2026-10-22T09:25:48.074Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "ddd2f362f068bdf46f03a3d4056e14a3ac569e0aae33c6d12738e0bd6ba603d5",
+    "blocks/footer/footer.js": "4eaf3824270479feca3efe961943856b93ba996f863409b9c30a4d44ca9df8a7",
+    "blocks/header/header.css": "b7f53ff11288076ed7827bf397568c4e87b5e2d64a6ce82ef1195b7cbbed46ee",
+    "blocks/header/header.js": "695ad42df1e9acb1c7a0e366ba4d62f62ee68ce2ec1f30fb1d7e295383d4bb34",
+    "fonts/icomoon.ttf": "c80f013f4669bcd49357d696387131042430b8c75c2e414112cda716c5eaf125",
+    "fonts/libre-baskerville-latin.woff2": "22219fb90e3b9bd28debd1825fe8d9a0154a0e31f8b3fa601ac1a0a5aa5e6d1b",
+    "fonts/poppins-400.woff2": "7d93459d86585bfcdbb7e0376056226adb25821ee54b96236fe2123e9560929f",
+    "fonts/poppins-500.woff2": "cd36de204aca2d5fa263a731f7c20009b5e3d754ba1f1e03c33e93a48f3e7446",
+    "fonts/poppins-600.woff2": "f4e80d9dfd374d02989b87a27b5ed4cb78fbb177c27f1478e9a8b0afb7513149",
+    "fonts/poppins-700.woff2": "9338e65fc077355c7a87ae0d64cc101e23b9bf8ad78ae65f0f319c857311b526",
+    "head.html": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/martech.js": "a5f251784bf977bf498a5c2d4c70ec8b3f162e8003ebec87f6736f9043e3b51c",
+    "scripts/scripts.js": "4503c02bd53c5e5fb04b14e325e467a26f1ec9446519bb368ba779fbfc5a5096",
+    "styles/fonts.css": "ea5a2bb5ab51b9f562658e315f78360f0a0c5803b4943785e55d1fe850c2a6e5",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "d96affde5e5f5ae301acadefc6305d835bc2e22b3985f58f73061ec9e2324807"
+  }
+}

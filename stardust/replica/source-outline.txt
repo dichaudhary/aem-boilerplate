@@ -1,0 +1,1200 @@
+div#container-b551d10020
+  div.experiencefragment
+    div#header.cmp-experiencefragment.cmp-experiencefragment--header
+      div.scene7-width-policy
+        div#container-d56c6322eb
+          div.header
+            div.cmp-header
+              input.cmp-header__hamburger
+              div.logo.image.cmp-header__logo
+                div#logo-7ee16588ac.cmp-image
+                  a.cmp-image__link
+                    picture.w-100.d-block
+                      source
+                      img.cmp-image__image.js-lazy-image [//s7ap1.scene7.com/is/content/itcportalprod/Logo_2]
+              div.cmp-header__nav-links
+                div.navigation
+                  nav#navigation-3f62f7748f.cmp-navigation
+                    ul.cmp-navigation__group.cmp-header__nav-group
+                      li.cmp-navigation__item.cmp-navigation__item--level-0.cmp-header__nav-products
+                        span
+                        a.cmp-navigation__item-link  "Our Products"
+                        ul.cmp-navigation__group.cmp-header__product-items
+                          div.cmp-header__category-menu
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Atta"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Shudh Chakki Atta"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Superior MP Atta"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Multigrain Atta"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Organic Atta"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Atta with Millets"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "M.P. Chakki Atta"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Sugar Release Control Atta"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Fortified Chakki Atta"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Gluten Free Flour"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Select Atta"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Atta with High Protein"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Salt"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Iodized Salt"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Salt Active"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Himalayan Pink Salt"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Iodized Crystal Salt"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Iodized Salt Offer"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Organic"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Organic Atta"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Organic Chana Dal"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Organic Tur Dal"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Organic Moong Dal"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Organic Urad Dal"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Organic Masoor Dal"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Organic Urad Dal Whole"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Organic Rajma"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Organic Kabuli Chana"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Besan"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Besan"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Millets"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Atta with Millets"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Millets Batter mix"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Multi Millet Mix"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Ragi Flour"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Vermicelli"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Vermicelli"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Roasted Vermicelli"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Rava"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Bansi Rava"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Double Roasted Suji Rava"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Samba Broken Wheat"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Naans and Parathas"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Garlic and Coriander Naan"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Malabar Paratha"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Aloo Paratha"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Paneer Paratha"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Tandoori Naan"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Chapati"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Ready To Cook Chapatis"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Ghee"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Svasti Ghee"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Instant Mixes"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Gulab Jamun Instant Mix"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Instant Rice Idli"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Instant Rava Idli"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Instant Rice Dosa"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Instant Meals"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Instant Upma"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Instant Poha"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Instant Mini Idli Sambar"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Instant Halwa"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Dal Makhani"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Paneer Butter Masala"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Basic Spices"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Chilli Powder"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Guntur & Byadagi Chilli Powder"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Byadagi chilli powder"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Premium Chilli Powder"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Kashmiri Mirch Powder"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Turmeric Powder"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Coriander Powder"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Pepper Powder"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Blended Spices"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Masala Karam"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Sambar Powder"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Kitchen King Masala"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Chaat Masala"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Sabji Masala"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Paneer Masala"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Punjabi Chole Masala"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Shahi Garam Masala"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Rasam Powder"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Dal Masala"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Aloo Dum Masala"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Pav Bhaji Masala"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Whole Spices"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Jeera"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Cardamom"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Mustard"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Poppy seeds"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Black Pepper"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Clove"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Methi"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Saunf"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Ajwain"
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Kasuri Methi"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Plant Protein"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Soya Chunks"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1
+                              span
+                              a.cmp-navigation__item-link  "Chutneys"
+                              ul.cmp-navigation__group.cmp-header__submenu
+                                div.cmp-header__category-menu
+                                  li.cmp-navigation__item.cmp-navigation__item--level-2.cmp-header__no-item
+                                    span
+                                    a.cmp-navigation__item-link  "Chutneys"
+                          div.cmp-header__image-text
+                            div.productofmonth_chutneys.productofmonth
+                              div.cmp-header__category
+                                div.cmp-categorylist.cmp-categorylist--anchor
+                                  a.cmp-categorylist__item
+                      li.cmp-navigation__item.cmp-navigation__item--level-0.cmp-header__nav-products
+                        span
+                        a.cmp-navigation__item-link  "Our Story"
+                      li.cmp-navigation__item.cmp-navigation__item--level-0.cmp-header__nav-products
+                        span
+                        a.cmp-navigation__item-link  "Recipe"
+                      li.cmp-navigation__item.cmp-navigation__item--level-0.cmp-header__nav-products
+                        span
+                        a.cmp-navigation__item-link  "Blogs"
+                      li.cmp-navigation__item.cmp-navigation__item--level-0.cmp-header__nav-products
+                        span
+                        a.cmp-navigation__item-link  "CSR Initiatives"
+                        ul.cmp-navigation__group.cmp-header__product-items
+                          div.cmp-header__category-menu
+                            li.cmp-navigation__item.cmp-navigation__item--level-1.cmp-header__no-item
+                              span
+                              a.cmp-navigation__item-link  "About Initiative"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1.cmp-header__no-item
+                              span
+                              a.cmp-navigation__item-link  "Iodine Deficiency"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1.cmp-header__no-item
+                              span
+                              a.cmp-navigation__item-link  "School Contact Program"
+                            li.cmp-navigation__item.cmp-navigation__item--level-1.cmp-header__no-item
+                              span
+                              a.cmp-navigation__item-link  "Community Contact Program"
+                          div.cmp-header__image-text
+                            div.productofmonth_community-contact-program.productofmonth
+                              div.cmp-header__category
+                                div.cmp-categorylist.cmp-categorylist--anchor
+                                  a.cmp-categorylist__item
+                      li.cmp-navigation__item.cmp-navigation__item--level-0.cmp-header__nav-products
+                        span
+                        a.cmp-navigation__item-link  "FAQs"
+                    div.cmp-header__mobile-list
+                      ul.cmp-header__policy
+                        li.cmp-header__policy-list
+                          a  "Contact us"
+                        li.cmp-header__policy-list
+                          a  "Terms of use"
+                        li.cmp-header__policy-list
+                          a  "Privacy Policy"
+                      div.cmp-header__social-media
+                        a.icon-instagram
+                        a.icon-facebok
+                        a.icon-twitter
+                        a.icon-youtube
+              div.cmp-header__nav-icons
+                div.cmp-header__accessbility.cmp-header__hide-icon
+                  a.cmp-header__icon-img
+                    div.icon-accessibility
+                div.cmp-header__search
+                  a.cmp-header__icon-img
+                    div.icon-search
+                    div.cmp-header__icon-text  "Search"
+                div.cmp-header__login.cmp-header__hide-icon
+                  a.cmp-header__icon-img
+                    div.icon-profile
+          div.search
+            section#search-48d9bd3936.cmp-search
+              div.cmp_search__info
+              form.cmp-search__form
+                input#searchroot
+                div.cmp-search__field
+                  i.cmp-search__icon
+                  span.cmp-search__loading-indicator
+                  input.cmp-search__input
+                  button.cmp-search__clear
+                    i.cmp-search__clear-icon
+              div#cmp-search-results-0.cmp-search__results
+  div#container-9dcf320045
+    div.color-background-default
+      div#container-c7d5ec23b7
+        div.slickcarousel.carousel.panelcontainer
+          div#slickcarousel-45c1cf16aa.cmp-carousel
+            div.cmp-carousel__container.slick-initialized.slick-slider
+              button.slick-prev.slick-arrow.slick-disabled  "Previous"
+              div.slick-list.draggable
+                div.slick-track
+                  div#slick-slide00.cmp-carousel__item.cmp-carousel__item--active.slick-slide
+                    div.banner.cmp-banner--logo
+                      div.cmp-banner
+                        div.cmp-banner__content
+                          div.cmp-banner__item-logo
+                            img [s://s7ap1.scene7.com/is/content/itcportalprod/Logo]
+                          h2.cmp-banner__title  "The Aashirvaad Promise"
+                          h3.cmp-banner__sub-title  "Hand-picked ingredients, careful processing and un"
+                          picture.w-100.d-block
+                            source
+                            img.cmp-banner__image.w-100.d-block [od/Hero-Banner-1_D_revised?fmt=webp-alpha&wid=1366]
+                          div.null.button.cmp-button--primary-anchor
+                            a#button-93babf8532.cmp-button
+                              span.cmp-button__text  "Click to Explore"
+                  div#slick-slide01.cmp-carousel__item.slick-slide
+                    div.banner.cmp-banner--logo
+                      div.cmp-banner
+                        div.cmp-banner__content
+                          div.cmp-banner__item-logo
+                            img [//s7ap1.scene7.com/is/content/itcportalprod/Logo-2]
+                          h2.cmp-banner__title  "Experience Organic"
+                          h3.cmp-banner__sub-title  "Experience our organic range, exceptional food for"
+                          picture.w-100.d-block
+                            source
+                            img.cmp-banner__image.w-100.d-block [e/itcportalprod/hero-ban-2?fmt=webp-alpha&wid=1366]
+                          div.null.button.cmp-button--primary-anchor
+                            a#button-81f56dc265.cmp-button
+                              span.cmp-button__text  "Click to Explore"
+                  div#slick-slide02.cmp-carousel__item.slick-slide
+                    div.banner.cmp-banner--logo
+                      div.cmp-banner
+                        div.cmp-banner__content
+                          div.cmp-banner__item-logo
+                            img [//s7ap1.scene7.com/is/content/itcportalprod/Logo-2]
+                          h2.cmp-banner__title  "Quality on the Go"
+                          h3.cmp-banner__sub-title  "Indulge in our Instant Meals, combining convenienc"
+                          picture.w-100.d-block
+                            source
+                            img.cmp-banner__image.w-100.d-block [e/itcportalprod/hero-ban-3?fmt=webp-alpha&wid=1366]
+                          div.null.button.cmp-button--primary-anchor
+                            a#button-7ca850d1b6.cmp-button
+                              span.cmp-button__text  "Click to Explore"
+                  div#slick-slide03.cmp-carousel__item.slick-slide
+                    div.banner.cmp-banner--logo
+                      div.cmp-banner
+                        div.cmp-banner__content
+                          div.cmp-banner__item-logo
+                            img [s://s7ap1.scene7.com/is/content/itcportalprod/Logo]
+                          h2.cmp-banner__title  "Aashirvaad Pink Salt"
+                          h3.cmp-banner__sub-title  "Himalayan Pink Salt, no added colors or impurities"
+                          picture.w-100.d-block
+                            source
+                            img.cmp-banner__image.w-100.d-block [tcportalprod/HOME-pinksalt?fmt=webp-alpha&wid=1366]
+                          div.null.button.cmp-button--primary-anchor
+                            a#button-7d8df71948.cmp-button
+                              span.cmp-button__text  "Click to Explore"
+              button.slick-next.slick-arrow  "Next"
+              ul.slick-dots
+                li.slick-active
+                  button#slick-slide-control00  "1"
+                li
+                  button#slick-slide-control01  "2"
+                li
+                  button#slick-slide-control02  "3"
+                li
+                  button#slick-slide-control03  "4"
+        div.color-background-background-2
+          div#container-c51b7397f6
+            div.productcategory
+              div.cmp-product-category-listing
+                div.cmp-product-category-listing__header
+                  h1.cmp-product-category-listing__title  "Aashirvaad offerings"
+                  div.cmp-product-category-listing__subTitle.desc-2  "Select your preferred option from our wide range o"
+                div.cmp-product-category-listing__content
+                  div.cmp-categorylist.cmp-categorylist--anchor
+                    a.cmp-categorylist__item
+                      span.cmp-categorylist__imagewrapper
+                        div.lazy-image-container
+                      span.cmp-categorylist__name  "Atta"
+                  div.cmp-categorylist.cmp-categorylist--anchor
+                    a.cmp-categorylist__item
+                      span.cmp-categorylist__imagewrapper
+                        div.lazy-image-container
+                      span.cmp-categorylist__name  "Organic"
+                  div.cmp-categorylist.cmp-categorylist--anchor
+                    a.cmp-categorylist__item
+                      span.cmp-categorylist__imagewrapper
+                        div.lazy-image-container
+                      span.cmp-categorylist__name  "Salt"
+                  div.cmp-categorylist.cmp-categorylist--anchor
+                    a.cmp-categorylist__item
+                      span.cmp-categorylist__imagewrapper
+                        div.lazy-image-container
+                      span.cmp-categorylist__name  "Vermicelli"
+                  div.cmp-categorylist.cmp-categorylist--anchor
+                    a.cmp-categorylist__item
+                      span.cmp-categorylist__imagewrapper
+                        div.lazy-image-container
+                      span.cmp-categorylist__name  "Rava"
+        div.color-background-gradient-3
+          div#container-30be6f0082
+            div.video.aashirvaad-video-teaser
+              section.video-cmp
+                div.video-container.mx-auto.w-100
+                  div.position-relative.youtube-video
+                    iframe#player1 [bUQyvhgsGg?si=xeqVJZRVM8KDSc5d?rel=0&enablejsapi=1]
+        div.color-background-background-3
+          div#container-0b9c06bfd8
+            div.dynamicCardsVertwo
+              div.cmp-recipe-group
+                div.cmp-recipe-group__header-section
+                  h2.cmp-recipe-group__title  "Cook delicious recipes with us"
+                  div.cmp-recipe-group__subtitle  "Explore your favourite recipe curated by experts u"
+                div.cmp-recipe-group__tabs
+                  div.tab-group.cmp-tab-group
+                    div.cmp-tab-group__carousel-item.cmp-carousel__item.scrollbar-style-h
+                      div.cmp-tab-group__tab-item
+                        div.tab.cmp-tab--primary
+                          button.cmp-tab.selected
+                            span.cmp-tab__text  "Breakfast and Savoury"
+                      div.cmp-tab-group__tab-item
+                        div.tab.cmp-tab--primary
+                          button.cmp-tab
+                            span.cmp-tab__text  "Breakfast and Nutriotious"
+                      div.cmp-tab-group__tab-item
+                        div.tab.cmp-tab--primary
+                          button.cmp-tab
+                            span.cmp-tab__text  "Lunch and Dinner"
+                div.cmp-recipe-group__content
+                  div.cmp-recipe-group__carousel.undefined
+                    div.slickcarousel.carousel.panelcontainer
+                      div.cmp-carousel
+                        div.cmp-carousel__container.slick-initialized.slick-slider
+                          button.slick-prev.slick-arrow.slick-disabled  "Previous"
+                          div.slick-list.draggable
+                            div.slick-track
+                              div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide
+                                a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__media
+                                        div.cmp-card__options
+                                          div.cmp-card__three-dots.icon-open-card-popup
+                                        div.cmp-card__image
+                                          div.lazy-image-container
+                                            img.lazy-image.loaded [prod/Shakarpara-1?fmt=webp-alpha&wid=300&fit=fit,1]
+                                      div.cmp-card__info
+                                        div.cmp-card__tag.cmp-card__tag--with-heart
+                                          div.cmp-card__tag-wrapper
+                                            p  "Breakfast and Savoury"
+                                          div.cmp-card__hearts-wrapper.hidden
+                                            div.cmp-card__icon.icon-favorite_FILL1_wght400_GRAD0_opsz20
+                                            p
+                                        div.cmp-card__title
+                                          h4  "Shakarpara | Aashirvaad Superior MP Atta"
+                                        div.cmp-card__recipe_footer
+                                          div.cmp-card__time-in-minutes
+                                            div.cmp-card__icon.icon-Group-21690
+                                            p  "35 Mins"
+                                          div.cmp-card__difficulty-level.icon-chef-cap
+                                            div.cmp-card__icon.path1
+                                            p  "Expert Cook"
+                              div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide
+                                a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__media
+                                        div.cmp-card__options
+                                          div.cmp-card__three-dots.icon-open-card-popup
+                                        div.cmp-card__image
+                                          div.lazy-image-container
+                                            img.lazy-image.loaded [prod/Onion Samosa?fmt=webp-alpha&wid=300&fit=fit,1]
+                                      div.cmp-card__info
+                                        div.cmp-card__tag.cmp-card__tag--with-heart
+                                          div.cmp-card__tag-wrapper
+                                            p  "Breakfast and Savoury"
+                                          div.cmp-card__hearts-wrapper.hidden
+                                            div.cmp-card__icon.icon-favorite_FILL1_wght400_GRAD0_opsz20
+                                            p
+                                        div.cmp-card__title
+                                          h4  "Onion Samosa made from Aashirvaad Atta |"
+                                        div.cmp-card__recipe_footer
+                                          div.cmp-card__time-in-minutes
+                                            div.cmp-card__icon.icon-Group-21690
+                                            p  "65 Mins"
+                                          div.cmp-card__difficulty-level.icon-chef-cap
+                                            div.cmp-card__icon.path1
+                                            p  "Lazy Cook"
+                              div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide
+                                a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__media
+                                        div.cmp-card__options
+                                          div.cmp-card__three-dots.icon-open-card-popup
+                                        div.cmp-card__image
+                                          div.lazy-image-container
+                                            img.lazy-image.loaded [alprod/Dal Puri-1?fmt=webp-alpha&wid=300&fit=fit,1]
+                                      div.cmp-card__info
+                                        div.cmp-card__tag.cmp-card__tag--with-heart
+                                          div.cmp-card__tag-wrapper
+                                            p  "Breakfast and Savoury"
+                                          div.cmp-card__hearts-wrapper.hidden
+                                            div.cmp-card__icon.icon-favorite_FILL1_wght400_GRAD0_opsz20
+                                            p
+                                        div.cmp-card__title
+                                          h4  "Dal Puri | Aashirvaad Select Atta"
+                                        div.cmp-card__recipe_footer
+                                          div.cmp-card__time-in-minutes
+                                            div.cmp-card__icon.icon-Group-21690
+                                            p  "35 Mins"
+                                          div.cmp-card__difficulty-level.icon-chef-cap
+                                            div.cmp-card__icon.path1
+                                            p  "Beginner"
+                              div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide
+                                a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__media
+                                        div.cmp-card__options
+                                          div.cmp-card__three-dots.icon-open-card-popup
+                                        div.cmp-card__image
+                                          div.lazy-image-container
+                                      div.cmp-card__info
+                                        div.cmp-card__tag.cmp-card__tag--with-heart
+                                          div.cmp-card__tag-wrapper
+                                            p  "Breakfast and Savoury"
+                                          div.cmp-card__hearts-wrapper.hidden
+                                            div.cmp-card__icon.icon-favorite_FILL1_wght400_GRAD0_opsz20
+                                            p
+                                        div.cmp-card__title
+                                          h4  "Bhakarwadi made from Aashirvaad Atta with Multigra"
+                                        div.cmp-card__recipe_footer
+                                          div.cmp-card__time-in-minutes
+                                            div.cmp-card__icon.icon-Group-21690
+                                            p  "60 Mins"
+                                          div.cmp-card__difficulty-level.icon-chef-cap
+                                            div.cmp-card__icon.path1
+                                            p  "Basic Cook"
+                              div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide
+                                a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__media
+                                        div.cmp-card__options
+                                          div.cmp-card__three-dots.icon-open-card-popup
+                                        div.cmp-card__image
+                                          div.lazy-image-container
+                                      div.cmp-card__info
+                                        div.cmp-card__tag.cmp-card__tag--with-heart
+                                          div.cmp-card__tag-wrapper
+                                            p  "Breakfast and Savoury"
+                                          div.cmp-card__hearts-wrapper.hidden
+                                            div.cmp-card__icon.icon-favorite_FILL1_wght400_GRAD0_opsz20
+                                            p
+                                        div.cmp-card__title
+                                          h4  "Malpua made from Aashirvaad Atta"
+                                        div.cmp-card__recipe_footer
+                                          div.cmp-card__time-in-minutes
+                                            div.cmp-card__icon.icon-Group-21690
+                                            p  "15 minutes"
+                                          div.cmp-card__difficulty-level.icon-chef-cap
+                                            div.cmp-card__icon.path1
+                                            p  "Easy"
+                              div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide
+                                a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__media
+                                        div.cmp-card__options
+                                          div.cmp-card__three-dots.icon-open-card-popup
+                                        div.cmp-card__image
+                                          div.lazy-image-container
+                                      div.cmp-card__info
+                                        div.cmp-card__tag.cmp-card__tag--with-heart
+                                          div.cmp-card__tag-wrapper
+                                            p  "Breakfast and Savoury"
+                                          div.cmp-card__hearts-wrapper.hidden
+                                            div.cmp-card__icon.icon-favorite_FILL1_wght400_GRAD0_opsz20
+                                            p
+                                        div.cmp-card__title
+                                          h4  "Aloo Parantha Recipe Using Aashirvaad Superior MP "
+                                        div.cmp-card__recipe_footer
+                                          div.cmp-card__time-in-minutes
+                                            div.cmp-card__icon.icon-Group-21690
+                                            p  "32 minutes"
+                                          div.cmp-card__difficulty-level.icon-chef-cap
+                                            div.cmp-card__icon.path1
+                                            p  "Easy"
+                              div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide
+                                a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__media
+                                        div.cmp-card__options
+                                          div.cmp-card__three-dots.icon-open-card-popup
+                                        div.cmp-card__image
+                                          div.lazy-image-container
+                                      div.cmp-card__info
+                                        div.cmp-card__tag.cmp-card__tag--with-heart
+                                          div.cmp-card__tag-wrapper
+                                            p  "Breakfast and Savoury"
+                                          div.cmp-card__hearts-wrapper.hidden
+                                            div.cmp-card__icon.icon-favorite_FILL1_wght400_GRAD0_opsz20
+                                            p
+                                        div.cmp-card__title
+                                          h4  "Papdi Chaat Recipe Using Aashirvaad Sudh Chakki"
+                                        div.cmp-card__recipe_footer
+                                          div.cmp-card__time-in-minutes
+                                            div.cmp-card__icon.icon-Group-21690
+                                            p  "30 minutes"
+                                          div.cmp-card__difficulty-level.icon-chef-cap
+                                            div.cmp-card__icon.path1
+                                            p  "Easy"
+                              div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide
+                                a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__media
+                                        div.cmp-card__options
+                                          div.cmp-card__three-dots.icon-open-card-popup
+                                        div.cmp-card__image
+                                          div.lazy-image-container
+                                      div.cmp-card__info
+                                        div.cmp-card__tag.cmp-card__tag--with-heart
+                                          div.cmp-card__tag-wrapper
+                                            p  "Breakfast and Savoury"
+                                          div.cmp-card__hearts-wrapper.hidden
+                                            div.cmp-card__icon.icon-favorite_FILL1_wght400_GRAD0_opsz20
+                                            p
+                                        div.cmp-card__title
+                                          h4  "Spicy Wheat Flour Nachos with Cheese Sauce Dip Rec"
+                                        div.cmp-card__recipe_footer
+                                          div.cmp-card__time-in-minutes
+                                            div.cmp-card__icon.icon-Group-21690
+                                            p  "15 minutes"
+                                          div.cmp-card__difficulty-level.icon-chef-cap
+                                            div.cmp-card__icon.path1
+                                            p  "Easy"
+                              div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide
+                                a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__media
+                                        div.cmp-card__options
+                                          div.cmp-card__three-dots.icon-open-card-popup
+                                        div.cmp-card__image
+                                          div.lazy-image-container
+                                      div.cmp-card__info
+                                        div.cmp-card__tag.cmp-card__tag--with-heart
+                                          div.cmp-card__tag-wrapper
+                                            p  "Breakfast and Savoury"
+                                          div.cmp-card__hearts-wrapper.hidden
+                                            div.cmp-card__icon.icon-favorite_FILL1_wght400_GRAD0_opsz20
+                                            p
+                                        div.cmp-card__title
+                                          h4  "Whole Wheat Bread made from Aashirvaad Atta"
+                                        div.cmp-card__recipe_footer
+                                          div.cmp-card__time-in-minutes
+                                            div.cmp-card__icon.icon-Group-21690
+                                            p  "60 minutes"
+                                          div.cmp-card__difficulty-level.icon-chef-cap
+                                            div.cmp-card__icon.path1
+                                            p  "Moderate"
+                              div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide
+                                a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__media
+                                        div.cmp-card__options
+                                          div.cmp-card__three-dots.icon-open-card-popup
+                                        div.cmp-card__image
+                                          div.lazy-image-container
+                                      div.cmp-card__info
+                                        div.cmp-card__tag.cmp-card__tag--with-heart
+                                          div.cmp-card__tag-wrapper
+                                            p  "Breakfast and Savoury"
+                                          div.cmp-card__hearts-wrapper.hidden
+                                            div.cmp-card__icon.icon-favorite_FILL1_wght400_GRAD0_opsz20
+                                            p
+                                        div.cmp-card__title
+                                          h4  "Wheat Dosa Recipe made from Aashirvaad Atta"
+                                        div.cmp-card__recipe_footer
+                                          div.cmp-card__time-in-minutes
+                                            div.cmp-card__icon.icon-Group-21690
+                                            p  "20 minutes"
+                                          div.cmp-card__difficulty-level.icon-chef-cap
+                                            div.cmp-card__icon.path1
+                                            p  "Easy"
+                              div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide
+                                a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__media
+                                        div.cmp-card__options
+                                          div.cmp-card__three-dots.icon-open-card-popup
+                                        div.cmp-card__image
+                                          div.lazy-image-container
+                                      div.cmp-card__info
+                                        div.cmp-card__tag.cmp-card__tag--with-heart
+                                          div.cmp-card__tag-wrapper
+                                            p  "Breakfast and Savoury"
+                                          div.cmp-card__hearts-wrapper.hidden
+                                            div.cmp-card__icon.icon-favorite_FILL1_wght400_GRAD0_opsz20
+                                            p
+                                        div.cmp-card__title
+                                          h4  "Chilli Cheese Paratha made from Aashirvaad Atta"
+                                        div.cmp-card__recipe_footer
+                                          div.cmp-card__time-in-minutes
+                                            div.cmp-card__icon.icon-Group-21690
+                                            p  "15 minutes"
+                                          div.cmp-card__difficulty-level.icon-chef-cap
+                                            div.cmp-card__icon.path1
+                                            p  "Moderate"
+                              div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide
+                                a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__media
+                                        div.cmp-card__options
+                                          div.cmp-card__three-dots.icon-open-card-popup
+                                        div.cmp-card__image
+                                          div.lazy-image-container
+                                      div.cmp-card__info
+                                        div.cmp-card__tag.cmp-card__tag--with-heart
+                                          div.cmp-card__tag-wrapper
+                                            p  "Breakfast and Savoury"
+                                          div.cmp-card__hearts-wrapper.hidden
+                                            div.cmp-card__icon.icon-favorite_FILL1_wght400_GRAD0_opsz20
+                                            p
+                                        div.cmp-card__title
+                                          h4  "Atta Kachori Recipe made from Aashirvaad Atta"
+                                        div.cmp-card__recipe_footer
+                                          div.cmp-card__time-in-minutes
+                                            div.cmp-card__icon.icon-Group-21690
+                                            p  "30 minutes"
+                                          div.cmp-card__difficulty-level.icon-chef-cap
+                                            div.cmp-card__icon.path1
+                                            p  "Easy"
+                              div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide
+                                a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__media
+                                        div.cmp-card__options
+                                          div.cmp-card__three-dots.icon-open-card-popup
+                                        div.cmp-card__image
+                                          div.lazy-image-container
+                                      div.cmp-card__info
+                                        div.cmp-card__tag.cmp-card__tag--with-heart
+                                          div.cmp-card__tag-wrapper
+                                            p  "Breakfast and Savoury"
+                                          div.cmp-card__hearts-wrapper.hidden
+                                            div.cmp-card__icon.icon-favorite_FILL1_wght400_GRAD0_opsz20
+                                            p
+                                        div.cmp-card__title
+                                          h4  "Wheat Flour Murukku Recipe made from Aashirvaad At"
+                                        div.cmp-card__recipe_footer
+                                          div.cmp-card__time-in-minutes
+                                            div.cmp-card__icon.icon-Group-21690
+                                            p  "35 minutes"
+                                          div.cmp-card__difficulty-level.icon-chef-cap
+                                            div.cmp-card__icon.path1
+                                            p  "Easy"
+                              div.cmp-recipe-group__carousel-item.cmp-carousel__item.slick-slide
+                                a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__media
+                                        div.cmp-card__options
+                                          div.cmp-card__three-dots.icon-open-card-popup
+                                        div.cmp-card__image
+                                          div.lazy-image-container
+                                      div.cmp-card__info
+                                        div.cmp-card__tag.cmp-card__tag--with-heart
+                                          div.cmp-card__tag-wrapper
+                                            p  "Breakfast and Savoury"
+                                          div.cmp-card__hearts-wrapper.hidden
+                                            div.cmp-card__icon.icon-favorite_FILL1_wght400_GRAD0_opsz20
+                                            p
+                                        div.cmp-card__title
+                                          h4  "Whole Wheat Pasta Made from Aashirvaad Atta"
+                                        div.cmp-card__recipe_footer
+                                          div.cmp-card__time-in-minutes
+                                            div.cmp-card__icon.icon-Group-21690
+                                            p  "40 minutes"
+                                          div.cmp-card__difficulty-level.icon-chef-cap
+                                            div.cmp-card__icon.path1
+                                            p  "Easy"
+                          button.slick-next.slick-arrow  "Next"
+                  div.cmp-recipe-group__action
+                    div.button.cmp-button--primary.cmp-button--primary-light
+                      button.cmp-button
+                        span.cmp-button__text  "View All"
+                  div.share
+        div.color-background-gradient-2
+          div#container-a553eb88e5
+            div.teaser.cmp-teaser--first-half-center-aligned
+              div#teaser-f9d12a04df.cmp-teaser
+                div.cmp-teaser__content
+                  h2.cmp-teaser__title  "What makes us No.1?"
+                  div.cmp-teaser__description
+                    p  "Our superior-quality, contact-less packaging, & th"
+                  div.cmp-teaser__action-container
+                    div.button.cmp-button--primary-anchor.cmp-button--primary-anchor-light
+                      a#button-f51e1362a0.cmp-button
+                        span.cmp-button__text  "Know more"
+        div.color-background-background-2
+          div#container-d1022cb273
+            div.popularproducts
+              div#popidd
+                div.cmp-popular-products
+                  div.cmp-popular-products__header-section
+                    h2.cmp-popular-products__title  "Most loved"
+                    div.cmp-popular-products__subtitle  "Discover the best of AASHIRVAAD"
+                  div.cmp-popular-products__carousel
+                    div.slickcarousel.carousel.panelcontainer
+                      div.cmp-carousel
+                        div.cmp-carousel__container.slick-initialized.slick-slider
+                          button.slick-prev.slick-arrow  "Previous"
+                          div.slick-list.draggable
+                            div.slick-track
+                              div#slick-slide20.cmp-popular-products__carousel-item.cmp-carousel__item.slick-slide
+                                div.cmp-popular-products__content-wrapper
+                                  div.cmp-popular-products__image
+                                    a
+                                      div.lazy-image-container
+                                        img.cmp-popular-products__prod-image.lazy-image.loaded [/itcportalprod/dq?fmt=webp-alpha&wid=496&fit=fit,1]
+                                  div.cmp-popular-products__product-description
+                                    div.cmp-popular-products__product-name
+                                      span.cmp-popular-products__mobile-weight
+                                    div.cmp-popular-products__quantity-container
+                                    div.cmp-popular-products__product-details  "AASHIRVAAD Atta with Multigrains combines the good"
+                                    div.cmp-popular-products__action
+                                      div.button.cmp-button--secondary.cmp-button--secondary-light
+                                        button.cmp-button
+                                          span.cmp-button__text  "Buy Now"
+                              div#slick-slide21.cmp-popular-products__carousel-item.cmp-carousel__item.slick-slide
+                                div.cmp-popular-products__content-wrapper
+                                  div.cmp-popular-products__image
+                                    a
+                                      div.lazy-image-container
+                                  div.cmp-popular-products__product-description
+                                    div.cmp-popular-products__product-name
+                                      span.cmp-popular-products__mobile-weight
+                                    div.cmp-popular-products__quantity-container
+                                    div.cmp-popular-products__product-details  "AASHIRVAAD Sugar Release Control Atta brings whole"
+                                    div.cmp-popular-products__action
+                                      div.button.cmp-button--secondary.cmp-button--secondary-light
+                                        button.cmp-button
+                                          span.cmp-button__text  "Buy Now"
+                          button.slick-next.slick-arrow.slick-disabled  "Next"
+                          ul.slick-dots
+                            li
+                              button#slick-slide-control20  "1"
+                            li.slick-active
+                              button#slick-slide-control21  "2"
+        div.color-background-gradient-3
+          div#container-11e98b1011
+            div.teaser.cmp-teaser--cta
+              div#teaser-da4b81de79.cmp-teaser
+                a.cmp-teaser__link
+                  div.cmp-teaser__content
+                    div.cmp-teaser__action-container
+                      div.button.cmp-button--primary-anchor
+                        button#button-a73ff09e51.cmp-button
+                          span.cmp-button__text  "Customize your Atta"
+        div.color-background-background-2
+          div#container-562a22deb1
+            div.footprint
+              div.cmp-our-foot-print
+                div.cmp-our-foot-print__header
+                  h2.cmp-our-foot-print__title  "Our vision"
+                div.cmp-our-foot-print__content
+                  div.slickcarousel.carousel.panelcontainer
+                    div.cmp-carousel
+                      div.cmp-carousel__container.slick-initialized.slick-slider
+                        div.slick-list.draggable
+                          div.slick-track
+                            div.cmp-our-foot-print__carousel-item.cmp-carousel__item.cmp-our-foot-print-carouselcard-index-0
+                              div.item
+                                div.card.cmp-card--foot-print.cmp-card--foot-print-highlighted
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__media
+                                        div.cmp-card__image
+                                          div.video.cmp-video--foot-print-card
+                                            div.cmp-video
+                                              div.cmp-video__youtube-wrapper
+                                                div.cmp-video__iframe-wrapper
+                                                  iframe#widget2.cmp-video__iframe [=https%3A%2F%2Faashirvaad.com%2F&aoriginsup=1&vf=2]
+                                      div.cmp-card__info
+                                        div.cmp-card__title  "Trust of over 20 years"
+                                        div.cmp-card__desc  "Since 2002, AASHIRVAAD has pledged to bring excell"
+                              div.item
+                                div.card.cmp-card--foot-print.cmp-card--foot-print-default
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__info
+                                        div.cmp-card__title  "Organic : A sustainable way of life"
+                                        div.cmp-card__desc  "In an attempt to work towards betterment of the en"
+                              div.item
+                                div.card.cmp-card--foot-print.cmp-card--foot-print-default
+                                  div.cmp-card
+                                    div.cmp-card__content
+                                      div.cmp-card__info
+                                        div.cmp-card__title  "Make Variety with Aashirvaad"
+                                        div.cmp-card__desc  "Whether it's the sweetness of Halwa and Laddoos or"
+        div.color-background-background-3.cmp-ourcommunity-teasercarousel-container
+          div#container-8529b59c4b
+            div.text.cta-text.font-weight-medium
+              div#text-9cab625654.cmp-text
+                h2  "Our Community"
+                p  "Join us on the journey towards better taste and nu"
+            div.slickcarousel.carousel.panelcontainer
+              div#slickcarousel-0f817c55a9.cmp-carousel
+                div.cmp-carousel__container.slick-initialized.slick-slider
+                  button.slick-prev.slick-arrow.slick-disabled  "Previous"
+                  div.slick-list.draggable
+                    div.slick-track
+                      div#slick-slide10.cmp-carousel__item.cmp-carousel__item--active.slick-slide
+                        div.teaser.cmp-teaser--carousel-teaser
+                          div#teaser-1e869c0ca5.cmp-teaser
+                            div.cmp-teaser__content
+                              h2.cmp-teaser__title  "Explore Happy Tummy"
+                              div.cmp-teaser__description
+                                p  "Understand your tummy's needs better and take the "
+                              div.cmp-teaser__action-container
+                                div.button.cmp-button--primary-anchor
+                                  a#button-678e9e6ca6.cmp-button
+                                    span.cmp-button__text  "Join the community"
+                      div#slick-slide11.cmp-carousel__item.slick-slide
+                        div.teaser.cmp-teaser--carousel-teaser
+                          div#teaser-7578c0d0cb.cmp-teaser
+                            div.cmp-teaser__content
+                              h2.cmp-teaser__title  "Take the fibre test!"
+                              div.cmp-teaser__description
+                                p  "A fibre-rich diet is essential for maintaining nor"
+                              div.cmp-teaser__action-container
+                                div.button.cmp-button--primary-anchor
+                                  a#button-d6635437bb.cmp-button
+                                    span.cmp-button__text  "Join Our Community"
+                      div#slick-slide12.cmp-carousel__item.slick-slide
+                        div.teaser.cmp-teaser--carousel-teaser
+                          div#teaser-be9c4e4e35.cmp-teaser
+                            div.cmp-teaser__content
+                              h2.cmp-teaser__title  "Ask our experts"
+                              div.cmp-teaser__description
+                                p  "Got questions related to your digestive health? Ou"
+                              div.cmp-teaser__action-container
+                                div.button.cmp-button--primary-anchor
+                                  a#button-9c24605fc6.cmp-button
+                                    span.cmp-button__text  "Join Our Community"
+                  button.slick-next.slick-arrow  "Next"
+                  ul.slick-dots
+                    li.slick-active
+                      button#slick-slide-control10  "1"
+                    li
+                      button#slick-slide-control11  "2"
+                    li
+                      button#slick-slide-control12  "3"
+        div.color-background-background-2
+          div#container-e5a3fd3b2d
+            div.top-lg-margin.bottom-lg-margin
+              div#container-bf16ed3982
+                div.text
+                  div#text-ccbfbcdd3d.cmp-text
+                    h2  "Follow us @aashirvaad"
+                    p  "Come, be a part of our journey"
+                    p
+                div.button.cmp-button--primary-anchor.cmp-container--center-align
+                  a#button-16b51796b6.cmp-button
+                    span.cmp-button__text  "Visit Now"
+    div.experiencefragment
+      div#footer.cmp-experiencefragment.cmp-experiencefragment--footer
+        div.scene7-width-policy
+          div#container-6ee01be0b1
+            div.footer
+              div.footer
+                div.cmp-footer
+                  div.cmp-footer__top-content
+                    div.cmp-footer__nav-logo
+                      div.cmp-footer__nav-logo--top
+                        div.logo.image.cmp-footer__logo
+                          div#logo-3dcb1103b6.cmp-image
+                            a.cmp-image__link
+                              picture.w-100.d-block
+                                source
+                                img.cmp-image__image.js-lazy-image
+                      div.cmp-footer__nav-logo--bottom
+                        div.logoitc.logo.image
+                          div#logo-1a1f4383dd.cmp-image
+                            picture.w-100.d-block
+                              source
+                              img.cmp-image__image.js-lazy-image
+                        div.logofssai.logo.image
+                          div#logo-e5164ea93a.cmp-image
+                            picture.w-100.d-block
+                              source
+                              img.cmp-image__image.js-lazy-image
+                    div.cmp-footer__nav-subscribe
+                      div.cmp-footer__nav-text
+                        img [//s7ap1.scene7.com/is/content/itcportalprod/Logo_2]
+                        h3  "in Your Inbox"
+                      div.cmp-input
+                        div.text.cmp-input__email
+                          div.cmp-form-text
+                            label
+                            input.cmp-form-text__text
+                      div.cmp-footer__error-message
+                      div.cmp-footer__consent
+                        input#i_agree.cmp-footer__consent--checkbox
+                        div.cmp-footer__consent--link
+                          p
+                            a  "Privacy Policy"
+                      div.button.cmp-button--primary.cmp-button--primary-anchor-dark
+                        button#button-fb2118d4d9.cmp-button
+                          span.cmp-button__text  "Register Now"
+                    div.cmp-footer__nav
+                      div.cmp-footer__nav-items.cmp-navigation__group--left
+                        div.navigation
+                          nav#navigation-506467e377.cmp-navigation
+                            ul.cmp-navigation__group
+                              li.cmp-navigation__item.cmp-navigation__item--level-0
+                                span
+                                a.cmp-navigation__item-link  "Terms of use"
+                              li.cmp-navigation__item.cmp-navigation__item--level-0
+                                span
+                                a.cmp-navigation__item-link  "Privacy Policy"
+                              li.cmp-navigation__item.cmp-navigation__item--level-0
+                                span
+                                a.cmp-navigation__item-link  "Sitemap"
+                      div.cmp-footer__nav-items.cmp-navigation__group--right
+                        div.navigation
+                          nav#navigation-b90fc6744f.cmp-navigation
+                            ul.cmp-navigation__group
+                              li.cmp-navigation__item.cmp-navigation__item--level-0
+                                span
+                                a.cmp-navigation__item-link  "Our Products"
+                              li.cmp-navigation__item.cmp-navigation__item--level-0
+                                span
+                                a.cmp-navigation__item-link  "Contact Us"
+                              li.cmp-navigation__item.cmp-navigation__item--level-0
+                                span
+                                a.cmp-navigation__item-link  "About Us"
+                div.cmp-footer__bottom-content
+                  div.cmp-footer__container
+                    div.cmp-footer__ITC-Titles
+                      a.desc-1  "ITC Portal"
+                      p.desc-1  "© 2026 Aashirvaad. All Rights Reserved."
+                    div.cmp-footer__social-media
+                      a.icon-instagram
+                      a.icon-facebok
+                      a.icon-twitter
+                      a.icon-youtube
+iframe

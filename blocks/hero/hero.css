@@ -1,37 +1,230 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
+/* hero — values copied from stardust/prototypes/index.css (section.hero + carousel base) */
+main > .section > .hero-wrapper {
+  max-width: none;
   padding: 0;
 }
 
 .hero {
+  max-width: var(--container);
+  height: 640px;
+  margin: 0 auto;
+}
+
+/* carousel base */
+.hero .carousel {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
-}
-
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
-}
-
-.hero picture {
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
-}
-
-.hero img {
-  object-fit: cover;
-  width: 100%;
   height: 100%;
 }
 
-@media (width >= 900px) {
+.hero .carousel-viewport {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero .carousel-track {
+  display: flex;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.hero .carousel-slide {
+  flex: none;
+}
+
+.hero .carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--red);
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+}
+
+.hero .carousel-arrow::before {
+  content: '\e9a8';
+  display: block;
+  color: #fff;
+  font-family: var(--icon-font);
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.hero .carousel-arrow-prev {
+  left: var(--inset);
+}
+
+.hero .carousel-arrow-prev::before {
+  transform: rotate(180deg);
+}
+
+.hero .carousel-arrow-next {
+  right: var(--inset);
+}
+
+.hero .carousel-arrow:disabled {
+  background: rgb(218 0 28 / 30%);
+  cursor: default;
+}
+
+.hero .carousel-dots {
+  position: absolute;
+  top: 577px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  height: 24px;
+}
+
+.hero .carousel-dots button {
+  display: block;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  border: 2px solid var(--red);
+  border-radius: 50%;
+  background: transparent;
+  font-size: 0;
+}
+
+.hero .carousel-dots button[aria-current] {
+  width: 16px;
+  height: 16px;
+  border-width: 3px;
+  background: var(--red);
+}
+
+/* slide */
+.hero .hero-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero .hero-bg img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero .hero-bg .bg-mobile {
+  display: none;
+}
+
+.hero .hero-content {
+  position: relative;
+  height: 516px;
+  padding-left: 211px;
+  color: var(--cream);
+}
+
+.hero .hero-logo {
+  padding-top: 158px;
+}
+
+.hero .hero-logo img {
+  width: 340px;
+  height: 109px;
+}
+
+.hero .hero-title {
+  max-width: 534px;
+  padding-top: 28px;
+  font-size: 40px;
+  line-height: 56px;
+}
+
+.hero .hero-sub {
+  max-width: 499px;
+  padding-top: 35px;
+  font-family: var(--sans);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.hero .hero-title :is(h1, h2, h3, h4, h5, h6) {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.hero .hero-sub :is(h1, h2, h3, h4, h5, h6, p) {
+  font: inherit;
+}
+
+.hero .hero-action {
+  padding-top: 30px;
+}
+
+@media (width <= 1023px) {
   .hero {
-    padding: 40px 32px;
+    height: 696px;
+  }
+
+  .hero .carousel-arrow {
+    display: none;
+  }
+
+  .hero .carousel-dots {
+    top: 641px;
+  }
+
+  .hero .hero-bg .bg-desktop {
+    display: none;
+  }
+
+  .hero .hero-bg .bg-mobile {
+    display: block;
+  }
+
+  .hero .hero-content {
+    height: 628px;
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  .hero .hero-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 36px;
+  }
+
+  .hero .hero-logo img {
+    width: 200px;
+    height: 64px;
+  }
+
+  .hero .hero-title {
+    max-width: none;
+    padding-top: 355px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .hero .hero-sub {
+    max-width: none;
+    padding-top: 12px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .hero .hero-action {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    padding-top: 0;
   }
 }

@@ -1,0 +1,935 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-22T06:52:55.034Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "index",
+  "url": "https://aashirvaad.com/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-22T06:52:55.034Z",
+  "finalUrl": "https://aashirvaad.com/",
+  "title": "Aashirvaad - Bringing Nutrition & Taste to you since 2002",
+  "description": "Explore a Wide Range of Aashirvaad Products by ITC. Find the Finest Quality Atta, Spices, Instant Mixes & More. Shop Now for Your Kitchen Essentials!",
+  "og": {
+    "title": "Aashirvaad - Bringing Nutrition & Taste to you since 2002",
+    "description": "Explore a Wide Range of Aashirvaad Products by ITC. Find the Finest Quality Atta, Spices, Instant Mixes & More. Shop Now for Your Kitchen Essentials!",
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "The Aashirvaad Promise"
+    },
+    {
+      "tag": "h3",
+      "text": "Hand-picked ingredients, careful processing and untouched packaging ensuring superior quality."
+    },
+    {
+      "tag": "h1",
+      "text": "Aashirvaad offerings"
+    },
+    {
+      "tag": "h2",
+      "text": "Cook delicious recipes with us"
+    },
+    {
+      "tag": "h4",
+      "text": "Shakarpara | Aashirvaad Superior MP Atta"
+    },
+    {
+      "tag": "h4",
+      "text": "Onion Samosa made from Aashirvaad Atta |"
+    },
+    {
+      "tag": "h4",
+      "text": "Dal Puri | Aashirvaad Select Atta"
+    },
+    {
+      "tag": "h2",
+      "text": "What makes us No.1?"
+    },
+    {
+      "tag": "h2",
+      "text": "Most loved"
+    },
+    {
+      "tag": "h2",
+      "text": "Our vision"
+    },
+    {
+      "tag": "h2",
+      "text": "Our Community"
+    },
+    {
+      "tag": "h2",
+      "text": "Explore Happy Tummy"
+    },
+    {
+      "tag": "h2",
+      "text": "Follow us @aashirvaad"
+    },
+    {
+      "tag": "h3",
+      "text": "in Your Inbox"
+    }
+  ],
+  "body": [
+    "Our Products Atta Shudh Chakki Atta Superior MP Atta Multigrain Atta Organic Atta Atta with Millets M.P. Chakki Atta Sugar Release Control Atta Fortified Chakki Atta Gluten Free Flour Select Atta Atta with High Protein Salt Iodized Salt Salt Active Himalayan Pink Salt Iodized Crystal Salt Iodized Salt Offer Organic Organic Atta Organic Chana Dal Organic Tur Dal Organic Moong Dal Organic Urad Dal Organic Masoor Dal Organic Urad Dal Whole Organic Rajma Organic Kabuli Chana Besan Besan Millets Atta with Millets Millets Batter mix Multi Millet Mix Ragi Flour Vermicelli Vermicelli Roasted Vermicelli Rava Bansi Rava Double Roasted Suji Rava Samba Broken Wheat Naans and Parathas Garlic and Coriander Naan Malabar Paratha Aloo Paratha Paneer Paratha Tandoori Naan Chapati Ready To Cook Chapatis Ghee Svasti Ghee Instant Mixes Gulab Jamun Instant Mix Instant Rice Idli Instant Rava Idli Instant Rice Dosa Instant Meals Instant Upma Instant Poha Instant Mini Idli Sambar Instant Halwa Dal Makhani Paneer Butter Masala Basic Spices Chilli Powder Guntur & Byadagi Chilli Powder Byadagi chilli powder Premium Chilli Powder Kashmiri Mirch Powder Turmeric Powder Coriander Powder Pepper Powder Blended Spices Masala Karam Sambar Powder Kitchen King Masala Chaat Masala Sabji Masala Paneer Masala Punjabi Chole Masala Shahi Garam Masala Rasam Powder Dal Masala Aloo Dum Masala Pav Bhaji Masala Whole Spices Jeera Cardamom Mustard Poppy seeds Black Pepper Clove Methi Saunf Ajwain Kasuri Methi Plant Protein Soya Chunks Chutneys Chutneys",
+    "Our Story",
+    "Recipe",
+    "Blogs",
+    "CSR Initiatives About Initiative Iodine Deficiency School Contact Program Community Contact Program",
+    "FAQs",
+    "Breakfast and Savoury",
+    "35 Mins",
+    "Expert Cook",
+    "Breakfast and Savoury",
+    "65 Mins",
+    "Lazy Cook",
+    "Breakfast and Savoury",
+    "35 Mins",
+    "Beginner",
+    "Our superior-quality, contact-less packaging, & the trust of millions of mothers.",
+    "Join us on the journey towards better taste and nutrition.",
+    "Understand your tummy's needs better and take the right steps towards better digestive health",
+    "Come, be a part of our journey",
+    "By clicking “Register Now”, you agree to the Privacy Policy and to receive marketing emails from the Aashirvaad community",
+    "Terms of use",
+    "Privacy Policy",
+    "Sitemap",
+    "Our Products",
+    "Contact Us",
+    "About Us",
+    "© 2026 Aashirvaad. All Rights Reserved."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Our Products",
+      "href": "/our-products.html"
+    },
+    {
+      "label": "Our Story",
+      "href": "/our-story.html"
+    },
+    {
+      "label": "Recipe",
+      "href": "/recipe-listing.html"
+    },
+    {
+      "label": "Blogs",
+      "href": "/blogs.html"
+    },
+    {
+      "label": "CSR Initiatives",
+      "href": "/csr-initiatives.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/faqs.html"
+    },
+    {
+      "label": "Search",
+      "href": "#"
+    },
+    {
+      "label": "Previous",
+      "href": null
+    },
+    {
+      "label": "Click to Explore",
+      "href": "https://aashirvaad.com/our-products/atta/shudh-chakki-atta.html"
+    },
+    {
+      "label": "Next",
+      "href": null
+    },
+    {
+      "label": "1",
+      "href": null
+    },
+    {
+      "label": "2",
+      "href": null
+    },
+    {
+      "label": "3",
+      "href": null
+    },
+    {
+      "label": "4",
+      "href": null
+    },
+    {
+      "label": "Atta",
+      "href": "https://aashirvaad.com/header-pages/our-products/atta/shudh-chakki-atta.html"
+    },
+    {
+      "label": "Organic",
+      "href": "https://aashirvaad.com/header-pages/our-products/organic/organic-atta.html"
+    },
+    {
+      "label": "Salt",
+      "href": "https://aashirvaad.com/header-pages/our-products/salt/iodized-salt.html"
+    },
+    {
+      "label": "Vermicelli",
+      "href": "https://aashirvaad.com/header-pages/our-products/vermicelli/vermicelli.html"
+    },
+    {
+      "label": "Rava",
+      "href": "https://aashirvaad.com/header-pages/our-products/rava/bansi-rava.html"
+    },
+    {
+      "label": "Breakfast and Savoury",
+      "href": null
+    },
+    {
+      "label": "Breakfast and Nutriotious",
+      "href": null
+    },
+    {
+      "label": "Lunch and Dinner",
+      "href": null
+    },
+    {
+      "label": "Previous",
+      "href": null
+    },
+    {
+      "label": "Breakfast and SavouryShakarpara | Aashirvaad Superior MP Atta35 MinsExpert Cook",
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/shakarpara-aashirvaad-superior-mp-atta.html"
+    },
+    {
+      "label": "Breakfast and SavouryOnion Samosa made from Aashirvaad Atta |65 MinsLazy Cook",
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/onion-samosa.html"
+    },
+    {
+      "label": "Breakfast and SavouryDal Puri | Aashirvaad Select Atta35 MinsBeginner",
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/dal-puri.html"
+    },
+    {
+      "label": "Next",
+      "href": null
+    },
+    {
+      "label": "View All",
+      "href": null
+    },
+    {
+      "label": "Know more",
+      "href": "https://aashirvaad.com/our-story.html"
+    },
+    {
+      "label": "Previous",
+      "href": null
+    },
+    {
+      "label": "Next",
+      "href": null
+    },
+    {
+      "label": "1",
+      "href": null
+    },
+    {
+      "label": "2",
+      "href": null
+    },
+    {
+      "label": "Customize your Atta",
+      "href": null
+    },
+    {
+      "label": "Previous",
+      "href": null
+    },
+    {
+      "label": "Join the community",
+      "href": "https://www.facebook.com/groups/502294225172201"
+    },
+    {
+      "label": "Next",
+      "href": null
+    },
+    {
+      "label": "1",
+      "href": null
+    },
+    {
+      "label": "2",
+      "href": null
+    },
+    {
+      "label": "3",
+      "href": null
+    },
+    {
+      "label": "Visit Now",
+      "href": "https://www.instagram.com/aashirvaad/"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/conditions-policy/privacy-policy.html"
+    },
+    {
+      "label": "Register Now",
+      "href": null
+    },
+    {
+      "label": "Terms of use",
+      "href": "/terms-of-use.html"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy-policy.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap.html"
+    },
+    {
+      "label": "Our Products",
+      "href": "/our-products.html"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact-us.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/about-us.html"
+    },
+    {
+      "label": "ITC Portal",
+      "href": "https://www.itcportal.com/"
+    }
+  ],
+  "links": [
+    "https://aashirvaad.com/",
+    "https://aashirvaad.com/our-products.html",
+    "https://aashirvaad.com/our-products/atta.html",
+    "https://aashirvaad.com/our-products/atta/shudh-chakki-atta.html",
+    "https://aashirvaad.com/our-products/atta/superior-mp-atta.html",
+    "https://aashirvaad.com/our-products/atta/multigrain-atta.html",
+    "https://aashirvaad.com/our-products/atta/organic-atta.html",
+    "https://aashirvaad.com/our-products/millets/atta-with-millets.html",
+    "https://aashirvaad.com/our-products/atta/mp-chakki-atta.html",
+    "https://aashirvaad.com/our-products/atta/sugar-release-control-atta.html",
+    "https://aashirvaad.com/our-products/atta/fortified-chakki-atta.html",
+    "https://aashirvaad.com/our-products/atta/gluten-free-flour.html",
+    "https://aashirvaad.com/our-products/atta/select-atta.html",
+    "https://aashirvaad.com/our-products/atta/high-protein-atta.html",
+    "https://aashirvaad.com/our-products/salt.html",
+    "https://aashirvaad.com/our-products/salt/iodized-salt.html",
+    "https://aashirvaad.com/our-products/salt/salt-active.html",
+    "https://aashirvaad.com/our-products/salt/himalayan-pink-salt.html",
+    "https://aashirvaad.com/our-products/salt/iodized-crystal-salt.html",
+    "https://aashirvaad.com/our-products/salt/iodized-saltoffer.html",
+    "https://aashirvaad.com/our-products/organic.html",
+    "https://aashirvaad.com/our-products/organic/organic-atta.html",
+    "https://aashirvaad.com/our-products/organic/organic-chana-dal.html",
+    "https://aashirvaad.com/our-products/organic/organic-tur-dal.html",
+    "https://aashirvaad.com/our-products/organic/organic-moong-dal.html",
+    "https://aashirvaad.com/our-products/organic/organic-urad-dal.html",
+    "https://aashirvaad.com/our-products/organic/organic-masoor-dal.html",
+    "https://aashirvaad.com/our-products/organic/organic-urad-dal-whole.html",
+    "https://aashirvaad.com/our-products/organic/organic-rajma.html",
+    "https://aashirvaad.com/our-products/organic/organic-kabuli-chana.html",
+    "https://aashirvaad.com/our-products/besan.html",
+    "https://aashirvaad.com/our-products/besan/besan.html",
+    "https://aashirvaad.com/our-products/millets.html",
+    "https://aashirvaad.com/our-products/millets/batter-mix.html",
+    "https://aashirvaad.com/our-products/millets/multi-millet-flour.html",
+    "https://aashirvaad.com/our-products/millets/ragi-flour.html",
+    "https://aashirvaad.com/our-products/vermicelli.html",
+    "https://aashirvaad.com/our-products/vermicelli/vermicelli.html",
+    "https://aashirvaad.com/our-products/vermicelli/roasted-vermicelli.html",
+    "https://aashirvaad.com/our-products/rava.html",
+    "https://aashirvaad.com/our-products/rava/bansi-rava.html",
+    "https://aashirvaad.com/our-products/rava/double-roasted-suji-rava.html",
+    "https://aashirvaad.com/our-products/rava/samba-broken-wheat.html",
+    "https://aashirvaad.com/our-products/frozen-naans-parathas.html",
+    "https://aashirvaad.com/our-products/frozen-naans-parathas/garlic-and-coriander-naan.html",
+    "https://aashirvaad.com/our-products/frozen-naans-parathas/malabar-paratha.html",
+    "https://aashirvaad.com/our-products/frozen-naans-parathas/aloo-paratha.html",
+    "https://aashirvaad.com/our-products/frozen-naans-parathas/paneer-paratha.html",
+    "https://aashirvaad.com/our-products/frozen-naans-parathas/tandoori-naan.html",
+    "https://aashirvaad.com/our-products/ready-to-cook-chapati.html",
+    "https://aashirvaad.com/our-products/ready-to-cook-chapati/rtc-chapati.html",
+    "https://aashirvaad.com/our-products/ghee.html",
+    "https://aashirvaad.com/our-products/ghee/svasti-ghee.html",
+    "https://aashirvaad.com/our-products/instant-mixes.html",
+    "https://aashirvaad.com/our-products/instant-mixes/instant-gulab-jamun-mix.html",
+    "https://aashirvaad.com/our-products/instant-mixes/instant-rice-idli.html",
+    "https://aashirvaad.com/our-products/instant-mixes/instant-rava-idli.html",
+    "https://aashirvaad.com/our-products/instant-mixes/instant-rice-dosa.html",
+    "https://aashirvaad.com/our-products/instant-meals.html",
+    "https://aashirvaad.com/our-products/instant-meals/instant-upma.html",
+    "https://aashirvaad.com/our-products/instant-meals/instant-poha.html",
+    "https://aashirvaad.com/our-products/instant-meals/instant-mini-idli-sambar.html",
+    "https://aashirvaad.com/our-products/instant-meals/instant-halwa.html",
+    "https://aashirvaad.com/our-products/instant-meals/dal-makhani.html",
+    "https://aashirvaad.com/our-products/instant-meals/paneer-butter-masala.html",
+    "https://aashirvaad.com/our-products/basic-spices.htm.html",
+    "https://aashirvaad.com/our-products/basic-spices/red-chilli-powder.html",
+    "https://aashirvaad.com/our-products/basic-spices/guntur-byadagi-chilli-powder.html",
+    "https://aashirvaad.com/our-products/basic-spices/byadagi-chilli-powder.html",
+    "https://aashirvaad.com/our-products/basic-spices/premium-chilli-powder.html",
+    "https://aashirvaad.com/our-products/basic-spices/kashmiri-chilli-powder.html",
+    "https://aashirvaad.com/our-products/basic-spices/turmeric-powder.html",
+    "https://aashirvaad.com/our-products/basic-spices/coriander-powder.html",
+    "https://aashirvaad.com/our-products/basic-spices/pepper-powder.html",
+    "https://aashirvaad.com/our-products/blended-spices.html",
+    "https://aashirvaad.com/our-products/blended-spices/masala-karam.html",
+    "https://aashirvaad.com/our-products/blended-spices/sambar-powder.html",
+    "https://aashirvaad.com/our-products/blended-spices/kitchen-king-masala.html",
+    "https://aashirvaad.com/our-products/blended-spices/chaat-masala.html",
+    "https://aashirvaad.com/our-products/blended-spices/sabji-masala.html",
+    "https://aashirvaad.com/our-products/blended-spices/paneer-masala.html",
+    "https://aashirvaad.com/our-products/blended-spices/punjabi-chole-masala.html",
+    "https://aashirvaad.com/our-products/blended-spices/shahi-garam-masala.html",
+    "https://aashirvaad.com/our-products/blended-spices/rasam-powder.html",
+    "https://aashirvaad.com/our-products/blended-spices/dal-masala.html",
+    "https://aashirvaad.com/our-products/blended-spices/aloo-dum-masala.html",
+    "https://aashirvaad.com/our-products/blended-spices/pav-bhaji-masala.html",
+    "https://aashirvaad.com/our-products/whole-spices.html",
+    "https://aashirvaad.com/our-products/whole-spices/jeera.html",
+    "https://aashirvaad.com/our-products/whole-spices/cardamom.html",
+    "https://aashirvaad.com/our-products/whole-spices/mustard.html",
+    "https://aashirvaad.com/our-products/whole-spices/poppy-seeds.html",
+    "https://aashirvaad.com/our-products/whole-spices/black-pepper.html",
+    "https://aashirvaad.com/our-products/whole-spices/clove.html",
+    "https://aashirvaad.com/our-products/whole-spices/methi.html",
+    "https://aashirvaad.com/our-products/whole-spices/saunf.html",
+    "https://aashirvaad.com/our-products/whole-spices/ajwain.html",
+    "https://aashirvaad.com/our-products/whole-spices/kasuri-methi.html",
+    "https://aashirvaad.com/our-products/plant-protein.html",
+    "https://aashirvaad.com/our-products/plant-protein/soya-chunks.html",
+    "https://aashirvaad.com/header-pages/our-products/chutneys.html",
+    "https://aashirvaad.com/our-products/chutneys/chutneys.html",
+    "https://aashirvaad.com/our-story.html",
+    "https://aashirvaad.com/recipe-listing.html",
+    "https://aashirvaad.com/blogs.html",
+    "https://aashirvaad.com/csr-initiatives.html",
+    "https://aashirvaad.com/csr-initiatives/about-initiative.html",
+    "https://aashirvaad.com/csr-initiatives/iodine-deficiency.html",
+    "https://aashirvaad.com/csr-initiatives/school-contact-program.html",
+    "https://aashirvaad.com/csr-initiatives/community-contact-program.html",
+    "https://aashirvaad.com/faqs.html",
+    "https://aashirvaad.com/more/contact-us.html",
+    "https://aashirvaad.com/conditions-policy/terms-of-use.html",
+    "https://aashirvaad.com/conditions-policy/privacy-policy.html",
+    "https://www.instagram.com/aashirvaad/",
+    "https://www.facebook.com/Aashirvaad/",
+    "https://twitter.com/AashirvaadAtta",
+    "https://www.youtube.com/user/AashirvaadAtta",
+    "https://aashirvaad.com/#",
+    "https://organic.aashirvaad.com/",
+    "https://aashirvaad.com/header-pages/our-products/atta/shudh-chakki-atta.html",
+    "https://aashirvaad.com/header-pages/our-products/organic/organic-atta.html",
+    "https://aashirvaad.com/header-pages/our-products/salt/iodized-salt.html",
+    "https://aashirvaad.com/header-pages/our-products/vermicelli/vermicelli.html",
+    "https://aashirvaad.com/header-pages/our-products/rava/bansi-rava.html",
+    "https://aashirvaad.com/header-pages/recipe-listing/shakarpara-aashirvaad-superior-mp-atta.html",
+    "https://aashirvaad.com/header-pages/recipe-listing/onion-samosa.html",
+    "https://aashirvaad.com/header-pages/recipe-listing/dal-puri.html",
+    "https://aashirvaad.com/header-pages/recipe-listing/bhakarwadi.html",
+    "https://aashirvaad.com/header-pages/recipe-listing/malpua.html",
+    "https://aashirvaad.com/header-pages/recipe-listing/aloo-parantha.html",
+    "https://aashirvaad.com/header-pages/recipe-listing/papadi-chaat.html",
+    "https://aashirvaad.com/header-pages/recipe-listing/spicy-nachos-and-dip.html",
+    "https://aashirvaad.com/header-pages/recipe-listing/whole-wheat-bread.html",
+    "https://aashirvaad.com/header-pages/recipe-listing/wheat-dosa.html",
+    "https://aashirvaad.com/header-pages/recipe-listing/chilli-cheese-paratha.html",
+    "https://aashirvaad.com/header-pages/recipe-listing/atta-kachori-recipe.html",
+    "https://aashirvaad.com/header-pages/recipe-listing/atta-murukku-recipe.html",
+    "https://aashirvaad.com/header-pages/recipe-listing/whole-wheat-pasta-recipe.html",
+    "https://aashirvaad.com/header-pages/our-products/atta/multigrain-atta.html",
+    "https://aashirvaad.com/header-pages/our-products/atta/sugar-release-control-atta.html",
+    "https://aashirvaadchakki.com/",
+    "https://www.facebook.com/groups/502294225172201",
+    "https://happytummy.aashirvaad.com/",
+    "https://happytummy.aashirvaad.com/ask-the-expert",
+    "https://aashirvaad.com/terms-of-use.html",
+    "https://aashirvaad.com/privacy-policy.html",
+    "https://aashirvaad.com/sitemap.html",
+    "https://aashirvaad.com/contact-us.html",
+    "https://aashirvaad.com/about-us.html",
+    "https://www.itcportal.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://s7ap1.scene7.com/is/content/itcportalprod/Logo_2",
+        "alt": "headerlogo",
+        "w": 240,
+        "h": 78
+      },
+      {
+        "src": "https://s7ap1.scene7.com/is/content/itcportalprod/Logo",
+        "alt": "Aashirvaad Atta",
+        "w": 320,
+        "h": 103
+      },
+      {
+        "src": "https://s7ap1.scene7.com/is/image/itcportalprod/Hero-Banner-1_D_revised?fmt=webp-alpha&wid=1366",
+        "alt": "Hero Banner 1 D Revised",
+        "w": 1366,
+        "h": 640
+      },
+      {
+        "src": "https://s7ap1.scene7.com/is/content/itcportalprod/Logo-2",
+        "alt": "Logo",
+        "w": 320,
+        "h": 103
+      },
+      {
+        "src": "https://s7ap1.scene7.com/is/image/itcportalprod/hero-ban-2?fmt=webp-alpha&wid=1366",
+        "alt": "Hero Ban 2",
+        "w": 1366,
+        "h": 640
+      },
+      {
+        "src": "https://s7ap1.scene7.com/is/content/itcportalprod/Logo-2",
+        "alt": "Aashirvaad",
+        "w": 320,
+        "h": 103
+      },
+      {
+        "src": "https://s7ap1.scene7.com/is/image/itcportalprod/hero-ban-3?fmt=webp-alpha&wid=1366",
+        "alt": "Hero Ban 3",
+        "w": 1366,
+        "h": 640
+      },
+      {
+        "src": "https://s7ap1.scene7.com/is/content/itcportalprod/Logo",
+        "alt": "Logo",
+        "w": 320,
+        "h": 103
+      },
+      {
+        "src": "https://s7ap1.scene7.com/is/image/itcportalprod/HOME-pinksalt?fmt=webp-alpha&wid=1366",
+        "alt": "Home Pinksalt",
+        "w": 1366,
+        "h": 640
+      },
+      {
+        "src": "https://s7ap1.scene7.com/is/image/itcportalprod/Shakarpara-1?fmt=webp-alpha&wid=300&fit=fit,1",
+        "alt": "Shakarpara | Aashirvaad Superior MP Atta",
+        "w": 300,
+        "h": 300
+      },
+      {
+        "src": "https://s7ap1.scene7.com/is/image/itcportalprod/Onion%20Samosa?fmt=webp-alpha&wid=300&fit=fit,1",
+        "alt": "Onion Samosa made from Aashirvaad Atta |",
+        "w": 300,
+        "h": 300
+      },
+      {
+        "src": "https://s7ap1.scene7.com/is/image/itcportalprod/Dal%20Puri-1?fmt=webp-alpha&wid=300&fit=fit,1",
+        "alt": "Dal Puri | Aashirvaad Select Atta",
+        "w": 300,
+        "h": 300
+      },
+      {
+        "src": "https://s7ap1.scene7.com/is/image/itcportalprod/dq?fmt=webp-alpha&wid=496&fit=fit,1",
+        "alt": "popular-products-1",
+        "w": 496,
+        "h": 496
+      },
+      {
+        "src": "https://s7ap1.scene7.com/is/content/itcportalprod/Logo_2",
+        "alt": "aashirvaad-logo",
+        "w": 240,
+        "h": 78
+      }
+    ],
+    "allImgCount": 17,
+    "cssBackgrounds": [
+      "https://s7ap1.scene7.com/is/image/itcportalprod/Hero-Banner-1_D_revised?fmt=webp-alpha&wid=1366",
+      "https://s7ap1.scene7.com/is/image/itcportalprod/hero-ban-2?fmt=webp-alpha&wid=1366",
+      "https://s7ap1.scene7.com/is/image/itcportalprod/hero-ban-3?fmt=webp-alpha&wid=1366",
+      "https://s7ap1.scene7.com/is/image/itcportalprod/HOME-pinksalt?fmt=webp-alpha&wid=1366",
+      "https://s7ap1.scene7.com/is/image/itcportalprod/nudge-1?fmt=webp-alpha",
+      "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/images/product-background.svg",
+      "https://s7ap1.scene7.com/is/image/itcportalprod/Meri_chikki_bg_desktop?fmt=webp-alpha",
+      "https://s7ap1.scene7.com/is/image/itcportalprod/Slider-1-Desktop?fmt=webp-alpha",
+      "https://s7ap1.scene7.com/is/image/itcportalprod/Community-Slider2-Desktop?fmt=webp-alpha",
+      "https://s7ap1.scene7.com/is/image/itcportalprod/Slider3-Desktop-modified?fmt=webp-alpha"
+    ],
+    "modals": [],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://www.youtube.com/embed/sbUQyvhgsGg?si=xeqVJZRVM8KDSc5d?rel=0&enablejsapi=1",
+        "title": null
+      },
+      {
+        "src": "https://www.youtube.com/embed/iFqqEJH4Mnw?autoplay=0&controls=1&showinfo=0&modestbranding=1&fs=1&cc_load_policy=0&iv_load_policy=3&autohide=0&rel=0&enablejsapi=1&origin=https%3A%2F%2Faashirvaad.com&widgetid=1&forigin=https%3A%2F%2Faashirvaad.com%2F&aoriginsup=1&vf=2",
+        "title": "Aashirvaad Quality Certificate | Likh Ke Le Lo"
+      }
+    ]
+  },
+  "customProps": {
+    "--swiper-theme-color": "#007aff",
+    "--swiper-navigation-size": "44px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 14,
+    "mainTextLen": 6834,
+    "realImageCount": 14,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "googleads.g.doubleclick.net",
+        "path": "/pagead/id",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 302,
+        "bytes": 133,
+        "hits": 4,
+        "example": "https://googleads.g.doubleclick.net/pagead/id",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "adobedc.demdex.net",
+        "path": "/ee/v1/interact",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://adobedc.demdex.net/ee/v1/interact",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.gstatic.com",
+        "path": "/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": 272,
+        "hits": 1,
+        "example": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "jnn-pa.googleapis.com",
+        "path": "/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "status": 200,
+        "bytes": 126,
+        "hits": 3,
+        "example": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "itclimited.sc.omtrdc.net",
+        "path": "/ee/or2/v1/interact",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 4,
+        "example": "https://itclimited.sc.omtrdc.net/ee/or2/v1/interact",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "aashirvaad.com",
+        "path": "/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container_1966233443/productcategory.productCategoryInfo.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 461,
+        "hits": 1,
+        "example": "https://aashirvaad.com/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container_1966233443/productcategory.productCategoryInfo.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "aashirvaad.com",
+        "path": "/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container_565442740/popularproducts.popularProductsInfo.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 517,
+        "hits": 1,
+        "example": "https://aashirvaad.com/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container_565442740/popularproducts.popularProductsInfo.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "aashirvaad.com",
+        "path": "/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container/footprint_copy.footprintsInfo.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 841,
+        "hits": 1,
+        "example": "https://aashirvaad.com/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container/footprint_copy.footprintsInfo.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_c",
+          "_ee",
+          "_eu",
+          "_fv",
+          "_gaz",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "frm",
+          "gaf",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://analytics.google.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_fv",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google-analytics.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "aashirvaad.com",
+        "path": "/content/itc-foods-brands/aashirvaad/us/en.cardsinfo.json/jcr:content/root/container/container/container_2037180742_1851074617/dynamiccardsvertwo_c_642530669",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2238,
+        "hits": 1,
+        "example": "https://aashirvaad.com/content/itc-foods-brands/aashirvaad/us/en.cardsinfo.json/jcr:content/root/container/container/container_2037180742_1851074617/dynamiccardsvertwo_c_642530669",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube.com",
+        "path": "/youtubei/v1/log_event",
+        "query": [
+          "alt"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 31,
+        "hits": 3,
+        "example": "https://www.youtube.com/youtubei/v1/log_event",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.youtube.com",
+        "count": 11
+      },
+      {
+        "host": "static.doubleclick.net",
+        "count": 3
+      },
+      {
+        "host": "www.google.com",
+        "count": 3
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 3
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 1,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 4,
+      "thirdPartyEndpoints": 10,
+      "thirdPartyScriptHosts": 6,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/index.png",
+  "renderedHtml": "pages/index.html"
+}

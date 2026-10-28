@@ -1,0 +1,737 @@
+{
+  "slug": "index",
+  "type": "home",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "header",
+    "hero",
+    "carousel",
+    "offerings",
+    "video-teaser",
+    "recipes",
+    "split",
+    "popular",
+    "vision",
+    "community",
+    "follow",
+    "footer"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "hero",
+    "offerings",
+    "video-teaser",
+    "recipes",
+    "split",
+    "popular",
+    "split",
+    "vision",
+    "community",
+    "follow"
+  ],
+  "canonShas": {
+    "header": "fc3c9908b539",
+    "footer": "5c3c645dc990",
+    "css": "108b760e5465"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Aashirvaad - Bringing Nutrition &amp; Taste to you since 2002",
+    "description": "Explore a Wide Range of Aashirvaad Products by ITC. Find the Finest Quality Atta, Spices, Instant Mixes &amp; More. Shop Now for Your Kitchen Essentials!",
+    "canonical": "https://main--683f0604--aemcoder.aem.page/",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Aashirvaad - Bringing Nutrition &amp; Taste to you since 2002",
+    "description": "Explore a Wide Range of Aashirvaad Products by ITC. Find the Finest Quality Atta, Spices, Instant Mixes &amp; More. Shop Now for Your Kitchen Essentials!",
+    "url": "https://main--683f0604--aemcoder.aem.page/"
+  },
+  "migratedAt": "2026-10-22T07:44:09Z",
+  "designMdSha": "aff25adf97ee",
+  "designJsonSha": "1e0c98d8bc95",
+  "sourceCurrentSha": "63dac8161ce6",
+  "sourceProposedSha": "22ad0c7834ce",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 2,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/our-products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/atta/shudh-chakki-atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/atta/superior-mp-atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/atta/multigrain-atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/atta/organic-atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/millets/atta-with-millets.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/atta/mp-chakki-atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/atta/sugar-release-control-atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/atta/fortified-chakki-atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/atta/gluten-free-flour.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/atta/select-atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/atta/high-protein-atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/salt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/salt/iodized-salt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/salt/salt-active.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/salt/himalayan-pink-salt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/salt/iodized-crystal-salt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/salt/iodized-saltoffer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/organic.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/organic/organic-atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/organic/organic-chana-dal.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/organic/organic-tur-dal.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/organic/organic-moong-dal.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/organic/organic-urad-dal.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/organic/organic-masoor-dal.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/organic/organic-urad-dal-whole.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/organic/organic-rajma.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/organic/organic-kabuli-chana.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/besan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/besan/besan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/millets.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/millets/atta-with-millets.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/millets/batter-mix.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/millets/multi-millet-flour.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/millets/ragi-flour.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/vermicelli.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/vermicelli/vermicelli.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/vermicelli/roasted-vermicelli.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/rava.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/rava/bansi-rava.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/rava/double-roasted-suji-rava.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/rava/samba-broken-wheat.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/frozen-naans-parathas.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/frozen-naans-parathas/garlic-and-coriander-naan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/frozen-naans-parathas/malabar-paratha.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/frozen-naans-parathas/aloo-paratha.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/frozen-naans-parathas/paneer-paratha.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/frozen-naans-parathas/tandoori-naan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/ready-to-cook-chapati.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/ready-to-cook-chapati/rtc-chapati.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/ghee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/ghee/svasti-ghee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/instant-mixes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/instant-mixes/instant-gulab-jamun-mix.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/instant-mixes/instant-rice-idli.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/instant-mixes/instant-rava-idli.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/instant-mixes/instant-rice-dosa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/instant-meals.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/instant-meals/instant-upma.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/instant-meals/instant-poha.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/instant-meals/instant-mini-idli-sambar.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/instant-meals/instant-halwa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/instant-meals/dal-makhani.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/instant-meals/paneer-butter-masala.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/basic-spices.htm.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/basic-spices/red-chilli-powder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/basic-spices/guntur-byadagi-chilli-powder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/basic-spices/byadagi-chilli-powder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/basic-spices/premium-chilli-powder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/basic-spices/kashmiri-chilli-powder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/basic-spices/turmeric-powder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/basic-spices/coriander-powder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/basic-spices/pepper-powder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/blended-spices.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/blended-spices/masala-karam.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/blended-spices/sambar-powder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/blended-spices/kitchen-king-masala.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/blended-spices/chaat-masala.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/blended-spices/sabji-masala.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/blended-spices/paneer-masala.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/blended-spices/punjabi-chole-masala.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/blended-spices/shahi-garam-masala.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/blended-spices/rasam-powder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/blended-spices/dal-masala.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/blended-spices/aloo-dum-masala.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/blended-spices/pav-bhaji-masala.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/whole-spices.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/whole-spices/jeera.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/whole-spices/cardamom.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/whole-spices/mustard.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/whole-spices/poppy-seeds.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/whole-spices/black-pepper.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/whole-spices/clove.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/whole-spices/methi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/whole-spices/saunf.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/whole-spices/ajwain.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/whole-spices/kasuri-methi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/plant-protein.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/plant-protein/soya-chunks.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/header-pages/our-products/chutneys.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products/chutneys/chutneys.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-story.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/recipe-listing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/csr-initiatives.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/csr-initiatives/about-initiative.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/csr-initiatives/iodine-deficiency.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/csr-initiatives/school-contact-program.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/csr-initiatives/community-contact-program.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/faqs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/our-products/atta/shudh-chakki-atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/our-products/instant-meals.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/our-products/salt/himalayan-pink-salt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/our-products/atta/shudh-chakki-atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/our-products/organic/organic-atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/our-products/salt/iodized-salt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/our-products/vermicelli/vermicelli.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/our-products/rava/bansi-rava.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/shakarpara-aashirvaad-superior-mp-atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/onion-samosa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/dal-puri.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/bhakarwadi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/malpua.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/aloo-parantha.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/papadi-chaat.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/spicy-nachos-and-dip.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/whole-wheat-bread.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/wheat-dosa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/chilli-cheese-paratha.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/atta-kachori-recipe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/atta-murukku-recipe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/whole-wheat-pasta-recipe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/cheesy-corn-spinach-pizza.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/four-fold-wrap.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/pita-bread.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/homemade-atta-biscuits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/kerela-puttu-recipe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/obbattu-recipe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/vermicelli-biryani.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/litti-chokha.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/bhindi-masala-with-roti.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/missi-roti.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/dal-dhokli.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/garlic-naan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/bedmi-puri.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/atta-momo-recipe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/phulka-recipe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/palak-puri-recipe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/pizza-paratha.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/potato-peas-roll.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/wheat-kerela-parotta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/dal-paratha-recipe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/soya-bhurji.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/bbq-soya-sandwich.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/recipe-listing/soya-chunks-kofta-curry.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/our-story.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/our-products/atta/multigrain-atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://aashirvaad.com/header-pages/our-products/atta/sugar-release-control-atta.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/conditions-policy/privacy-policy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/terms-of-use.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privacy-policy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sitemap.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/our-products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about-us.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1"
+}

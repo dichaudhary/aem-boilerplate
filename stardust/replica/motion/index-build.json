@@ -1,0 +1,438 @@
+{
+  "url": "http://localhost:8791/prototypes/index-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 4528,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 3028,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header site-header",
+      "position": "fixed",
+      "height": "76px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "76px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".hero .carousel__arrow--next",
+      "frames": [
+        {
+          "t": 10956.80000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 11164.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 11370,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 11576.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".recipes__tab",
+      "frames": [
+        {
+          "t": 12586.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12789.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12992.30000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13196,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".recipes__panel:not([hidden]) .carousel__arrow--next",
+      "frames": [
+        {
+          "t": 14208.700000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 14413.100000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 14616.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        },
+        {
+          "t": 14819.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -24)",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".nav__item--drop > a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 246, 225)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 246, 225)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.popular__inner > div.carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.is-active"
+      }
+    ],
+    "idleClassMutationCount": 1
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "section.popular > div.popular__inner > div.carousel > div.carousel__viewport > div.carousel__track",
+        "y": 0,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "body > main.color-background-default > section.hero.carousel > div.carousel__viewport > div.carousel__track",
+        "y": 0,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.recipes > div.recipes__inner > div.recipes__panel.carousel > div.carousel__viewport > div.carousel__track",
+        "y": 1964,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.carousel__track > div.carousel__slide.recipe-slide > a.recipe-card > span.recipe-card__media > img.fade.loaded",
+        "y": 1964,
+        "dur": "0.3s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.popular__inner > div.carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.is-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "main.color-background-default > section.hero.carousel > div.carousel__viewport > div.carousel__track > div.hero__slide.carousel__slide.is-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.recipes__inner > div.recipes__panel.carousel > div.carousel__viewport > div.carousel__track > div.carousel__slide.recipe-slide.is-active",
+        "y": 1964
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.carousel__track > div.carousel__slide.recipe-slide > a.recipe-card > span.recipe-card__media > img.fade.loaded",
+        "y": 1964
+      }
+    ]
+  }
+}

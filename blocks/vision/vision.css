@@ -1,0 +1,219 @@
+/* vision — values copied from stardust/prototypes/index.css (section.vision + carousel base) */
+main > .section > .vision-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.vision .vision-inner {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 64px var(--inset) 117px;
+}
+
+.vision .vision-title {
+  color: var(--ink);
+  line-height: normal;
+}
+
+.vision .vision-title :is(h1, h2, h3) {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* carousel base */
+.vision .carousel {
+  position: relative;
+}
+
+.vision .carousel-viewport {
+  position: relative;
+  overflow: hidden;
+}
+
+.vision .carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.vision .carousel-slide {
+  flex: none;
+}
+
+.vision .carousel-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  height: 24px;
+}
+
+.vision .carousel-dots button {
+  display: block;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  border: 2px solid var(--red);
+  border-radius: 50%;
+  background: transparent;
+  font-size: 0;
+}
+
+.vision .carousel-dots button[aria-current] {
+  width: 16px;
+  height: 16px;
+  border-width: 3px;
+  background: var(--red);
+}
+
+/* desktop grid */
+.vision .vision-grid {
+  margin-top: 48px;
+}
+
+.vision .vision-grid .carousel-viewport {
+  overflow: visible;
+}
+
+.vision .vision-grid .carousel-track {
+  display: grid;
+  grid-template-columns: 702px 406px;
+  grid-template-rows: auto auto;
+  gap: 24px 32px;
+  justify-content: center;
+  transition: none;
+}
+
+.vision .vision-slide-lead {
+  grid-row: span 2;
+}
+
+.vision .vision-grid .carousel-dots {
+  display: none;
+}
+
+/* cards */
+.vision .vision-card {
+  height: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  color: var(--ink);
+}
+
+.vision .vision-card-highlighted {
+  height: 591px;
+  background: var(--cream);
+}
+
+.vision .vision-card-1 {
+  height: 321px;
+  background: var(--butter);
+}
+
+.vision .vision-card-2 {
+  height: 246px;
+  background: var(--sand);
+}
+
+.vision .vision-card-media {
+  height: 316px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.vision .vision-card-media iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 16px;
+}
+
+.vision .vision-card-default .vision-card-media {
+  display: none;
+}
+
+.vision .vision-card-info {
+  padding: 32px 40px;
+}
+
+.vision .vision-card-highlighted .vision-card-info {
+  padding: 50px 40px 36px 96px;
+}
+
+.vision .vision-card-title {
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.vision .vision-card-highlighted .vision-card-title {
+  font-size: 32px;
+}
+
+.vision .vision-card-desc {
+  margin-top: 24px;
+  font-weight: 500;
+}
+
+@media (width <= 1023px) {
+  .vision .vision-inner {
+    padding: 32px 16px 60px;
+  }
+
+  .vision .vision-grid {
+    margin-top: 24px;
+  }
+
+  .vision .vision-grid .carousel-viewport {
+    overflow: hidden;
+  }
+
+  .vision .vision-grid .carousel-track {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .vision .vision-grid .carousel-dots {
+    display: flex;
+    margin-top: 14px;
+  }
+
+  .vision .vision-slide {
+    width: 100%;
+  }
+
+  .vision .vision-card,
+  .vision .vision-card-highlighted,
+  .vision .vision-card-1,
+  .vision .vision-card-2 {
+    height: auto;
+  }
+
+  .vision .vision-card-media {
+    height: 201px;
+  }
+
+  .vision .vision-card-default .vision-card-media {
+    display: block;
+  }
+
+  .vision .vision-card-info,
+  .vision .vision-card-highlighted .vision-card-info {
+    margin: 18px 20px 20px;
+    padding: 0;
+  }
+
+  .vision .vision-card-title,
+  .vision .vision-card-highlighted .vision-card-title {
+    font-family: var(--serif);
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .vision .vision-card-desc {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+}

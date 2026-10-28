@@ -1,0 +1,78 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-10-22T07:44:45.850Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-22T07:44:45.850Z",
+  "fragments": [
+    {
+      "id": "footer",
+      "blockPath": "fragments/footer.html",
+      "status": "pending"
+    },
+    {
+      "id": "header",
+      "blockPath": "fragments/header.html",
+      "status": "pending"
+    }
+  ],
+  "deliveryOrder": [
+    "index"
+  ],
+  "steps": [
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero"
+        },
+        {
+          "id": "carousel",
+          "edsBlockName": "carousel"
+        },
+        {
+          "id": "offerings",
+          "edsBlockName": "offerings"
+        },
+        {
+          "id": "video-teaser",
+          "edsBlockName": "video-teaser"
+        },
+        {
+          "id": "recipes",
+          "edsBlockName": "recipes"
+        },
+        {
+          "id": "split",
+          "edsBlockName": "split"
+        },
+        {
+          "id": "popular",
+          "edsBlockName": "popular"
+        },
+        {
+          "id": "vision",
+          "edsBlockName": "vision"
+        },
+        {
+          "id": "community",
+          "edsBlockName": "community"
+        },
+        {
+          "id": "follow",
+          "edsBlockName": "follow"
+        }
+      ],
+      "reuse": []
+    }
+  ]
+}
