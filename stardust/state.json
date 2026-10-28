@@ -1,0 +1,92 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-10-22T07:44:20Z",
+    "stardustVersion": "0.34.1"
+  },
+  "site": {
+    "originUrl": "https://aashirvaad.com",
+    "deployUrl": "https://main--683f0604--aemcoder.aem.page/",
+    "extractedAt": "2026-10-22T06:52:55.034Z",
+    "pageCap": 1,
+    "totalDiscovered": 1,
+    "crawled": 1
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-10-22T06:53:08.111Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://aashirvaad.com/",
+      "title": "Aashirvaad - Bringing Nutrition & Taste to you since 2002",
+      "type": "home",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-22T06:52:55.034Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-22T07:40:56Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-22T07:40:56Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-22T07:44:20Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "stardust/migrated/index.html",
+      "liveUrl": "https://main--683f0604--aemcoder.aem.page/",
+      "deployedPath": "/",
+      "deployedAt": "2026-10-22T08:26:15.365Z"
+    }
+  ],
+  "migrate": {
+    "at": "2026-10-22T07:44:09Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 2,
+    "bundledAssets": [
+      "index.css",
+      "index.js"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 2
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-10-22T07:44:09Z",
+      "rendered": [
+        "index"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

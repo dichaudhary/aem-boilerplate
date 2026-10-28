@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration status</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration status</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://aashirvaad.com/" target="_blank" rel="noopener">https://aashirvaad.com/</a><br>Preview site: <a href="https://main--683f0604--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--683f0604--aemcoder.aem.page/</a><br>Last updated: 2026-10-22 09:31 UTC</p>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Journey</h2>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Pages</h2>
+    <div class="panel-body">
+      <p>This migration covers 1 page. 1 of 1 are published on the preview site; 1 has passed the side-by-side check against the original.</p>
+      <details open>
+        <summary>1 page in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://aashirvaad.com/" target="_blank" rel="noopener">https://aashirvaad.com/</a></td><td><a href="https://main--683f0604--aemcoder.aem.page/" target="_blank" rel="noopener">Aashirvaad - Bringing Nutrition &amp;amp; Taste to you since 2002</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Page templates</h2>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Home page</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Analytics and tags <span class="spectrum-badge">Switched off</span></h2>
+    <div class="panel-body">
+      <p>We carried over 4 tags, <strong>switched off</strong>: nothing loads on the new site until you turn it on.</p>
+      <table>
+        <thead><tr><th>Found on aashirvaad.com</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Adobe Launch</td><td><code>launch-0a4e2b76f43e.min.js</code></td></tr>
+          <tr><td>Google Tag Manager</td><td><code>G-YNVEK2WX21</code>, <code>DC-8835225</code>, <code>DC-10001500</code></td></tr>
+          <tr><td>Consent manager</td><td>None found</td></tr>
+          <tr><td>Data layers</td><td><code>adobeDataLayer</code>, <code>dataLayer</code></td></tr>
+          <tr><td>Adobe Web SDK</td><td>Version 2.34.2</td></tr>
+          <tr><td>Adobe Target</td><td>Personalization through the Web SDK</td></tr>
+          <tr><td>Loaded by your tags</td><td>ad / retargeting pixel</td></tr>
+        </tbody>
+      </table>
+      <p>We read the Adobe Launch library (107 data-layer fields used).</p>
+      <h3>Before you switch them on</h3>
+      <ol class="todo">
+        <li><strong>Check 250 rules that target the old page structure</strong> (CSS selectors or URLs), for example <code>dark fantasy creation Our products CTA pixel</code>, <code>Sunrise x meghalaya meat masala zepto</code>, <code>Aashirwaad DV pixels CTA Click</code> and 247 more.
+          <details><summary>Show all 250</summary><ul class="all"><li><code>dark fantasy creation Our products CTA pixel</code></li><li><code>Sunrise x meghalaya meat masala zepto</code></li><li><code>Aashirwaad DV pixels CTA Click</code></li><li><code>Foodies only sabudana khichdi Pixel cta</code></li><li><code>soury not sorry Clicks on Blinkit qcom meta pixel</code></li><li><code>ITC_TM_Bihu Amplification_Samachar_Page View_Know more Button_April25</code></li><li><code>Foodies only salad Pixel cta</code></li><li><code>Pasta Score Ecom CTA pixels</code></li><li><code>FamilyLikeFreinds google and meta Try it now CTA pixel</code></li><li><code>Sunrise Assam pixel Chicken Masala amazon</code></li><li><code>FamilyLikeFriends google and meta Submit photo CTA pixel</code></li><li><code>Add to cart : performics</code></li><li><code>foodies only Moringa Guacamole pixels</code></li><li><code>FamilyLikeFreinds google and meta filmy faces save Photo CTA pixel</code></li><li><code>Sunfeast Wowzers Blink CTA ANE meta  &amp; YT pixel</code></li><li><code>Google Svasti_Paneer_Bih+Jha_Explore More_Pixel</code></li><li><code>foodies onlyBajra Khichu Gujarati Comfort Food pixels</code></li><li><code>ITC_Try The Magic_Inmarket-Amazon_Event_Pixel_Feb25</code></li><li><code>Svasti_Paneer_Bih+Jha_Share on FB_Pixel</code></li><li><code>MetaConversion_ShippingAddress</code></li><li><code>Svasti_Paneer_Bih+Jha_Like_Pixel</code></li><li><code>Event pixel - CTA aashirvaad paneer instamart</code></li><li><code>darrk fantasy creation post now cta pixel</code></li><li><code>Bingo Popped chips zepto CTA  meta</code></li><li><code>AashirvaadSvasti:Ghee:Meta:Zepto</code></li><li><code>Chocomeltz Toast submit google pixel</code></li><li><code>Bingo Popped chips zepto</code></li><li><code>Sunrise bafooXmoon  pixel - shahi garam masala 25g</code></li><li><code>Sunfeast BAked creation 90days cookie our product click pixel</code></li><li><code>foodies only Shami, Tunday Kebab pixels</code></li><li><code>Foodies only Savoury Waffles pixel cta login-start cooking-start cooking</code></li><li><code>Sunrise x meghalaya - meat masala instamart</code></li><li><code>sunfeast wowzers E_com CTA pixel</code></li><li><code>Bingo Popped chips Amazon cta</code></li><li><code>ITC_Bingo-PinkSalt-Amazon_Event_May25</code></li><li><code>ITC_Superior_MP_Advocate_16thMay_Kannada_CTA_Click-Instamart Pixel</code></li><li><code>Product View : Performics</code></li><li><code>Buy Now Click-CS</code></li><li><code>YiPPee! Chopsticks May26 Pixel _Enter (Button Tag)</code></li><li><code>Sunrise Assam pixel meat Masala  Flipkart</code></li><li><code>Sunfeast Baked creation 6Days Our product Click Pixel</code></li><li><code>AashirvaadSvasti:Ghee:Meta:Amazon\xa0</code></li><li><code>foodies only Matar, onion, aloo sabzi with club Kachori pixels</code></li><li><code>ITC_Try The Magic_Inmarket-Zepto_Event_Pixel_Feb25</code></li><li><code>Sunrise bafoo pixel - shahi garam masala 50g</code></li><li><code>AashirvaadSvasti:Ghee:Meta:Flipkart\xa0</code></li><li><code>Foodies only Connect with ph no CTA pixels</code></li><li><code>Sunrise bafooXmoon  pixel - Chicken Masala 50g</code></li><li><code>ITC_Superior_MP_Advocate_16thMay_Kannada_CTA_Click-Zepto Pixel</code></li><li><code>ChocoMeltz Siblings Submit meta pixel</code></li><li><code>Sunfeast Wowzers WB Blinkit CTA meta &amp; YT pixel</code></li><li><code>foodies only Smoothie Bowl pixels</code></li><li><code>Foodies only ghewar Pixel cta</code></li><li><code>ITC_Dark Fantasy_E-ComLP_Click_Pixel_April25_Big Basket</code></li><li><code>foodies only Murg Mussalam pixels</code></li><li><code>Candyman Sourzzz google pixels CTA</code></li><li><code>Sunfeast WOWzers PLay the game CTA Pixel  meta</code></li><li><code>Sunrise Assam pixel Shahi Garam Masala Amazon</code></li><li><code>ITC_Moms Magic_Inmarket-Amazon-10RsEvent_Pixel_Feb25</code></li><li><code>ITC_Moms Magic_Inmarket-Amazon-20RsEvent_Pixel_Feb25</code></li><li><code>ITC_Bingo_Original_Inmarket-Blinkit_Pixel_Jan25</code></li><li><code>Sunrise bafoo pixel - Chicken Masala 50g</code></li><li><code>foodies only Dum Biryani pixels</code></li><li><code>ITC_Shudh_Chakki_Assam Buy now CTA</code></li><li><code>Sunfeast baked creation 60days our product click pixel</code></li><li><code>Letsboing:Chatpata LP-click Event -yt &amp; meta pixels</code></li><li><code>dark fantasy creation join now CTA pixel</code></li><li><code>FamilyLikeFreinds google and meta Generate OTP CTA pixel</code></li><li><code>ITC_BingoSnacks_Mad_Triangles_Inmarket-Instagram_Pixel_Feb25</code></li><li><code>ITC_Superior_MP_Advocate_16thMay_Telugu_CTA_Click-Estore</code></li><li><code>ITC_Superior_MP_Atta_29thApr_CTA_Click-Blinkit</code></li><li><code>Sunfeast Wowzers WB Zepto CTA meta &amp; YT pixel</code></li><li><code>ITC_Dark Fantasy_E-ComLP_Click_Pixel_April25_Instamart</code></li><li><code>Foodies only Chicken 65 Pixel cta</code></li><li><code>foodies only Hyderabad Dum Biryani pixels</code></li><li><code>Event pixel - CTA aashirvaad paneer blinkit</code></li><li><code>soury not sorry meta pixel facebook click S1</code></li><li><code>Candyman Create your free story meta pixel</code></li><li><code>Bingo Popped chips big basket CTA</code></li><li><code>FamilyLikeFriends Request category button (Meta Pixel)</code></li><li><code>ITC_Bingo-PinkSalt-Zepto_Event_May25</code></li><li><code>Candyman Click to Create Storybook meta pixel</code></li><li><code>Sunfeast fantastik Button click Meta pixel</code></li><li><code>ITC_Superior_MP_Advocate_16thMay_Kannada_CTA_Click-Blinkit Pixel</code></li><li><code>FamilyLikeFriends/Games Who is in the Dark (Meta Pixel)</code></li><li><code>ITC_Dark Fantasy_E-ComLP_Click_Pixel_April25_Amazon</code></li><li><code>FamilyLikeFreinds google and meta Replace CTA pixel</code></li><li><code>ITC_Dark Fantasy_E-ComLP_Click_Pixel_April25_Zepto_</code></li><li><code>AashirvaadSvasti:Ghee:Meta:Blinkit</code></li><li><code>Sunfeastwowzer estore event</code></li><li><code>Event pixel - CTA aashirvaad curd instamart</code></li><li><code>FamilyLikeFreinds google and meta filmy faces start Creating CTA pixel</code></li><li><code>ChocoMeltz Siblings Submit google pixel</code></li><li><code>sunfeastfantastik_dumpyourexcess_Submit-btn-pixel-2025</code></li><li><code>Event pixel - CTA aashirvaad select milk blinkit</code></li><li><code>AashirvaadSvasti:Ghee:Meta:Instamart</code></li><li><code>ITC_Aashirvaad_AV_Salt_Sept25_CTA_Click</code></li><li><code>Sunrise bafooXmoon  pixel - shahi garam masala 50g</code></li><li><code>Bingo Popped chips big basket CTA  meta</code></li><li><code>Sunrise x meghalaya chicken masala instamart</code></li><li><code>sunfeast wowzers E_com CTA pixel  blinkit</code></li><li><code>ITC_Sunfeast Wowzers_Click_Pixel_March25</code></li><li><code>ITC_Dark Fantasy_E-ComLP_Click_Pixel_April25_Blinkit</code></li><li><code>foodies Meal: Noodles 4 ways cta pixel</code></li><li><code>Bingo Popped chips Swiggy CTA</code></li><li><code>Sunrise x meghalaya chicken masala - bigbasket</code></li><li><code>Logout-EDDL</code></li><li><code>Sunfeast wowzers kerala Zepto CTA meta &amp; YT  pixel</code></li><li><code>Candyman download comic meta pixel</code></li><li><code>Sunfeast Estore CTA pixels Meta  &amp; Google</code></li><li><code>ITC_Superior_MP_Advocate_16thMay_Telugu_CTA_Click-Zepto</code></li><li><code>FamilyLikeFreinds google and meta Login CTA pixel</code></li><li><code>Event pixel - CTA aashirvaad mango lassi blinkit</code></li><li><code>Bingo Popped chips Swiggy cta meta</code></li><li><code>sunfeast wowzers NE Play the game CTA pixel</code></li><li><code>Sunfeast Wowzers Zepto Cta TN meta &amp; YT pixel</code></li><li><code>let boing login GTAG CLICK pixel</code></li><li><code>FLF sign up CTA meta Pixel</code></li><li><code>soury not sorry meta pixel youtube click S1</code></li><li><code>FamilyLikeFreinds google and meta Signup CTA pixel</code></li><li><code>soury not sorry Regenerate button clicks meta pixel</code></li><li><code>AashirvaadSvasti:Ghee:Meta:BigBasket</code></li><li><code>ITC_Superior_MP_Advocate_16thMay_Telugu_CTA_Click-Blinkit</code></li><li><code>Sunfeast Baked Creation 30days our products Click pixel</code></li><li><code>ITC_Superior_MP_Advocate_16thMay_Malayalam_CTA_Click-Zepto</code></li><li><code>ITC_Bingo_MahaKumbh_Location_Event_Pixel_Jan25</code></li><li><code>ITC_Superior_MP_Atta_29thApr_CTA_Click-Estore</code></li><li><code>Event pixel - CTA aashirvaad misti doi blinkit</code></li><li><code>foodies only Galouti Kebab pixels</code></li><li><code>ITC_Superior_MP_Advocate_16thMay_Malayalam_CTA_Click-Instamart</code></li><li><code>Korean Digital Campaign Sunfeat google and meta CTA pixels (Veggies)</code></li><li><code>FamilyLikeFreinds google and meta create now CTA pixel</code></li><li><code>foodies only 2 ingredient chocolate mousse pixels</code></li><li><code>Foodies only haleem Pixel cta</code></li><li><code>Foodies only Puran Poli Pixel cta</code></li><li><code>Sunrise x meghalaya - chicken masala 50g blinkit</code></li><li><code>Sunrise generic pixel - about us</code></li><li><code>ITC_Bingo_Original_Inmarket-Amazon_Pixel_Jan25</code></li><li><code>ITC_Superior_MP_Atta_29thApr_CTA_Click-instamart</code></li><li><code>Sunfeast WOWzers PLay the game CTA Pixel</code></li><li><code>sunfeast baked creation 45days our products click pixel</code></li><li><code>Sunfeast Wowzers Blinkit CTA TN meta &amp; YT pixel</code></li><li><code>dark fantasy creation filter CTA  pixel</code></li><li><code>FamilyLikeFreinds google and meta continue CTA pixel</code></li><li><code>Foodies Only Search CTA pixel</code></li><li><code>Sunrise Assam pixel Shahi Garam Masala flipkart</code></li><li><code>sunfeast wowzers E_com CTA pixel  zepto</code></li><li><code>foodies only Italian Rosemary Garlic Focaccia Bread pixels</code></li><li><code>Chocomeltz fruitbowl Submit event click Google pixel</code></li><li><code>soury not sorry meta pixel Form submits from the question selection</code></li><li><code>foodies only Fafda pixels</code></li><li><code>ITC_Bingo!_PC_Korean_X_SoCheers25_Sendit_Event click YT &amp; meta pixel</code></li><li><code>Sunrise x meghalaya meat masala - flipkart</code></li><li><code>ITC_Bingo-PinkSalt-Swiggy_Event_May25</code></li><li><code>YiPPee! Chopsticks May26 Pixel _Submit (Button Tag)</code></li><li><code>Korean Digital Campaign Sunfeat google and meta CTA pixels (korean - scipy )</code></li><li><code>ITC_Try The Magic_Inmarket-ITC_Event_Pixel_Feb25</code></li><li><code>Sunrise bafoo pixel - shahi garam masala 25g</code></li><li><code>Add to cart : Criteo : performics</code></li><li><code>Korean Digital Campaign Sunfeat google and meta CTA pixels (k-drma))</code></li><li><code>Lets Boing | Login | Meta Pixel - 1285747089157415</code></li><li><code>soury not sorry meta pixel instagram click S1</code></li><li><code>Svasti_Paneer_Bih+Jha_Share on Whatsapp_Pixel</code></li><li><code>Sunfeast Wowzers Zepto CTA ANE meta &amp; YT  pixel</code></li><li><code>ITC _Tomato_Masti_South-1stvid</code></li><li><code>FamilyLikeFreinds google and meta filmy faces Load More CTA pixel</code></li><li><code>Meta Pixel \u2013 Wow Masala \u2013 PageView</code></li><li><code>ITC_Bingo_Original_Inmarket-Zepto_Pixel_Jan25</code></li><li><code>soury not sorry meta pixel Downloads of videos</code></li><li><code>BMA MYSTERY PICKLE  CLICK TO PARTICIPATE CTA Pixel</code></li><li><code>Foodies only Sandwiches 4 ways Pixel cta  login-start cooking-start cooking</code></li><li><code>Event pixel - CTA aashirvaad select milk instamart</code></li><li><code>foodies only Murukulu pixels</code></li><li><code>ITC_Dark Fantasy_E-ComLP_Click_Pixel_April25_ITC Store</code></li><li><code>Lets Boing Login CTA pixel</code></li><li><code>yippe-mood-masala ecom cta pixel</code></li><li><code>Svasti_Paneer_Bih+Jha_Share on Twitter_Pixel</code></li><li><code>foodies only Boba tea at home pixels</code></li><li><code>foodies only Chila 4 ways pixels</code></li><li><code>Sunfeast baked creation 15days Ourproduct click pixel</code></li><li><code>Mom&#39;s Magic Amazon CTA click DC pixel</code></li><li><code>soury not sorry Submit button clicks after question selection pixel</code></li><li><code>Sunrise bafoo pixel - meat masala 50g</code></li><li><code>foodies only Savoury french toast pixels</code></li><li><code>foodies only dal bhati churma pixels</code></li><li><code>Location Check Success Click-EDDL</code></li><li><code>FLF verify OTP CTA meta pixel</code></li><li><code>FLF SUBMIT photo CTA meta pixel</code></li><li><code>Sunrise generic pixel - Recipe collection</code></li><li><code>Lets Boing | Login | Meta Pixel - 1150184820475297</code></li><li><code>ITC_Bingo_Original_Inmarket-Flipkart_Pixel_Jan25</code></li><li><code>Candyman comic share meta pixel</code></li><li><code>Sunrise x meghalaya chicken masala flipkart</code></li><li><code>foodies only 5 Minute Ladoos pixels</code></li><li><code>Sunfeast marielight Qcom CTA pixels</code></li><li><code>Sunrise x meghalaya meat masala - bigbasket</code></li><li><code>Dark Fantasy Macroon fills Blinkit CTA pixel</code></li><li><code>foodies only login header pixels</code></li><li><code>FamilyLikeFreinds google and meta filmy faces Continue CTA pixel</code></li><li><code>Foodies:login:submit:email:pixel&gt;Meta</code></li><li><code>ITC_Bingo-PinkSalt-Flipkart_Event_May25</code></li><li><code>Sunfeast baked creation 35days our porduct click pixel</code></li><li><code>foodies only Eggs Benedict pixels</code></li><li><code>Sunrise generic pixel - spiceshop</code></li><li><code>ITC_Superior_MP_Advocate_16thMay_Malayalam_CTA_Click-Estore</code></li><li><code>Foodies only garlic bread Pixel cta</code></li><li><code>Sunfeast Wowzer Zepto CTA Karnataka meta  &amp; YT pixel</code></li><li><code>ITC_Bingo_Original_Inmarket-Big Basket_Pixel_Jan25</code></li><li><code>FLF submit CTA meta pixel</code></li><li><code>Bingo tedhe medhe Follow CTA YT&amp; Meta Pixels</code></li><li><code>itc Masterchef Link click DV pixel</code></li><li><code>Sunfeast wowzers BLINKIT CTA kerala  meta &amp; YT pixel</code></li><li><code>Dark Fantasy whatsapp click  CTA pixel</code></li><li><code>ITC_BingoSnacks_Mad_Triangles_Click to Participate_Pixel_Feb25</code></li><li><code>ITC_Bingo_Original_Inmarket-Swiggy_Pixel_Jan25</code></li><li><code>FLF filmy faces create now CTA meta pixel</code></li><li><code>Chocomeltz Toast submit meta pixel</code></li><li><code>ITC_Bingo-PinkSalt-ITC_Event_May25</code></li><li><code>ITC_Try The Magic_Inmarket-Flipkart_Event_Pixel_Feb25</code></li><li><code>FamilyLikeFreinds google and meta filmy faces Submit CTA pixel</code></li><li><code>Foodies only kalakand Pixel cta</code></li><li><code>Sunrise bafooXmoon  pixel - meat masala 50g</code></li><li><code>Candyman upload photo meta pixel</code></li><li><code>Mom&#39;s Magic zepto CTA click DC pixel</code></li><li><code>foodies onlyLaal Maas pixels</code></li><li><code>FLF try it now CTA meta pixel</code></li><li><code>ITC_Superior_MP_Advocate_16thMay_Kannada_CTA_Click-Estore Pixel</code></li><li><code>Sunfeastwowzer Blinkit event</code></li><li><code>Bingo Popped chips estore CTA</code></li><li><code>Svasti_Paneer_Bih+Jha_download_Pixel</code></li><li><code>Sunrise Assam pixel meat Masala  Amazon</code></li><li><code>sunfeast wowzers assam Play the game CTA pixel</code></li><li><code>ITC_Superior_MP_Atta_29thApr_CTA_Click-Zepto</code></li><li><code>Sunrise Assam pixel Chicken Masala Flipkart</code></li><li><code>Add to cart : Bing UET</code></li><li><code>Candyman Create your story book Meta click Pixel</code></li><li><code>Bingo Popped chips Amazon cta Meta</code></li><li><code>Sunfeast Wowzers Blinkit CTA karnataka meta &amp; YT pixel</code></li><li><code>ITC_Superior_MP_Advocate_16thMay_Telugu_CTA_Click-Instamart</code></li><li><code>Event pixel - CTA aashirvaad curd blinkit</code></li><li><code>Sunrise generic pixel - blogs</code></li><li><code>Sunrise x meghalaya chicken masala zepto</code></li><li><code>foodies only Tamarind Rice pixels</code></li><li><code>ITC_Superior_MP_Advocate_16thMay_Malayalam_CTA_Click-Blinkit</code></li><li><code>Sunfeast Baked CReation 90days Ourproduct click pixel</code></li><li><code>Sunfeastwowzer Zepto event</code></li><li><code>FamilyLikeFreinds google and meta filmy faces Replace CTA pixel</code></li><li><code>Mom&#39;s Magic Flipkart CTA Click DC Pixel</code></li><li><code>FLF Generate OTP CTA meta pixel</code></li><li><code>Foodies only Lets start quiz CTA pixel</code></li></ul></details></li>
+        <li><strong>Send 94 data-layer events from the new pages</strong> so the tags fire, for example <code>scroll25Complete</code>, <code>reOrder</code>, <code>checkout</code> and 91 more.
+          <details><summary>Show all 94</summary><ul class="all"><li><code>scroll25Complete</code></li><li><code>reOrder</code></li><li><code>checkout</code></li><li><code>couponCodeRemoved</code></li><li><code>videoStart</code></li><li><code>PDP_PAGE_VIEWED</code></li><li><code>linkClicks</code></li><li><code>buyNowClicks</code></li><li><code>addNextMeal</code></li><li><code>lifeQualityCheckForm</code></li><li><code>login</code></li><li><code>cartremove</code></li><li><code>formComplete</code></li><li><code>notifyMeClicks</code></li><li><code>shareMediumClicks</code></li><li><code>CATEGORY_CLICKED</code></li><li><code>internalSearchClicks</code></li><li><code>cookieAccept</code></li><li><code>locationCheckFailure</code></li><li><code>resetPassword</code></li><li><code>deliverySlotSelected</code></li><li><code>PLP_TITLE_CLICK</code></li><li><code>supermilkFormFill</code></li><li><code>videoPause</code></li><li><code>couponApplySuccessfull</code></li><li><code>cartAddition</code></li><li><code>consumerInterestSelection</code></li><li><code>pageLoaded</code></li><li><code>dqQuestion9</code></li><li><code>socialClicks</code></li><li><code>chooseMealPlan</code></li><li><code>scroll75Complete</code></li><li><code>chatStart</code></li><li><code>target popup load</code></li><li><code>siteErrors</code></li><li><code>dqQuestion8</code></li><li><code>dqQuestion6</code></li><li><code>orderFailed</code></li><li><code>CODE_COPY_HOME</code></li><li><code>wishlistClicks</code></li><li><code>PRODUCT_CLICKED</code></li><li><code>paymentFailedOrder</code></li><li><code>cartOpen</code></li><li><code>addressAdded</code></li><li><code>scrollDepth</code></li><li><code>cartClearTrack</code></li><li><code>formStart</code></li><li><code>productViewed</code></li><li><code>retryPayment</code></li><li><code>dqQuestion1</code></li><li><code>addressUpdated</code></li><li><code>dqQuestion5</code></li><li><code>dqQuestion4</code></li><li><code>scroll50Complete</code></li><li><code>video50Complete</code></li><li><code>writeReviewClicks</code></li><li><code>REGISTRATION</code></li><li><code>registration</code></li><li><code>sortByClicks</code></li><li><code>MY_ORDER_PAGE</code></li><li><code>dqQuestion3</code></li><li><code>orderConfirmation</code></li><li><code>blogPageViewed</code></li><li><code>getMealPlanRS</code></li><li><code>dqQuestion2</code></li><li><code>blogSaved</code></li><li><code>skipThisMeal</code></li><li><code>blogShare</code></li><li><code>applyCouponClicks</code></li><li><code>chatEnd</code></li><li><code>cookieReject</code></li><li><code>scroll100Complete</code></li><li><code>targetClick</code></li><li><code>recipeSubscriptionClicks</code></li><li><code>locationCheckSuccess</code></li><li><code>PLP_PAGE_VIEWED</code></li><li><code>catagoryFilterClicks</code></li><li><code>video75Complete</code></li><li><code>dqQuestion7</code></li><li><code>getMealPlan</code></li><li><code>logout</code></li><li><code>video100Complete</code></li><li><code>filterByClicks</code></li><li><code>sendToSomeoneClicks</code></li><li><code>blogLiked</code></li><li><code>missedSomethingClicked</code></li><li><code>selectAddressClicks</code></li><li><code>copyCouponClicks</code></li><li><code>searchLoadMoreClick</code></li><li><code>cartRemove</code></li><li><code>bannerClickCMS</code></li><li><code>VIDEO_VIEWED</code></li><li><code>bannerClick</code></li><li><code>video25Complete</code></li></ul></details></li>
+        <li><strong>Decide how consent works.</strong> We found no consent manager on the pages we checked; once switched on, the tags load without one.</li>
+        <li><strong>Pick one Web SDK datastream.</strong> Your tag setup chooses between 2 at runtime.</li>
+        <li><strong>Decide whether to keep personalization (Adobe Target).</strong> It holds the page back until its decisions arrive, so check page speed.</li>
+        <li><strong>Share the setup of Google Tag Manager.</strong> We could not read its rules.</li>
+      </ol>
+      <p class="meta">Full details for your developers: <code>stardust/martech-handoff.md</code> in the repository.</p>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Progress</h2>
+    <div class="panel-body">
+      <p>100% complete</p>
+      <div class="bar"><span style="width: 100%"></span></div>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's happening now</h2>
+    <div class="panel-body">
+      <p>Your home page is live on the new platform at the site root. It matches the current site on desktop and mobile, its menus, search, carousels and videos behave as they do today, and it passed every quality check. Your analytics and consent setup has been carried over, switched off until you choose to turn it on.</p>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's next</h2>
+    <div class="panel-body">
+      <p>The migration of this page is complete; the remaining choices, such as switching on analytics, are yours to make whenever you are ready.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

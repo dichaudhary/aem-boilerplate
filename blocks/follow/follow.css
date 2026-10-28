@@ -1,0 +1,39 @@
+/* follow — values copied from stardust/prototypes/index.css (section.follow) */
+main > .section > .follow-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.follow {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.follow .follow-title {
+  font-family: var(--serif);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.follow .follow-title :is(h1, h2, h3) {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* the source's blank spacer paragraph (&nbsp;) = one normal line box under the text */
+.follow .follow-text {
+  padding-bottom: 1lh;
+}
+
+.follow .follow-action {
+  display: flex;
+  justify-content: center;
+}
+
+@media (width <= 1023px) {
+  .follow .follow-title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}

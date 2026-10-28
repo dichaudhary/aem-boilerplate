@@ -1,0 +1,42 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-22T07:44:40.805Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-22T09:30:31.903Z",
+  "templates": [
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "carousel",
+        "community",
+        "follow",
+        "footer",
+        "header",
+        "hero",
+        "offerings",
+        "popular",
+        "recipes",
+        "split",
+        "video-teaser",
+        "vision"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

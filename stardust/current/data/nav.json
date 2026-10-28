@@ -1,0 +1,576 @@
+[
+ {
+  "text": "Our Products",
+  "href": "/our-products.html",
+  "children": [
+   {
+    "text": "Atta",
+    "href": "/our-products/atta.html",
+    "children": [
+     {
+      "text": "Shudh Chakki Atta",
+      "href": "/our-products/atta/shudh-chakki-atta.html",
+      "children": []
+     },
+     {
+      "text": "Superior MP Atta",
+      "href": "/our-products/atta/superior-mp-atta.html",
+      "children": []
+     },
+     {
+      "text": "Multigrain Atta",
+      "href": "/our-products/atta/multigrain-atta.html",
+      "children": []
+     },
+     {
+      "text": "Organic Atta",
+      "href": "/our-products/atta/organic-atta.html",
+      "children": []
+     },
+     {
+      "text": "Atta with Millets",
+      "href": "/our-products/millets/atta-with-millets.html",
+      "children": []
+     },
+     {
+      "text": "M.P. Chakki Atta",
+      "href": "/our-products/atta/mp-chakki-atta.html",
+      "children": []
+     },
+     {
+      "text": "Sugar Release Control Atta",
+      "href": "/our-products/atta/sugar-release-control-atta.html",
+      "children": []
+     },
+     {
+      "text": "Fortified Chakki Atta",
+      "href": "/our-products/atta/fortified-chakki-atta.html",
+      "children": []
+     },
+     {
+      "text": "Gluten Free Flour",
+      "href": "/our-products/atta/gluten-free-flour.html",
+      "children": []
+     },
+     {
+      "text": "Select Atta",
+      "href": "/our-products/atta/select-atta.html",
+      "children": []
+     },
+     {
+      "text": "Atta with High Protein",
+      "href": "/our-products/atta/high-protein-atta.html",
+      "children": []
+     }
+    ]
+   },
+   {
+    "text": "Salt",
+    "href": "/our-products/salt.html",
+    "children": [
+     {
+      "text": "Iodized Salt",
+      "href": "/our-products/salt/iodized-salt.html",
+      "children": []
+     },
+     {
+      "text": "Salt Active",
+      "href": "/our-products/salt/salt-active.html",
+      "children": []
+     },
+     {
+      "text": "Himalayan Pink Salt",
+      "href": "/our-products/salt/himalayan-pink-salt.html",
+      "children": []
+     },
+     {
+      "text": "Iodized Crystal Salt",
+      "href": "/our-products/salt/iodized-crystal-salt.html",
+      "children": []
+     },
+     {
+      "text": "Iodized Salt Offer",
+      "href": "/our-products/salt/iodized-saltoffer.html",
+      "children": []
+     }
+    ]
+   },
+   {
+    "text": "Organic",
+    "href": "/our-products/organic.html",
+    "children": [
+     {
+      "text": "Organic Atta",
+      "href": "/our-products/organic/organic-atta.html",
+      "children": []
+     },
+     {
+      "text": "Organic Chana Dal",
+      "href": "/our-products/organic/organic-chana-dal.html",
+      "children": []
+     },
+     {
+      "text": "Organic Tur Dal",
+      "href": "/our-products/organic/organic-tur-dal.html",
+      "children": []
+     },
+     {
+      "text": "Organic Moong Dal",
+      "href": "/our-products/organic/organic-moong-dal.html",
+      "children": []
+     },
+     {
+      "text": "Organic Urad Dal",
+      "href": "/our-products/organic/organic-urad-dal.html",
+      "children": []
+     },
+     {
+      "text": "Organic Masoor Dal",
+      "href": "/our-products/organic/organic-masoor-dal.html",
+      "children": []
+     },
+     {
+      "text": "Organic Urad Dal Whole",
+      "href": "/our-products/organic/organic-urad-dal-whole.html",
+      "children": []
+     },
+     {
+      "text": "Organic Rajma",
+      "href": "/our-products/organic/organic-rajma.html",
+      "children": []
+     },
+     {
+      "text": "Organic Kabuli Chana",
+      "href": "/our-products/organic/organic-kabuli-chana.html",
+      "children": []
+     }
+    ]
+   },
+   {
+    "text": "Besan",
+    "href": "/our-products/besan.html",
+    "children": [
+     {
+      "text": "Besan",
+      "href": "/our-products/besan/besan.html",
+      "children": []
+     }
+    ]
+   },
+   {
+    "text": "Millets",
+    "href": "/our-products/millets.html",
+    "children": [
+     {
+      "text": "Atta with Millets",
+      "href": "/our-products/millets/atta-with-millets.html",
+      "children": []
+     },
+     {
+      "text": "Millets Batter mix",
+      "href": "/our-products/millets/batter-mix.html",
+      "children": []
+     },
+     {
+      "text": "Multi Millet Mix",
+      "href": "/our-products/millets/multi-millet-flour.html",
+      "children": []
+     },
+     {
+      "text": "Ragi Flour",
+      "href": "/our-products/millets/ragi-flour.html",
+      "children": []
+     }
+    ]
+   },
+   {
+    "text": "Vermicelli",
+    "href": "/our-products/vermicelli.html",
+    "children": [
+     {
+      "text": "Vermicelli",
+      "href": "/our-products/vermicelli/vermicelli.html",
+      "children": []
+     },
+     {
+      "text": "Roasted Vermicelli",
+      "href": "/our-products/vermicelli/roasted-vermicelli.html",
+      "children": []
+     }
+    ]
+   },
+   {
+    "text": "Rava",
+    "href": "/our-products/rava.html",
+    "children": [
+     {
+      "text": "Bansi Rava",
+      "href": "/our-products/rava/bansi-rava.html",
+      "children": []
+     },
+     {
+      "text": "Double Roasted Suji Rava",
+      "href": "/our-products/rava/double-roasted-suji-rava.html",
+      "children": []
+     },
+     {
+      "text": "Samba Broken Wheat",
+      "href": "/our-products/rava/samba-broken-wheat.html",
+      "children": []
+     }
+    ]
+   },
+   {
+    "text": "Naans and Parathas",
+    "href": "/our-products/frozen-naans-parathas.html",
+    "children": [
+     {
+      "text": "Garlic and Coriander Naan",
+      "href": "/our-products/frozen-naans-parathas/garlic-and-coriander-naan.html",
+      "children": []
+     },
+     {
+      "text": "Malabar Paratha",
+      "href": "/our-products/frozen-naans-parathas/malabar-paratha.html",
+      "children": []
+     },
+     {
+      "text": "Aloo Paratha",
+      "href": "/our-products/frozen-naans-parathas/aloo-paratha.html",
+      "children": []
+     },
+     {
+      "text": "Paneer Paratha",
+      "href": "/our-products/frozen-naans-parathas/paneer-paratha.html",
+      "children": []
+     },
+     {
+      "text": "Tandoori Naan",
+      "href": "/our-products/frozen-naans-parathas/tandoori-naan.html",
+      "children": []
+     }
+    ]
+   },
+   {
+    "text": "Chapati",
+    "href": "/our-products/ready-to-cook-chapati.html",
+    "children": [
+     {
+      "text": "Ready To Cook Chapatis",
+      "href": "/our-products/ready-to-cook-chapati/rtc-chapati.html",
+      "children": []
+     }
+    ]
+   },
+   {
+    "text": "Ghee",
+    "href": "/our-products/ghee.html",
+    "children": [
+     {
+      "text": "Svasti Ghee",
+      "href": "/our-products/ghee/svasti-ghee.html",
+      "children": []
+     }
+    ]
+   },
+   {
+    "text": "Instant Mixes",
+    "href": "/our-products/instant-mixes.html",
+    "children": [
+     {
+      "text": "Gulab Jamun Instant Mix",
+      "href": "/our-products/instant-mixes/instant-gulab-jamun-mix.html",
+      "children": []
+     },
+     {
+      "text": "Instant Rice Idli",
+      "href": "/our-products/instant-mixes/instant-rice-idli.html",
+      "children": []
+     },
+     {
+      "text": "Instant Rava Idli",
+      "href": "/our-products/instant-mixes/instant-rava-idli.html",
+      "children": []
+     },
+     {
+      "text": "Instant Rice Dosa",
+      "href": "/our-products/instant-mixes/instant-rice-dosa.html",
+      "children": []
+     }
+    ]
+   },
+   {
+    "text": "Instant Meals",
+    "href": "/our-products/instant-meals.html",
+    "children": [
+     {
+      "text": "Instant Upma",
+      "href": "/our-products/instant-meals/instant-upma.html",
+      "children": []
+     },
+     {
+      "text": "Instant Poha",
+      "href": "/our-products/instant-meals/instant-poha.html",
+      "children": []
+     },
+     {
+      "text": "Instant Mini Idli Sambar",
+      "href": "/our-products/instant-meals/instant-mini-idli-sambar.html",
+      "children": []
+     },
+     {
+      "text": "Instant Halwa",
+      "href": "/our-products/instant-meals/instant-halwa.html",
+      "children": []
+     },
+     {
+      "text": "Dal Makhani",
+      "href": "/our-products/instant-meals/dal-makhani.html",
+      "children": []
+     },
+     {
+      "text": "Paneer Butter Masala",
+      "href": "/our-products/instant-meals/paneer-butter-masala.html",
+      "children": []
+     }
+    ]
+   },
+   {
+    "text": "Basic Spices",
+    "href": "/our-products/basic-spices.htm.html",
+    "children": [
+     {
+      "text": "Chilli Powder",
+      "href": "/our-products/basic-spices/red-chilli-powder.html",
+      "children": []
+     },
+     {
+      "text": "Guntur & Byadagi Chilli Powder",
+      "href": "/our-products/basic-spices/guntur-byadagi-chilli-powder.html",
+      "children": []
+     },
+     {
+      "text": "Byadagi chilli powder",
+      "href": "/our-products/basic-spices/byadagi-chilli-powder.html",
+      "children": []
+     },
+     {
+      "text": "Premium Chilli Powder",
+      "href": "/our-products/basic-spices/premium-chilli-powder.html",
+      "children": []
+     },
+     {
+      "text": "Kashmiri Mirch Powder",
+      "href": "/our-products/basic-spices/kashmiri-chilli-powder.html",
+      "children": []
+     },
+     {
+      "text": "Turmeric Powder",
+      "href": "/our-products/basic-spices/turmeric-powder.html",
+      "children": []
+     },
+     {
+      "text": "Coriander Powder",
+      "href": "/our-products/basic-spices/coriander-powder.html",
+      "children": []
+     },
+     {
+      "text": "Pepper Powder",
+      "href": "/our-products/basic-spices/pepper-powder.html",
+      "children": []
+     }
+    ]
+   },
+   {
+    "text": "Blended Spices",
+    "href": "/our-products/blended-spices.html",
+    "children": [
+     {
+      "text": "Masala Karam",
+      "href": "/our-products/blended-spices/masala-karam.html",
+      "children": []
+     },
+     {
+      "text": "Sambar Powder",
+      "href": "/our-products/blended-spices/sambar-powder.html",
+      "children": []
+     },
+     {
+      "text": "Kitchen King Masala",
+      "href": "/our-products/blended-spices/kitchen-king-masala.html",
+      "children": []
+     },
+     {
+      "text": "Chaat Masala",
+      "href": "/our-products/blended-spices/chaat-masala.html",
+      "children": []
+     },
+     {
+      "text": "Sabji Masala",
+      "href": "/our-products/blended-spices/sabji-masala.html",
+      "children": []
+     },
+     {
+      "text": "Paneer Masala",
+      "href": "/our-products/blended-spices/paneer-masala.html",
+      "children": []
+     },
+     {
+      "text": "Punjabi Chole Masala",
+      "href": "/our-products/blended-spices/punjabi-chole-masala.html",
+      "children": []
+     },
+     {
+      "text": "Shahi Garam Masala",
+      "href": "/our-products/blended-spices/shahi-garam-masala.html",
+      "children": []
+     },
+     {
+      "text": "Rasam Powder",
+      "href": "/our-products/blended-spices/rasam-powder.html",
+      "children": []
+     },
+     {
+      "text": "Dal Masala",
+      "href": "/our-products/blended-spices/dal-masala.html",
+      "children": []
+     },
+     {
+      "text": "Aloo Dum Masala",
+      "href": "/our-products/blended-spices/aloo-dum-masala.html",
+      "children": []
+     },
+     {
+      "text": "Pav Bhaji Masala",
+      "href": "/our-products/blended-spices/pav-bhaji-masala.html",
+      "children": []
+     }
+    ]
+   },
+   {
+    "text": "Whole Spices",
+    "href": "/our-products/whole-spices.html",
+    "children": [
+     {
+      "text": "Jeera",
+      "href": "/our-products/whole-spices/jeera.html",
+      "children": []
+     },
+     {
+      "text": "Cardamom",
+      "href": "/our-products/whole-spices/cardamom.html",
+      "children": []
+     },
+     {
+      "text": "Mustard",
+      "href": "/our-products/whole-spices/mustard.html",
+      "children": []
+     },
+     {
+      "text": "Poppy seeds",
+      "href": "/our-products/whole-spices/poppy-seeds.html",
+      "children": []
+     },
+     {
+      "text": "Black Pepper",
+      "href": "/our-products/whole-spices/black-pepper.html",
+      "children": []
+     },
+     {
+      "text": "Clove",
+      "href": "/our-products/whole-spices/clove.html",
+      "children": []
+     },
+     {
+      "text": "Methi",
+      "href": "/our-products/whole-spices/methi.html",
+      "children": []
+     },
+     {
+      "text": "Saunf",
+      "href": "/our-products/whole-spices/saunf.html",
+      "children": []
+     },
+     {
+      "text": "Ajwain",
+      "href": "/our-products/whole-spices/ajwain.html",
+      "children": []
+     },
+     {
+      "text": "Kasuri Methi",
+      "href": "/our-products/whole-spices/kasuri-methi.html",
+      "children": []
+     }
+    ]
+   },
+   {
+    "text": "Plant Protein",
+    "href": "/our-products/plant-protein.html",
+    "children": [
+     {
+      "text": "Soya Chunks",
+      "href": "/our-products/plant-protein/soya-chunks.html",
+      "children": []
+     }
+    ]
+   },
+   {
+    "text": "Chutneys",
+    "href": "/header-pages/our-products/chutneys.html",
+    "children": [
+     {
+      "text": "Chutneys",
+      "href": "/our-products/chutneys/chutneys.html",
+      "children": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "text": "Our Story",
+  "href": "/our-story.html",
+  "children": []
+ },
+ {
+  "text": "Recipe",
+  "href": "/recipe-listing.html",
+  "children": []
+ },
+ {
+  "text": "Blogs",
+  "href": "/blogs.html",
+  "children": []
+ },
+ {
+  "text": "CSR Initiatives",
+  "href": "/csr-initiatives.html",
+  "children": [
+   {
+    "text": "About Initiative",
+    "href": "/csr-initiatives/about-initiative.html",
+    "children": []
+   },
+   {
+    "text": "Iodine Deficiency",
+    "href": "/csr-initiatives/iodine-deficiency.html",
+    "children": []
+   },
+   {
+    "text": "School Contact Program",
+    "href": "/csr-initiatives/school-contact-program.html",
+    "children": []
+   },
+   {
+    "text": "Community Contact Program",
+    "href": "/csr-initiatives/community-contact-program.html",
+    "children": []
+   }
+  ]
+ },
+ {
+  "text": "FAQs",
+  "href": "/faqs.html",
+  "children": []
+ }
+]

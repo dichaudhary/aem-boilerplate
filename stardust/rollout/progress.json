@@ -1,0 +1,113 @@
+{
+ "units": {
+  "foundation": {
+   "status": "done",
+   "kind": "foundation",
+   "templates": [
+    "index"
+   ],
+   "startedAt": "2026-10-22T07:45:22Z",
+   "endedAt": "2026-10-22T07:57:33.787Z",
+   "blocks": 2,
+   "pages": 0,
+   "gates": {
+    "360": {
+     "measure": "header/footer boxes Δ≤2px"
+    },
+    "1440": {
+     "measure": "header/footer boxes Δ≤2px"
+    },
+    "chrome": "chrome-compare 0 errors (profile replica, 390+1440)",
+    "crop": "deferred to archetype unit (no page yet)"
+   },
+   "verdict": "foundation: nav+footer live, header/footer blocks, fonts 6, lint clean, measure deltas ≤2px at 1440/360"
+  },
+  "archetype-home": {
+   "status": "done",
+   "kind": "archetype",
+   "templates": [
+    "index"
+   ],
+   "startedAt": "2026-10-22T07:57:46.413Z",
+   "endedAt": "2026-10-22T08:34:31.057Z",
+   "pages": 1,
+   "blocks": 8,
+   "gates": {
+    "360": {
+     "gate": "pub 3.80% Δh4",
+     "gateAll": "PASS 9.49% Δh71 (live height varies between loads)"
+    },
+    "1440": {
+     "gate": "pub 0.70% Δh0",
+     "gateAll": "PASS 0.7% Δh0"
+    },
+    "crop": "header/footer 0.00%/0.14% @1440, 0.00%/0.69% @360",
+    "chrome": "live has no header/footer element (advisory)"
+   },
+   "verdict": "archetype-home: index live, blocks 8, gate 1440 0.70% Δh 0 / 360 3.80% Δh 4, clip 0, content-presence ok, crop header/footer 0.00%/0.14% @1440 and 0.00%/0.69% @360, rounds 2, requests 2"
+  },
+  "cluster-home": {
+   "status": "done",
+   "kind": "cluster",
+   "templates": [
+    "index"
+   ],
+   "startedAt": "2026-10-22T08:34:46.672Z",
+   "endedAt": "2026-10-22T08:34:46.672Z",
+   "pages": 0,
+   "blocks": 0,
+   "verdict": "cluster-home: pages 0/0 (single-page run, no siblings; archetype delivered in archetype-home), blocks 0, requests 0"
+  },
+  "gate-all": {
+   "status": "done",
+   "kind": "final",
+   "templates": [
+    "index"
+   ],
+   "startedAt": "2026-10-22T08:34:46.672Z",
+   "endedAt": "2026-10-22T08:40:38.696Z",
+   "pages": 1,
+   "gates": {
+    "360": {
+     "pixel": "9.49%",
+     "dh": 71,
+     "clip": 0,
+     "content": "ok",
+     "verdict": "PASS",
+     "note": "live doc height varies 6962–7054 px between loads; hot bands = popular autoplay + adaptive card heights"
+    },
+    "1440": {
+     "pixel": "0.7%",
+     "dh": 0,
+     "clip": 0,
+     "content": "ok",
+     "verdict": "PASS"
+    }
+   },
+   "verdict": "gate-all: 1/1 PASS on aem.live — 1440 0.7% Δh0, 360 9.49% Δh71, clip 0, content-presence 0 missing"
+  },
+  "final": {
+   "status": "done",
+   "kind": "final",
+   "templates": [
+    "index"
+   ],
+   "startedAt": "2026-10-22T08:41:04.707Z",
+   "endedAt": "2026-10-22T08:50:05.892Z",
+   "pages": 1,
+   "gates": {
+    "360": {
+     "pixel": "9.49%",
+     "dh": 71,
+     "verdict": "PASS"
+    },
+    "1440": {
+     "pixel": "0.7%",
+     "dh": 0,
+     "verdict": "PASS"
+    }
+   },
+   "verdict": "final: freeze check ok; 2 requests (1 applied: mobile header in header block, 1 declined: carousel helper refactor); archetype re-gated on aem.live PASS 1440 0.7% / 360 9.49%"
+  }
+ }
+}

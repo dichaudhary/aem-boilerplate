@@ -1,0 +1,62 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-10-22T09:23:45.188Z",
+ "source": "https://aashirvaad.com/",
+ "build": "https://main--683f0604--aemcoder.aem.live/",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 1,
+  "warn": 4,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "link-missing@390 link",
+   "width": 390,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header"
+  },
+  {
+   "key": "state-extra@1440 Our Products [key]",
+   "width": 1440,
+   "path": "Our Products",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "state-extra@1440 CSR Initiatives [key]",
+   "width": 1440,
+   "path": "CSR Initiatives",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "panel-visual@390 Search [click]",
+   "width": 390,
+   "path": "Search",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 36.1% (bar 2%; source 390×51, build 390×76; texture 9% thick)"
+  }
+ ]
+}
