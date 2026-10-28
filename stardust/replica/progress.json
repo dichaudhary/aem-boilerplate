@@ -1,0 +1,99 @@
+{
+ "updatedAt": "2026-10-22T07:42:10.678Z",
+ "archetypes": {
+  "home": {
+   "slug": "index",
+   "liveUrl": "https://aashirvaad.com/",
+   "prototype": "stardust/prototypes/index-proposed.html",
+   "status": "passed",
+   "approvedBy": "hands-off",
+   "iterations": {
+    "360": 13,
+    "1440": 13,
+    "note": "13 gate rounds total; pixel bar met from round 4 (1440) and round 5 (360); later rounds fixed content-diff structure, chrome parity and motion, each re-confirmed with --full"
+   },
+   "gates": {
+    "360": {
+     "pixelPct": 3.79,
+     "heightDelta": 4,
+     "structuralRed": 0,
+     "clipped": 0,
+     "overflow": "ok",
+     "contentDiff": "replica/gates/index-360/content-diff-iter13.txt",
+     "chromeParity": "replica/gates/index-360/chrome-parity-regions-iter10.txt",
+     "round": "iter13"
+    },
+    "1440": {
+     "pixelPct": 0.7,
+     "heightDelta": 0,
+     "structuralRed": 0,
+     "clipped": 0,
+     "overflow": "ok",
+     "contentDiff": "replica/gates/index-1440/content-diff-iter13.txt",
+     "chromeParity": "replica/gates/index-1440/chrome-parity-regions-iter11.txt",
+     "round": "iter13"
+    },
+    "capProbe": {
+     "width": 2560,
+     "verdict": "PASS",
+     "rows": 11,
+     "evidence": "replica/gates/index-2560/cap-iter.json"
+    }
+   },
+   "mainSelector": ".color-background-default",
+   "residuals": [
+    {
+     "zone": "header/footer chrome-parity (gate.sh --full)",
+     "cause": "region-resolution",
+     "detail": "live has no <header>/<footer> elements; the built-in probe cannot resolve regions. Region-scoped runs (--region header=.cmp-header|header.site-header, footer=#footer div.footer div.footer|footer.site-footer) are quiet except asset-name icon signatures (Scene7 extension-less URLs vs rehosted files) and capture-state Δy in the footer (live footer y depends on lazy product images)."
+    },
+    {
+     "zone": "visual-diff advisory",
+     "cause": "justified",
+     "detail": "STRETCHED IMAGE flags are object-fit:cover crops replicating background-size:cover; IMAGE DID NOT LOAD flags are off-screen lazy carousel slides; FLUSH-LEFT is the off-screen first popular slide."
+    }
+   ],
+   "captureState": [
+    {
+     "section": "Most loved (popular products)",
+     "captured": "slide 2 active, next disabled; slide 1 image never lazy-loaded so the track sizes to the 308x394 rendition",
+     "prototype": "data-start=1, image max-height 394",
+     "restoreAtDelivery": "autoplay 3000ms from slide 1, non-looping (source data-auto-play-speed-in-ms=3000, infinite false)"
+    },
+    {
+     "section": "Recipes carousel",
+     "captured": "only in-view cards load images (source lazy loader); track height = in-view cards",
+     "prototype": "image element injected for in-view slides; adaptive viewport height",
+     "restoreAtDelivery": "same behaviour in the block"
+    },
+    {
+     "section": "Our vision (mobile)",
+     "captured": "off-screen slides have no video, track height = slide 1",
+     "prototype": "adaptive viewport height",
+     "restoreAtDelivery": "same behaviour in the block"
+    }
+   ],
+   "motion": {
+    "observed": [
+     "popular auto-advance (timer 3000ms, once)",
+     "lazy image fade-in opacity 300ms",
+     "carousel track transform 500ms on arrow/dot"
+    ],
+    "implemented": [
+     "carousel transform 500ms",
+     "lazy image fade-in 300ms",
+     "popular autoplay (restoreAtDelivery; frozen at captured slide in the gated prototype)"
+    ],
+    "dead": [
+     "header scroll morph",
+     "nav Our Products hover (no measured change)",
+     "hero/recipe arrow pokes sampled no change on live (slick internals)"
+    ],
+    "evidence": [
+     "replica/motion/index.json",
+     "replica/motion/index-build.json"
+    ]
+   }
+  }
+ }
+}

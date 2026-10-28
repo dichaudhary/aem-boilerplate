@@ -1,0 +1,48 @@
+{
+ "units": {
+  "plan": {
+   "status": "done",
+   "kind": "plan",
+   "templates": [
+    "home"
+   ],
+   "pages": 1,
+   "startedAt": "2026-10-22T07:44:20Z",
+   "endedAt": "2026-10-22T07:44:20Z",
+   "verdict": "plan: 1 page (index, archetype), 0 siblings"
+  },
+  "render-home": {
+   "status": "done",
+   "kind": "render",
+   "templates": [
+    "home"
+   ],
+   "pages": 1,
+   "startedAt": "2026-10-22T07:44:20Z",
+   "endedAt": "2026-10-22T07:44:20Z",
+   "verdict": "render-home: archetype index placed from approved prototype; no siblings (C-deliver cluster-home: nothing to render)"
+  },
+  "assets": {
+   "status": "done",
+   "kind": "assets",
+   "templates": [
+    "home"
+   ],
+   "pages": 1,
+   "startedAt": "2026-10-22T07:44:20Z",
+   "endedAt": "2026-10-22T07:44:20Z",
+   "verdict": "assets: 2 bundled (index.css, index.js); media remain on source URLs until deploy rehost"
+  },
+  "report": {
+   "status": "done",
+   "kind": "report",
+   "templates": [
+    "home"
+   ],
+   "pages": 1,
+   "startedAt": "2026-10-22T07:44:20Z",
+   "endedAt": "2026-10-22T07:44:20Z",
+   "verdict": "report: rendered 1, refused 0; 166 out-of-scope internal links left for E2 repoint"
+  }
+ }
+}

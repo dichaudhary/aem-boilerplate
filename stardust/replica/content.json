@@ -1,0 +1,278 @@
+{
+ "hero": [
+  {
+   "logo": "https://s7ap1.scene7.com/is/content/itcportalprod/Logo",
+   "logoAlt": "Aashirvaad Atta",
+   "title": "The Aashirvaad Promise",
+   "sub": "Hand-picked ingredients, careful processing and untouched packaging ensuring superior quality.",
+   "mobile": "https://s7ap1.scene7.com/is/image/itcportalprod/Trust?fmt=webp-alpha",
+   "desktop": "https://s7ap1.scene7.com/is/image/itcportalprod/Hero-Banner-1_D_revised?fmt=webp-alpha&wid=1366",
+   "alt": "Hero Banner 1 D Revised",
+   "bg": "https://s7ap1.scene7.com/is/image/itcportalprod/Hero-Banner-1_D_revised?fmt=webp-alpha&wid=1366",
+   "cta": "Click to Explore",
+   "href": "https://aashirvaad.com/our-products/atta/shudh-chakki-atta.html",
+   "target": null
+  },
+  {
+   "logo": "https://s7ap1.scene7.com/is/content/itcportalprod/Logo-2",
+   "logoAlt": "Logo",
+   "title": "Experience Organic",
+   "sub": "Experience our organic range, exceptional food for high-quality living, for you and your family.",
+   "mobile": "https://s7ap1.scene7.com/is/image/itcportalprod/nutritions?fmt=webp-alpha",
+   "desktop": "https://s7ap1.scene7.com/is/image/itcportalprod/hero-ban-2?fmt=webp-alpha&wid=1366",
+   "alt": "Hero Ban 2",
+   "bg": "https://s7ap1.scene7.com/is/image/itcportalprod/hero-ban-2?fmt=webp-alpha&wid=1366",
+   "cta": "Click to Explore",
+   "href": "https://organic.aashirvaad.com/",
+   "target": null
+  },
+  {
+   "logo": "https://s7ap1.scene7.com/is/content/itcportalprod/Logo-2",
+   "logoAlt": "Aashirvaad",
+   "title": "Quality on the Go",
+   "sub": "Indulge in our Instant Meals, combining convenience and quality for a swift, delightful dining experience.",
+   "mobile": "https://s7ap1.scene7.com/is/image/itcportalprod/quality?fmt=webp-alpha",
+   "desktop": "https://s7ap1.scene7.com/is/image/itcportalprod/hero-ban-3?fmt=webp-alpha&wid=1366",
+   "alt": "Hero Ban 3",
+   "bg": "https://s7ap1.scene7.com/is/image/itcportalprod/hero-ban-3?fmt=webp-alpha&wid=1366",
+   "cta": "Click to Explore",
+   "href": "https://aashirvaad.com/our-products/instant-meals.html",
+   "target": null
+  },
+  {
+   "logo": "https://s7ap1.scene7.com/is/content/itcportalprod/Logo",
+   "logoAlt": "Logo",
+   "title": "Aashirvaad Pink Salt",
+   "sub": "Himalayan Pink Salt, no added colors or impurities. Enhance salads, chaats, and everyday dishes with rich flavour.",
+   "mobile": "https://s7ap1.scene7.com/is/image/itcportalprod/monile pink salt?fmt=webp-alpha",
+   "desktop": "https://s7ap1.scene7.com/is/image/itcportalprod/HOME-pinksalt?fmt=webp-alpha&wid=1366",
+   "alt": "Home Pinksalt",
+   "bg": "https://s7ap1.scene7.com/is/image/itcportalprod/HOME-pinksalt?fmt=webp-alpha&wid=1366",
+   "cta": "Click to Explore",
+   "href": "https://aashirvaad.com/our-products/salt/himalayan-pink-salt.html",
+   "target": null
+  }
+ ],
+ "video": {
+  "src": "https://www.youtube.com/embed/sbUQyvhgsGg?si=xeqVJZRVM8KDSc5d?rel=0&enablejsapi=1",
+  "title": null
+ },
+ "no1": {
+  "title": "What makes us No.1?",
+  "desc": "Our superior-quality, contact-less packaging, & the trust of millions of mothers.",
+  "cta": "Know more",
+  "href": "https://aashirvaad.com/our-story.html",
+  "bg": "https://s7ap1.scene7.com/is/image/itcportalprod/nudge-1?fmt=webp-alpha",
+  "mbg": null,
+  "attrs": [
+   "id",
+   "class",
+   "data-component",
+   "data-show-media-url",
+   "data-background-image-desktop",
+   "data-background-image-mobile",
+   "style"
+  ]
+ },
+ "chakki": {
+  "href": "https://aashirvaadchakki.com/",
+  "cta": "Customize your Atta",
+  "bg": "https://s7ap1.scene7.com/is/image/itcportalprod/Meri_chikki_bg_desktop?fmt=webp-alpha",
+  "attrs": {
+   "id": "teaser-da4b81de79",
+   "class": "cmp-teaser",
+   "data-component": "teaser",
+   "data-show-media-url": "false",
+   "data-background-image-desktop": "https://s7ap1.scene7.com/is/image/itcportalprod/Meri_chikki_bg_desktop?fmt=webp-alpha",
+   "data-background-image-mobile": "https://s7ap1.scene7.com/is/image/itcportalprod/Aashirvaad_mari_chikki_mobile?fmt=webp-alpha",
+   "style": "background-image: url(\"https://s7ap1.scene7.com/is/image/itcportalprod/Meri_chikki_bg_desktop?fmt=webp-alpha\");"
+  }
+ },
+ "footprint": {
+  "title": "Our vision",
+  "cards": [
+   {
+    "cls": "card cmp-card--foot-print cmp-card--foot-print-highlighted color-background-background-2",
+    "title": "Trust of over 20 years",
+    "desc": "Since 2002, AASHIRVAAD has pledged to bring excellence in taste and nutrition to your kitchens. Over 20 years, AASHIRVAAD has reached 50,00,000+ households across the country.",
+    "video": "https://www.youtube.com/embed/iFqqEJH4Mnw?autoplay=0&controls=1&showinfo=0&modestbranding=1&fs=1&cc_load_policy=0&iv_load_policy=3&autohide=0&rel=0&enablejsapi=1&origin=https%3A%2F%2Faashirvaad.com&widgetid=1&forigin=https%3A%2F%2Faashirvaad.com%2F&aoriginsup=1&vf=2",
+    "vtitle": "Aashirvaad Quality Certificate | Likh Ke Le Lo"
+   },
+   {
+    "cls": "card cmp-card--foot-print cmp-card--foot-print-default color-background-primary-6",
+    "title": "Organic : A sustainable way of life",
+    "desc": "In an attempt to work towards betterment of the environment and bring you optimum taste and nutrition, AASHIRVAAD introduced its Organic range. Truly authentic Organic Atta and Dals , straight from the farm to your table.",
+    "video": null,
+    "vtitle": null
+   },
+   {
+    "cls": "card cmp-card--foot-print cmp-card--foot-print-default color-background-background-3",
+    "title": "Make Variety with Aashirvaad",
+    "desc": "Whether it's the sweetness of Halwa and Laddoos or the savoury goodness of Parathas and Crispy Samosas – you can do it all with Aashirvaad",
+    "video": null,
+    "vtitle": null
+   }
+  ]
+ },
+ "community": {
+  "title": "Our Community",
+  "sub": "Join us on the journey towards better taste and nutrition.",
+  "slides": [
+   {
+    "title": "Explore Happy Tummy",
+    "desc": "Understand your tummy's needs better and take the right steps towards better digestive health",
+    "cta": "Join the community",
+    "href": "https://www.facebook.com/groups/502294225172201",
+    "target": "_blank",
+    "bg": "https://s7ap1.scene7.com/is/image/itcportalprod/Slider-1-Desktop?fmt=webp-alpha",
+    "attrs": [
+     "id",
+     "class",
+     "data-component",
+     "data-show-media-url",
+     "data-background-image-desktop",
+     "data-background-image-mobile",
+     "data-initialized",
+     "style"
+    ]
+   },
+   {
+    "title": "Take the fibre test!",
+    "desc": "A fibre-rich diet is essential for maintaining normal digestion and keeping hunger pangs at bay. Take your Fibre Meter Test today!",
+    "cta": "Join Our Community",
+    "href": "https://happytummy.aashirvaad.com/",
+    "target": "_blank",
+    "bg": "https://s7ap1.scene7.com/is/image/itcportalprod/Community-Slider2-Desktop?fmt=webp-alpha",
+    "attrs": [
+     "id",
+     "class",
+     "data-component",
+     "data-show-media-url",
+     "data-background-image-desktop",
+     "data-background-image-mobile",
+     "data-initialized",
+     "style"
+    ]
+   },
+   {
+    "title": "Ask our experts",
+    "desc": "Got questions related to your digestive health? Our experts are happy to answer!",
+    "cta": "Join Our Community",
+    "href": "https://happytummy.aashirvaad.com/ask-the-expert",
+    "target": "_blank",
+    "bg": "https://s7ap1.scene7.com/is/image/itcportalprod/Slider3-Desktop-modified?fmt=webp-alpha",
+    "attrs": [
+     "id",
+     "class",
+     "data-component",
+     "data-show-media-url",
+     "data-background-image-desktop",
+     "data-background-image-mobile",
+     "data-initialized",
+     "style"
+    ]
+   }
+  ]
+ },
+ "follow": {
+  "h": "Follow us @aashirvaad",
+  "p": [
+   "Come, be a part of our journey",
+   ""
+  ],
+  "cta": "Visit Now",
+  "href": "https://www.instagram.com/aashirvaad/",
+  "target": null
+ },
+ "footer": {
+  "logos": [
+   {
+    "src": "https://s7ap1.scene7.com/is/content/itcportalprod/Logo_2",
+    "alt": "footerlogo"
+   },
+   {
+    "src": "https://s7ap1.scene7.com/is/image/itcportalprod/itc-logo-white?fmt=webp-alpha",
+    "alt": "itc-logo"
+   },
+   {
+    "src": "https://s7ap1.scene7.com/is/image/itcportalprod/aashirvaad-fssai-logo?fmt=webp-alpha",
+    "alt": "fssai logo"
+   },
+   {
+    "src": "https://s7ap1.scene7.com/is/content/itcportalprod/Logo_2",
+    "alt": "aashirvaad-logo"
+   }
+  ],
+  "logoHref": "/",
+  "inbox": "in Your Inbox",
+  "placeholder": "Enter your Email ID",
+  "consent": "By clicking “Register Now”, you agree to the&nbsp;<a href=\"/conditions-policy/privacy-policy.html\" target=\"_self\" rel=\"noopener noreferrer\">Privacy Policy</a>&nbsp;and to receive marketing emails from the Aashirvaad community",
+  "register": "Register Now",
+  "nav": [
+   {
+    "text": "Terms of use",
+    "href": "/terms-of-use.html"
+   },
+   {
+    "text": "Privacy Policy",
+    "href": "/privacy-policy.html"
+   },
+   {
+    "text": "Sitemap",
+    "href": "/sitemap.html"
+   },
+   {
+    "text": "Our Products",
+    "href": "/our-products.html"
+   },
+   {
+    "text": "Contact Us",
+    "href": "/contact-us.html"
+   },
+   {
+    "text": "About Us",
+    "href": "/about-us.html"
+   }
+  ],
+  "bottom": [],
+  "social": []
+ },
+ "header": {
+  "logoHref": "/",
+  "logo": "https://s7ap1.scene7.com/is/content/itcportalprod/Logo_2",
+  "logoAlt": "headerlogo",
+  "top": [
+   {
+    "text": "Our Products",
+    "href": "/our-products.html"
+   },
+   {
+    "text": "Our Story",
+    "href": "/our-story.html"
+   },
+   {
+    "text": "Recipe",
+    "href": "/recipe-listing.html"
+   },
+   {
+    "text": "Blogs",
+    "href": "/blogs.html"
+   },
+   {
+    "text": "CSR Initiatives",
+    "href": "/csr-initiatives.html"
+   },
+   {
+    "text": "FAQs",
+    "href": "/faqs.html"
+   }
+  ],
+  "search": "Search",
+  "searchHref": "#"
+ },
+ "meta": {
+  "title": "Aashirvaad - Bringing Nutrition & Taste to you since 2002",
+  "description": "Explore a Wide Range of Aashirvaad Products by ITC. Find the Finest Quality Atta, Spices, Instant Mixes & More. Shop Now for Your Kitchen Essentials!",
+  "lang": "en"
+ }
+}

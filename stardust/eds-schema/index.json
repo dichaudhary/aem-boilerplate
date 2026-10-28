@@ -1,0 +1,675 @@
+{
+ "source": "http://localhost:8791/prototypes/index-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "The Aashirvaad Promise"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Hand-picked ingredients, careful processing and untouched packaging ensuring superior quality."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Click to Explore",
+     "href": "https://aashirvaad.com/our-products/atta/shudh-chakki-atta.html"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Experience Organic"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Experience our organic range, exceptional food for high-quality living, for you and your family."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Click to Explore",
+     "href": "https://organic.aashirvaad.com/"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Quality on the Go"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Indulge in our Instant Meals, combining convenience and quality for a swift, delightful dining experience."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Click to Explore",
+     "href": "https://aashirvaad.com/our-products/instant-meals.html"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Aashirvaad Pink Salt"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Himalayan Pink Salt, no added colors or impurities. Enhance salads, chaats, and everyday dishes with rich flavour."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Click to Explore",
+     "href": "https://aashirvaad.com/our-products/salt/himalayan-pink-salt.html"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Previous"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Next"
+    }
+   ],
+   "imgCount": 8,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.hero__slide",
+     "count": 4,
+     "unit": {
+      "headings": 2,
+      "ctas": 1,
+      "imgs": 3,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "offerings",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Aashirvaad offerings"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Select your preferred option from our wide range of product categories."
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "video-teaser",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "recipes",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Cook delicious recipes with us"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Explore your favourite recipe curated by experts using Aashirvaad products."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Breakfast and Savoury"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Breakfast and Nutriotious"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Lunch and Dinner"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Breakfast and SavouryBhakarwadi made from Aashirvaad Atta with Multigrains60 MinsBasic Cook",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/bhakarwadi.html"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Breakfast and SavouryMalpua made from Aashirvaad Atta15 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/malpua.html"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Breakfast and SavouryAloo Parantha Recipe Using Aashirvaad Superior MP Atta32 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/aloo-parantha.html"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Breakfast and SavouryPapdi Chaat Recipe Using Aashirvaad Sudh Chakki30 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/papadi-chaat.html"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Breakfast and SavourySpicy Wheat Flour Nachos with Cheese Sauce Dip Recipe15 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/spicy-nachos-and-dip.html"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Breakfast and SavouryWhole Wheat Bread made from Aashirvaad Atta60 minutesModerate",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/whole-wheat-bread.html"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Breakfast and SavouryWheat Dosa Recipe made from Aashirvaad Atta20 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/wheat-dosa.html"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Breakfast and SavouryChilli Cheese Paratha made from Aashirvaad Atta15 minutesModerate",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/chilli-cheese-paratha.html"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Breakfast and SavouryAtta Kachori Recipe made from Aashirvaad Atta30 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/atta-kachori-recipe.html"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Breakfast and SavouryWheat Flour Murukku Recipe made from Aashirvaad Atta35 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/atta-murukku-recipe.html"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Breakfast and SavouryWhole Wheat Pasta Made from Aashirvaad Atta40 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/whole-wheat-pasta-recipe.html"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Previous"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Next"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Breakfast and NutritiousFour Fold Wrap | Aashirvaad Atta with Multigrains44 MinsBasic Cook",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/four-fold-wrap.html"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Breakfast and NutritiousWhole Wheat Pita Bread Made with Aashirvaad Sudh Chakki Atta130 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/pita-bread.html"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Breakfast and NutritiousHomemade Wheat Flour Biscuits made from Aashirvaad Atta33 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/homemade-atta-biscuits.html"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Breakfast and NutritiousWheat Puttu Recipe made from Aashirvaad Atta10 minutesModerate",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/kerela-puttu-recipe.html"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Breakfast and NutritiousWhole Wheat Obbattu Recipe made from Aashirvaad Atta35 minutesModerate",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/obbattu-recipe.html"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Previous"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Next"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Lunch and DinnerLitti Chokha Recipe using Aashirvaad Atta52 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/litti-chokha.html"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Lunch and DinnerBhendi Masala With Rotis Recipe15 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/bhindi-masala-with-roti.html"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Lunch and DinnerMissi Roti Recipe made with Aashirvaad Atta35 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/missi-roti.html"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Lunch and DinnerAuthentic Dal Dhokli Recipe using Aashirvaad Sudh Chakki Atta30 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/dal-dhokli.html"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Lunch and DinnerHomemade Garlic Bread Recipe using Aashirvaad Atta210 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/garlic-naan.html"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Lunch and DinnerFlavourful Bedmi Puri Recipe using Aashirvaad Shudh Chakki Atta45 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/bedmi-puri.html"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "Lunch and DinnerAtta Momos Recipe made from Aashirvaad Atta55 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/atta-momo-recipe.html"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Lunch and DinnerPhulka Recipe made from Aashirvaad Atta30 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/phulka-recipe.html"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Lunch and DinnerSpinach Puri (Palak Puri) made from Aashirvaad Atta25 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/palak-puri-recipe.html"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "Lunch and DinnerPizza Paratha made from Aashirvaad Atta15 minutesModerate",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/pizza-paratha.html"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "Lunch and DinnerPotato Peas Roll Recipe Made from Aashirvaad Atta20 minutesModerate",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/potato-peas-roll.html"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "Lunch and DinnerWheat Kerala Porotta Recipe made from Aashirvaad Atta20 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/wheat-kerela-parotta.html"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Lunch and DinnerDaal Parantha Recipe made from Aashirvaad Atta40 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/dal-paratha-recipe.html"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "Lunch and DinnerSoya Bhurji Recipe made with Aashirvaad Soya Chunks20 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/soya-bhurji.html"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Lunch and DinnerBBQ Soya Sandwich Recipe made with Aashirvaad Soya Chunks20 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/bbq-soya-sandwich.html"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "Lunch and DinnerSoya Kofta Curry Recipe made with Aashirvaad Soya Chunks20 minutesEasy",
+     "href": "https://aashirvaad.com/header-pages/recipe-listing/soya-chunks-kofta-curry.html"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Previous"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Next"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "View All"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 39,
+   "repeats": [
+    {
+     "unitSelector": "DIV.recipes__panel",
+     "count": 3,
+     "unit": {
+      "headings": 14,
+      "ctas": 11,
+      "imgs": 3,
+      "textRuns": 58
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "split",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "What makes us No.1?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Our superior-quality, contact-less packaging, & the trust of millions of mothers."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Know more",
+     "href": "https://aashirvaad.com/our-story.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "popular",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Most loved"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Discover the best of AASHIRVAAD"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Atta with Multigrains"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "AASHIRVAAD Atta with Multigrains combines the goodness of six grains in one pack: wheat, soya, channa, oat, maize, and psyllium husk."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Sugar Release Control Atta"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "AASHIRVAAD Sugar Release Control Atta brings whole wheat flour with pulse and legume flours together to create a unique \"Special Grain Mix.\""
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Previous"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Next"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.carousel__slide",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "split",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Customize your Atta",
+     "href": "https://aashirvaadchakki.com/"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "vision",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Our vision"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Trust of over 20 years"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Since 2002, AASHIRVAAD has pledged to bring excellence in taste and nutrition to your kitchens. Over 20 years, AASHIRVAAD has reached 50,00,000+ households across the country."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Organic : A sustainable way of life"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "In an attempt to work towards betterment of the environment and bring you optimum taste and nutrition, AASHIRVAAD introduced its Organic range. Truly authentic Organic Atta and Dals , straight from the farm to your table."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Make Variety with Aashirvaad"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Whether it's the sweetness of Halwa and Laddoos or the savoury goodness of Parathas and Crispy Samosas – you can do it all with Aashirvaad"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.carousel__slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "community",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Our Community"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Join us on the journey towards better taste and nutrition."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Explore Happy Tummy"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Understand your tummy's needs better and take the right steps towards better digestive health"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Join the community",
+     "href": "https://www.facebook.com/groups/502294225172201"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Take the fibre test!"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "A fibre-rich diet is essential for maintaining normal digestion and keeping hunger pangs at bay. Take your Fibre Meter Test today!"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Join Our Community",
+     "href": "https://happytummy.aashirvaad.com/"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Ask our experts"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Got questions related to your digestive health? Our experts are happy to answer!"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Join Our Community",
+     "href": "https://happytummy.aashirvaad.com/ask-the-expert"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Previous"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Next"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.carousel__slide",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "follow",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Follow us @aashirvaad"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Come, be a part of our journey"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Visit Now",
+     "href": "https://www.instagram.com/aashirvaad/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}

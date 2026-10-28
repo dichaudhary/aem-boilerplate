@@ -1,0 +1,118 @@
+/* offerings — values copied from stardust/prototypes/index.css (section.offerings) */
+main > .section > .offerings-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.offerings .offerings-inner {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 64px var(--inset);
+}
+
+.offerings .offerings-title {
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.offerings .offerings-title :is(h1, h2, h3) {
+  font-size: inherit;
+}
+
+.offerings .offerings-sub {
+  margin-top: 20px;
+  color: var(--brown);
+  font-weight: 500;
+  text-align: center;
+}
+
+.offerings .offerings-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 32px;
+  margin-top: 48px;
+}
+
+.offerings .offerings-list li {
+  display: flex;
+  justify-content: center;
+  width: calc((100% - 64px) / 3);
+}
+
+.offerings .offerings-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--brown);
+  font-family: var(--serif);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.offerings .offerings-img {
+  position: relative;
+  display: flex;
+  width: 216px;
+  height: 216px;
+  border-radius: 50%;
+  background: var(--sand);
+}
+
+.offerings .offerings-img img {
+  position: absolute;
+  inset: 0;
+  width: auto;
+  height: auto;
+  max-width: 216px;
+  max-height: 186px;
+  margin: auto;
+}
+
+.offerings .offerings-name {
+  margin-top: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+@media (width <= 1023px) {
+  .offerings .offerings-inner {
+    padding: 32px 16px;
+  }
+
+  .offerings .offerings-title {
+    font-size: 24px;
+  }
+
+  .offerings .offerings-sub {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+
+  .offerings .offerings-list {
+    justify-content: center;
+    gap: 32px 10px;
+    margin-top: 24px;
+  }
+
+  .offerings .offerings-list li {
+    width: 174px;
+  }
+
+  .offerings .offerings-img {
+    width: 174px;
+    height: 174px;
+  }
+
+  .offerings .offerings-img img {
+    width: 156px;
+    max-width: 156px;
+    max-height: none;
+  }
+
+  .offerings .offerings-name {
+    margin-top: 16px;
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-22T07:44:45.800Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-22T09:30:31.903Z",
+  "blocks": [
+    {
+      "id": "carousel",
+      "label": "carousel",
+      "kind": "module",
+      "signature": "module:carousel",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "community",
+      "label": "community",
+      "kind": "module",
+      "signature": "module:community",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "community",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "follow",
+      "label": "follow",
+      "kind": "module",
+      "signature": "module:follow",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "follow",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "footer",
+      "label": "footer",
+      "kind": "chrome",
+      "signature": "chrome:footer",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "footer",
+        "blockPath": "fragments/footer.html",
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "header",
+      "label": "header",
+      "kind": "chrome",
+      "signature": "chrome:header",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "header",
+        "blockPath": "fragments/header.html",
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero",
+      "label": "hero",
+      "kind": "module",
+      "signature": "module:hero",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "offerings",
+      "label": "offerings",
+      "kind": "module",
+      "signature": "module:offerings",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "offerings",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "popular",
+      "label": "popular",
+      "kind": "module",
+      "signature": "module:popular",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "popular",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "recipes",
+      "label": "recipes",
+      "kind": "module",
+      "signature": "module:recipes",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "recipes",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "split",
+      "label": "split",
+      "kind": "module",
+      "signature": "module:split",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "split",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "video-teaser",
+      "label": "video-teaser",
+      "kind": "module",
+      "signature": "module:video-teaser",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "widget",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "vision",
+      "label": "vision",
+      "kind": "module",
+      "signature": "module:vision",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "vision",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

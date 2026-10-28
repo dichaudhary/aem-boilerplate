@@ -1,0 +1,773 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-10-22T07:04:14.906Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://aashirvaad.com/"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://aashirvaad.com/",
+   "status": 200,
+   "host": "aashirvaad.com",
+   "title": "Aashirvaad - Bringing Nutrition & Taste to you since 2002",
+   "forms": [
+    {
+     "name": "cmp-search__form",
+     "action": "https://aashirvaad.com/content/itc-foods-brands/aashirvaad/us/en.customsearchresults.json/_jcr_content/root/search",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:fulltext"
+     ],
+     "hidden": [
+      "searchroot"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.youtube.com/embed/sbUQyvhgsGg?si=xeqVJZRVM8KDSc5d?rel=0&enablejsapi=1",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://www.youtube.com/embed/iFqqEJH4Mnw?autoplay=0&controls=1&showinfo=0&modestbranding=1&fs=1&cc_load_policy=0&iv_load_policy=3&autohide=0&rel=0&enablejsapi=1&origin=https%3A%2F%2Faashirvaad.com&wi",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.youtube.com/embed/sbUQyvhgsGg?si=xeqVJZRVM8KDSc5d?rel=0&enablejsapi=1",
+     "title": "Mini Farmhouse Pizzas made from Aashirvaad Atta | Aashirvaad Atta Recipe",
+     "w": 1195,
+     "h": 340
+    },
+    {
+     "src": "https://www.youtube.com/embed/iFqqEJH4Mnw?autoplay=0&controls=1&showinfo=0&modestbranding=1&fs=1&cc_load_policy=0&iv_load_policy=3&autohide=0&rel=0&enablejsapi=1&origin=https%3A%2F%2Faashirvaad.com&widgetid=2&forigin=https%3A%2F%2Faashirvaad.com%2F&aoriginsup=1&vf=6",
+     "title": "Aashirvaad Quality Certificate | Likh Ke Le Lo",
+     "w": 702,
+     "h": 316
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "push",
+     "meta"
+    ],
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "version",
+     "push",
+     "getState",
+     "addEventListener",
+     "removeEventListener"
+    ],
+    "CQ": [
+     "CoreComponents"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "_satellite",
+    "google_tag_manager",
+    "gtag",
+    "YT"
+   ],
+   "clientRendered": [
+    {
+     "cls": "cmp-container",
+     "attrs": [
+      "data-component=container"
+     ],
+     "text": "Our Products Atta Shudh Chakki Atta Superior MP Atta Multigr"
+    },
+    {
+     "cls": "cmp-container",
+     "attrs": [
+      "data-component=container"
+     ],
+     "text": "Previous The Aashirvaad Promise Hand-picked ingredients, car"
+    },
+    {
+     "cls": "cmp-container",
+     "attrs": [
+      "data-component=container"
+     ],
+     "text": "Previous The Aashirvaad Promise Hand-picked ingredients, car"
+    },
+    {
+     "cls": "cmp-carousel",
+     "attrs": [
+      "data-component=carousel"
+     ],
+     "text": "Previous The Aashirvaad Promise Hand-picked ingredients, car"
+    },
+    {
+     "cls": "cmp-banner",
+     "attrs": [
+      "data-component=banner"
+     ],
+     "text": "The Aashirvaad Promise Hand-picked ingredients, careful proc"
+    },
+    {
+     "cls": "cmp-banner",
+     "attrs": [
+      "data-component=banner"
+     ],
+     "text": "Experience Organic Experience our organic range, exceptional"
+    },
+    {
+     "cls": "cmp-banner",
+     "attrs": [
+      "data-component=banner"
+     ],
+     "text": "Quality on the Go Indulge in our Instant Meals, combining co"
+    },
+    {
+     "cls": "cmp-banner",
+     "attrs": [
+      "data-component=banner"
+     ],
+     "text": "Aashirvaad Pink Salt Himalayan Pink Salt, no added colors or"
+    },
+    {
+     "cls": "cmp-container",
+     "attrs": [
+      "data-component=container"
+     ],
+     "text": "Aashirvaad offeringsSelect your preferred option from our wi"
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-component=product-category-listing",
+      "data-endpoint=/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/"
+     ],
+     "text": "Aashirvaad offeringsSelect your preferred option from our wi"
+    },
+    {
+     "cls": "cmp-container",
+     "attrs": [
+      "data-component=container"
+     ],
+     "text": "Cook delicious recipes with usExplore your favourite recipe "
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-component=recipe-group",
+      "data-endpoint=/content/itc-foods-brands/aashirvaad/us/en.cardsinfo.json/jc"
+     ],
+     "text": "Cook delicious recipes with usExplore your favourite recipe "
+    }
+   ],
+   "listingCandidates": [],
+   "inlineScripts": 6,
+   "inlineFetch": false,
+   "mainText": 4157,
+   "domAddedAfterLoad": 11,
+   "hosts": {
+    "aashirvaad.com": 34,
+    "fonts.googleapis.com": 2,
+    "s7ap1.scene7.com": 25,
+    "assets.adobedtm.com": 1,
+    "www.youtube.com": 27,
+    "fonts.gstatic.com": 8,
+    "static.doubleclick.net": 3,
+    "googleads.g.doubleclick.net": 4,
+    "connect.facebook.net": 2,
+    "adobedc.demdex.net": 1,
+    "www.google.com": 5,
+    "cm.g.doubleclick.net": 2,
+    "i.ytimg.com": 3,
+    "yt3.ggpht.com": 2,
+    "www.gstatic.com": 2,
+    "dpm.demdex.net": 1,
+    "itclimited.sc.omtrdc.net": 5,
+    "www.googletagmanager.com": 3,
+    "jnn-pa.googleapis.com": 3,
+    "www.google-analytics.com": 1,
+    "analytics.google.com": 2,
+    "stats.g.doubleclick.net": 1,
+    "ad.doubleclick.net": 1
+   },
+   "thirdPartyHosts": [
+    "fonts.googleapis.com",
+    "s7ap1.scene7.com",
+    "assets.adobedtm.com",
+    "www.youtube.com",
+    "fonts.gstatic.com",
+    "static.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "connect.facebook.net",
+    "adobedc.demdex.net",
+    "www.google.com",
+    "cm.g.doubleclick.net",
+    "i.ytimg.com",
+    "yt3.ggpht.com",
+    "www.gstatic.com",
+    "dpm.demdex.net",
+    "itclimited.sc.omtrdc.net",
+    "www.googletagmanager.com",
+    "jnn-pa.googleapis.com",
+    "www.google-analytics.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "ad.doubleclick.net"
+   ],
+   "scripts": [
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-dependencies-aashirvaad.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.js",
+    "https://aashirvaad.com/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js",
+    "https://aashirvaad.com/etc.clientlibs/core/wcm/components/tabs/v1/tabs/clientlibs/site.lc-c53b992b35f5ca98e25330a02d295299-lc.min.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-family-comedy/components/content/tabs-new/clientlibs/site.lc-d4879c10895df177b4a4e333c1d53e2c-lc.min.js",
+    "https://aashirvaad.com/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad.lc-b26fcc2c171780d23188e815480cba19-lc.min.js",
+    "https://assets.adobedtm.com/28fd456592e1/474b779db7d1/launch-0a4e2b76f43e.min.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/clientlib-dynamic-modules/2081-da66be4a8aa1d49a451a.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/clientlib-dynamic-modules/2833-9cff8a42abc0fe1ff6bc.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/clientlib-dynamic-modules/5697-8d291bf043f33dede569.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/clientlib-dynamic-modules/9329-78420f5ed446228478b0.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/clientlib-dynamic-modules/6881-8747523e874ad5273500.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/clientlib-dynamic-modules/1181-adc1c838edf3fb238d9b.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/clientlib-dynamic-modules/312-d52b9d5e2719a141c1ea.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/clientlib-dynamic-modules/4125-092f127227a8e706845b.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/clientlib-dynamic-modules/8312-323ad72b3d084b7b36ab.js",
+    "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.G1i7lhrY9TI.2021.O/am=AAAAIIAx/d=1/excm=base,root/br=1/rs=AGKMywGNbL4aPv7Lrzl2U68MhUI-uC5e7w/m=root,base",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/clientlib-dynamic-modules/466-fd432098dad22cb190d1.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/clientlib-dynamic-modules/4047-cd4dcd967900143aff72.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/clientlib-dynamic-modules/9489-ca1263d603778d6c1691.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/clientlib-dynamic-modules/4631-164a8871180ca63e1b8e.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/clientlib-dynamic-modules/7970-4593ddf727634e2d58e2.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/clientlib-dynamic-modules/7533-ede3922dd8f542ee8fb8.js",
+    "https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/clientlib-dynamic-modules/5338-e5ceb47226b5395f0464.js",
+    "https://www.youtube.com/iframe_api",
+    "https://www.youtube.com/s/player/55de7e60/player_embed_es6.vflset/en_US/base.js",
+    "https://static.doubleclick.net/instream/ad_status.js",
+    "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.G1i7lhrY9TI.2021.O/ck=ytembeds.base.h90xJgJuYyk.L.W.O/am=AAAAIIAx/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywEu92gM60ulIQesAYm3",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://www.youtube.com/s/player/55de7e60/www-widgetapi.vflset/www-widgetapi.js",
+    "https://www.google.com/js/th/KFcMYgiBT0siEMnRhg7quhHDfNBJOjoC4T82C7LUk58.js",
+    "https://connect.facebook.net/signals/config/936737250093673?v=2.9.427&r=stable&domain=aashirvaad.com&hme=766752a074f0cb0756dd3275a46fdecbcfe3de1ab8f573546734b619e44d384f&ex_m=118%2C241%2C171%2C27%2C82",
+    "https://www.googletagmanager.com/gtag/js?id=G-YNVEK2WX21",
+    "https://www.googletagmanager.com/gtag/js?id=DC-8835225",
+    "https://www.googletagmanager.com/gtag/js?id=DC-10001500&cx=c&gtm=4e6ak1",
+    "https://www.google.com/js/th/UuzLx1YTO8P6u56myU4pojdeJmdcBWAsOkQVPkq63qc.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "aashirvaad.com",
+     "path": "/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container_565442740/popularproducts.popularProductsInfo.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://aashirvaad.com/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container_565442740/popularproducts.popularProductsInfo.json"
+    },
+    {
+     "method": "GET",
+     "host": "aashirvaad.com",
+     "path": "/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container/footprint_copy.footprintsInfo.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://aashirvaad.com/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container/footprint_copy.footprintsInfo.json"
+    },
+    {
+     "method": "GET",
+     "host": "aashirvaad.com",
+     "path": "/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container_1966233443/productcategory.productCategoryInfo.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://aashirvaad.com/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container_1966233443/productcategory.productCategoryInfo.json"
+    },
+    {
+     "method": "GET",
+     "host": "aashirvaad.com",
+     "path": "/content/itc-foods-brands/aashirvaad/us/en.cardsinfo.json/jcr:content/root/container/container/container_2037180742_1851074617/dynamiccardsvertwo_c_642530669",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://aashirvaad.com/content/itc-foods-brands/aashirvaad/us/en.cardsinfo.json/jcr:content/root/container/container/container_2037180742_1851074617/dynamiccardsvertwo_c_642530669"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET googleads.g.doubleclick.net/pagead/id",
+    "POST adobedc.demdex.net/ee/v1/interact",
+    "GET www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+    "POST www.youtube.com/youtubei/v1/log_event",
+    "POST itclimited.sc.omtrdc.net/ee/or2/v1/interact",
+    "POST jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+    "POST www.google-analytics.com/g/collect",
+    "POST analytics.google.com/g/collect",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://adobedc.demdex.net/ee/v1/interact?configId=42ac297e-f227-4474-8d92-c1d244466db6&requestId=a8be1550-8abe-4581-ba86-be970118fb44",
+     "body": "{\"events\":[{\"xdm\":{\"eventType\":\"decisioning.propositionFetch\",\"web\":{\"webPageDetails\":{\"URL\":\"https://aashirvaad.com/\"},\"webReferrer\":{\"URL\":\"\"}},\"device\":{\"screenHeight\":900,\"screenWidth\":1440,\"screenOrientation\":\"landscape\"},\"environment\":{\"type\":\"browser\",\"browserDetails\":{\"viewportWidth\":1440,\"viewportHeight\":900}},\"placeContext\":{\"localTimezoneOffset\":0,\"localTime\":\"2026-10-22T07:04:15.513+00"
+    },
+    {
+     "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+     "body": "{\"context\":{\"client\":{\"hl\":\"en\",\"gl\":\"US\",\"clientName\":56,\"clientVersion\":\"2.20261020.08.00\",\"configInfo\":{\"appInstallData\":\"CO_q5tYGEMn2gBMQyvuAExD36NIcEJj-0hwQpI6BExDU8dIcEMGP0BwQ7fvSHBDeitMcEL22rgUQm-XSHBDcrdIcELjkzhwQ2vfOHBCHrM4cEOWKuCIQn8-AExDM364FEN68zhwQ8N7RHBCBzc4cEJmNsQUQ9quwBRC-hNEcENPa0hwQoYDTHBD82tIcEOfr0RwQrt7RHBCkqdEcEK7WzxwQ6fLSHBD8j9McEPG00BwQkO_SHBC9irAFEJ7QsAUQl6_SHBC8pNAcEKXj0hw"
+    },
+    {
+     "url": "https://itclimited.sc.omtrdc.net/ee/or2/v1/interact?configId=42ac297e-f227-4474-8d92-c1d244466db6&requestId=1a2330fe-f79a-4254-9eeb-873b2b6b53b7",
+     "body": "{\"events\":[{\"xdm\":{\"eventType\":\"web.webpagedetails.pageViews\",\"web\":{\"webPageDetails\":{\"URL\":\"https://aashirvaad.com/\",\"name\":\"aashirvaad:home\",\"server\":\"aashirvaad.com\",\"pageViews\":{\"value\":1},\"siteSection\":\"\"},\"webReferrer\":{\"URL\":\"\"}},\"device\":{\"screenHeight\":900,\"screenWidth\":1440,\"screenOrientation\":\"landscape\"},\"environment\":{\"type\":\"browser\",\"browserDetails\":{\"viewportWidth\":1440,\"viewportH"
+    },
+    {
+     "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+     "body": "[\"O43z0dpjhgX20SCx4KAo\",\"$V8g5yKxRAAa6LhPkmi7eO5pub0sa9--nAEABEArZ1LZmYiLnfgpUrxEGhixWij3uVwSf_sq5geNbM6LlInjJkABbYeMhNlw0rC9BwXKXbzXQP8U3zGfWD-PUngAAAJ3OAAAACPQBB-IAWa_RKKwuWM3PJcfwiFqkGHpqW5uJW4mSW3hfLn2b0WpzmdHB5TOj4ODGtYAz3lEvkYnzildhHgAo_lLWaoyNi_zzE3N8qG2AL-Gs8D7cn723QBV_WpIsjk32BQUvCRfxlZJ3vfz3xlH5gVsm5ajXCMjxk9JyJxTOAWAJVtZ252uw1daZJ6eKOgKayiQOjMosy8N6dIbDb-oJRoGjXOTvf2FwTQRbJy7buI7wlg3nEl"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-YNVEK2WX21&gtm=45je6ak1v9184606570za208zd9184606570xf1&_p=1792652655924&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1181123990&_eu=AAAAAGA&cid=925107507.1",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2C0VN4F88X&gtm=45je6ak1v9184606570za208zd9184606570xf1&_p=1792652655924&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=925107507.1792652656&frm=0&ngs=1&pscdl=noa",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=1&auid=374374181.1792652656&dt=Aashirvaad%20-%20Bringing%20Nutrition%20%26%20Taste%20to%20you%20since%202002&tid=DC-8835225&en=page_view&dl=https%3",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=374374181.1792652656&gtm=45fe6ak1v9190340753za208zd9190340753xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&auid=374374181.1792652656&dt=Aashirvaad%20-%20Bringing%20Nutrition%20%26%20Taste%20to%20you%20since%202002&tid=DC-10001500&en=page_view&dl=https%",
+     "body": ""
+    },
+    {
+     "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+     "body": "[\"O43z0dpjhgX20SCx4KAo\",\"$YP85_5tRAAa6LhPkmi7eBb63JwAFvVGnAEABEArZ1L88yh2O1pz8SOX2P6eCvtYx-hvqYPQRtyCzvgIuG3HtS9CZmv2TbTFBTeGRsXBb8oAEuAk1fzQJy3nvngAAAFLOAAAABfQBB-IAWyrnGac7kLAqlldVFMWh0CvNP0IfL7EhONQzfQxRm1rjwpTtmAEi4TudTTOzlc2so9dCNyJSLO5LNSWrGMBIQUwsKnrXgNEt8QBVD7e9ygHNVxbuSdck12fhMXoFBSROQIoWs-0Nh7zyJYIFMD8HewiaylbRcld_5rcBHD_1XVnggnDfIcfuOmN705dp1f5j5YUPsGR0Gv-OAHEzD1gMoqkmCj9Zq2YzunsyoJu23P"
+    },
+    {
+     "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+     "body": "{\"context\":{\"client\":{\"hl\":\"en\",\"gl\":\"US\",\"clientName\":56,\"clientVersion\":\"2.20261020.08.00\",\"configInfo\":{\"appInstallData\":\"CO_q5tYGEMn2gBMQyvuAExD36NIcEJj-0hwQpI6BExDV8dIcEMGP0BwQ7fvSHBDeitMcEL22rgUQm-XSHBDcrdIcELjkzhwQ2vfOHBCHrM4cEOWKuCIQn8-AExDM364FEN68zhwQ8N7RHBCBzc4cEJmNsQUQ9quwBRC-hNEcENPa0hwQoYDTHBD82tIcEOfr0RwQrt7RHBCkqdEcEK7WzxwQ6fLSHBD8j9McEPG00BwQkO_SHBC9irAFEJ7QsAUQl6_SHBC8pNAcEKXj0hw"
+    },
+    {
+     "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+     "body": "{\"context\":{\"client\":{\"hl\":\"en\",\"gl\":\"US\",\"clientName\":56,\"clientVersion\":\"2.20261020.08.00\",\"configInfo\":{\"appInstallData\":\"CO_q5tYGEMn2gBMQyvuAExD36NIcEJj-0hwQpI6BExDU8dIcEMGP0BwQ7fvSHBDeitMcEL22rgUQm-XSHBDcrdIcELjkzhwQ2vfOHBCHrM4cEOWKuCIQn8-AExDM364FEN68zhwQ8N7RHBCBzc4cEJmNsQUQ9quwBRC-hNEcENPa0hwQoYDTHBD82tIcEOfr0RwQrt7RHBCkqdEcEK7WzxwQ6fLSHBD8j9McEPG00BwQkO_SHBC9irAFEJ7QsAUQl6_SHBC8pNAcEKXj0hw"
+    }
+   ],
+   "textAtLoad": 1583,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-www-gstatic-com",
+   "class": "A",
+   "feature": "unknown third-party host www.gstatic.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.gstatic.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-jnn-pa-googleapis-com",
+   "class": "A",
+   "feature": "unknown third-party host jnn-pa.googleapis.com",
+   "hint": "inspect",
+   "evidence": [
+    "jnn-pa.googleapis.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-content-itc-foods-brands-aashirvaad-us",
+   "class": "A",
+   "feature": "first-party API GET /content/itc-foods-brands/aashirvaad/us/en.cardsinfo.json/jcr:content/root/container/container/container_2037180742_1851074617/dynamiccardsvertwo_c_642530669",
+   "api": {
+    "method": "GET",
+    "path": "/content/itc-foods-brands/aashirvaad/us/en.cardsinfo.json/jcr:content/root/container/container/container_2037180742_1851074617/dynamiccardsvertwo_c_642530669"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /content/itc-foods-brands/aashirvaad/us/en.cardsinfo.json/jcr:content/root/container/container/container_2037180742_1851074617/dynamiccardsvertwo_c_642530669 → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-adobedatalayer",
+   "class": "A",
+   "feature": "CMS / app settings object adobeDataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-cq",
+   "class": "A",
+   "feature": "CMS / app settings object CQ",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-cmp-container",
+   "class": "CR",
+   "feature": "client-rendered slot cmp-container",
+   "hint": "client-rendered",
+   "evidence": [
+    "data-component=container"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-cmp-carousel",
+   "class": "CR",
+   "feature": "client-rendered slot cmp-carousel",
+   "hint": "client-rendered",
+   "evidence": [
+    "data-component=carousel"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-cmp-banner",
+   "class": "CR",
+   "feature": "client-rendered slot cmp-banner",
+   "hint": "client-rendered",
+   "evidence": [
+    "data-component=banner"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot",
+   "class": "CR",
+   "feature": "client-rendered slot ",
+   "hint": "client-rendered",
+   "evidence": [
+    "data-component=product-category-listing",
+    "data-endpoint=/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/",
+    "data-component=recipe-group",
+    "data-endpoint=/content/itc-foods-brands/aashirvaad/us/en.cardsinfo.json/jc"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "d-first-party-data-file-get-content-itc-foods-brands-aashirv",
+   "class": "D",
+   "feature": "first-party data file GET /content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container_565442740/popularproducts.popularProductsInfo.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container_565442740/popularproducts.popularProductsInfo.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container_565442740/popularproducts.popularProductsInfo.json → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-content-itc-foods-brands-aashirv",
+   "class": "D",
+   "feature": "first-party data file GET /content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container/footprint_copy.footprintsInfo.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container/footprint_copy.footprintsInfo.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container/footprint_copy.footprintsInfo.json → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-content-itc-foods-brands-aashirv",
+   "class": "D",
+   "feature": "first-party data file GET /content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container_1966233443/productcategory.productCategoryInfo.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container_1966233443/productcategory.productCategoryInfo.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container_1966233443/productcategory.productCategoryInfo.json → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "s-site-search-form-content-itc-foods-brands-aashirvaad-us-en",
+   "class": "S",
+   "feature": "site search form → /content/itc-foods-brands/aashirvaad/us/en.customsearchresults.json/_jcr_content/root/search",
+   "hint": "search",
+   "evidence": [
+    "text:fulltext"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 0,
+    "of": 1
+   }
+  },
+  {
+   "id": "t-unknown-third-party-host-s7ap1-scene7-com",
+   "class": "T",
+   "feature": "unknown third-party host s7ap1.scene7.com",
+   "hint": "inspect",
+   "evidence": [
+    "s7ap1.scene7.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "role": "tag manager: Adobe Launch",
+   "hint": "tags",
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "static.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "connect.facebook.net",
+    "cm.g.doubleclick.net",
+    "stats.g.doubleclick.net",
+    "ad.doubleclick.net"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "role": "analytics: Adobe Analytics / Experience Cloud ID",
+   "hint": "tags",
+   "evidence": [
+    "adobedc.demdex.net",
+    "dpm.demdex.net",
+    "itclimited.sc.omtrdc.net"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-yt3-ggpht-com",
+   "class": "T",
+   "feature": "unknown third-party host yt3.ggpht.com",
+   "hint": "inspect",
+   "evidence": [
+    "yt3.ggpht.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "www.google-analytics.com",
+    "analytics.google.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "v-video-youtube",
+   "class": "V",
+   "feature": "video: YouTube",
+   "role": "video: YouTube",
+   "hint": "media",
+   "evidence": [
+    "www.youtube.com",
+    "i.ytimg.com",
+    "https://www.youtube.com/embed/sbUQyvhgsGg?si=xeqVJZRVM8KDSc5d?rel=0&enablejsapi=1",
+    "https://www.youtube.com/embed/iFqqEJH4Mnw?autoplay=0&controls=1&showinfo=0&modestbranding=1&fs=1&cc_load_policy=0&iv_load_policy=3&autohide=0&rel=0&enablejsapi=1&origin=https%3A%2F%2Faashirvaad.com&wi"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "0×0"
+   ],
+   "pages": [
+    "/"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 1,
+  "of": 1,
+  "endpoints": {
+   "GET googleads.g.doubleclick.net/pagead/id": 1,
+   "POST adobedc.demdex.net/ee/v1/interact": 1,
+   "GET www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg": 1,
+   "POST jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT": 1,
+   "POST itclimited.sc.omtrdc.net/ee/or2/v1/interact": 1,
+   "GET aashirvaad.com/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container_1966233443/productcategory.productCategoryInfo.json": 1,
+   "GET aashirvaad.com/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container_565442740/popularproducts.popularProductsInfo.json": 1,
+   "GET aashirvaad.com/content/itc-foods-brands/aashirvaad/us/en/jcr:content/root/container/container/container/footprint_copy.footprintsInfo.json": 1,
+   "POST analytics.google.com/g/collect": 1,
+   "POST www.google-analytics.com/g/collect": 1,
+   "GET aashirvaad.com/content/itc-foods-brands/aashirvaad/us/en.cardsinfo.json/jcr:content/root/container/container/container_2037180742_1851074617/dynamiccardsvertwo_c_642530669": 1,
+   "POST ad.doubleclick.net/ccm/s/collect": 1,
+   "POST www.google.com/ccm/collect": 1,
+   "POST www.youtube.com/youtubei/v1/log_event": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 0,
+  "triggerPages": {}
+ }
+}

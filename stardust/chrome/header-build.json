@@ -1,0 +1,2037 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--683f0604--aemcoder.aem.live/",
+ "at": "2026-10-22T09:11:52.077Z",
+ "shots": "stardust/.work/chrome/header-build",
+ "widths": {
+  "390": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Menu",
+     "key": "menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>header>div>div>div:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      34,
+      28,
+      13,
+      19
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Our Products",
+          "href": "https://aashirvaad.com/our-products.html"
+         },
+         {
+          "text": "Our Story",
+          "href": "https://aashirvaad.com/our-story.html"
+         },
+         {
+          "text": "Recipe",
+          "href": "https://aashirvaad.com/recipe-listing.html"
+         },
+         {
+          "text": "Blogs",
+          "href": "https://aashirvaad.com/blogs.html"
+         },
+         {
+          "text": "CSR Initiatives",
+          "href": "https://aashirvaad.com/csr-initiatives.html"
+         },
+         {
+          "text": "FAQs",
+          "href": "https://aashirvaad.com/faqs.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         68,
+         390,
+         270
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-001-Menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Our Products",
+          "href": "https://aashirvaad.com/our-products.html"
+         },
+         {
+          "text": "Our Story",
+          "href": "https://aashirvaad.com/our-story.html"
+         },
+         {
+          "text": "Recipe",
+          "href": "https://aashirvaad.com/recipe-listing.html"
+         },
+         {
+          "text": "Blogs",
+          "href": "https://aashirvaad.com/blogs.html"
+         },
+         {
+          "text": "CSR Initiatives",
+          "href": "https://aashirvaad.com/csr-initiatives.html"
+         },
+         {
+          "text": "FAQs",
+          "href": "https://aashirvaad.com/faqs.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         68,
+         390,
+         270
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-002-Menu-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": false,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Our Products",
+       "key": "our products",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>ul>li:nth-of-type(1)>p>a",
+       "expanded": "false",
+       "rect": [
+        32,
+        86,
+        113,
+        20
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "navigates": "https://aashirvaad.com/our-products.html"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://aashirvaad.com/our-products.html"
+        }
+       }
+      },
+      {
+       "name": "CSR Initiatives",
+       "key": "csr initiatives",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#nav>ul>li:nth-of-type(5)>p>a",
+       "expanded": "false",
+       "rect": [
+        32,
+        250,
+        124,
+        20
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "navigates": "https://aashirvaad.com/csr-initiatives.html"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://aashirvaad.com/csr-initiatives.html"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(1)>a",
+     "href": "https://main--683f0604--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      80,
+      17,
+      101,
+      35
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>header>div>div>div:nth-of-type(1)>div>p>a",
+     "expanded": "false",
+     "rect": [
+      356,
+      22,
+      24,
+      24
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Clear"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         390,
+         76
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-003-Search-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Clear"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         390,
+         76
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-004-Search-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "input",
+       "kind": "search",
+       "sel": "#header-search-panel>div>form>div>input",
+       "expanded": "false",
+       "rect": [
+        85,
+        17,
+        248,
+        35
+       ],
+       "actions": {},
+       "search": {
+        "probe": "products",
+        "typeahead": {
+         "links": 8,
+         "options": 8
+        },
+        "submit": null
+       }
+      },
+      {
+       "name": "Clear",
+       "key": "clear",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#header-search-panel>div>form>div>button",
+       "expanded": null,
+       "rect": [
+        24,
+        25,
+        37,
+        20
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 2
+        },
+        "key": {
+         "opened": false,
+         "hides": 2
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 68,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 68,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 68,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 68,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 4,
+   "truncated": null,
+   "loads": 8
+  },
+  "1440": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div:nth-of-type(1)>a",
+     "href": "https://main--683f0604--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      113,
+      18,
+      125,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Our Products",
+     "key": "our products",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>ul>li:nth-of-type(1)>p>a",
+     "expanded": "false",
+     "rect": [
+      278,
+      28,
+      113,
+      20
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Atta",
+          "href": "https://aashirvaad.com/our-products/atta.html"
+         },
+         {
+          "text": "Salt",
+          "href": "https://aashirvaad.com/our-products/salt.html"
+         },
+         {
+          "text": "Organic",
+          "href": "https://aashirvaad.com/our-products/organic.html"
+         },
+         {
+          "text": "Besan",
+          "href": "https://aashirvaad.com/our-products/besan.html"
+         },
+         {
+          "text": "Millets",
+          "href": "https://aashirvaad.com/our-products/millets.html"
+         },
+         {
+          "text": "Vermicelli",
+          "href": "https://aashirvaad.com/our-products/vermicelli.html"
+         },
+         {
+          "text": "Rava",
+          "href": "https://aashirvaad.com/our-products/rava.html"
+         },
+         {
+          "text": "Naans and Parathas",
+          "href": "https://aashirvaad.com/our-products/frozen-naans-parathas.html"
+         },
+         {
+          "text": "Chapati",
+          "href": "https://aashirvaad.com/our-products/ready-to-cook-chapati.html"
+         },
+         {
+          "text": "Ghee",
+          "href": "https://aashirvaad.com/our-products/ghee.html"
+         },
+         {
+          "text": "Instant Mixes",
+          "href": "https://aashirvaad.com/our-products/instant-mixes.html"
+         },
+         {
+          "text": "Instant Meals",
+          "href": "https://aashirvaad.com/our-products/instant-meals.html"
+         },
+         {
+          "text": "Basic Spices",
+          "href": "https://aashirvaad.com/our-products/basic-spices.htm.html"
+         },
+         {
+          "text": "Blended Spices",
+          "href": "https://aashirvaad.com/our-products/blended-spices.html"
+         },
+         {
+          "text": "Whole Spices",
+          "href": "https://aashirvaad.com/our-products/whole-spices.html"
+         },
+         {
+          "text": "Plant Protein",
+          "href": "https://aashirvaad.com/our-products/plant-protein.html"
+         },
+         {
+          "text": "Chutneys",
+          "href": "https://aashirvaad.com/header-pages/our-products/chutneys.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         243,
+         66,
+         392,
+         835
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-001-Our-Products-hover.png"
+      },
+      "click": {
+       "opened": false,
+       "navigates": "https://aashirvaad.com/our-products.html"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Atta",
+          "href": "https://aashirvaad.com/our-products/atta.html"
+         },
+         {
+          "text": "Salt",
+          "href": "https://aashirvaad.com/our-products/salt.html"
+         },
+         {
+          "text": "Organic",
+          "href": "https://aashirvaad.com/our-products/organic.html"
+         },
+         {
+          "text": "Besan",
+          "href": "https://aashirvaad.com/our-products/besan.html"
+         },
+         {
+          "text": "Millets",
+          "href": "https://aashirvaad.com/our-products/millets.html"
+         },
+         {
+          "text": "Vermicelli",
+          "href": "https://aashirvaad.com/our-products/vermicelli.html"
+         },
+         {
+          "text": "Rava",
+          "href": "https://aashirvaad.com/our-products/rava.html"
+         },
+         {
+          "text": "Naans and Parathas",
+          "href": "https://aashirvaad.com/our-products/frozen-naans-parathas.html"
+         },
+         {
+          "text": "Chapati",
+          "href": "https://aashirvaad.com/our-products/ready-to-cook-chapati.html"
+         },
+         {
+          "text": "Ghee",
+          "href": "https://aashirvaad.com/our-products/ghee.html"
+         },
+         {
+          "text": "Instant Mixes",
+          "href": "https://aashirvaad.com/our-products/instant-mixes.html"
+         },
+         {
+          "text": "Instant Meals",
+          "href": "https://aashirvaad.com/our-products/instant-meals.html"
+         },
+         {
+          "text": "Basic Spices",
+          "href": "https://aashirvaad.com/our-products/basic-spices.htm.html"
+         },
+         {
+          "text": "Blended Spices",
+          "href": "https://aashirvaad.com/our-products/blended-spices.html"
+         },
+         {
+          "text": "Whole Spices",
+          "href": "https://aashirvaad.com/our-products/whole-spices.html"
+         },
+         {
+          "text": "Plant Protein",
+          "href": "https://aashirvaad.com/our-products/plant-protein.html"
+         },
+         {
+          "text": "Chutneys",
+          "href": "https://aashirvaad.com/header-pages/our-products/chutneys.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         243,
+         66,
+         392,
+         835
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-002-Our-Products-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": [
+      {
+       "name": "Atta",
+       "key": "atta",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(1)>p>a",
+       "href": "https://aashirvaad.com/our-products/atta.html",
+       "expanded": null,
+       "rect": [
+        283,
+        106,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Shudh Chakki Atta",
+            "href": "https://aashirvaad.com/our-products/atta/shudh-chakki-atta.html"
+           },
+           {
+            "text": "Superior MP Atta",
+            "href": "https://aashirvaad.com/our-products/atta/superior-mp-atta.html"
+           },
+           {
+            "text": "Multigrain Atta",
+            "href": "https://aashirvaad.com/our-products/atta/multigrain-atta.html"
+           },
+           {
+            "text": "Organic Atta",
+            "href": "https://aashirvaad.com/our-products/atta/organic-atta.html"
+           },
+           {
+            "text": "Atta with Millets",
+            "href": "https://aashirvaad.com/our-products/millets/atta-with-millets.html"
+           },
+           {
+            "text": "M.P. Chakki Atta",
+            "href": "https://aashirvaad.com/our-products/atta/mp-chakki-atta.html"
+           },
+           {
+            "text": "Sugar Release Control Atta",
+            "href": "https://aashirvaad.com/our-products/atta/sugar-release-control-atta.html"
+           },
+           {
+            "text": "Fortified Chakki Atta",
+            "href": "https://aashirvaad.com/our-products/atta/fortified-chakki-atta.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           508
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-003-Atta-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      },
+      {
+       "name": "Salt",
+       "key": "salt",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(2)>p>a",
+       "href": "https://aashirvaad.com/our-products/salt.html",
+       "expanded": null,
+       "rect": [
+        283,
+        166,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Iodized Salt",
+            "href": "https://aashirvaad.com/our-products/salt/iodized-salt.html"
+           },
+           {
+            "text": "Salt Active",
+            "href": "https://aashirvaad.com/our-products/salt/salt-active.html"
+           },
+           {
+            "text": "Himalayan Pink Salt",
+            "href": "https://aashirvaad.com/our-products/salt/himalayan-pink-salt.html"
+           },
+           {
+            "text": "Iodized Crystal Salt",
+            "href": "https://aashirvaad.com/our-products/salt/iodized-crystal-salt.html"
+           },
+           {
+            "text": "Iodized Salt Offer",
+            "href": "https://aashirvaad.com/our-products/salt/iodized-saltoffer.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           490
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-004-Salt-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      },
+      {
+       "name": "Organic",
+       "key": "organic",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(3)>p>a",
+       "href": "https://aashirvaad.com/our-products/organic.html",
+       "expanded": null,
+       "rect": [
+        283,
+        226,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Organic Atta",
+            "href": "https://aashirvaad.com/our-products/organic/organic-atta.html"
+           },
+           {
+            "text": "Organic Chana Dal",
+            "href": "https://aashirvaad.com/our-products/organic/organic-chana-dal.html"
+           },
+           {
+            "text": "Organic Tur Dal",
+            "href": "https://aashirvaad.com/our-products/organic/organic-tur-dal.html"
+           },
+           {
+            "text": "Organic Moong Dal",
+            "href": "https://aashirvaad.com/our-products/organic/organic-moong-dal.html"
+           },
+           {
+            "text": "Organic Urad Dal",
+            "href": "https://aashirvaad.com/our-products/organic/organic-urad-dal.html"
+           },
+           {
+            "text": "Organic Masoor Dal",
+            "href": "https://aashirvaad.com/our-products/organic/organic-masoor-dal.html"
+           },
+           {
+            "text": "Organic Urad Dal Whole",
+            "href": "https://aashirvaad.com/our-products/organic/organic-urad-dal-whole.html"
+           },
+           {
+            "text": "Organic Rajma",
+            "href": "https://aashirvaad.com/our-products/organic/organic-rajma.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           508
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-005-Organic-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      },
+      {
+       "name": "Besan",
+       "key": "besan",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(4)>p>a",
+       "href": "https://aashirvaad.com/our-products/besan.html",
+       "expanded": null,
+       "rect": [
+        283,
+        286,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Besan",
+            "href": "https://aashirvaad.com/our-products/besan/besan.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           490
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-006-Besan-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      },
+      {
+       "name": "Millets",
+       "key": "millets",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(5)>p>a",
+       "href": "https://aashirvaad.com/our-products/millets.html",
+       "expanded": null,
+       "rect": [
+        283,
+        346,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Atta with Millets",
+            "href": "https://aashirvaad.com/our-products/millets/atta-with-millets.html"
+           },
+           {
+            "text": "Millets Batter mix",
+            "href": "https://aashirvaad.com/our-products/millets/batter-mix.html"
+           },
+           {
+            "text": "Multi Millet Mix",
+            "href": "https://aashirvaad.com/our-products/millets/multi-millet-flour.html"
+           },
+           {
+            "text": "Ragi Flour",
+            "href": "https://aashirvaad.com/our-products/millets/ragi-flour.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           490
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-007-Millets-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      },
+      {
+       "name": "Vermicelli",
+       "key": "vermicelli",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(6)>p>a",
+       "href": "https://aashirvaad.com/our-products/vermicelli.html",
+       "expanded": null,
+       "rect": [
+        283,
+        406,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Vermicelli",
+            "href": "https://aashirvaad.com/our-products/vermicelli/vermicelli.html"
+           },
+           {
+            "text": "Roasted Vermicelli",
+            "href": "https://aashirvaad.com/our-products/vermicelli/roasted-vermicelli.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           490
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-008-Vermicelli-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      },
+      {
+       "name": "Rava",
+       "key": "rava",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(7)>p>a",
+       "href": "https://aashirvaad.com/our-products/rava.html",
+       "expanded": null,
+       "rect": [
+        283,
+        466,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Bansi Rava",
+            "href": "https://aashirvaad.com/our-products/rava/bansi-rava.html"
+           },
+           {
+            "text": "Double Roasted Suji Rava",
+            "href": "https://aashirvaad.com/our-products/rava/double-roasted-suji-rava.html"
+           },
+           {
+            "text": "Samba Broken Wheat",
+            "href": "https://aashirvaad.com/our-products/rava/samba-broken-wheat.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           490
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-009-Rava-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      },
+      {
+       "name": "Naans and Parathas",
+       "key": "naans and parathas",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(8)>p>a",
+       "href": "https://aashirvaad.com/our-products/frozen-naans-parathas.html",
+       "expanded": null,
+       "rect": [
+        283,
+        526,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Garlic and Coriander Naan",
+            "href": "https://aashirvaad.com/our-products/frozen-naans-parathas/garlic-and-coriander-naan.html"
+           },
+           {
+            "text": "Malabar Paratha",
+            "href": "https://aashirvaad.com/our-products/frozen-naans-parathas/malabar-paratha.html"
+           },
+           {
+            "text": "Aloo Paratha",
+            "href": "https://aashirvaad.com/our-products/frozen-naans-parathas/aloo-paratha.html"
+           },
+           {
+            "text": "Paneer Paratha",
+            "href": "https://aashirvaad.com/our-products/frozen-naans-parathas/paneer-paratha.html"
+           },
+           {
+            "text": "Tandoori Naan",
+            "href": "https://aashirvaad.com/our-products/frozen-naans-parathas/tandoori-naan.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           490
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-010-Naans-and-Parathas-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      },
+      {
+       "name": "Chapati",
+       "key": "chapati",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(9)>p>a",
+       "href": "https://aashirvaad.com/our-products/ready-to-cook-chapati.html",
+       "expanded": null,
+       "rect": [
+        283,
+        586,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Ready To Cook Chapatis",
+            "href": "https://aashirvaad.com/our-products/ready-to-cook-chapati/rtc-chapati.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           490
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-011-Chapati-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      },
+      {
+       "name": "Ghee",
+       "key": "ghee",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(10)>p>a",
+       "href": "https://aashirvaad.com/our-products/ghee.html",
+       "expanded": null,
+       "rect": [
+        283,
+        646,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Svasti Ghee",
+            "href": "https://aashirvaad.com/our-products/ghee/svasti-ghee.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           490
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-012-Ghee-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      },
+      {
+       "name": "Instant Mixes",
+       "key": "instant mixes",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(11)>p>a",
+       "href": "https://aashirvaad.com/our-products/instant-mixes.html",
+       "expanded": null,
+       "rect": [
+        283,
+        706,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 1,
+         "panel": {
+          "links": [
+           {
+            "text": "Gulab Jamun Instant Mix",
+            "href": "https://aashirvaad.com/our-products/instant-mixes/instant-gulab-jamun-mix.html"
+           },
+           {
+            "text": "Instant Rice Idli",
+            "href": "https://aashirvaad.com/our-products/instant-mixes/instant-rice-idli.html"
+           },
+           {
+            "text": "Instant Rava Idli",
+            "href": "https://aashirvaad.com/our-products/instant-mixes/instant-rava-idli.html"
+           },
+           {
+            "text": "Instant Rice Dosa",
+            "href": "https://aashirvaad.com/our-products/instant-mixes/instant-rice-dosa.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           490
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-013-Instant-Mixes-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      },
+      {
+       "name": "Instant Meals",
+       "key": "instant meals",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(12)>p>a",
+       "href": "https://aashirvaad.com/our-products/instant-meals.html",
+       "expanded": null,
+       "rect": [
+        283,
+        766,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 1,
+         "panel": {
+          "links": [
+           {
+            "text": "Instant Upma",
+            "href": "https://aashirvaad.com/our-products/instant-meals/instant-upma.html"
+           },
+           {
+            "text": "Instant Poha",
+            "href": "https://aashirvaad.com/our-products/instant-meals/instant-poha.html"
+           },
+           {
+            "text": "Instant Mini Idli Sambar",
+            "href": "https://aashirvaad.com/our-products/instant-meals/instant-mini-idli-sambar.html"
+           },
+           {
+            "text": "Instant Halwa",
+            "href": "https://aashirvaad.com/our-products/instant-meals/instant-halwa.html"
+           },
+           {
+            "text": "Dal Makhani",
+            "href": "https://aashirvaad.com/our-products/instant-meals/dal-makhani.html"
+           },
+           {
+            "text": "Paneer Butter Masala",
+            "href": "https://aashirvaad.com/our-products/instant-meals/paneer-butter-masala.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           490
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-014-Instant-Meals-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      },
+      {
+       "name": "Basic Spices",
+       "key": "basic spices",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(13)>p>a",
+       "href": "https://aashirvaad.com/our-products/basic-spices.htm.html",
+       "expanded": null,
+       "rect": [
+        283,
+        826,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 1,
+         "panel": {
+          "links": [
+           {
+            "text": "Chilli Powder",
+            "href": "https://aashirvaad.com/our-products/basic-spices/red-chilli-powder.html"
+           },
+           {
+            "text": "Guntur & Byadagi Chilli Powder",
+            "href": "https://aashirvaad.com/our-products/basic-spices/guntur-byadagi-chilli-powder.html"
+           },
+           {
+            "text": "Byadagi chilli powder",
+            "href": "https://aashirvaad.com/our-products/basic-spices/byadagi-chilli-powder.html"
+           },
+           {
+            "text": "Premium Chilli Powder",
+            "href": "https://aashirvaad.com/our-products/basic-spices/premium-chilli-powder.html"
+           },
+           {
+            "text": "Kashmiri Mirch Powder",
+            "href": "https://aashirvaad.com/our-products/basic-spices/kashmiri-chilli-powder.html"
+           },
+           {
+            "text": "Turmeric Powder",
+            "href": "https://aashirvaad.com/our-products/basic-spices/turmeric-powder.html"
+           },
+           {
+            "text": "Coriander Powder",
+            "href": "https://aashirvaad.com/our-products/basic-spices/coriander-powder.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           490
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-015-Basic-Spices-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      },
+      {
+       "name": "Blended Spices",
+       "key": "blended spices",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(14)>p>a",
+       "href": "https://aashirvaad.com/our-products/blended-spices.html",
+       "expanded": null,
+       "rect": [
+        283,
+        886,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 1,
+         "panel": {
+          "links": [
+           {
+            "text": "Masala Karam",
+            "href": "https://aashirvaad.com/our-products/blended-spices/masala-karam.html"
+           },
+           {
+            "text": "Sambar Powder",
+            "href": "https://aashirvaad.com/our-products/blended-spices/sambar-powder.html"
+           },
+           {
+            "text": "Kitchen King Masala",
+            "href": "https://aashirvaad.com/our-products/blended-spices/kitchen-king-masala.html"
+           },
+           {
+            "text": "Chaat Masala",
+            "href": "https://aashirvaad.com/our-products/blended-spices/chaat-masala.html"
+           },
+           {
+            "text": "Sabji Masala",
+            "href": "https://aashirvaad.com/our-products/blended-spices/sabji-masala.html"
+           },
+           {
+            "text": "Paneer Masala",
+            "href": "https://aashirvaad.com/our-products/blended-spices/paneer-masala.html"
+           },
+           {
+            "text": "Punjabi Chole Masala",
+            "href": "https://aashirvaad.com/our-products/blended-spices/punjabi-chole-masala.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           490
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-016-Blended-Spices-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      },
+      {
+       "name": "Whole Spices",
+       "key": "whole spices",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(15)>p>a",
+       "href": "https://aashirvaad.com/our-products/whole-spices.html",
+       "expanded": null,
+       "rect": [
+        283,
+        946,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 1,
+         "panel": {
+          "links": [
+           {
+            "text": "Jeera",
+            "href": "https://aashirvaad.com/our-products/whole-spices/jeera.html"
+           },
+           {
+            "text": "Cardamom",
+            "href": "https://aashirvaad.com/our-products/whole-spices/cardamom.html"
+           },
+           {
+            "text": "Mustard",
+            "href": "https://aashirvaad.com/our-products/whole-spices/mustard.html"
+           },
+           {
+            "text": "Poppy seeds",
+            "href": "https://aashirvaad.com/our-products/whole-spices/poppy-seeds.html"
+           },
+           {
+            "text": "Black Pepper",
+            "href": "https://aashirvaad.com/our-products/whole-spices/black-pepper.html"
+           },
+           {
+            "text": "Clove",
+            "href": "https://aashirvaad.com/our-products/whole-spices/clove.html"
+           },
+           {
+            "text": "Methi",
+            "href": "https://aashirvaad.com/our-products/whole-spices/methi.html"
+           },
+           {
+            "text": "Saunf",
+            "href": "https://aashirvaad.com/our-products/whole-spices/saunf.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           490
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-017-Whole-Spices-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      },
+      {
+       "name": "Plant Protein",
+       "key": "plant protein",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(16)>p>a",
+       "href": "https://aashirvaad.com/our-products/plant-protein.html",
+       "expanded": null,
+       "rect": [
+        283,
+        1006,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 1,
+         "panel": {
+          "links": [
+           {
+            "text": "Soya Chunks",
+            "href": "https://aashirvaad.com/our-products/plant-protein/soya-chunks.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           490
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-018-Plant-Protein-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      },
+      {
+       "name": "Chutneys",
+       "key": "chutneys",
+       "role": "link",
+       "kind": "link",
+       "sel": "#header-menu-1>ul>li:nth-of-type(17)>p>a",
+       "href": "https://aashirvaad.com/header-pages/our-products/chutneys.html",
+       "expanded": null,
+       "rect": [
+        283,
+        1066,
+        212,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 1,
+         "panel": {
+          "links": [
+           {
+            "text": "Chutneys",
+            "href": "https://aashirvaad.com/our-products/chutneys/chutneys.html"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           441,
+           106,
+           349,
+           490
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "1440-019-Chutneys-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "Our Story",
+     "key": "our story",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>ul>li:nth-of-type(2)>p>a",
+     "href": "https://aashirvaad.com/our-story.html",
+     "expanded": null,
+     "rect": [
+      423,
+      28,
+      84,
+      20
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Recipe",
+     "key": "recipe",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>ul>li:nth-of-type(3)>p>a",
+     "href": "https://aashirvaad.com/recipe-listing.html",
+     "expanded": null,
+     "rect": [
+      539,
+      28,
+      58,
+      20
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Blogs",
+     "key": "blogs",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>ul>li:nth-of-type(4)>p>a",
+     "href": "https://aashirvaad.com/blogs.html",
+     "expanded": null,
+     "rect": [
+      629,
+      28,
+      46,
+      20
+     ],
+     "actions": {}
+    },
+    {
+     "name": "CSR Initiatives",
+     "key": "csr initiatives",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>ul>li:nth-of-type(5)>p>a",
+     "expanded": "false",
+     "rect": [
+      707,
+      28,
+      124,
+      20
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "About Initiative",
+          "href": "https://aashirvaad.com/csr-initiatives/about-initiative.html"
+         },
+         {
+          "text": "Iodine Deficiency",
+          "href": "https://aashirvaad.com/csr-initiatives/iodine-deficiency.html"
+         },
+         {
+          "text": "School Contact Program",
+          "href": "https://aashirvaad.com/csr-initiatives/school-contact-program.html"
+         },
+         {
+          "text": "Community Contact Program",
+          "href": "https://aashirvaad.com/csr-initiatives/community-contact-program.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         672,
+         66,
+         392,
+         570
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-020-CSR-Initiatives-hover.png"
+      },
+      "click": {
+       "opened": false,
+       "navigates": "https://aashirvaad.com/csr-initiatives.html"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "About Initiative",
+          "href": "https://aashirvaad.com/csr-initiatives/about-initiative.html"
+         },
+         {
+          "text": "Iodine Deficiency",
+          "href": "https://aashirvaad.com/csr-initiatives/iodine-deficiency.html"
+         },
+         {
+          "text": "School Contact Program",
+          "href": "https://aashirvaad.com/csr-initiatives/school-contact-program.html"
+         },
+         {
+          "text": "Community Contact Program",
+          "href": "https://aashirvaad.com/csr-initiatives/community-contact-program.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         672,
+         66,
+         392,
+         570
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-021-CSR-Initiatives-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "FAQs",
+     "key": "faqs",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>ul>li:nth-of-type(6)>p>a",
+     "href": "https://aashirvaad.com/faqs.html",
+     "expanded": null,
+     "rect": [
+      863,
+      28,
+      45,
+      20
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>header>div>div>div:nth-of-type(1)>div>p>a",
+     "expanded": "false",
+     "rect": [
+      1292,
+      16,
+      35,
+      44
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Clear"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         75,
+         1440,
+         91
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-022-Search-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Clear"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         75,
+         1440,
+         91
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-023-Search-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "input",
+       "kind": "search",
+       "sel": "#header-search-panel>div>form>div>input",
+       "expanded": "false",
+       "rect": [
+        406,
+        99,
+        641,
+        42
+       ],
+       "actions": {},
+       "search": {
+        "probe": "products",
+        "typeahead": {
+         "links": 8,
+         "options": 8
+        },
+        "submit": null
+       }
+      },
+      {
+       "name": "Clear",
+       "key": "clear",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#header-search-panel>div>form>div>button",
+       "expanded": null,
+       "rect": [
+        345,
+        110,
+        37,
+        20
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 2
+        },
+        "key": {
+         "opened": false,
+         "hides": 2
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 76,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 76,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 76,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 76,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 23,
+   "truncated": null,
+   "loads": 7
+  }
+ },
+ "probe": "products"
+}
