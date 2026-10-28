@@ -1,0 +1,209 @@
+/* popular — values copied from stardust/prototypes/index.css (section.popular + carousel base) */
+main > .section > .popular-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.popular .popular-inner {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 64px var(--inset);
+}
+
+.popular .section-title :is(h1, h2, h3) {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* carousel base */
+.popular .carousel {
+  position: relative;
+  padding: 0 48px;
+}
+
+.popular .carousel-viewport {
+  position: relative;
+  overflow: hidden;
+}
+
+.popular .carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.popular .carousel-slide {
+  flex: none;
+  width: 100%;
+  padding: 0 16px;
+}
+
+.popular .carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--red);
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+}
+
+.popular .carousel-arrow::before {
+  content: '\e9a8';
+  display: block;
+  color: #fff;
+  font-family: var(--icon-font);
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.popular .carousel-arrow-prev {
+  left: 0;
+}
+
+.popular .carousel-arrow-prev::before {
+  transform: rotate(180deg);
+}
+
+.popular .carousel-arrow-next {
+  right: 0;
+}
+
+.popular .carousel-arrow:disabled {
+  background: rgb(218 0 28 / 30%);
+  cursor: default;
+}
+
+.popular .carousel-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  height: 24px;
+  margin-top: 38px;
+}
+
+.popular .carousel-dots button {
+  display: block;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  border: 2px solid var(--red);
+  border-radius: 50%;
+  background: transparent;
+  font-size: 0;
+}
+
+.popular .carousel-dots button[aria-current] {
+  width: 16px;
+  height: 16px;
+  border-width: 3px;
+  background: var(--red);
+}
+
+/* product */
+.popular .popular-item {
+  display: flex;
+  margin-top: 48px;
+}
+
+.popular .popular-image {
+  display: flex;
+  justify-content: center;
+  flex: 0 0 calc(50% - 10px);
+  background: url('./product-background.svg') 50% / contain no-repeat;
+}
+
+.popular .popular-image picture {
+  display: contents;
+}
+
+/* height comes from the img height attribute (clamped by max-height) like the prototype's
+   width/height attributes, so the box is reserved before the image loads */
+.popular .popular-image img {
+  width: auto;
+  max-width: 100%;
+  max-height: 394px;
+}
+
+.popular .popular-desc {
+  flex: 0 0 calc(50% - 10px);
+  margin-left: 20px;
+  padding-top: 38px;
+}
+
+.popular .popular-name {
+  max-width: 376px;
+  margin-bottom: 20px;
+  color: var(--brown);
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.popular .popular-details {
+  margin-bottom: 21px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+@media (width <= 1023px) {
+  .popular .carousel-arrow {
+    display: none;
+  }
+
+  .popular .popular-inner {
+    padding: 32px 16px;
+  }
+
+  .popular .carousel {
+    padding: 0;
+  }
+
+  .popular .carousel-slide {
+    padding: 0;
+  }
+
+  .popular .popular-item {
+    flex-direction: column;
+    margin-top: 24px;
+  }
+
+  .popular .popular-image {
+    flex: none;
+    height: 394px;
+  }
+
+  .popular .popular-image img {
+    height: auto;
+    max-width: 308px;
+    max-height: 394px;
+  }
+
+  .popular .popular-desc {
+    margin-left: 0;
+    padding-top: 24px;
+  }
+
+  .popular .popular-name {
+    max-width: 300px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .popular .popular-details {
+    font-size: 14px;
+  }
+
+  .popular .carousel-dots {
+    margin-top: 14px;
+  }
+}

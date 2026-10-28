@@ -1,0 +1,241 @@
+/* community — values copied from stardust/prototypes/index.css (section.community + carousel) */
+main .section.community-container {
+  background: var(--sand);
+}
+
+main > .section > .community-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.community .community-inner {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 64px var(--inset);
+}
+
+.community .section-title {
+  color: var(--ink);
+  line-height: normal;
+}
+
+.community .section-title :is(h1, h2, h3) {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.community .community-sub {
+  margin-top: 20px;
+  color: var(--ink);
+  font-weight: 600;
+  text-align: center;
+}
+
+/* carousel base */
+.community .carousel {
+  position: relative;
+}
+
+.community .carousel-viewport {
+  position: relative;
+  overflow: hidden;
+}
+
+.community .carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.community .carousel-slide {
+  flex: none;
+  width: 100%;
+  padding: 0 16px;
+}
+
+.community .carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--red);
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+}
+
+.community .carousel-arrow::before {
+  content: '\e9a8';
+  display: block;
+  color: #fff;
+  font-family: var(--icon-font);
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.community .carousel-arrow-prev {
+  left: 0;
+}
+
+.community .carousel-arrow-prev::before {
+  transform: rotate(180deg);
+}
+
+.community .carousel-arrow-next {
+  right: 0;
+}
+
+.community .carousel-arrow:disabled {
+  background: rgb(218 0 28 / 30%);
+  cursor: default;
+}
+
+.community .carousel-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  height: 24px;
+  margin-top: 38px;
+}
+
+.community .carousel-dots button {
+  display: block;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  border: 2px solid var(--red);
+  border-radius: 50%;
+  background: transparent;
+  font-size: 0;
+}
+
+.community .carousel-dots button[aria-current] {
+  width: 16px;
+  height: 16px;
+  border-width: 3px;
+  background: var(--red);
+}
+
+.community .community-carousel {
+  margin-top: 48px;
+  padding: 0 48px;
+}
+
+/* card */
+.community .community-card {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 503px;
+  padding: 52px 40px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.community .community-card-bg img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.community .community-card-bg .bg-mobile {
+  display: none;
+}
+
+.community .community-card-content {
+  position: relative;
+  width: 45%;
+  color: var(--cream);
+}
+
+.community .community-card-title {
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.community .community-card-title :is(h1, h2, h3, h4) {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.community .community-card-desc {
+  margin-top: 24px;
+  line-height: 28px;
+}
+
+.community .community-card-action {
+  margin-top: 30px;
+}
+
+@media (width <= 1023px) {
+  .community .carousel-arrow {
+    display: none;
+  }
+
+  .community .community-card-bg .bg-desktop {
+    display: none;
+  }
+
+  .community .community-card-bg .bg-mobile {
+    display: block;
+  }
+
+  .community .community-inner {
+    padding: 32px 0;
+  }
+
+  .community .community-sub {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+
+  .community .community-carousel {
+    margin-top: 24px;
+    padding: 0;
+  }
+
+  .community .community-card {
+    justify-content: center;
+    height: 240px;
+    margin: 0 16px;
+    padding: 32px;
+  }
+
+  .community .carousel-slide {
+    padding: 0;
+  }
+
+  .community .community-card-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .community .community-card-title {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .community .community-card-desc {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .community .community-card-action {
+    margin-top: 16px;
+  }
+
+  .community .carousel-dots {
+    margin-top: 14px;
+  }
+}

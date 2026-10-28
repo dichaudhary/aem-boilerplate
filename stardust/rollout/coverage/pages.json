@@ -1,0 +1,67 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-22T07:44:40.805Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-22T09:27:07.627Z",
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Aashirvaad - Bringing Nutrition &amp; Taste to you since 2002",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:456196fef6ef6783f67826f888814647880860a8d578706838b2f003d0ac25bd",
+        "sourceUrl": "https://aashirvaad.com/"
+      },
+      "blocks": [
+        "header",
+        "hero",
+        "carousel",
+        "offerings",
+        "video-teaser",
+        "recipes",
+        "split",
+        "popular",
+        "vision",
+        "community",
+        "follow",
+        "footer"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--683f0604--aemcoder.aem.live/",
+        "deployedAt": "2026-10-22T08:15:12.378Z",
+        "verifiedAt": "2026-10-22T09:27:07.627Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.49,
+          "heightDelta": 71,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 15,
+            "hiddenButtons": 0,
+            "findings": 28,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-22T09:27:07.581Z"
+        }
+      }
+    }
+  ]
+}

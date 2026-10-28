@@ -1,0 +1,401 @@
+0 | div.root.container | 0,76,1440x6554 | " "
+1 | div.root.container > div.cmp-container | 0,76,1440x6554 | " "
+2 | div.cmp-container > div | 0,76,1440x6554 | " "
+3 | div.header > div.cmp-header | 0,0,1440x76 | " " | display:flex; position:fixed; background-color:rgb(218, 0, 28); padding:16px 113px; gap:40px; justify-content:space-around; align-items:center; z-index:2
+5 | div.logo.image.cmp-header__logo > div.cmp-image | 113,18,125x40 | " "
+6 | div.cmp-image > a.cmp-image__link | 113,18,125x40 | " " | display:inline; color:rgb(52, 52, 52)
+7 | a.cmp-image__link > picture.w-100.d-block | 113,18,125x40 | " " | color:rgb(52, 52, 52); max-width:100%
+8 | picture.w-100.d-block > img.cmp-image__image.js-lazy-image | 113,18,125x40 | src=https://s7ap1.scene7.com/is/content/itcportalprod/Logo_2 | color:rgb(52, 52, 52); max-width:100%; overflow:clip
+9 | div.cmp-header > div.cmp-header__nav-links | 278,26,974x25 | " "
+10 | div.cmp-header__nav-links > div.navigation | 278,26,974x25 | " "
+11 | div.navigation > nav.cmp-navigation | 278,26,974x25 | " "
+12 | nav.cmp-navigation > ul.cmp-navigation__group.cmp-header__nav-group | 278,26,974x25 | " " | display:flex; gap:32px; justify-content:flex-start
+13 | ul.cmp-navigation__group.cmp-header__nav-group > li.cmp-navigation__item | 278,26,113x25 | " " | display:list-item
+14 | li.cmp-navigation__item > a.cmp-navigation__item-link | 278,28,113x20 | "Our Products" | display:inline; font-family:"Libre Baskerville", sans-serif; font-weight:700; color:rgb(255, 246, 225)
+15 | ul.cmp-navigation__group.cmp-header__nav-group > li.cmp-navigation__item | 423,26,84x25 | " " | display:list-item
+16 | li.cmp-navigation__item > a.cmp-navigation__item-link | 423,28,84x20 | "Our Story" | display:inline; font-family:"Libre Baskerville", sans-serif; font-weight:700; color:rgb(255, 246, 225)
+17 | ul.cmp-navigation__group.cmp-header__nav-group > li.cmp-navigation__item | 539,26,58x25 | " " | display:list-item
+18 | li.cmp-navigation__item > a.cmp-navigation__item-link | 539,28,58x20 | "Recipe" | display:inline; font-family:"Libre Baskerville", sans-serif; font-weight:700; color:rgb(255, 246, 225)
+19 | ul.cmp-navigation__group.cmp-header__nav-group > li.cmp-navigation__item | 629,26,46x25 | " " | display:list-item
+20 | li.cmp-navigation__item > a.cmp-navigation__item-link | 629,28,46x20 | "Blogs" | display:inline; font-family:"Libre Baskerville", sans-serif; font-weight:700; color:rgb(255, 246, 225)
+21 | ul.cmp-navigation__group.cmp-header__nav-group > li.cmp-navigation__item | 707,26,124x25 | " " | display:list-item
+22 | li.cmp-navigation__item > a.cmp-navigation__item-link | 707,28,124x20 | "CSR Initiatives" | display:inline; font-family:"Libre Baskerville", sans-serif; font-weight:700; color:rgb(255, 246, 225)
+23 | ul.cmp-navigation__group.cmp-header__nav-group > li.cmp-navigation__item | 863,26,45x25 | " " | display:list-item
+24 | li.cmp-navigation__item > a.cmp-navigation__item-link | 863,28,45x20 | "FAQs" | display:inline; font-family:"Libre Baskerville", sans-serif; font-weight:700; color:rgb(255, 246, 225)
+25 | div.cmp-header > div.cmp-header__nav-icons | 1292,16,35x44 | " " | display:flex; gap:23px
+26 | div.cmp-header__nav-icons > div.cmp-header__search | 1292,16,35x44 | " "
+27 | div.cmp-header__search > a.cmp-header__icon-img | 1292,16,35x44 | " " | display:flex; color:rgb(52, 52, 52); gap:4px; flex-direction:column; align-items:center
+28 | a.cmp-header__icon-img > div.icon-search | 1297,16,24x24 | font-family:icomoon; font-size:24px; line-height:24px; color:rgb(52, 52, 52)
+29 | a.cmp-header__icon-img > div.cmp-header__icon-text | 1292,44,35x16 | "Search" | font-size:10px; color:rgb(255, 246, 227)
+30 | div > div.container | 0,76,1440x6554 | " "
+31 | div.container > div.cmp-container | 0,76,1440x6554 | " "
+32 | div.cmp-container > div | 0,76,1440x6554 | " "
+33 | div > div.container.color-background-default | 0,76,1440x6096 | " " | background-color:rgb(255, 246, 227)
+34 | div.container.color-background-default > div.cmp-container | 0,76,1440x6056 | " "
+35 | div.cmp-container > div.slickcarousel.carousel.panelcontainer | 37,76,1366x640 | margin:0px 37px; max-width:1366px
+36 | div.slickcarousel.carousel.panelcontainer > div#slickcarousel-45c1cf16aa.cmp-carousel | 37,76,1366x640 | " "
+37 | div#slickcarousel-45c1cf16aa.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider | 37,76,1366x640 | " " | position:relative
+38 | div.cmp-carousel__container.slick-initialized.slick-slider > button.slick-prev.slick-arrow.slick-disabled | 150,372,48x48 | "Previous" | position:absolute; font-family:Arial; text-align:center; background-color:rgba(218, 0, 28, 0.3); border-radius:50%; top:320px
+39 | div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable | 37,76,1366x640 | position:relative; overflow:hidden
+40 | div.slick-list.draggable > div.slick-track | 37,76,5464x640 | position:relative; margin:0px -4098px 0px 0px
+42 | div.cmp-carousel__item.cmp-carousel__item--active > div.banner.cmp-banner--logo | 37,76,1366x640 | " "
+43 | div.banner.cmp-banner--logo > div.cmp-banner | 37,76,1366x640 | " " | position:relative; background-image:url("https://s7ap1.scene7.com/is/image/itcportalprod/Hero-Banner-1_D_revised?fmt=webp-alpha&wid=1366"); background-size:cover; background-position:50% 50%; max-width:1366px
+44 | div.cmp-banner > div.cmp-banner__content | 37,76,1366x516 | " "
+45 | div.cmp-banner__content > div.cmp-banner__item-logo | 37,76,1366x267 | " " | padding:158px 0px 0px 211px
+46 | div.cmp-banner__item-logo > img | 248,234,340x109 | src=https://s7ap1.scene7.com/is/content/itcportalprod/Logo | position:relative; max-width:100%; object-fit:cover; overflow:clip
+47 | div.cmp-banner__content > h2.cmp-banner__title | 37,343,745x84 | "The Aashirvaad Promise" | display:flow-root; font-family:"Libre Baskerville", sans-serif; font-size:40px; font-weight:700; line-height:56px; text-align:left; color:rgb(255, 246, 227); padding:28px 0px 0px 211px; max-width:745px; overflow:hidden
+48 | div.cmp-banner__content > h3.cmp-banner__sub-title | 37,427,710x87 | "Hand-picked ingredients, careful process" | display:flow-root; line-height:26px; text-align:left; color:rgb(255, 246, 227); padding:35px 0px 0px 211px; max-width:710px; overflow:hidden
+49 | div.cmp-banner__content > div.null.button.cmp-button--primary-anchor | 37,514,1366x78 | " " | position:relative; padding:30px 0px 0px 211px
+50 | div.null.button.cmp-button--primary-anchor > a.cmp-button | 248,544,187x48 | " " | display:flex; font-family:"Libre Baskerville", sans-serif; font-weight:600; color:rgb(255, 246, 227); background-color:rgb(218, 0, 28); padding:13px 32px 12px; border-radius:16px; align-items:center
+51 | a.cmp-button > span.cmp-button__text | 280,556,123x25 | "Click to Explore" | font-weight:600; color:rgb(255, 246, 227)
+53 | div.cmp-carousel__item > div.banner.cmp-banner--logo | 1403,76,1366x640 | " "
+54 | div.banner.cmp-banner--logo > div.cmp-banner | 1403,76,1366x640 | " " | position:relative; background-image:url("https://s7ap1.scene7.com/is/image/itcportalprod/hero-ban-2?fmt=webp-alpha&wid=1366"); background-size:cover; background-position:50% 50%; max-width:1366px
+55 | div.cmp-banner > div.cmp-banner__content | 1403,76,1366x516 | " "
+56 | div.cmp-banner__content > div.cmp-banner__item-logo | 1403,76,1366x267 | " " | padding:158px 0px 0px 211px
+58 | div.cmp-banner__content > h2.cmp-banner__title | 1403,343,745x84 | "Experience Organic" | display:flow-root; font-family:"Libre Baskerville", sans-serif; font-size:40px; font-weight:700; line-height:56px; text-align:left; color:rgb(255, 246, 227); padding:28px 0px 0px 211px; max-width:745px; overflow:hidden
+59 | div.cmp-banner__content > h3.cmp-banner__sub-title | 1403,427,710x87 | "Experience our organic range, exceptiona" | display:flow-root; line-height:26px; text-align:left; color:rgb(255, 246, 227); padding:35px 0px 0px 211px; max-width:710px; overflow:hidden
+60 | div.cmp-banner__content > div.null.button.cmp-button--primary-anchor | 1403,514,1366x78 | " " | position:relative; padding:30px 0px 0px 211px
+85 | div.cmp-carousel__container.slick-initialized.slick-slider > button.slick-next.slick-arrow | 1242,372,48x48 | "Next" | position:absolute; font-family:Arial; text-align:center; background-color:rgb(218, 0, 28); border-radius:50%; top:320px
+86 | div.cmp-carousel__container.slick-initialized.slick-slider > ul.slick-dots | 37,647,1366x24 | position:absolute; text-align:center; top:571.203px
+87 | ul.slick-dots > li | 675,657,16x16 | display:inline-block; position:relative; text-align:center; margin:0px 11px 0px 0px
+88 | li > button | 675,657,16x16 | "1" | font-family:Arial; text-align:center; background-color:rgb(218, 0, 28); padding:5px; border:3px solid rgb(218, 0, 28); border-radius:50%
+89 | ul.slick-dots > li | 702,658,14x14 | display:inline-block; position:relative; text-align:center; margin:0px 11px 0px 0px
+90 | li > button | 702,658,14x14 | "2" | font-family:Arial; text-align:center; padding:5px; border:2px solid rgb(218, 0, 28); border-radius:50%
+91 | ul.slick-dots > li | 727,658,14x14 | display:inline-block; position:relative; text-align:center; margin:0px 11px 0px 0px
+92 | li > button | 727,658,14x14 | "3" | font-family:Arial; text-align:center; padding:5px; border:2px solid rgb(218, 0, 28); border-radius:50%
+93 | ul.slick-dots > li | 752,658,14x14 | display:inline-block; position:relative; text-align:center
+94 | li > button | 752,658,14x14 | "4" | font-family:Arial; text-align:center; padding:5px; border:2px solid rgb(218, 0, 28); border-radius:50%
+95 | div.cmp-container > div.container.color-background-background-2 | 0,716,1440x818 | " " | background-color:rgb(255, 246, 227)
+96 | div.container.color-background-background-2 > div.cmp-container | 0,716,1440x818 | " "
+97 | div.cmp-container > div.productcategory | 0,716,1440x818 | " "
+99 | div > div.cmp-product-category-listing | 37,716,1366x818 | padding:64px 113px; max-width:1366px
+101 | div.cmp-product-category-listing__header > h1.cmp-product-category-listing__title | 150,780,1140x45 | "Aashirvaad offerings" | font-family:"Libre Baskerville", sans-serif; font-size:36px; font-weight:700; text-align:center; color:rgb(52, 52, 52)
+102 | div.cmp-product-category-listing__header > div.cmp-product-category-listing__subTitle.desc-2 | 150,845,1140x25 | "Select your preferred option from our wi" | font-weight:500; text-align:center; color:rgb(56, 35, 18); margin:20px 0px 0px
+103 | div.cmp-product-category-listing > div.cmp-product-category-listing__content | 150,918,1140x552 | display:flex; margin:48px 0px 0px; gap:40px 32px; align-items:center
+104 | div.cmp-product-category-listing__content > div.cmp-categorylist.cmp-categorylist--anchor | 150,918,359x256 | display:flex; font-family:"Libre Baskerville", sans-serif; font-size:18px; font-weight:700; justify-content:center
+105 | div.cmp-categorylist.cmp-categorylist--anchor > a.cmp-categorylist__item | 221,918,216x256 | display:flex; font-family:"Libre Baskerville", sans-serif; font-size:18px; font-weight:700; color:rgb(56, 35, 18); flex-direction:column; align-items:center
+106 | a.cmp-categorylist__item > span.cmp-categorylist__imagewrapper | 221,918,216x216 | display:flex; position:relative; font-size:18px; font-weight:700; color:rgb(56, 35, 18); justify-content:center; align-items:center
+107 | div.lazy-image-container > img.cmp-categorylist__image.lazy-image.loaded | 221,933,216x186 | src=https://s7ap1.scene7.com/is/image/itcportalprod/aataxmultigrain?fmt=webp-alpha | position:absolute; font-size:18px; font-weight:700; color:rgb(56, 35, 18); margin:15.0469px 0.015625px 15.0625px 0px; max-width:216px; overflow:clip
+108 | a.cmp-categorylist__item > span.cmp-categorylist__name | 310,1152,39x22 | "Atta" | font-family:"Libre Baskerville", sans-serif; font-size:18px; font-weight:700; text-align:center; color:rgb(56, 35, 18); margin:18px 0px 0px
+109 | div.cmp-product-category-listing__content > div.cmp-categorylist.cmp-categorylist--anchor | 541,918,359x256 | display:flex; font-family:"Libre Baskerville", sans-serif; font-size:18px; font-weight:700; justify-content:center
+110 | div.cmp-categorylist.cmp-categorylist--anchor > a.cmp-categorylist__item | 612,918,216x256 | display:flex; font-family:"Libre Baskerville", sans-serif; font-size:18px; font-weight:700; color:rgb(56, 35, 18); flex-direction:column; align-items:center
+111 | a.cmp-categorylist__item > span.cmp-categorylist__imagewrapper | 612,918,216x216 | display:flex; position:relative; font-size:18px; font-weight:700; color:rgb(56, 35, 18); justify-content:center; align-items:center
+112 | div.lazy-image-container > img.cmp-categorylist__image.lazy-image.loaded | 617,933,207x186 | src=https://s7ap1.scene7.com/is/image/itcportalprod/ORGANIC?fmt=webp-alpha | position:absolute; font-size:18px; font-weight:700; color:rgb(56, 35, 18); margin:15px 4.57812px 15px 4.5625px; max-width:216px; overflow:clip
+113 | a.cmp-categorylist__item > span.cmp-categorylist__name | 681,1152,77x22 | "Organic" | font-family:"Libre Baskerville", sans-serif; font-size:18px; font-weight:700; text-align:center; color:rgb(56, 35, 18); margin:18px 0px 0px
+114 | div.cmp-product-category-listing__content > div.cmp-categorylist.cmp-categorylist--anchor | 931,918,359x256 | display:flex; font-family:"Libre Baskerville", sans-serif; font-size:18px; font-weight:700; justify-content:center
+115 | div.cmp-categorylist.cmp-categorylist--anchor > a.cmp-categorylist__item | 1003,918,216x256 | display:flex; font-family:"Libre Baskerville", sans-serif; font-size:18px; font-weight:700; color:rgb(56, 35, 18); flex-direction:column; align-items:center
+116 | a.cmp-categorylist__item > span.cmp-categorylist__imagewrapper | 1003,918,216x216 | display:flex; position:relative; font-size:18px; font-weight:700; color:rgb(56, 35, 18); justify-content:center; align-items:center
+117 | div.lazy-image-container > img.cmp-categorylist__image.lazy-image.loaded | 1003,941,216x169 | src=https://s7ap1.scene7.com/is/image/itcportalprod/saltXIdoised?fmt=webp-alpha | position:absolute; font-size:18px; font-weight:700; color:rgb(56, 35, 18); margin:23.3438px 0.015625px 23.3438px 0px; max-width:216px; overflow:clip
+118 | a.cmp-categorylist__item > span.cmp-categorylist__name | 1093,1152,36x22 | "Salt" | font-family:"Libre Baskerville", sans-serif; font-size:18px; font-weight:700; text-align:center; color:rgb(56, 35, 18); margin:18px 0px 0px
+119 | div.cmp-product-category-listing__content > div.cmp-categorylist.cmp-categorylist--anchor | 150,1214,359x256 | display:flex; font-family:"Libre Baskerville", sans-serif; font-size:18px; font-weight:700; justify-content:center
+120 | div.cmp-categorylist.cmp-categorylist--anchor > a.cmp-categorylist__item | 221,1214,216x256 | display:flex; font-family:"Libre Baskerville", sans-serif; font-size:18px; font-weight:700; color:rgb(56, 35, 18); flex-direction:column; align-items:center
+121 | a.cmp-categorylist__item > span.cmp-categorylist__imagewrapper | 221,1214,216x216 | display:flex; position:relative; font-size:18px; font-weight:700; color:rgb(56, 35, 18); justify-content:center; align-items:center
+122 | div.lazy-image-container > img.cmp-categorylist__image.lazy-image.loaded | 234,1229,191x186 | src=https://s7ap1.scene7.com/is/image/itcportalprod/our_categories_5?fmt=webp-alpha | position:absolute; font-size:18px; font-weight:700; color:rgb(56, 35, 18); margin:15px 12.5px; max-width:216px; overflow:clip
+123 | a.cmp-categorylist__item > span.cmp-categorylist__name | 280,1448,99x22 | "Vermicelli" | font-family:"Libre Baskerville", sans-serif; font-size:18px; font-weight:700; text-align:center; color:rgb(56, 35, 18); margin:18px 0px 0px
+124 | div.cmp-product-category-listing__content > div.cmp-categorylist.cmp-categorylist--anchor | 541,1214,359x256 | display:flex; font-family:"Libre Baskerville", sans-serif; font-size:18px; font-weight:700; justify-content:center
+125 | div.cmp-categorylist.cmp-categorylist--anchor > a.cmp-categorylist__item | 612,1214,216x256 | display:flex; font-family:"Libre Baskerville", sans-serif; font-size:18px; font-weight:700; color:rgb(56, 35, 18); flex-direction:column; align-items:center
+126 | a.cmp-categorylist__item > span.cmp-categorylist__imagewrapper | 612,1214,216x216 | display:flex; position:relative; font-size:18px; font-weight:700; color:rgb(56, 35, 18); justify-content:center; align-items:center
+127 | div.lazy-image-container > img.cmp-categorylist__image.lazy-image.loaded | 618,1229,204x186 | src=https://s7ap1.scene7.com/is/image/itcportalprod/our_categories_6?fmt=webp-alpha | position:absolute; font-size:18px; font-weight:700; color:rgb(56, 35, 18); margin:15px 6.20312px 15px 6.1875px; max-width:216px; overflow:clip
+128 | a.cmp-categorylist__item > span.cmp-categorylist__name | 697,1448,46x22 | "Rava" | font-family:"Libre Baskerville", sans-serif; font-size:18px; font-weight:700; text-align:center; color:rgb(56, 35, 18); margin:18px 0px 0px
+129 | div.cmp-container > div.container.color-background-gradient-3 | 0,1534,1440x340 | " " | background-image:linear-gradient(0deg, rgb(226, 215, 204) 50%, rgb(255, 246, 227) 0px)
+130 | div.container.color-background-gradient-3 > div.cmp-container | 0,1534,1440x340 | " "
+131 | div.cmp-container > div.video.aashirvaad-video-teaser | 0,1534,1440x340 | " "
+132 | div.video.aashirvaad-video-teaser > section.video-cmp | 0,1534,1440x340 | " "
+133 | section.video-cmp > div.container | 0,1534,1440x340 | " "
+134 | div.container > div.video-container.mx-auto.w-100 | 122,1534,1195x340 | " " | margin:0px 122.406px; border-radius:20px; max-width:1366px; overflow:hidden
+135 | div.video-container.mx-auto.w-100 > div.position-relative.youtube-video | 122,1534,1195x340 | " "
+136 | div.position-relative.youtube-video > iframe#player1 | 122,1534,1195x340 | src=https://www.youtube.com/embed/sbUQyvhgsGg?si=xeqVJZRVM8KDSc5d?rel=0&enablejsapi=1 | display:inline; overflow:clip
+137 | div.cmp-container > div.container.color-background-background-3 | 0,1874,1440x950 | " " | background-color:rgb(226, 215, 204)
+138 | div.container.color-background-background-3 > div.cmp-container | 0,1874,1440x950 | " "
+139 | div.cmp-container > div.dynamicCardsVertwo | 0,1874,1440x950 | " "
+141 | div > div.cmp-recipe-group | 37,1874,1366x950 | padding:64px 113px; margin:0px 37px; max-width:1366px
+142 | div.cmp-recipe-group > div.cmp-recipe-group__header-section | 150,1938,1140x86 | text-align:center
+143 | div.cmp-recipe-group__header-section > h2.cmp-recipe-group__title | 150,1938,1140x40 | "Cook delicious recipes with us" | font-family:"Libre Baskerville", sans-serif; font-size:32px; font-weight:700; line-height:40px; text-align:center; color:rgb(56, 35, 18)
+144 | div.cmp-recipe-group__header-section > div.cmp-recipe-group__subtitle | 150,1998,1140x26 | "Explore your favourite recipe curated by" | font-weight:500; line-height:26px; text-align:center; color:rgb(56, 35, 18); margin:20px 0px 0px
+145 | div.cmp-recipe-group > div.cmp-recipe-group__tabs | 150,2072,1140x51 | margin:48px 0px 0px
+147 | div.tab-group.cmp-tab-group > div.cmp-tab-group__carousel-item.cmp-carousel__item.scrollbar-style-h | 150,2072,1140x51 | display:flex; gap:normal 12px; align-items:center
+150 | div.tab.cmp-tab--primary > button.cmp-tab.selected | 150,2072,267x51 | display:flex; font-weight:600; text-align:center; color:rgb(255, 246, 227); background-color:rgb(218, 0, 28); padding:12px 40px; border:1px solid rgb(218, 0, 28); border-radius:24px; align-items:center
+151 | button.cmp-tab.selected > span.cmp-tab__text | 191,2085,185x25 | "Breakfast and Savoury" | font-weight:600; text-align:center; color:rgb(255, 246, 227)
+154 | div.tab.cmp-tab--primary > button.cmp-tab | 429,2072,290x51 | display:flex; font-weight:600; text-align:center; color:rgb(52, 52, 52); padding:12px 40px; border:1px solid rgb(52, 52, 52); border-radius:24px; align-items:center
+155 | button.cmp-tab > span.cmp-tab__text | 470,2085,208x25 | "Breakfast and Nutriotious" | font-weight:600; text-align:center; color:rgb(52, 52, 52)
+158 | div.tab.cmp-tab--primary > button.cmp-tab | 731,2072,224x51 | display:flex; font-weight:600; text-align:center; color:rgb(52, 52, 52); padding:12px 40px; border:1px solid rgb(52, 52, 52); border-radius:24px; align-items:center
+159 | button.cmp-tab > span.cmp-tab__text | 772,2085,142x25 | "Lunch and Dinner" | font-weight:600; text-align:center; color:rgb(52, 52, 52)
+160 | div.cmp-recipe-group > div.cmp-recipe-group__content | 150,2155,1140x605 | margin:32px 0px 0px
+164 | div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider | 150,2155,1140x517 | position:relative; padding:0px 48px
+165 | div.cmp-carousel__container.slick-initialized.slick-slider > button.slick-prev.slick-arrow.slick-disabled | 150,2390,48x48 | "Previous" | position:absolute; font-family:Arial; text-align:center; background-color:rgba(218, 0, 28, 0.3); border-radius:50%; top:258.5px
+166 | div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable | 198,2155,1044x517 | position:relative; overflow:hidden
+167 | div.slick-list.draggable > div.slick-track | 198,2155,4872x517 | position:relative; margin:0px -3828px 0px 0px
+168 | div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item | 214,2155,316x517 | margin:0px 16px
+169 | div.cmp-recipe-group__carousel-item.cmp-carousel__item > a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe | 214,2155,316x517 | display:inline; color:rgb(52, 52, 52); background-color:rgb(255, 246, 227); border-radius:16px; max-width:302px
+170 | a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe > div.cmp-card | 214,2155,316x517 | color:rgb(52, 52, 52); overflow:hidden
+171 | div.cmp-card > div.cmp-card__content | 214,2155,316x517 | color:rgb(52, 52, 52); border-radius:16px
+172 | div.cmp-card__content > div.cmp-card__media | 214,2155,316x304 | position:relative; color:rgb(52, 52, 52); padding:8px
+173 | div.cmp-card__options > div.cmp-card__three-dots.icon-open-card-popup | 494,2177,26x26 | display:flex; position:absolute; font-family:icomoon; font-size:26px; line-height:26px; color:rgb(56, 35, 18); justify-content:center; align-items:center; top:22px
+174 | div.cmp-card__media > div.cmp-card__image | 222,2163,300x288 | color:rgb(52, 52, 52)
+175 | div.cmp-card__image > div.lazy-image-container | 222,2163,300x288 | color:rgb(52, 52, 52)
+176 | div.lazy-image-container > img.lazy-image.loaded | 222,2163,292x288 | src=https://s7ap1.scene7.com/is/image/itcportalprod/Shakarpara-1?fmt=webp-alpha&wid=300&fit=fit,1 | color:rgb(52, 52, 52); border-radius:16px; max-width:292px; object-fit:cover; overflow:clip
+177 | div.cmp-card__content > div.cmp-card__info | 214,2459,316x213 | display:flex; position:relative; color:rgb(52, 52, 52); padding:20px 12px; flex-direction:column
+178 | div.cmp-card__info > div.cmp-card__tag.cmp-card__tag--with-heart | 226,2479,292x26 | display:flex; color:rgb(52, 52, 52); justify-content:space-between; align-items:center
+179 | div.cmp-card__tag.cmp-card__tag--with-heart > div.cmp-card__tag-wrapper | 226,2483,139x18 | display:flex; color:rgb(52, 52, 52); border-radius:18px; align-items:center
+180 | div.cmp-card__tag-wrapper > p | 226,2483,139x18 | "Breakfast and Savoury" | display:flow-root; font-size:12px; font-weight:600; color:rgb(225, 25, 54); overflow:hidden
+181 | div.cmp-card__info > div.cmp-card__title | 226,2521,292x64 | color:rgb(52, 52, 52); margin:16px 0px 0px
+182 | div.cmp-card__title > h4 | 226,2521,292x58 | "Shakarpara | Aashirvaad Superior MP Atta" | display:flow-root; font-family:"Libre Baskerville", sans-serif; font-size:24px; font-weight:700; color:rgb(52, 52, 52); overflow:hidden
+183 | div.cmp-card__info > div.cmp-card__recipe_footer | 226,2601,292x51 | display:flex; color:rgb(52, 52, 52); padding:18px 0px 0px; margin:16px 0px 0px; align-items:center
+184 | div.cmp-card__recipe_footer > div.cmp-card__time-in-minutes | 226,2623,146x26 | display:flex; line-height:26px; color:rgb(56, 35, 18); padding:0px 16px 0px 0px; justify-content:flex-start; align-items:center
+185 | div.cmp-card__time-in-minutes > div.cmp-card__icon.icon-Group-21690 | 226,2622,26x26 | font-family:icomoon; line-height:16px; color:rgb(56, 35, 18); margin:-2px 0px 0px
+186 | div.cmp-card__time-in-minutes > p | 262,2623,60x26 | "35 Mins" | line-height:26px; color:rgb(52, 52, 52); margin:0px 0px 0px 10px
+187 | div.cmp-card__recipe_footer > div.cmp-card__difficulty-level.icon-chef-cap | 372,2620,146x32 | display:flex; font-family:icomoon; line-height:16px; color:rgb(52, 52, 52); padding:0px 0px 0px 16px; justify-content:flex-end; align-items:center
+188 | div.cmp-card__difficulty-level.icon-chef-cap > div.cmp-card__icon.path1 | 389,2625,26x26 | font-family:icomoon; line-height:16px; color:rgb(52, 52, 52); margin:4px 0px 0px
+189 | div.cmp-card__difficulty-level.icon-chef-cap > p | 425,2620,93x32 | "Expert Cook" | line-height:16px; color:rgb(52, 52, 52); margin:0px 0px 0px 10px
+190 | div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item | 562,2155,316x515 | margin:0px 16px
+191 | div.cmp-recipe-group__carousel-item.cmp-carousel__item > a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe | 562,2155,316x515 | display:inline; color:rgb(52, 52, 52); background-color:rgb(255, 246, 227); border-radius:16px; max-width:302px
+192 | a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe > div.cmp-card | 562,2155,316x515 | color:rgb(52, 52, 52); overflow:hidden
+193 | div.cmp-card > div.cmp-card__content | 562,2155,316x515 | color:rgb(52, 52, 52); border-radius:16px
+194 | div.cmp-card__content > div.cmp-card__media | 562,2155,316x304 | position:relative; color:rgb(52, 52, 52); padding:8px
+195 | div.cmp-card__options > div.cmp-card__three-dots.icon-open-card-popup | 842,2177,26x26 | display:flex; position:absolute; font-family:icomoon; font-size:26px; line-height:26px; color:rgb(56, 35, 18); justify-content:center; align-items:center; top:22px
+196 | div.cmp-card__media > div.cmp-card__image | 570,2163,300x288 | color:rgb(52, 52, 52)
+197 | div.cmp-card__image > div.lazy-image-container | 570,2163,300x288 | color:rgb(52, 52, 52)
+198 | div.lazy-image-container > img.lazy-image.loaded | 570,2163,292x288 | src=https://s7ap1.scene7.com/is/image/itcportalprod/Onion%20Samosa?fmt=webp-alpha&wid=300&fit=fit,1 | color:rgb(52, 52, 52); border-radius:16px; max-width:292px; object-fit:cover; overflow:clip
+199 | div.cmp-card__content > div.cmp-card__info | 562,2459,316x211 | display:flex; position:relative; color:rgb(52, 52, 52); padding:20px 12px; flex-direction:column
+200 | div.cmp-card__info > div.cmp-card__tag.cmp-card__tag--with-heart | 574,2479,292x26 | display:flex; color:rgb(52, 52, 52); justify-content:space-between; align-items:center
+201 | div.cmp-card__tag.cmp-card__tag--with-heart > div.cmp-card__tag-wrapper | 574,2483,139x18 | display:flex; color:rgb(52, 52, 52); border-radius:18px; align-items:center
+202 | div.cmp-card__tag-wrapper > p | 574,2483,139x18 | "Breakfast and Savoury" | display:flow-root; font-size:12px; font-weight:600; color:rgb(225, 25, 54); overflow:hidden
+203 | div.cmp-card__info > div.cmp-card__title | 574,2521,292x64 | color:rgb(52, 52, 52); margin:16px 0px 0px
+204 | div.cmp-card__title > h4 | 574,2521,292x58 | "Onion Samosa made from Aashirvaad Atta |" | display:flow-root; font-family:"Libre Baskerville", sans-serif; font-size:24px; font-weight:700; color:rgb(52, 52, 52); overflow:hidden
+205 | div.cmp-card__info > div.cmp-card__recipe_footer | 574,2601,292x49 | display:flex; color:rgb(52, 52, 52); padding:18px 0px 0px; margin:16px 0px 0px; align-items:center
+206 | div.cmp-card__recipe_footer > div.cmp-card__time-in-minutes | 574,2622,146x26 | display:flex; line-height:26px; color:rgb(56, 35, 18); padding:0px 16px 0px 0px; justify-content:flex-start; align-items:center
+207 | div.cmp-card__time-in-minutes > div.cmp-card__icon.icon-Group-21690 | 574,2621,26x26 | font-family:icomoon; line-height:16px; color:rgb(56, 35, 18); margin:-2px 0px 0px
+208 | div.cmp-card__time-in-minutes > p | 610,2622,61x26 | "65 Mins" | line-height:26px; color:rgb(52, 52, 52); margin:0px 0px 0px 10px
+209 | div.cmp-card__recipe_footer > div.cmp-card__difficulty-level.icon-chef-cap | 720,2620,146x30 | display:flex; font-family:icomoon; line-height:16px; color:rgb(52, 52, 52); padding:0px 0px 0px 16px; justify-content:flex-end; align-items:center
+210 | div.cmp-card__difficulty-level.icon-chef-cap > div.cmp-card__icon.path1 | 751,2624,26x26 | font-family:icomoon; line-height:16px; color:rgb(52, 52, 52); margin:4px 0px 0px
+211 | div.cmp-card__difficulty-level.icon-chef-cap > p | 787,2627,79x16 | "Lazy Cook" | line-height:16px; color:rgb(52, 52, 52); margin:0px 0px 0px 10px
+212 | div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item | 910,2155,316x515 | margin:0px 16px
+213 | div.cmp-recipe-group__carousel-item.cmp-carousel__item > a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe | 910,2155,316x515 | display:inline; color:rgb(52, 52, 52); background-color:rgb(255, 246, 227); border-radius:16px; max-width:302px
+214 | a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe > div.cmp-card | 910,2155,316x515 | color:rgb(52, 52, 52); overflow:hidden
+215 | div.cmp-card > div.cmp-card__content | 910,2155,316x515 | color:rgb(52, 52, 52); border-radius:16px
+216 | div.cmp-card__content > div.cmp-card__media | 910,2155,316x304 | position:relative; color:rgb(52, 52, 52); padding:8px
+217 | div.cmp-card__options > div.cmp-card__three-dots.icon-open-card-popup | 1190,2177,26x26 | display:flex; position:absolute; font-family:icomoon; font-size:26px; line-height:26px; color:rgb(56, 35, 18); justify-content:center; align-items:center; top:22px
+218 | div.cmp-card__media > div.cmp-card__image | 918,2163,300x288 | color:rgb(52, 52, 52)
+219 | div.cmp-card__image > div.lazy-image-container | 918,2163,300x288 | color:rgb(52, 52, 52)
+220 | div.lazy-image-container > img.lazy-image.loaded | 918,2163,292x288 | src=https://s7ap1.scene7.com/is/image/itcportalprod/Dal%20Puri-1?fmt=webp-alpha&wid=300&fit=fit,1 | color:rgb(52, 52, 52); border-radius:16px; max-width:292px; object-fit:cover; overflow:clip
+221 | div.cmp-card__content > div.cmp-card__info | 910,2459,316x211 | display:flex; position:relative; color:rgb(52, 52, 52); padding:20px 12px; flex-direction:column
+222 | div.cmp-card__info > div.cmp-card__tag.cmp-card__tag--with-heart | 922,2479,292x26 | display:flex; color:rgb(52, 52, 52); justify-content:space-between; align-items:center
+223 | div.cmp-card__tag.cmp-card__tag--with-heart > div.cmp-card__tag-wrapper | 922,2483,139x18 | display:flex; color:rgb(52, 52, 52); border-radius:18px; align-items:center
+224 | div.cmp-card__tag-wrapper > p | 922,2483,139x18 | "Breakfast and Savoury" | display:flow-root; font-size:12px; font-weight:600; color:rgb(225, 25, 54); overflow:hidden
+225 | div.cmp-card__info > div.cmp-card__title | 922,2521,292x64 | color:rgb(52, 52, 52); margin:16px 0px 0px
+226 | div.cmp-card__title > h4 | 922,2521,292x58 | "Dal Puri | Aashirvaad Select Atta" | display:flow-root; font-family:"Libre Baskerville", sans-serif; font-size:24px; font-weight:700; color:rgb(52, 52, 52); overflow:hidden
+227 | div.cmp-card__info > div.cmp-card__recipe_footer | 922,2601,292x49 | display:flex; color:rgb(52, 52, 52); padding:18px 0px 0px; margin:16px 0px 0px; align-items:center
+228 | div.cmp-card__recipe_footer > div.cmp-card__time-in-minutes | 922,2622,146x26 | display:flex; line-height:26px; color:rgb(56, 35, 18); padding:0px 16px 0px 0px; justify-content:flex-start; align-items:center
+229 | div.cmp-card__time-in-minutes > div.cmp-card__icon.icon-Group-21690 | 922,2621,26x26 | font-family:icomoon; line-height:16px; color:rgb(56, 35, 18); margin:-2px 0px 0px
+230 | div.cmp-card__time-in-minutes > p | 958,2622,60x26 | "35 Mins" | line-height:26px; color:rgb(52, 52, 52); margin:0px 0px 0px 10px
+231 | div.cmp-card__recipe_footer > div.cmp-card__difficulty-level.icon-chef-cap | 1068,2620,146x30 | display:flex; font-family:icomoon; line-height:16px; color:rgb(52, 52, 52); padding:0px 0px 0px 16px; justify-content:flex-end; align-items:center
+232 | div.cmp-card__difficulty-level.icon-chef-cap > div.cmp-card__icon.path1 | 1107,2624,26x26 | font-family:icomoon; line-height:16px; color:rgb(52, 52, 52); margin:4px 0px 0px
+233 | div.cmp-card__difficulty-level.icon-chef-cap > p | 1143,2627,71x16 | "Beginner" | line-height:16px; color:rgb(52, 52, 52); margin:0px 0px 0px 10px
+234 | div.slick-track > div.cmp-recipe-group__carousel-item.cmp-carousel__item | 1258,2155,316x227 | margin:0px 16px
+235 | div.cmp-recipe-group__carousel-item.cmp-carousel__item > a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe | 1258,2155,316x227 | display:inline; color:rgb(52, 52, 52); background-color:rgb(255, 246, 227); border-radius:16px; max-width:302px
+236 | a.card.cmp-card--recipe.cmp-card--aashirvaad-recipe > div.cmp-card | 1258,2155,316x227 | color:rgb(52, 52, 52); overflow:hidden
+237 | div.cmp-card > div.cmp-card__content | 1258,2155,316x227 | color:rgb(52, 52, 52); border-radius:16px
+238 | div.cmp-card__content > div.cmp-card__media | 1258,2155,316x16 | position:relative; color:rgb(52, 52, 52); padding:8px
+240 | div.cmp-card__content > div.cmp-card__info | 1258,2171,316x211 | display:flex; position:relative; color:rgb(52, 52, 52); padding:20px 12px; flex-direction:column
+241 | div.cmp-card__info > div.cmp-card__tag.cmp-card__tag--with-heart | 1270,2191,292x26 | display:flex; color:rgb(52, 52, 52); justify-content:space-between; align-items:center
+242 | div.cmp-card__tag.cmp-card__tag--with-heart > div.cmp-card__tag-wrapper | 1270,2195,139x18 | display:flex; color:rgb(52, 52, 52); border-radius:18px; align-items:center
+243 | div.cmp-card__tag-wrapper > p | 1270,2195,139x18 | "Breakfast and Savoury" | display:flow-root; font-size:12px; font-weight:600; color:rgb(225, 25, 54); overflow:hidden
+244 | div.cmp-card__info > div.cmp-card__title | 1270,2233,292x64 | color:rgb(52, 52, 52); margin:16px 0px 0px
+245 | div.cmp-card__title > h4 | 1270,2233,292x58 | "Bhakarwadi made from Aashirvaad Atta wit" | display:flow-root; font-family:"Libre Baskerville", sans-serif; font-size:24px; font-weight:700; color:rgb(52, 52, 52); overflow:hidden
+246 | div.cmp-card__info > div.cmp-card__recipe_footer | 1270,2313,292x49 | display:flex; color:rgb(52, 52, 52); padding:18px 0px 0px; margin:16px 0px 0px; align-items:center
+247 | div.cmp-card__recipe_footer > div.cmp-card__time-in-minutes | 1270,2334,146x26 | display:flex; line-height:26px; color:rgb(56, 35, 18); padding:0px 16px 0px 0px; justify-content:flex-start; align-items:center
+248 | div.cmp-card__time-in-minutes > div.cmp-card__icon.icon-Group-21690 | 1270,2333,26x26 | font-family:icomoon; line-height:16px; color:rgb(56, 35, 18); margin:-2px 0px 0px
+249 | div.cmp-card__time-in-minutes > p | 1306,2334,61x26 | "60 Mins" | line-height:26px; color:rgb(52, 52, 52); margin:0px 0px 0px 10px
+250 | div.cmp-card__recipe_footer > div.cmp-card__difficulty-level.icon-chef-cap | 1416,2332,146x30 | display:flex; font-family:icomoon; line-height:16px; color:rgb(52, 52, 52); padding:0px 0px 0px 16px; justify-content:flex-end; align-items:center
+251 | div.cmp-card__difficulty-level.icon-chef-cap > div.cmp-card__icon.path1 | 1438,2336,26x26 | font-family:icomoon; line-height:16px; color:rgb(52, 52, 52); margin:4px 0px 0px
+443 | div.cmp-carousel__container.slick-initialized.slick-slider > button.slick-next.slick-arrow | 1242,2390,48x48 | "Next" | position:absolute; font-family:Arial; text-align:center; background-color:rgb(218, 0, 28); border-radius:50%; top:258.5px
+444 | div.cmp-recipe-group__content > div.cmp-recipe-group__action | 150,2712,1140x48 | display:flex; margin:40px 0px 0px; justify-content:center
+446 | div.button.cmp-button--primary.cmp-button--primary-light > button.cmp-button | 656,2712,127x48 | display:flex; font-family:"Libre Baskerville", sans-serif; font-weight:600; text-align:center; color:rgb(255, 246, 227); background-color:rgb(218, 0, 28); padding:13px 32px 12px; border-radius:16px; align-items:center
+447 | button.cmp-button > span.cmp-button__text | 688,2724,63x25 | "View All" | font-weight:600; text-align:center; color:rgb(255, 246, 227)
+448 | div.cmp-container > div.container.color-background-gradient-2 | 0,2824,1440x312 | " " | background-image:linear-gradient(0deg, rgb(255, 246, 227) 50%, rgb(226, 215, 204) 0px)
+449 | div.container.color-background-gradient-2 > div.cmp-container | 0,2824,1440x312 | " "
+450 | div.cmp-container > div.teaser.cmp-teaser--first-half-center-aligned | 37,2824,1366x312 | padding:0px 113px; margin:0px 37px; max-width:1366px
+451 | div.teaser.cmp-teaser--first-half-center-aligned > div.cmp-teaser | 150,2824,1140x312 | " " | display:flex; position:relative; background-image:url("https://s7ap1.scene7.com/is/image/itcportalprod/nudge-1?fmt=webp-alpha"); background-size:cover; padding:73px 40px; border-radius:20px; max-width:100%; align-items:center
+452 | div.cmp-teaser > div.cmp-teaser__content | 190,2877,424x206 | " " | text-align:center
+453 | div.cmp-teaser__content > h2.cmp-teaser__title | 190,2877,424x48 | "What makes us No.1?" | display:flow-root; font-family:"Libre Baskerville", sans-serif; font-size:32px; font-weight:700; line-height:48px; text-align:center; color:rgb(255, 246, 227); overflow:hidden
+454 | div.cmp-teaser__content > div.cmp-teaser__description | 190,2949,424x56 | display:flow-root; line-height:28px; text-align:center; color:rgb(255, 246, 227); margin:24px 0px 0px; overflow:hidden
+455 | div.cmp-teaser__description > p | 190,2949,424x56 | "Our superior-quality, contact-less packa" | line-height:28px; text-align:center; color:rgb(255, 246, 227)
+456 | div.cmp-teaser__content > div.cmp-teaser__action-container | 190,3035,424x48 | " " | text-align:center; margin:30px 0px 0px
+457 | div.cmp-teaser__action-container > div.button.cmp-button--primary-anchor.cmp-button--primary-anchor-light | 190,3035,424x48 | " " | text-align:center
+458 | div.button.cmp-button--primary-anchor.cmp-button--primary-anchor-light > a.cmp-button | 324,3035,156x48 | " " | display:flex; font-family:"Libre Baskerville", sans-serif; font-weight:600; text-align:center; color:rgb(255, 246, 227); background-color:rgb(218, 0, 28); padding:13px 32px 12px; margin:0px 133.984px; border-radius:16px; align-items:center
+459 | a.cmp-button > span.cmp-button__text | 356,3047,92x25 | "Know more" | font-weight:600; text-align:center; color:rgb(255, 246, 227)
+460 | div.cmp-container > div.container.color-background-background-2 | 0,3136,1440x820 | " " | background-color:rgb(255, 246, 227)
+461 | div.container.color-background-background-2 > div.cmp-container | 0,3136,1440x820 | " "
+462 | div.cmp-container > div.popularproducts | 0,3136,1440x820 | " "
+464 | div#popidd > div.cmp-popular-products | 37,3136,1366x820 | padding:64px 113px; margin:0px 37px; max-width:1366px
+465 | div.cmp-popular-products > div.cmp-popular-products__header-section | 150,3200,1140x86 | text-align:center
+466 | div.cmp-popular-products__header-section > h2.cmp-popular-products__title | 150,3200,1140x40 | "Most loved" | font-family:"Libre Baskerville", sans-serif; font-size:32px; font-weight:700; line-height:40px; text-align:center; color:rgb(56, 35, 18)
+467 | div.cmp-popular-products__header-section > div.cmp-popular-products__subtitle | 150,3260,1140x26 | "Discover the best of AASHIRVAAD" | font-weight:500; line-height:26px; text-align:center; color:rgb(56, 35, 18); margin:20px 0px 0px
+471 | div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider | 150,3286,1140x606 | position:relative; padding:0px 48px
+472 | div.cmp-carousel__container.slick-initialized.slick-slider > button.slick-prev.slick-arrow | 150,3565,48x48 | "Previous" | position:absolute; font-family:Arial; text-align:center; background-color:rgb(218, 0, 28); border-radius:50%; top:303px
+473 | div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable | 198,3286,1044x544 | position:relative; overflow:hidden
+484 | div.slick-track > div.cmp-popular-products__carousel-item.cmp-carousel__item | 214,3286,1012x261 | margin:0px 16px
+485 | div.cmp-popular-products__carousel-item.cmp-carousel__item > div.cmp-popular-products__content-wrapper | 214,3334,1012x213 | display:flex; margin:48px 0px 0px
+486 | div.cmp-popular-products__content-wrapper > div.cmp-popular-products__image | 214,3334,496x213 | display:flex; background-image:url("https://aashirvaad.com/etc.clientlibs/itc-foods-brands/clientlibs/clientlib-aashirvaad/resources/images/product-background.svg"); background-size:contain; background-position:50% 50%; justify-content:center
+487 | div.cmp-popular-products__content-wrapper > div.cmp-popular-products__product-description | 730,3334,496x213 | padding:38px 0px 0px; margin:0px 0px 0px 20px
+488 | div.cmp-popular-products__product-description > div.cmp-popular-products__product-name | 730,3372,376x36 | "Sugar Release Control Atta" | font-family:"Libre Baskerville", sans-serif; font-size:24px; font-weight:700; line-height:36px; text-align:left; color:rgb(56, 35, 18); margin:0px 0px 20px; max-width:376px
+489 | div.cmp-popular-products__product-description > div.cmp-popular-products__product-details | 730,3448,496x78 | "AASHIRVAAD Sugar Release Control Atta br" | font-weight:500; line-height:26px; margin:0px 0px 21px
+490 | div.cmp-carousel__container.slick-initialized.slick-slider > button.slick-next.slick-arrow.slick-disabled | 1242,3565,48x48 | "Next" | position:absolute; font-family:Arial; text-align:center; background-color:rgba(218, 0, 28, 0.3); border-radius:50%; top:303px
+491 | div.cmp-carousel__container.slick-initialized.slick-slider > ul.slick-dots | 198,3868,1044x24 | text-align:center; margin:38px 0px 0px
+492 | ul.slick-dots > li | 700,3879,14x14 | display:inline-block; position:relative; text-align:center; margin:0px 11px 0px 0px
+493 | li > button | 700,3879,14x14 | "1" | font-family:Arial; text-align:center; padding:5px; border:2px solid rgb(218, 0, 28); border-radius:50%
+494 | ul.slick-dots > li | 725,3878,16x16 | display:inline-block; position:relative; text-align:center
+495 | li > button | 725,3878,16x16 | "2" | font-family:Arial; text-align:center; background-color:rgb(218, 0, 28); padding:5px; border:3px solid rgb(218, 0, 28); border-radius:50%
+496 | div.cmp-container > div.container.color-background-gradient-3 | 0,3956,1440x312 | " " | background-image:linear-gradient(0deg, rgb(226, 215, 204) 50%, rgb(255, 246, 227) 0px)
+497 | div.container.color-background-gradient-3 > div.cmp-container | 0,3956,1440x312 | " "
+498 | div.cmp-container > div.teaser.cmp-teaser--cta | 37,3956,1366x312 | padding:0px 113px; margin:0px 37px; max-width:1366px
+499 | div.teaser.cmp-teaser--cta > div.cmp-teaser | 150,3956,1140x312 | " " | display:flex; position:relative; background-image:url("https://s7ap1.scene7.com/is/image/itcportalprod/Meri_chikki_bg_desktop?fmt=webp-alpha"); background-size:cover; border-radius:20px; max-width:100%; align-items:center
+500 | div.button.cmp-button--primary-anchor > button.cmp-button | 809,4160,230x48 | " " | display:flex; position:absolute; font-family:"Libre Baskerville", sans-serif; font-weight:600; text-align:center; color:rgb(255, 246, 227); background-color:rgb(218, 0, 28); padding:13px 32px 12px; border-radius:16px; align-items:center; top:204px
+501 | button.cmp-button > span.cmp-button__text | 841,4172,166x25 | "Customize your Atta" | font-weight:600; text-align:center; color:rgb(255, 246, 227)
+502 | div.cmp-container > div.container.color-background-background-2 | 0,4268,1440x860 | " " | background-color:rgb(255, 246, 227)
+503 | div.container.color-background-background-2 > div.cmp-container | 0,4268,1440x860 | " "
+504 | div.cmp-container > div.footprint | 0,4268,1440x860 | " "
+506 | div > div.cmp-our-foot-print | 37,4268,1366x860 | padding:64px 113px 117px; margin:0px 37px; max-width:1366px
+508 | div.cmp-our-foot-print__header > h2.cmp-our-foot-print__title | 150,4332,1140x40 | "Our vision" | font-family:"Libre Baskerville", sans-serif; font-size:32px; font-weight:700; text-align:center; color:rgb(52, 52, 52)
+509 | div.cmp-our-foot-print > div.cmp-our-foot-print__content | 150,4420,1140x591 | margin:48px 0px 0px
+512 | div.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider | 150,4420,1140x591 | position:relative
+513 | div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable | 150,4420,1140x591 | position:relative; overflow:hidden
+514 | div.slick-list.draggable > div.slick-track | 150,4420,1140x591 | position:relative
+515 | div.slick-track > div.cmp-our-foot-print__carousel-item.cmp-carousel__item.cmp-our-foot-print-carouselcard-index-0 | 150,4420,1140x591 | display:grid; gap:24px 32px; grid-template-columns:702px 406px; justify-content:center
+517 | div.item > div.card.cmp-card--foot-print.cmp-card--foot-print-highlighted | 150,4420,702x591 | background-color:rgb(255, 246, 227); border-radius:16px
+518 | div.card.cmp-card--foot-print.cmp-card--foot-print-highlighted > div.cmp-card | 150,4420,702x541 | overflow:hidden
+519 | div.cmp-card > div.cmp-card__content | 150,4420,702x541 | display:flex; border-radius:16px; flex-direction:column
+520 | div.cmp-card__content > div.cmp-card__media | 150,4420,702x316 | position:relative
+523 | div.video.cmp-video--foot-print-card > div.cmp-video | 150,4420,702x316 | position:relative; border-radius:16px; overflow:hidden
+526 | div.cmp-video__iframe-wrapper > iframe#widget3.cmp-video__iframe | 150,4420,702x316 | src=https://www.youtube.com/embed/iFqqEJH4Mnw?autoplay=0&controls=1&showinfo=0&modestbranding=1&fs=1&cc_load_policy=0&iv_load_policy=3&autohide= | display:inline; border-radius:16px; overflow:clip
+527 | div.cmp-card__content > div.cmp-card__info | 150,4736,702x225 | position:relative; font-family:"Libre Baskerville", sans-serif; font-weight:700; color:rgb(52, 52, 52); padding:50px 40px 36px 96px
+528 | div.cmp-card__info > div.cmp-card__title | 246,4786,566x40 | "Trust of over 20 years" | font-family:"Libre Baskerville", sans-serif; font-size:32px; font-weight:700; color:rgb(52, 52, 52)
+529 | div.cmp-card__info > div.cmp-card__desc | 246,4850,566x75 | "Since 2002, AASHIRVAAD has pledged to br" | font-weight:500; color:rgb(52, 52, 52); margin:24px 0px 0px
+531 | div.item > div.card.cmp-card--foot-print.cmp-card--foot-print-default | 884,4420,406x321 | background-color:rgb(255, 232, 180); border-radius:16px
+532 | div.card.cmp-card--foot-print.cmp-card--foot-print-default > div.cmp-card | 884,4420,406x321 | overflow:hidden
+533 | div.cmp-card > div.cmp-card__content | 884,4420,406x321 | display:flex; border-radius:16px; flex-direction:column
+534 | div.cmp-card__content > div.cmp-card__info | 884,4420,406x321 | position:relative; font-family:"Libre Baskerville", sans-serif; font-weight:700; color:rgb(52, 52, 52); padding:32px 40px
+535 | div.cmp-card__info > div.cmp-card__title | 924,4452,326x58 | "Organic : A sustainable way of life" | font-family:"Libre Baskerville", sans-serif; font-size:24px; font-weight:700; color:rgb(52, 52, 52)
+536 | div.cmp-card__info > div.cmp-card__desc | 924,4534,326x175 | "In an attempt to work towards betterment" | font-weight:500; color:rgb(52, 52, 52); margin:24px 0px 0px
+538 | div.item > div.card.cmp-card--foot-print.cmp-card--foot-print-default | 884,4765,406x246 | background-color:rgb(226, 215, 204); border-radius:16px
+539 | div.card.cmp-card--foot-print.cmp-card--foot-print-default > div.cmp-card | 884,4765,406x246 | overflow:hidden
+540 | div.cmp-card > div.cmp-card__content | 884,4765,406x246 | display:flex; border-radius:16px; flex-direction:column
+541 | div.cmp-card__content > div.cmp-card__info | 884,4765,406x246 | position:relative; font-family:"Libre Baskerville", sans-serif; font-weight:700; color:rgb(52, 52, 52); padding:32px 40px
+542 | div.cmp-card__info > div.cmp-card__title | 924,4797,326x58 | "Make Variety with Aashirvaad" | font-family:"Libre Baskerville", sans-serif; font-size:24px; font-weight:700; color:rgb(52, 52, 52)
+543 | div.cmp-card__info > div.cmp-card__desc | 924,4879,326x100 | "Whether it's the sweetness of Halwa and " | font-weight:500; color:rgb(52, 52, 52); margin:24px 0px 0px
+544 | div.cmp-container > div.container.color-background-background-3.cmp-ourcommunity-teasercarousel-container | 0,5128,1440x826 | " " | background-color:rgb(226, 215, 204)
+545 | div.container.color-background-background-3.cmp-ourcommunity-teasercarousel-container > div.cmp-container | 37,5128,1366x826 | " " | padding:64px 113px; margin:0px 37px; max-width:1366px
+546 | div.cmp-container > div.text.cta-text.font-weight-medium | 150,5192,1140x85 | " " | font-weight:600
+547 | div.text.cta-text.font-weight-medium > div.cmp-text | 150,5192,1140x85 | " " | font-weight:600; text-align:center; color:rgb(52, 52, 52)
+548 | div.cmp-text > h2 | 150,5192,1140x40 | "Our Community" | font-family:"Libre Baskerville", sans-serif; font-size:32px; font-weight:700; text-align:center; color:rgb(52, 52, 52)
+549 | div.cmp-text > p | 150,5252,1140x25 | "Join us on the journey towards better ta" | font-weight:600; text-align:center; color:rgb(52, 52, 52); margin:20px 0px 0px
+550 | div.cmp-container > div.slickcarousel.carousel.panelcontainer | 150,5325,1140x565 | margin:48px 0px 0px
+551 | div.slickcarousel.carousel.panelcontainer > div#slickcarousel-0f817c55a9.cmp-carousel | 150,5325,1140x565 | " "
+552 | div#slickcarousel-0f817c55a9.cmp-carousel > div.cmp-carousel__container.slick-initialized.slick-slider | 150,5325,1140x565 | " " | position:relative; padding:0px 48px
+553 | div.cmp-carousel__container.slick-initialized.slick-slider > button.slick-prev.slick-arrow.slick-disabled | 150,5584,48x48 | "Previous" | position:absolute; font-family:Arial; text-align:center; background-color:rgba(218, 0, 28, 0.3); border-radius:50%; top:282.5px
+554 | div.cmp-carousel__container.slick-initialized.slick-slider > div.slick-list.draggable | 198,5325,1044x503 | position:relative; overflow:hidden
+555 | div.slick-list.draggable > div.slick-track | 198,5325,3132x503 | position:relative; margin:0px -2088px 0px 0px
+556 | div.slick-track > div.cmp-carousel__item.cmp-carousel__item--active | 214,5325,1012x503 | margin:0px 16px
+557 | div.cmp-carousel__item.cmp-carousel__item--active > div.teaser.cmp-teaser--carousel-teaser | 214,5325,1012x503 | max-width:100%
+558 | div.teaser.cmp-teaser--carousel-teaser > div.cmp-teaser | 214,5325,1012x503 | " " | display:flex; position:relative; background-image:url("https://s7ap1.scene7.com/is/image/itcportalprod/Slider-1-Desktop?fmt=webp-alpha"); background-size:cover; padding:52px 40px; border-radius:20px; max-width:100%; justify-content:flex-end; align-items:center
+559 | div.cmp-teaser > div.cmp-teaser__content | 767,5482,419x190 | " "
+560 | div.cmp-teaser__content > h2.cmp-teaser__title | 767,5482,419x32 | "Explore Happy Tummy" | display:flow-root; font-family:"Libre Baskerville", sans-serif; font-size:24px; font-weight:700; line-height:32px; color:rgb(255, 246, 227); overflow:hidden
+561 | div.cmp-teaser__content > div.cmp-teaser__description | 767,5538,419x56 | line-height:28px; color:rgb(255, 246, 227); margin:24px 0px 0px
+562 | div.cmp-teaser__description > p | 767,5538,419x56 | "Understand your tummy's needs better and" | line-height:28px; color:rgb(255, 246, 227)
+563 | div.cmp-teaser__content > div.cmp-teaser__action-container | 767,5624,419x48 | " " | margin:30px 0px 0px
+564 | div.cmp-teaser__action-container > div.button.cmp-button--primary-anchor | 767,5624,419x48 | " "
+565 | div.button.cmp-button--primary-anchor > a.cmp-button | 767,5624,228x48 | " " | display:flex; font-family:"Libre Baskerville", sans-serif; font-weight:600; color:rgb(255, 246, 227); background-color:rgb(218, 0, 28); padding:13px 32px 12px; border-radius:16px; align-items:center
+566 | a.cmp-button > span.cmp-button__text | 799,5636,164x25 | "Join the community" | font-weight:600; color:rgb(255, 246, 227)
+567 | div.slick-track > div.cmp-carousel__item | 1258,5325,1012x503 | margin:0px 16px
+568 | div.cmp-carousel__item > div.teaser.cmp-teaser--carousel-teaser | 1258,5325,1012x503 | max-width:100%
+569 | div.teaser.cmp-teaser--carousel-teaser > div.cmp-teaser | 1258,5325,1012x503 | " " | display:flex; position:relative; background-image:url("https://s7ap1.scene7.com/is/image/itcportalprod/Community-Slider2-Desktop?fmt=webp-alpha"); background-size:cover; padding:52px 40px; border-radius:20px; max-width:100%; justify-content:flex-end; align-items:center
+589 | div.cmp-carousel__container.slick-initialized.slick-slider > button.slick-next.slick-arrow | 1242,5584,48x48 | "Next" | position:absolute; font-family:Arial; text-align:center; background-color:rgb(218, 0, 28); border-radius:50%; top:282.5px
+590 | div.cmp-carousel__container.slick-initialized.slick-slider > ul.slick-dots | 198,5866,1044x24 | text-align:center; margin:38px 0px 0px
+591 | ul.slick-dots > li | 687,5876,16x16 | display:inline-block; position:relative; text-align:center; margin:0px 11px 0px 0px
+592 | li > button | 687,5876,16x16 | "1" | font-family:Arial; text-align:center; background-color:rgb(218, 0, 28); padding:5px; border:3px solid rgb(218, 0, 28); border-radius:50%
+593 | ul.slick-dots > li | 714,5877,14x14 | display:inline-block; position:relative; text-align:center; margin:0px 11px 0px 0px
+594 | li > button | 714,5877,14x14 | "2" | font-family:Arial; text-align:center; padding:5px; border:2px solid rgb(218, 0, 28); border-radius:50%
+595 | ul.slick-dots > li | 739,5877,14x14 | display:inline-block; position:relative; text-align:center
+596 | li > button | 739,5877,14x14 | "3" | font-family:Arial; text-align:center; padding:5px; border:2px solid rgb(218, 0, 28); border-radius:50%
+597 | div.cmp-container > div.container.color-background-background-2 | 0,5994,1440x138 | " " | background-color:rgb(255, 246, 227)
+598 | div.container.color-background-background-2 > div.cmp-container | 0,5994,1440x138 | " "
+599 | div.cmp-container > div.container.top-lg-margin.bottom-lg-margin | 0,5994,1440x138 | " " | margin:40px 0px
+600 | div.container.top-lg-margin.bottom-lg-margin > div.cmp-container | 0,5994,1440x138 | " "
+601 | div.cmp-container > div.text | 0,5994,1440x90 | " "
+602 | div.text > div.cmp-text | 0,5994,1440x90 | " "
+603 | div.cmp-text > h2 | 0,5994,1440x40 | "Follow us @aashirvaad" | font-family:"Libre Baskerville", sans-serif; font-size:32px; font-weight:700; text-align:center
+604 | div.cmp-text > p | 0,6034,1440x25 | "Come, be a part of our journey" | text-align:center
+605 | div.cmp-text > p | 0,6059,1440x25 | text-align:center
+606 | div.cmp-container > div.button.cmp-button--primary-anchor.cmp-container--center-align | 0,6084,1440x48 | " " | display:flex; text-align:center; justify-content:center; align-items:center
+607 | div.button.cmp-button--primary-anchor.cmp-container--center-align > a.cmp-button | 651,6084,138x48 | " " | display:flex; font-family:"Libre Baskerville", sans-serif; font-weight:600; text-align:center; color:rgb(255, 246, 227); background-color:rgb(218, 0, 28); padding:13px 32px 12px; border-radius:16px; align-items:center
+608 | a.cmp-button > span.cmp-button__text | 683,6096,74x25 | "Visit Now" | font-weight:600; text-align:center; color:rgb(255, 246, 227)
+609 | div > div.experiencefragment | 0,6172,1440x458 | " "
+611 | div#footer.cmp-experiencefragment.cmp-experiencefragment--footer > div.xfpage.page.basicpage | 0,6172,1440x458 | " "
+612 | div.xfpage.page.basicpage > div.cmp-container | 0,6172,1440x458 | " "
+613 | div.cmp-container > div.footer | 0,6172,1440x458 | " " | background-color:rgb(218, 0, 28)
+614 | div.footer > div.container | 0,6172,1440x458 | " "
+615 | div.container > div.cmp-container | 0,6172,1440x458 | " "
+616 | div.cmp-container > div.footer | 0,6172,1440x458 | " " | background-color:rgb(218, 0, 28)
+617 | div.footer > div.cmp-footer | 37,6172,1366x395 | " " | padding:64px 113px 46px; margin:0px 37px; max-width:1366px
+618 | div.cmp-footer > div.cmp-footer__top-content | 150,6236,1140x285 | " " | display:flex; justify-content:space-between; align-items:center
+619 | div.cmp-footer__top-content > div.cmp-footer__nav-logo | 150,6283,272x191 | " "
+620 | div.cmp-footer__nav-logo > div.cmp-footer__nav-logo--top | 150,6283,272x78 | " "
+622 | div.logo.image.cmp-footer__logo > div.cmp-image | 150,6283,272x78 | " "
+623 | div.cmp-image > a.cmp-image__link | 150,6283,272x78 | " " | display:inline; color:rgb(52, 52, 52)
+624 | a.cmp-image__link > picture.w-100.d-block | 150,6283,272x78 | " " | color:rgb(52, 52, 52); max-width:100%
+625 | picture.w-100.d-block > img.cmp-image__image.js-lazy-image | 150,6283,240x78 | src=https://s7ap1.scene7.com/is/content/itcportalprod/Logo_2?wid=272&fit=fit%2C1 | color:rgb(52, 52, 52); max-width:100%; object-fit:cover; overflow:clip
+626 | div.cmp-footer__nav-logo > div.cmp-footer__nav-logo--bottom | 150,6377,272x97 | " " | display:flex; margin:16px 0px 0px
+628 | div.logoitc.logo.image > div.cmp-image | 150,6377,80x96 | " "
+629 | div.cmp-image > picture.w-100.d-block | 150,6377,80x96 | " " | max-width:100%
+630 | picture.w-100.d-block > img.cmp-image__image.js-lazy-image | 150,6377,80x96 | src=https://s7ap1.scene7.com/is/image/itcportalprod/itc-logo-white?fmt=webp-alpha&wid=80&fit=fit%2C1 | max-width:100%; overflow:clip
+631 | div.cmp-footer__nav-logo--bottom > div.logofssai.logo.image | 230,6377,192x97 | display:flex; justify-content:center
+632 | div.logofssai.logo.image > div.cmp-image | 230,6377,192x97 | " "
+633 | div.cmp-image > picture.w-100.d-block | 230,6397,192x77 | " " | max-width:100%
+634 | picture.w-100.d-block > img.cmp-image__image.js-lazy-image | 230,6397,192x77 | src=https://s7ap1.scene7.com/is/image/itcportalprod/aashirvaad-fssai-logo?fmt=webp-alpha&wid=192&fit=fit%2C1 | margin:20px 0px 0px; max-width:100%; overflow:clip
+635 | div.cmp-footer__top-content > div.cmp-footer__nav-subscribe | 501,6236,370x285 | " " | margin:0px 0px 0px 20px; max-width:370px
+636 | div.cmp-footer__nav-subscribe > div.cmp-footer__nav-text | 501,6236,370x55 | " " | display:flex; justify-content:space-between; align-items:end
+637 | div.cmp-footer__nav-text > img | 501,6236,169x55 | src=https://s7ap1.scene7.com/is/content/itcportalprod/Logo_2 | margin:0px 10px 0px 0px; max-width:100%; overflow:clip
+638 | div.cmp-footer__nav-text > h3 | 715,6267,157x24 | "in Your Inbox" | font-family:"Libre Baskerville", sans-serif; font-size:20px; font-weight:700; letter-spacing:0.96px; color:rgb(255, 246, 227)
+639 | div.cmp-footer__nav-subscribe > div.container.cmp-input | 501,6291,370x75 | " "
+640 | div.container.cmp-input > div.text.cmp-input__email | 501,6291,370x75 | " "
+641 | div.text.cmp-input__email > div.cmp-form-text | 501,6291,370x75 | " "
+642 | div.cmp-form-text > input.cmp-form-text__text | 501,6315,370x51 | display:inline-block; font-family:Arial; color:rgb(255, 246, 227); background-color:rgb(218, 0, 28); padding:14px 33px 15px; margin:24px 0px 0px; border:2px solid rgb(226, 215, 204); border-radius:16px; overflow:clip
+643 | div.cmp-footer__nav-subscribe > div.cmp-footer__consent | 501,6382,370x75 | " " | display:flex; text-align:justify; color:rgb(255, 246, 227); margin:16px 0px
+644 | div.cmp-footer__consent > input#i_agree.cmp-footer__consent--checkbox | 501,6382,13x20 | font-family:Arial; font-size:13.3333px; margin:0px 10px 0px 0px
+645 | div.cmp-footer__consent > div.cmp-footer__consent--link | 524,6382,347x75 | text-align:justify; color:rgb(255, 246, 227)
+646 | div.cmp-footer__consent--link > p | 524,6382,347x75 | "By clicking “Register Now”, you agree to" | text-align:justify; color:rgb(255, 246, 227)
+647 | p > a | 555,6408,109x23 | "Privacy Policy" | display:inline; text-align:justify; color:rgb(255, 246, 227)
+648 | div.cmp-footer__nav-subscribe > div.button.cmp-button--primary.cmp-button--primary-anchor-dark | 501,6473,370x48 | " "
+649 | div.button.cmp-button--primary.cmp-button--primary-anchor-dark > button.cmp-button | 501,6473,170x48 | " " | display:flex; font-family:"Libre Baskerville", sans-serif; font-weight:600; text-align:center; color:rgb(52, 52, 52); background-color:rgb(236, 128, 141); padding:13px 32px 12px; border-radius:16px; align-items:center
+650 | button.cmp-button > span.cmp-button__text | 533,6485,106x25 | "Register Now" | font-weight:600; text-align:center; color:rgb(52, 52, 52)
+651 | div.cmp-footer__top-content > div.cmp-footer__nav | 951,6317,339x123 | " " | display:flex; margin:0px 0px 0px 20px; justify-content:center
+652 | div.cmp-footer__nav > div.cmp-footer__nav-items.cmp-navigation__group--left | 951,6317,172x123 | " " | padding:0px 60px 0px 0px
+653 | div.cmp-footer__nav-items.cmp-navigation__group--left > div.navigation | 951,6317,112x123 | " "
+654 | div.navigation > nav.cmp-navigation | 951,6317,112x123 | " " | display:flex
+655 | nav.cmp-navigation > ul.cmp-navigation__group | 951,6317,112x123 | " " | display:flex; gap:24px; flex-direction:column; justify-content:center
+656 | ul.cmp-navigation__group > li.cmp-navigation__item | 951,6317,112x25 | " " | display:list-item
+657 | li.cmp-navigation__item > a.cmp-navigation__item-link | 951,6318,104x23 | "Terms of use" | display:inline; font-weight:600; color:rgb(255, 246, 227)
+658 | ul.cmp-navigation__group > li.cmp-navigation__item | 951,6366,112x25 | " " | display:list-item
+659 | li.cmp-navigation__item > a.cmp-navigation__item-link | 951,6367,112x23 | "Privacy Policy" | display:inline; font-weight:600; color:rgb(255, 246, 227)
+660 | ul.cmp-navigation__group > li.cmp-navigation__item | 951,6415,112x25 | " " | display:list-item
+661 | li.cmp-navigation__item > a.cmp-navigation__item-link | 951,6416,69x23 | "Sitemap" | display:inline; font-weight:600; color:rgb(255, 246, 227)
+662 | div.cmp-footer__nav > div.cmp-footer__nav-items.cmp-navigation__group--right | 1123,6317,167x123 | " " | padding:0px 0px 0px 60px
+663 | div.cmp-footer__nav-items.cmp-navigation__group--right > div.navigation | 1184,6317,106x123 | " "
+664 | div.navigation > nav.cmp-navigation | 1184,6317,106x123 | " " | display:flex
+665 | nav.cmp-navigation > ul.cmp-navigation__group | 1184,6317,106x123 | " " | display:flex; gap:24px; flex-direction:column; justify-content:center
+666 | ul.cmp-navigation__group > li.cmp-navigation__item | 1184,6317,106x25 | " " | display:list-item
+667 | li.cmp-navigation__item > a.cmp-navigation__item-link | 1184,6318,106x23 | "Our Products" | display:inline; font-weight:600; color:rgb(255, 246, 227)
+668 | ul.cmp-navigation__group > li.cmp-navigation__item | 1184,6366,106x25 | " " | display:list-item
+669 | li.cmp-navigation__item > a.cmp-navigation__item-link | 1184,6367,90x23 | "Contact Us" | display:inline; font-weight:600; color:rgb(255, 246, 227)
+670 | ul.cmp-navigation__group > li.cmp-navigation__item | 1184,6415,106x25 | " " | display:list-item
+671 | li.cmp-navigation__item > a.cmp-navigation__item-link | 1184,6416,73x23 | "About Us" | display:inline; font-weight:600; color:rgb(255, 246, 227)
+672 | div.footer > div.cmp-footer__bottom-content | 0,6567,1440x63 | " " | background-color:rgb(141, 14, 32)
+673 | div.cmp-footer__bottom-content > div.cmp-footer__container | 37,6567,1366x63 | " " | display:flex; padding:0px 113px; margin:0px 37px; max-width:1366px; justify-content:space-between; align-items:center; overflow:hidden
+674 | div.cmp-footer__container > div.cmp-footer__ITC-Titles | 150,6567,438x63 | " " | display:flex; padding:19px 0px; gap:40px
+675 | div.cmp-footer__ITC-Titles > a.desc-1 | 150,6586,78x25 | "ITC Portal" | font-weight:600; color:rgb(255, 246, 227)
+676 | div.cmp-footer__ITC-Titles > p.desc-1 | 268,6586,320x25 | "© 2026 Aashirvaad. All Rights Reserved." | font-weight:600; color:rgb(255, 246, 227)
+677 | div.cmp-footer__container > div.cmp-footer__social-media | 1097,6587,193x22 | " " | display:flex; gap:33px
+678 | div.cmp-footer__social-media > a.icon-instagram | 1097,6587,22x22 | font-family:icomoon; font-size:22px; line-height:22px; color:rgb(255, 255, 255)
+679 | div.cmp-footer__social-media > a.icon-facebok | 1152,6587,20x22 | font-family:icomoon; font-size:22px; line-height:22px; color:rgb(255, 255, 255)
+680 | div.cmp-footer__social-media > a.icon-twitter | 1205,6587,21x22 | font-family:icomoon; font-size:22px; line-height:22px; color:rgb(255, 255, 255)
+681 | div.cmp-footer__social-media > a.icon-youtube | 1260,6587,30x22 | font-family:icomoon; font-size:22px; line-height:22px; color:rgb(255, 255, 255)

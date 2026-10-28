@@ -1,0 +1,19 @@
+{
+ "cache-control": "max-age=300,stale-while-revalidate=3600",
+ "content-security-policy": "default-src 'self' https://*.collect.igodigital.com https://www.google.com https://cm.g.doubleclick.net https://www.google.co.in https://www.facebook.com https://cdn.plyr.io;  script-src 'self' 'unsafe-inline' https://cdn.plyr.io https://www.googletagmanager.com https://www.google-analytics.com https://*.google.com https://connect.facebook.net https://assets.adobedtm.com https://*.demdex.net https://*.omtrdc.net https://www.youtube.com https://*.doubleclick.net https://www.google.co.in https://www.gstatic.com https://www.facebook.com;  style-src 'self' 'unsafe-inline' https://cdn.plyr.io https://fonts.googleapis.com;  font-src 'self' https://fonts.gstatic.com data:;  img-src 'self' data: blob: https://cdn.plyr.io https://www.google-analytics.com https://*.doubleclick.net https://*.googlesyndication.com https://*.google.com https://connect.facebook.net https://*.demdex.net https://*.omtrdc.net https://s7ap1.scene7.com https://i.ytimg.com https://img.youtube.com https://*.collect.igodigital.com https://www.google.co.in https://www.facebook.com;  connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://*.demdex.net https://*.omtrdc.net https://*.experiencecloud.adobe.com https://connect.facebook.net https://*.doubleclick.net https://*.a.run.app https://*.on.aws https://www.google.com https://analytics.google.com https://www.google.co.in https://region1.analytics.google.com https://region1.google-analytics.com https://cdn.plyr.io;  frame-src https://www.youtube.com https://*.google.com https://*.doubleclick.net https://*.googlesyndication.com;  media-src 'self' blob: https://s7ap1.scene7.com;  object-src 'none'; frame-ancestors 'none';",
+ "permissions-policy": "camera=(), microphone=(), midi=(), payment=(), usb=(), geolocation=*,autoplay=*,fullscreen=*",
+ "referrer-policy": "same-origin",
+ "server": "",
+ "strict-transport-security": "max-age=63072000; includeSubDomains",
+ "via": "1.1 401247f27eb0524cdcd533d912eb0f96.cloudfront.net (CloudFront)",
+ "x-amz-cf-pop": "SEA900-P13",
+ "x-aspnet-version": "",
+ "x-cache": "Hit from cloudfront",
+ "x-content-type-options": "nosniff",
+ "x-frame-options": "SAMEORIGIN",
+ "x-powered-by": "",
+ "x-served-by": "cache-bfi-krnt7300031-BFI",
+ "x-timer": "S1792652655.146838,VS0,VS0,VE3",
+ "x-vhost": "publish",
+ "x-xss-protection": "1; mode=block"
+}
